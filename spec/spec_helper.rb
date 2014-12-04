@@ -14,6 +14,7 @@
 # users commonly want.
 #
 Dir['lib/models/*.rb'].each { |f| require "./#{f}" }
+Dir['lib/crawlers/*.rb'].each { |f| require "./#{f}" }
 
 # See http://rubydoc.info/gems/rspec-core/RSpec/Core/Configuration
 RSpec.configure do |config|
