@@ -1,0 +1,2 @@
+class BillNameScraper
+end
