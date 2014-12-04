@@ -5,7 +5,7 @@ development:
     default:
       # Defines the name of the default database that Mongoid can connect to.
       # (required).
-      database: rails4_mongoid_development
+      database: california_bill_scraper_test
       # Provides the hosts the default session can connect to. Must be an array
       # of host:port pairs. (required)
       hosts:
@@ -58,7 +58,7 @@ development:
 test:
   sessions:
     default:
-      database: rails4_mongoid_test
+      database: california_bill_scraper_development
       hosts:
         - localhost:27017
       options:
