@@ -7,7 +7,7 @@ class BillNameScraper
       billType = /^[A-Z]*/.match(name)[0]
       billNumber = /[0-9]*$/i.match(name)[0]
       if (billNumber != "")
-        AssemblyBillHeader.new(billNumber, billType)
+        AssemblyBillHeader.new(billNumber: billNumber.to_s, billType: billType.to_s)
       else
         nil
       end
