@@ -31,6 +31,7 @@ class CaliforniaWebCrawler
     response = RestClient.get url
     billHeaders = BillNameScraper.get_names_given(response.body)
     billHeaders.each do |billHeader|
+      billHeader.year = year
       billHeader.save!
     end
     puts AssemblyBillHeader.count

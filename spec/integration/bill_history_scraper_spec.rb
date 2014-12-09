@@ -18,7 +18,9 @@ RSpec.describe "california web crawler", :type => :model do
     }
     billHeaders = CaliforniaWebCrawler.refreshAvailableBillsForYear("2014")
     expect(AssemblyBillHeader.count).to eq(7)
-
+    expect(AssemblyBillHeader.first.year).to eq("2014")
+    expect(AssemblyBillHeader.first.billNumber).to eq("1")
+    expect(AssemblyBillHeader.first.billType).to eq("AB")
 
   end
 
