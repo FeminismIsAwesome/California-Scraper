@@ -33,6 +33,7 @@ class CaliforniaWebCrawler
     billHeaders.each do |billHeader|
       billHeader.save!
     end
+    puts AssemblyBillHeader.count
   end
 
   def self.getFormattedUrlForIndexGiven(year)
