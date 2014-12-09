@@ -1,6 +1,6 @@
 class BillNameScraper
   def self.get_names_given(content)
-    valid_string = content.encode!('UTF-8', 'UTF-8', :invalid => :replace)
+    valid_string = content.scrub("")
     eachLineRegex = /^[a-z]*\s[0-9]*/i
     names = valid_string.scan(eachLineRegex)
     assemblyBills = names.map do |name|
