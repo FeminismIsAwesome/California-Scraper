@@ -3,6 +3,7 @@ class CaliforniaWebCrawler
   @@domain_name = "http://www.leginfo.ca.gov/"
   @@bill_index_header = "http://www.leginfo.ca.gov/pub"
   @@bill_index_footer = "bill/index_assembly_bill_author_topic"
+  @@bill_details_header = "http://www.leginfo.ca.gov/cgi-bin/postquery?"
   def self.getHistoryFor(bill_header)
     historyUrl = getHistoryLinkGiven(bill_header)
     historyResponse = RestClient.get historyUrl
@@ -38,12 +39,41 @@ class CaliforniaWebCrawler
   end
 
   def self.getFormattedUrlForIndexGiven(year)
-    priorYear = (year.to_i - 1).to_s
-    formatYear = "#{getLastDigitsOfYear(priorYear)}#{"-"}#{getLastDigitsOfYear(year)}"
+
+    formatYear = getLastYearTimePeriod( year)
     url = "#{@@bill_index_header}/#{formatYear}/#{@@bill_index_footer}"
+  end
+
+  def self.getLastYearTimePeriod( year)
+    priorYear = (year.to_i - 1).to_s
+    "#{getLastDigitsOfYear(priorYear)}#{"-"}#{getLastDigitsOfYear(year)}"
   end
 
   def self.getLastDigitsOfYear(year)
     year[2..year.length]
+  end
+
+  def self.getVotingHistoryLinksFor(bill)
+    searchDetails = self.formatRequestForBillDetails(bill)
+    billDetailsUrl = "#{@@bill_details_header}#{searchDetails}"
+    response = RestClient.get billDetailsUrl
+    votingHistories = BillNameScraper.get_votes_given(response.body)
+  end
+
+  def self.getVotingHistoriesGiven(votingHistoryLinks)
+    votingHistoryLinks.map {  |votingHistoryLink|
+      response = RestClient.get votingHistoryLink
+      VotingHistoryScraper.get_voting_history_for(response.body)
+    }
+  end
+
+
+  def self.getPriorYearFor(year)
+    (year.to_i - 1).to_s
+  end
+
+  def self.formatRequestForBillDetails(bill)
+    priorYear = getPriorYearFor(bill.year)
+    "bill_number=#{bill.billType}_#{bill.billNumber}&SESS=#{getLastDigitsOfYear(priorYear)}_#{getLastDigitsOfYear(bill.year)}"
   end
 end
