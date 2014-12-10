@@ -5,7 +5,39 @@ class VotingHistoryScraper
   def self.get_voting_history_for(content)
     ayes = getAyesFor(content)
     noes = getNoesFor(content)
-    VotingSession.new(ayes: ayes, noes: noes)
+    author = getAuthorFor(content)
+    topic = getTopicFor(content)
+    date = getDateFor(content)
+    location = getLocationFor(content)
+    motion = getMotionFor(content)
+    VotingSession.new(ayes: ayes, noes: noes,
+        author: author, topic: topic, date: date, location: location, motion: motion)
+  end
+
+  def self.getMotionFor(content)
+    motion = content.match(/MOTION:.*/i)[0]
+    motion["MOTION:".length..motion.length].strip
+  end
+
+  def self.getLocationFor(content)
+    location = content.match(/LOCATION:.*/)[0]
+    location["LOCATION:".length..location.length].strip
+  end
+
+  def self.getDateFor(content)
+    date = content.match(/DATE:.*/)[0]
+    date = date["DATE:".length..date.length].strip
+    Date.strptime(date, "%m/%d/%Y")
+  end
+
+  def self.getTopicFor(content)
+    topic = content.match(/Topic:.*/i)[0]
+    topic["TOPIC:".length..topic.length].strip
+  end
+
+  def self.getAuthorFor(content)
+    author = content.match(/Author:.*/i)[0]
+    author["Author:".length..author.length].strip
   end
 
   def self.getNoesFor(content)

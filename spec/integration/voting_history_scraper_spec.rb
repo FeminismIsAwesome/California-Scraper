@@ -4,12 +4,12 @@ require "rails_helper"
 RSpec.describe "voting history scraper", :type => :model do
   Encoding.default_external = "ISO-8859-1"
   Encoding.default_internal = "ISO-8859-1"
-  noNoNotesFile = File.open("spec/integration/voting_history_example.html")
+  noNoVotesFile = File.open("spec/integration/voting_history_example.html")
   noYesVotesFile = File.open("spec/integration/no_yes_votes_session.html")
   manyVotesFile = File.open("spec/integration/examples/many_votes_with_accents.html")
   sessionWithAccentsFile = File.open("spec/integration/examples/few_votes_with_accents.html", )
 
-  sampleHistoryWith0NoVotes = noNoNotesFile.read
+  sampleHistoryWith0NoVotes = noNoVotesFile.read
   sampleHistoryWith0YesVotes = noYesVotesFile.read
   sampleSessionWithManyVotes = manyVotesFile.read
   sessionWithAccents = sessionWithAccentsFile.read
@@ -46,5 +46,19 @@ RSpec.describe "voting history scraper", :type => :model do
     expect(voting_history.noes[3]).to eq("Chávez")
   end
 
+  it "should get the voting session's date" do
+    voting_history = VotingHistoryScraper.get_voting_history_for(sessionWithAccents)
+    expect(voting_history.date.year).to eq(2013)
+    expect(voting_history.date.month).to eq(4)
+    expect(voting_history.date.day).to eq(25)
+  end
+
+  it "should get the details of bill" do
+    voting_history = VotingHistoryScraper.get_voting_history_for(sessionWithAccents)
+    expect(voting_history.author).to eq("Hernandez")
+    expect(voting_history.topic).to eq("Health care coverage.")
+    expect(voting_history.location).to eq("ASM. FLOOR")
+    expect(voting_history.motion).to eq("SB2 Hernandez  Senate Third Reading  By PAN  First Extraordinary")
+  end
 end
 
