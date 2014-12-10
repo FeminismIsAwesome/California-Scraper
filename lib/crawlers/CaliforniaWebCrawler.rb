@@ -80,6 +80,6 @@ class CaliforniaWebCrawler
 
   def self.formatRequestForBillDetails(bill)
     priorYear = getPriorYearFor(bill.year)
-    "bill_number=#{bill.billType}_#{bill.billNumber}&SESS=#{getLastDigitsOfYear(priorYear)}_#{getLastDigitsOfYear(bill.year)}"
+    "bill_number=#{bill.billType.downcase}_#{bill.billNumber}&sess=#{getLastDigitsOfYear(priorYear)}#{getLastDigitsOfYear(bill.year)}"
   end
 end
