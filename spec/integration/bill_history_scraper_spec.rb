@@ -39,5 +39,19 @@ RSpec.describe "california web crawler", :type => :model do
 
   end
 
+  it "should store the results of crawling" do
+    allow(CaliforniaWebCrawler).to receive(:getVotingHistoryLinksFor){
+      ["http://www.leginfo.ca.gov/pub/13-14/bill/asm/ab_0001-0050/ab_2_vote_20130402_000003_asm_comm.html"]
+    }
+    allow(CaliforniaWebCrawler).to receive(:getVotingHistoriesGiven) {
+      [VotingSession.new(ayes: ["Fernando", "Peiying"], noes: ["Juan", "Perez"])]
+    }
+    bill = AssemblyBillHeader.new(billNumber: 2, billType: "AB", year:2014)
+    CaliforniaWebCrawler.storeVotingHistoriesFor(bill)
+    billResults = Bill.first
+    expect(billResults.billType).to eq("AB")
+    expect(billResults.votingSessions.count).to eq(1)
+  end
+
 
 end

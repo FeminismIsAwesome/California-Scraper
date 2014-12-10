@@ -1,9 +1,10 @@
 #encoding: ISO-8859-1
 require "rails_helper"
+Encoding.default_external = "ISO-8859-1"
+Encoding.default_internal = "ISO-8859-1"
 
 RSpec.describe "voting history scraper", :type => :model do
-  Encoding.default_external = "ISO-8859-1"
-  Encoding.default_internal = "ISO-8859-1"
+
   noNoVotesFile = File.open("spec/integration/examples/voting_history_example.html")
   noYesVotesFile = File.open("spec/integration/examples/no_yes_votes_session.html")
   manyVotesFile = File.open("spec/integration/examples/many_votes_with_accents.html")
