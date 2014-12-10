@@ -1,6 +1,8 @@
+#encoding: ISO-8859-1
+Encoding.default_external = "ISO-8859-1"
+Encoding.default_internal = "ISO-8859-1"
 class VotingHistoryScraper
   def self.get_voting_history_for(content)
-    content = BillNameScraper.clean_content(content)
     ayes = getAyesFor(content)
     noes = getNoesFor(content)
     VotingSession.new(ayes: ayes, noes: noes)
@@ -19,7 +21,7 @@ class VotingHistoryScraper
   end
 
   def self.get_names_of_votes_given(namesText)
-    names = namesText.split("\n").map { |nameLine|
+    namesText.split("\n").map { |nameLine|
       if (nameLine.match(/[A-z][A-z]*/))
         nameLine.split("\t")
       else
