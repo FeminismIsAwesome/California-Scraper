@@ -1,28 +1,25 @@
-== README
+== California Bill Scraper
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+This is a scraper and API hoster for california's bill site, aka http://www.leginfo.ca.gov/.
 
-Things you may want to cover:
+The goal is to eventually be able to pull:
 
-* Ruby version
+* Bills by id and author
 
-* System dependencies
+* Voting history of a given legislator
 
-* Configuration
+* Easily accessible API for other people to use
 
-* Database creation
+Details of implemention
 
-* Database initialization
+* Ruby 2.2, Rails 4
 
-* How to run the test suite
+* Mongo database
 
-* Services (job queues, cache servers, search engines, etc.)
+* Rspec
 
-* Deployment instructions
+* Rake tasks to glob new data into the server
 
-* ...
+* Hosted on Heroku for API access, but you can just clone the repo if you want to grab the data yourself (or need a faster API)
 
 
-Please feel free to use a different markup language if you do not plan to run
-<tt>rake doc:app</tt>.

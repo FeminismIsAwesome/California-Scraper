@@ -30,6 +30,5 @@ class VotingHistoryScraper
     }.select { |name|
       !name.nil?
     }.reduce(:+)
-
   end
 end
