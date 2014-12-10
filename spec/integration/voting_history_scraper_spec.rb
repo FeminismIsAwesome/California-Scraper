@@ -4,10 +4,10 @@ require "rails_helper"
 RSpec.describe "voting history scraper", :type => :model do
   Encoding.default_external = "ISO-8859-1"
   Encoding.default_internal = "ISO-8859-1"
-  noNoVotesFile = File.open("spec/integration/voting_history_example.html")
-  noYesVotesFile = File.open("spec/integration/no_yes_votes_session.html")
+  noNoVotesFile = File.open("spec/integration/examples/voting_history_example.html")
+  noYesVotesFile = File.open("spec/integration/examples/no_yes_votes_session.html")
   manyVotesFile = File.open("spec/integration/examples/many_votes_with_accents.html")
-  sessionWithAccentsFile = File.open("spec/integration/examples/few_votes_with_accents.html", )
+  sessionWithAccentsFile = File.open("spec/integration/examples/few_votes_with_accents.html")
 
   sampleHistoryWith0NoVotes = noNoVotesFile.read
   sampleHistoryWith0YesVotes = noYesVotesFile.read
