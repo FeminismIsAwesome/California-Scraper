@@ -32,7 +32,6 @@ RSpec.describe "california web crawler", :type => :model do
     allow(RestClient).to receive(:get) {
       my_response
     }
-    # expect(RestClient).to receive(:get) {"http://www.leginfo.ca.gov/cgi-bin/postquery?"}
     bill = AssemblyBillHeader.new(billNumber: 2, billType: "AB", year: 2014)
     votingHistories = CaliforniaWebCrawler.getVotingHistoryLinksFor(bill)
     expect(votingHistories.count).to eq(3)
