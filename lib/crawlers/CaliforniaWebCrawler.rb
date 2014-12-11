@@ -65,15 +65,6 @@ class CaliforniaWebCrawler
     }
   end
 
-  def self.getVotingHistoriesGivenDebug(votingHistoryLinks)
-    votingHistoryLinks.map {  |votingHistoryLink|
-      response = RestClient.get votingHistoryLink
-      response.force_encoding("iso-8859-1")
-      puts response
-      VotingHistoryScraper.get_voting_history_for(response.body)
-    }
-  end
-
   def self.getVotingHistoriesGiven(votingHistoryLinks)
     votingHistoryLinks.map {  |votingHistoryLink|
       response = RestClient.get votingHistoryLink
@@ -84,12 +75,6 @@ class CaliforniaWebCrawler
 
   def self.storeVotingHistoriesFor(bill)
     votingHistoryLinks = self.getVotingHistoryLinksFor(bill)
-    if(bill.billNumber == "2756")
-      puts votingHistoryLinks
-      votingSessions = getVotingHistoriesGivenDebug(votingHistoryLinks)
-    else
-      votingSessions = getVotingHistoriesGiven(votingHistoryLinks)
-    end
     Bill.new(votingSessions:votingSessions, billNumber: bill.billNumber, billType: bill.billType, year: bill.year).save!
   end
 
