@@ -6,14 +6,17 @@ class VotingHistoryScraper
     content = content.encode("ISO-8859-1")
     ayes = getAyesFor(content)
     noes = getNoesFor(content)
+    absents = getAbsentsFor(content)
     author = getAuthorFor(content)
     topic = getTopicFor(content)
     date = getDateFor(content)
     location = getLocationFor(content)
     motion = getMotionFor(content)
-    VotingSession.new(ayes: ayes, noes: noes,
+    VotingSession.new(ayes: ayes, noes: noes, absent: absents,
         author: author, topic: topic, date: date, location: location, motion: motion)
   end
+
+
 
   def self.getMotionFor(content)
     motion = content.match(/MOTION:.*/i)[0]
@@ -57,6 +60,18 @@ class VotingHistoryScraper
     ayes = content.match(/AYES\n\t.*?\*.*NOES/m)[0]
     ayes = ayes["AYES".length..ayes.length-" NOES".length]
     get_names_of_votes_given(ayes)
+  end
+
+  def self.getLines(lines, start, linesFromEnd)
+    lines.split("\n")[start..lines.length-linesFromEnd].join("\n")
+  end
+
+  def self.getAbsentsFor(content)
+    if (content.match(/(ABSENT|NO VOTE RECORDED).*/m))
+      absents = content.match(/(ABSENT|NO VOTE RECORDED).*<br>/m)[0]
+      absents = getLines(absents,2,1)
+      get_names_of_votes_given(absents)
+    end
   end
 
   def self.get_names_of_votes_given(namesText)

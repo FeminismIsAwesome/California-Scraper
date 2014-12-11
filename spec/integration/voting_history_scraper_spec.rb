@@ -30,6 +30,12 @@ RSpec.describe "voting history scraper", :type => :model do
     expect(voting_history.ayes.length).to eq(6)
   end
 
+  it "should get voting absent history" do
+    voting_history = VotingHistoryScraper.get_voting_history_for(sampleHistoryWith0NoVotes)
+    expect(voting_history.absent.length).to eq(2)
+    expect(voting_history.absent[0]).to eq("Quirk")
+  end
+
   it "should get voting noes history" do
     voting_history = VotingHistoryScraper.get_voting_history_for(sampleHistoryWith0YesVotes)
     expect(voting_history.noes.length).to eq(80)
