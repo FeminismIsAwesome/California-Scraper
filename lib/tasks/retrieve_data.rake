@@ -12,6 +12,15 @@ end
       CaliforniaWebCrawler.storeVotingHistoriesFor(bill)
       puts "~stored~ #{bill.billType}-#{bill.billNumber}"
     end
+end
+
+  task get_california_assembly_members_current_year: :environment do
+    CaliforniaAssemblyLegislatureScraper.getCaliforniaAssembly().map {|legislator|
+    other = Legislator.where(:first_name => legislator.first_name).where(:last_name => legislator.last_name).where(:middle_name => legislator.middle_name)
+    if(other.count == 0)
+      legislator.save!
+    end
+    }
   end
 
 end

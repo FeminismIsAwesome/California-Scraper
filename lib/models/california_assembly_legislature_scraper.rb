@@ -18,7 +18,7 @@ class CaliforniaAssemblyLegislatureScraper
       email = extract_email(columns_of_row)
       Legislator.new(first_name: first_name, middle_name: middle_name, last_name: last_name,
                     party: party, district: district, capital_phone: capital_phone, room_number: room_number, email: email,
-                    house: "Assembly")
+                    house: "Assembly", state: "CA")
     }
 
   end

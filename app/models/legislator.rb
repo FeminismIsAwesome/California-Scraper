@@ -10,4 +10,5 @@ class Legislator
   field :district, type: String
   field :room_number, type: String
   field :email, type: String
+  field :state, type: String
 end

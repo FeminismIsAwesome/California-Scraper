@@ -31,5 +31,6 @@ RSpec.describe CaliforniaAssemblyLegislatureScraper, :type => :model do
     expect(first_legislator.capital_phone).to eq("(916) 319-2033")
     expect(first_legislator.room_number).to eq("Room 2016")
     expect(first_legislator.email).to eq("http://lcmspubcontact.lc.ca.gov/PublicLCMS/ContactPopup.php?district=AD33&")
+    expect(first_legislator.state).to eq("CA")
   end
 end
