@@ -35,3 +35,6 @@ rake retrieve_data:get_bill_headers
 
 To get the current list of california assembly members, run
 rake retrieve_data:get_california_assembly_members_current_year
+
+To get the current list of california senators, run
+rake retrieve_data:get_california_senators
