@@ -1,6 +1,6 @@
 == California Bill Scraper
 
-[![Build Status](https://snap-ci.com/FeminismIsAwesome/California-Scraper/branch/master/build_image)](https://snap-ci.com/thoughtworks/connections/branch/master)
+[![Build Status](https://snap-ci.com/FeminismIsAwesome/California-Scraper/branch/master/build_image)](https://snap-ci.com/FeminismIsAwesome/California-Scraper/branch/master)
 
 This is a scraper and API hoster for california's bill site, aka http://www.leginfo.ca.gov/.
 
