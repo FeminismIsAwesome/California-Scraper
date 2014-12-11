@@ -1,6 +1,4 @@
 Rails.application.routes.draw do
-  resources :bills
-
   namespace :api, defaults: {format: "json"} do
     resources :bills, except: [:create, :new, :edit]
   end
