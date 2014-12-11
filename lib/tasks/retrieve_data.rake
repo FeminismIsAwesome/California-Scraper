@@ -6,8 +6,14 @@ namespace :retrieve_data do
 end
 
   task get_bill_voting_sessions: :environment do
-    bill = AssemblyBillHeader.where(:billNumber => "2").where(:billType => "HR").first
-    CaliforniaWebCrawler.storeVotingHistoriesFor(bill)
+    # bill = AssemblyBillHeader.where(:billNumber => "2").where(:billType => "HR").first
+    # CaliforniaWebCrawler.storeVotingHistoriesFor(bill)
+    Bill.all.destroy
+    bills = AssemblyBillHeader.all.each do |bill|
+      puts "~stored~ #{bill.billType}-#{bill.billNumber}"
+      CaliforniaWebCrawler.storeVotingHistoriesFor(bill)
+      puts "storing bill #{bill.billType}-#{bill.billNumber}"
+    end
   end
 
 end

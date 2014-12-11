@@ -39,6 +39,19 @@ RSpec.describe "california web crawler", :type => :model do
 
   end
 
+  it "should not get links when there all no voting history" do
+    file = File.open("spec/integration/examples/no_votes_index.html")
+    contents = file.read
+    net_http_resp = Net::HTTPResponse.new(1.0, 200, "OK")
+    my_response = RestClient::Response.create(contents, net_http_resp, nil)
+    allow(RestClient).to receive(:get) {
+      my_response
+    }
+    bill = AssemblyBillHeader.new(billNumber: 2, billType: "AB", year: 2014)
+    votingHistories = CaliforniaWebCrawler.getVotingHistoryLinksFor(bill)
+    expect(votingHistories.count).to eq(0)
+  end
+
   it "should store the results of crawling" do
     allow(CaliforniaWebCrawler).to receive(:getVotingHistoryLinksFor){
       ["http://www.leginfo.ca.gov/pub/13-14/bill/asm/ab_0001-0050/ab_2_vote_20130402_000003_asm_comm.html"]

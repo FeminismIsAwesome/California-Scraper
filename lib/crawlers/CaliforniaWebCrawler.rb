@@ -69,8 +69,6 @@ class CaliforniaWebCrawler
     votingHistoryLinks.map {  |votingHistoryLink|
       response = RestClient.get votingHistoryLink
       response.force_encoding("iso-8859-1")
-      puts response.body
-      puts response.headers
       VotingHistoryScraper.get_voting_history_for(response.body)
     }
   end

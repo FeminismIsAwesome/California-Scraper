@@ -21,9 +21,13 @@ class BillNameScraper
 
   def self.get_votes_given(content)
     content = self.clean_content(content)
-    voteContent = /Votes.*/m.match(content)[0]
-    votes = voteContent.scan(/href=\".*html"/)
-    extract_url(votes)
+    if(/Votes.*/m.match(content))
+      voteContent = /Votes.*/m.match(content)[0]
+      votes = voteContent.scan(/href=\".*html"/)
+      extract_url(votes)
+    else
+      []
+    end
   end
 
 

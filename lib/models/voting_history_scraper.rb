@@ -42,9 +42,15 @@ class VotingHistoryScraper
   end
 
   def self.getNoesFor(content)
-    noes = content.match(/NOES\n\t.*?\*.*ABSENT/m)[0]
-    noes = noes["NOES".length..noes.length - " ABSENT".length]
-    get_names_of_votes_given(noes)
+    if (content.match(/NOES\n\t.*?\*.*ABSENT/m))
+      noes = content.match(/NOES\n\t.*?\*.*ABSENT/m)[0]
+      noes = noes["NOES".length..noes.length - " ABSENT".length]
+      get_names_of_votes_given(noes)
+    else
+      noes = content.match(/NOES\n\t.*?\*.*NO VOTE RECORDED/m)[0]
+      noes = noes["NOES".length..noes.length - " NO VOTE RECORDED".length]
+      get_names_of_votes_given(noes)
+    end
   end
 
   def self.getAyesFor(content)
