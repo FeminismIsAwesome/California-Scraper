@@ -1,7 +1,9 @@
 Rails.application.routes.draw do
   resources :bills
 
-  resources :posts
+  namespace :api, defaults: {format: "json"} do
+    resources :bills, except: [:create, :new, :edit]
+  end
 
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
