@@ -75,6 +75,7 @@ class CaliforniaWebCrawler
 
   def self.storeVotingHistoriesFor(bill)
     votingHistoryLinks = self.getVotingHistoryLinksFor(bill)
+    votingSessions = self.getVotingHistoriesGiven(votingHistoryLinks)
     Bill.new(votingSessions:votingSessions, billNumber: bill.billNumber, billType: bill.billType, year: bill.year).save!
   end
 
