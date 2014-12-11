@@ -5,7 +5,7 @@ class CaliforniaSenatorScraper
     html_doc = Nokogiri::HTML(response.body)
     rows = html_doc.css(".views-row")
     rows.map {|row|
-      name = row.css("h3")
+      name = row.css(".views-field-field-senator-last-name h3")
       unless name.text.include?("Vacant")
         details = parse_name_and_party_from(name.text)
         details[:state] = "CA"
@@ -33,13 +33,20 @@ class CaliforniaSenatorScraper
       last_name = space_seperated[2]
       party_affiliation = space_seperated[3]
     end
-    party_affiliation = party_affiliation.gsub("(","").gsub(")","")
+    party_affiliation = cleanup_party(party_affiliation)
     senator = Hash.new
     senator[:first_name] = first_name
     senator[:last_name] = last_name
     senator[:party] = party_affiliation
     senator[:middle_name] = middle_name
     senator
+  end
+
+  @@parties = {"R" => "Rep", "D" => "Dem"}
+
+  def self.cleanup_party(party_affiliation)
+    party = party_affiliation.gsub("(", "").gsub(")", "")
+    @@parties[party]
   end
 
   def self.has_middle_name(space_seperated_text)

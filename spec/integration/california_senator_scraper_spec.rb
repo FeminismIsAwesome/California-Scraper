@@ -26,6 +26,7 @@ RSpec.describe CaliforniaAssemblyLegislatureScraper, :type => :model do
     expect(firstLegislator.last_name).to eq("Allen")
     expect(firstLegislator.middle_name).to be_nil
     expect(firstLegislator.state).to eq("CA")
+    expect(firstLegislator.party).to eq("Dem")
     expect(firstLegislator.house).to eq("Senator")
     expect(firstLegislator.district).to eq("District 26")
     expect(firstLegislator.email).to eq("https://lcmspubcontact.lc.ca.gov/PublicLCMS/ContactPopup.php?district=SD26")
