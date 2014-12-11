@@ -32,3 +32,6 @@ rake retrieve_data:get_bill_headers
 To get the voting session history for all the bills in your current database, run
 
 rake retrieve_data:get_bill_headers
+
+To get the current list of california assembly members, run
+rake retrieve_data:get_california_assembly_members_current_year
