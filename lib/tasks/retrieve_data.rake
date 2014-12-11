@@ -10,9 +10,9 @@ end
     # CaliforniaWebCrawler.storeVotingHistoriesFor(bill)
     Bill.all.destroy
     bills = AssemblyBillHeader.all.each do |bill|
-      puts "~stored~ #{bill.billType}-#{bill.billNumber}"
-      CaliforniaWebCrawler.storeVotingHistoriesFor(bill)
       puts "storing bill #{bill.billType}-#{bill.billNumber}"
+      CaliforniaWebCrawler.storeVotingHistoriesFor(bill)
+      puts "~stored~ #{bill.billType}-#{bill.billNumber}"
     end
   end
 
