@@ -1,5 +1,3 @@
-#encoding: ISO-8859-1
-
 class VotingSession
   include Mongoid::Document
   field :ayes, type: Array
