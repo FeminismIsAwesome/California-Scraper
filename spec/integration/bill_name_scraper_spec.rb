@@ -3,7 +3,7 @@ require "rails_helper"
 RSpec.describe BillNameScraper, :type => :model do
 
   it "reads the for 2013-2014 year appropriately" do
-    file = File.open("spec/integration/bill_list_example.txt")
+    file = File.open("spec/integration/examples/bill_list_example.txt")
     contents = file.read
     billHeaders = BillNameScraper.get_names_given(contents)
     expect(billHeaders.length).to be > 10

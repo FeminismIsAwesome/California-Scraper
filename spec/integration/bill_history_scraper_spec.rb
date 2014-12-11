@@ -9,7 +9,7 @@ RSpec.describe "california web crawler", :type => :model do
     expect(billHistory["2012"][0]).to match(/Dec\. 4	From printer/)
   end
   it "should store the list of bills currently available" do
-    file = File.open("spec/integration/bill_list_small_example.txt")
+    file = File.open("spec/integration/examples/bill_list_small_example.txt")
     contents = file.read
     net_http_resp = Net::HTTPResponse.new(1.0, 200, "OK")
     my_response = RestClient::Response.create(contents, net_http_resp, nil)
@@ -25,7 +25,7 @@ RSpec.describe "california web crawler", :type => :model do
   end
 
   it "should get the links for all the voting histories" do
-    file = File.open("spec/integration/bill_index_page_example.html")
+    file = File.open("spec/integration/examples/bill_index_page_example.html")
     contents = file.read
     net_http_resp = Net::HTTPResponse.new(1.0, 200, "OK")
     my_response = RestClient::Response.create(contents, net_http_resp, nil)
