@@ -30,7 +30,7 @@ class BillNameScraper
 
   def self.extract_url(votes)
     votes.map { |vote|
-      vote["href=\"".length..vote.length-2]
+       vote["href=\"".length..vote.length-2]
     }
   end
 

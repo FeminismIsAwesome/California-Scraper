@@ -1,4 +1,7 @@
- require 'net/http'
+#encoding: ISO-8859-1
+Encoding.default_external = "ISO-8859-1"
+Encoding.default_internal = "ISO-8859-1"
+require 'net/http'
 class CaliforniaWebCrawler
   @@domain_name = "http://www.leginfo.ca.gov/"
   @@bill_index_header = "http://www.leginfo.ca.gov/pub"
@@ -35,7 +38,6 @@ class CaliforniaWebCrawler
       billHeader.year = year
       billHeader.save!
     end
-    puts AssemblyBillHeader.count
   end
 
   def self.getFormattedUrlForIndexGiven(year)
@@ -58,11 +60,17 @@ class CaliforniaWebCrawler
     billDetailsUrl = "#{@@bill_details_header}#{searchDetails}"
     response = RestClient.get billDetailsUrl
     votingHistories = BillNameScraper.get_votes_given(response.body)
+    votingHistories.map {|votingHistoryUrl|
+      "#{@@domain_name}#{votingHistoryUrl}"
+    }
   end
 
   def self.getVotingHistoriesGiven(votingHistoryLinks)
     votingHistoryLinks.map {  |votingHistoryLink|
       response = RestClient.get votingHistoryLink
+      response.force_encoding("iso-8859-1")
+      puts response.body
+      puts response.headers
       VotingHistoryScraper.get_voting_history_for(response.body)
     }
   end
