@@ -4,7 +4,7 @@ class CaliforniaAssemblyLegislatureScraper
 
   def self.getCaliforniaAssembly
     response = RestClient.get @@assembly_reference_url
-    html_doc = Nokogiri::HTML(response.body)
+    html_doc = Nokogiri::HTML(response.body.force_encoding("ISO-8859-1"))
     html_doc.css("tr:nth-child(n+3)").map {|row|
       columns_of_row = row.css("td")
       member_name = split_name(columns_of_row[0].text)

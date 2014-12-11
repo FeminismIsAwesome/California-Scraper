@@ -1,5 +1,3 @@
-Encoding.default_external = "ISO-8859-1"
-Encoding.default_internal = "ISO-8859-1"
 require 'net/http'
 class CaliforniaWebCrawler
   @@domain_name = "http://www.leginfo.ca.gov/"

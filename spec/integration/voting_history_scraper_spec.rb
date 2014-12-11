@@ -1,7 +1,5 @@
 #encoding: ISO-8859-1
 require "rails_helper"
-Encoding.default_external = "ISO-8859-1"
-Encoding.default_internal = "ISO-8859-1"
 
 RSpec.describe "voting history scraper", :type => :model do
 

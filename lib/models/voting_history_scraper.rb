@@ -1,8 +1,6 @@
-Encoding.default_external = "ISO-8859-1"
-Encoding.default_internal = "ISO-8859-1"
 class VotingHistoryScraper
   def self.get_voting_history_for(content)
-    content = content.encode("ISO-8859-1")
+    content = content.force_encoding("ISO-8859-1")
     ayes = getAyesFor(content)
     noes = getNoesFor(content)
     absents = getAbsentsFor(content)
