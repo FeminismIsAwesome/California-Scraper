@@ -34,8 +34,8 @@ RSpec.describe "california web crawler", :type => :model do
     }
     bill = AssemblyBillHeader.new(billNumber: 2, billType: "AB", year: 2014)
     votingHistories = CaliforniaWebCrawler.getVotingHistoryLinksFor(bill)
-    expect(votingHistories.count).to eq(3)
-    expect(votingHistories[0]).to eq("http://www.leginfo.ca.gov/pub/13-14/bill/asm/ab_0001-0050/ab_2_vote_20130402_000003_asm_comm.html")
+    expect(votingHistories.count).to eq(5)
+    expect(votingHistories[0]).to eq("http://www.leginfo.ca.gov//pub/11-12/bill/asm/ab_0001-0050/ab_2_vote_20110822_000005_sen_comm.html")
 
   end
 
