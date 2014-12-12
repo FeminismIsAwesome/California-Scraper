@@ -1,6 +1,9 @@
 Rails.application.routes.draw do
   namespace :api, defaults: {format: "json"} do
     resources :bills, except: [:create, :new, :edit]
+    resources :legislators, except: [:create, :new, :edit] do
+      get "bills"
+    end
   end
 
   # The priority is based upon order of creation: first created -> highest priority.
