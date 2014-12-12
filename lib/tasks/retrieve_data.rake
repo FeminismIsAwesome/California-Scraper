@@ -32,11 +32,4 @@ end
     }
 end
 
-  task tally_senator_votes: :environment do
-    CaliforniaLegislatureVoteTallier.calculate_all_votes_for("2014")
-  end
-
-
-
-
 end
