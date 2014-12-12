@@ -11,4 +11,10 @@ class Legislator
   field :room_number, type: String
   field :email, type: String
   field :state, type: String
+
+  def full_name
+    [first_name, middle_name, last_name].select { |name|
+      name.present?
+    }.join(" ")
+  end
 end

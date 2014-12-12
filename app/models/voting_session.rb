@@ -8,4 +8,7 @@ class VotingSession
   field :date, type: DateTime
   field :topic, type: String
   field :author, type: String
+  field :yes_voters, type: Array
+  field :no_voters, type: Array
+  field :absent_voters, type: Array
 end

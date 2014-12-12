@@ -5,4 +5,8 @@ class Bill
   embeds_many :votingSessions
   field :year
 
+  def formatted_bill_header
+    "#{billType}-#{billNumber}"
+  end
+
 end
