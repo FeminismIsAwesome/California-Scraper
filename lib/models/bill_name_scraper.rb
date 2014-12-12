@@ -16,7 +16,7 @@ class BillNameScraper
   end
 
   def self.clean_content(content)
-    content.scrub("")
+    content.force_encoding("iso-8859-1")
   end
 
   def self.get_votes_given(content)
