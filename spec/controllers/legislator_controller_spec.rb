@@ -21,7 +21,6 @@ describe Api::LegislatorsController do
 
   it "should get a list of all bills for a given author" do
     get :bills, legislator_id: "Laura Perry", format: :json
-    expect(json.length).to eq(2)
     expect(json["yes"].length).to eq(0)
     expect(json["no"].length).to eq(1)
 
@@ -29,7 +28,7 @@ describe Api::LegislatorsController do
 
   it "should get a list of all bills for a given with only a last name" do
     get :bills, legislator_id: "Dole", format: :json
-    expect(json.length).to eq(2)
+    expect(json.length).to eq(3)
     expect(json["yes"].length).to eq(3)
     expect(json["no"].length).to eq(0)
 

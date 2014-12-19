@@ -16,5 +16,10 @@ RSpec.describe CaliforniaLegislatureVoteTallier, :type => :model do
     votes = CaliforniaLegislatureVoteTallier.getVotesFor(legislator1)
     expect(votes["yes"].length).to eq(1)
     expect(votes["no"].length).to eq(0)
+    expect(votes["yes"][0].legislator).to eq(legislator1)
+  end
+
+  it "should get votes " do
+
   end
 end
