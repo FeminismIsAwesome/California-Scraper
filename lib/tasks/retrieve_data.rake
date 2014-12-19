@@ -32,4 +32,14 @@ end
     }
 end
 
+  task calculate_voting_relationships_and_store: :environment do
+  Legislator.all.each do |legislator|
+    CaliforniaLegislatureVoteTallier.saveVotesFor(legislator)
+  end
+end
+
+  task delete_voting_relationships_data: :environment do
+  VotingRecord.all.destroy
+end
+
 end

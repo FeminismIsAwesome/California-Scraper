@@ -19,7 +19,13 @@ RSpec.describe CaliforniaLegislatureVoteTallier, :type => :model do
     expect(votes["yes"][0].legislator).to eq(legislator1)
   end
 
-  it "should get votes " do
-
+  it "should save votes to db " do
+    CaliforniaLegislatureVoteTallier.saveVotesFor(legislator1)
+    expect(VotingRecord.count).to eq(1)
+    firstVotingRecord = VotingRecord.first
+    expect(firstVotingRecord.legislator).to eq(legislator1)
+    expect(firstVotingRecord.vote).to eq("ayes")
+    expect(firstVotingRecord.bill_number).to eq("1")
+    expect(firstVotingRecord.bill_type).to eq("AB")
   end
 end

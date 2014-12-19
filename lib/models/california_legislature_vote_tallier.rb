@@ -13,9 +13,10 @@ class CaliforniaLegislatureVoteTallier
   end
 
   def self.saveVotesFor(legislator, year="2014")
-    votes = self.getVotesFor(legislator, year)
-    votes.each do
-
+    voteTypes = self.getVotesFor(legislator, year)
+    votes = voteTypes.values.reject{|val| val.nil?}.reduce(:+)
+    votes.each do |vote|
+      vote.save
     end
   end
 
