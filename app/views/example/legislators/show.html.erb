@@ -1,0 +1,43 @@
+***NOTE***: this is a proof of concept UI, not to be used for actual UI.
+
+<h2>
+    <%= @legislator.full_name %>
+</h2>
+<dl>
+    <dt>
+        Capital Phone
+    </dt>
+    <dd>
+        <%= @legislator.capital_phone %>
+    </dd>
+    <dt>
+        District
+    </dt>
+    <dd>
+        <%= @legislator.district %>
+    </dd>
+    <dt>
+        Email
+    </dt>
+    <dd>
+        <%= link_to "email contact", @legislator.email %>
+    </dd>
+</dl>
+<h3>
+    Votes
+</h3>
+<ul>
+    <% @legislatorVotes.each do |vote| %>
+        <li>
+            <ul>
+                <li>
+                    <%= vote.bill_number %> - <%= vote.bill_type %>
+                </li>
+                <li>
+                    <%= vote.vote %>
+                </li>
+            </ul>
+        </li>
+    <% end %>
+</ul>
+

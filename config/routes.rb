@@ -6,6 +6,11 @@ Rails.application.routes.draw do
     end
   end
 
+  namespace :example do
+    get 'legislators/:last_name' => "legislators#show"
+  end
+
+
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
 
