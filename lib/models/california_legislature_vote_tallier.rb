@@ -28,6 +28,7 @@ class CaliforniaLegislatureVoteTallier
       vote.bill_type = bill.billType
       vote.legislator = legislator
       vote.vote = type
+      vote.year = year
       vote
     }
   end
