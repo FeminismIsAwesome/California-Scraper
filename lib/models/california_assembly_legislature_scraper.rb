@@ -1,6 +1,6 @@
 require 'open-uri'
 class CaliforniaAssemblyLegislatureScraper
-  @@assembly_reference_url = "http://clerk.assembly.ca.gov//clerk/memberinformation/memberdir_1.asp"
+  @@assembly_reference_url = "http://assembly.ca.gov/assemblymembers"
 
   def self.getCaliforniaAssembly
     response = RestClient.get @@assembly_reference_url
