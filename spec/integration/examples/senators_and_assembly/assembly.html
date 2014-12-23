@@ -1,3200 +1,1909 @@
 
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd" >
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en" dir="ltr">
 
-<!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML//EN">
-<html>
+<!-- *********************************** -->
+<!-- State of California master template -->
+<!--             Version 1.20            -->
+<!--    Last Updated 03/23/2007          -->
+<!-- *********************************** -->
 
 <head>
-    <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
-    <meta name="GENERATOR" content="Microsoft FrontPage 3.0">
-    <title>Assembly Member Roster</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <link rel="shortcut icon" href="/sites/assembly.ca.gov/themes/assemblyinternetv1.0/favicon.ico" type="image/x-icon" />
+    <title>Members | Assembly Internet </title>
+    <script type="text/javascript" src="/misc/jquery.js?y"></script>
+    <script type="text/javascript" src="/misc/drupal.js?y"></script>
+    <script type="text/javascript" defer="defer" src="/sites/all/modules/custom/lwpusermenu/lwpusermenu.js?y"></script>
+    <script type="text/javascript" src="/sites/assembly.ca.gov/modules/custom/acg_json/jquery/js/jquery-1.9.1.min.js?y"></script>
+    <script type="text/javascript" src="/sites/assembly.ca.gov/modules/custom/acg_json/acg_json.js?y"></script>
+    <script type="text/javascript" src="/sites/assembly.ca.gov/modules/custom/lwpaudiovideo/javascript/jquery-1.9.1.min.js?y"></script>
+    <script type="text/javascript" src="/sites/assembly.ca.gov/modules/custom/lwpaudiovideo/javascript/jquery-ui/js/jquery-ui-1.10.4.custom.min.js?y"></script>
+    <script type="text/javascript" src="/sites/assembly.ca.gov/modules/custom/lwpaudiovideo/javascript/lwpaudiovideo-jquery-noconflict.js?y"></script>
+    <script type="text/javascript" src="/sites/assembly.ca.gov/modules/custom/webform_custom/jquery/js/jquery-1.9.1.js?y"></script>
+    <script type="text/javascript" src="/sites/assembly.ca.gov/modules/custom/webform_custom/jquery/js/jquery-ui-1.10.2.custom.js?y"></script>
+    <script type="text/javascript" src="/sites/assembly.ca.gov/modules/custom/webform_custom/masked_input.js?y"></script>
+    <script type="text/javascript" src="/sites/assembly.ca.gov/modules/custom/webform_custom/webform_custom.js?y"></script>
+    <script type="text/javascript" src="/sites/assembly.ca.gov/themes/assemblyinternetv1.0/global/javascript/navigation.js?y"></script>
+    <script type="text/javascript" src="/sites/assembly.ca.gov/themes/assemblyinternetv1.0/global/javascript/jquery.superbox.js?y"></script>
+    <script type="text/javascript" src="/sites/assembly.ca.gov/themes/assemblyinternetv1.0/global/javascript/toggle.js?y"></script>
+    <script type="text/javascript">
+        <!--//--><![CDATA[//><!--
+        jQuery.extend(Drupal.settings, { "basePath": "/" });
+        //--><!]]>
+    </script>
+    <script type="text/javascript">
+        <!--//--><![CDATA[//><!--
+
+
+        lwpAudioVideoJs(document).ready(function($) {
+            $("a[href*='/vod/'], a[href*='/listen/'], a[href*='/watch/'] ").click(function(){
+                window.open($(this).attr("href"), "windowname", "width=680, height=580, resizable=no");
+                return false;
+            });
+        });
+
+
+        //--><!]]>
+    </script>
+    <link type="text/css" rel="stylesheet" media="all" href="/sites/all/modules/custom/lwpusermenu/lwpusermenu.css?y" />
+    <link type="text/css" rel="stylesheet" media="all" href="/modules/node/node.css?y" />
+    <link type="text/css" rel="stylesheet" media="all" href="/modules/system/defaults.css?y" />
+    <link type="text/css" rel="stylesheet" media="all" href="/modules/system/system.css?y" />
+    <link type="text/css" rel="stylesheet" media="all" href="/modules/system/system-menus.css?y" />
+    <link type="text/css" rel="stylesheet" media="all" href="/modules/user/user.css?y" />
+    <link type="text/css" rel="stylesheet" media="all" href="/sites/all/modules/contrib/cck/theme/content-module.css?y" />
+    <link type="text/css" rel="stylesheet" media="all" href="/sites/all/modules/contrib/ckeditor/ckeditor.css?y" />
+    <link type="text/css" rel="stylesheet" media="all" href="/sites/all/modules/contrib/filefield/filefield.css?y" />
+    <link type="text/css" rel="stylesheet" media="all" href="/sites/all/modules/custom/lwpgooglesearch/lwpgooglesearch.css?y" />
+    <link type="text/css" rel="stylesheet" media="all" href="/sites/assembly.ca.gov/modules/contrib/date/date.css?y" />
+    <link type="text/css" rel="stylesheet" media="all" href="/sites/assembly.ca.gov/modules/custom/acgdfdisplay/acgdfdisplay.css?y" />
+    <link type="text/css" rel="stylesheet" media="all" href="/sites/assembly.ca.gov/modules/custom/acglivefeedsmanager/acglivefeedsmanager.css?y" />
+    <link type="text/css" rel="stylesheet" media="all" href="/sites/assembly.ca.gov/modules/custom/lwpaudiovideo/css/lwpaudiovideo.css?y" />
+    <link type="text/css" rel="stylesheet" media="all" href="/sites/assembly.ca.gov/modules/custom/lwpaudiovideo/javascript/jquery-ui/css/ui-lightness/jquery-ui-1.10.4.custom.min.css?y" />
+    <link type="text/css" rel="stylesheet" media="all" href="/sites/assembly.ca.gov/modules/custom/webform_custom/jquery/css/ui-lightness/jquery-ui-1.10.2.custom.css?y" />
+    <link type="text/css" rel="stylesheet" media="all" href="/sites/all/modules/contrib/views/css/views.css?y" />
+    <link type="text/css" rel="stylesheet" media="all" href="/sites/assembly.ca.gov/themes/assemblyinternetv1.0/global/global_css/reset.css?y" />
+    <link type="text/css" rel="stylesheet" media="all" href="/sites/assembly.ca.gov/themes/assemblyinternetv1.0/global/global_css/ca_master.css?y" />
+    <link type="text/css" rel="stylesheet" media="all" href="/sites/assembly.ca.gov/themes/assemblyinternetv1.0/global/global_css/navigation_2_level.css?y" />
+    <link type="text/css" rel="stylesheet" media="all" href="/sites/assembly.ca.gov/themes/assemblyinternetv1.0/common/css/drupal_override.css?y" />
+    <link type="text/css" rel="stylesheet" media="all" href="/sites/assembly.ca.gov/themes/assemblyinternetv1.0/common/css/asmINTER_master.css?y" />
+
+
+    <link type="text/css" rel="stylesheet" media="all" href="/sites/assembly.ca.gov/themes/assemblyinternetv1.0/global/global_css/content_1_column.css"/>
+
+    <link type="text/css" rel="stylesheet" media="all" href="/sites/assembly.ca.gov/themes/assemblyinternetv1.0/common/css/asmINTER_master.css"/>
+    <link type="text/css" rel="stylesheet" media="screen and (max-width:1000px)" href="/sites/assembly.ca.gov/themes/assemblyinternetv1.0/common/css/mobile.css"/>
+
+
+    <!--[if lte IE 8]><link rel="stylesheet" type="text/css" href="/sites/assembly.ca.gov/themes/assemblyinternetv1.0/common/css/ie8.css" /><![endif]-->
+
+
+    <script type="text/javascript">
+        <!--
+
+        function externallink() {
+            return confirm("You are now leaving the California State Assembly website.\n This web site you are going to is not the responsibility of the Assembly.");
+        }
+
+        function googletranslatedisclaimer () {
+            return confirm("The 'Translate' link that appears on this site uses the Google Translate™ translation service to provide translations of the content of this site into foreign languages.  The service provides automated computer translation that is only an approximation of this site’s original content.  The translations should not be considered exact or authoritative.\n\n The Assembly does not operate, maintain, or exercise any control over this third party service, and the provision of a link to the service should in no way be construed as approval or an endorsement by the Assembly of the service or the results generated by the service. The Assembly does not warrant or guarantee the accuracy, reliability, quality, or completeness of any translation provided by this service.  In no event will the Assembly or the State of California be liable for any damages, whether direct, indirect, general, consequential, incidental, exemplary, or special, arising from the use of the translation service.\n\n Visitors to this site who use the translation service are encouraged to use an alternative translation service in the event of any doubt as to the accuracy of translated content.  However, the English version is always the authoritative version of the content of this site.\n\n ");
+        }
+
+        var defaultMainList = "Members";
+        $(function(){
+            $.superbox();
+
+            //Hide div w/id extra
+            $("#extra").css("display","none");
+
+            // Add onclick handler to checkbox w/id checkme
+
+
+            $("input[name$='radio1']").click(function(){
+                // If checked
+                if ($("#radio1").is(":checked"))
+                {
+                    //show the hidden div
+                    $("#extra").show("fast");
+                }
+                else
+                {
+                    //otherwise, hide it
+                    $("#extra").hide("fast");
+                }
+            });
+
+
+        });
+
+        // -->
+    </script>
 </head>
 
-<body text="000000" bgcolor="#FFFFFF" topmargin="0"
-      leftmargin="0" link="5C7054" vlink="669966" alink="99cc99">
-<p>&nbsp;</p>
+<body>
+<!--BEGIN: heading_container div -->
+<div id="heading_container">
+    <!-- ***********BEGIN header **************************************** -->
+    <a name="top"></a>
+    <div id="skipto" class="horznavigation"><!-- Begin SkipTo Navigation -->
+        <div class="center">
+            <ul>
+                <li>Skip to: <a href="#content">Content</a> | </li>
+                <li><a href="#footer">Footer</a> | </li>
+                <li><a href="http://translate.google.com/#auto|es|www.assembly.ca.gov" class="translate" onclick="return googletranslatedisclaimer();">Translate this website on Google Translate</a></li>
 
 
-
-<!-- Insert Directory pages after this point -->
-<p>
-
-
-
-<blockquote>
-<table cellpadding="2" cellspacing="1" border="1" width="650">
-<tr bgcolor="D8EED8">
-    <td align="left" colspan="6" height="45">
-        <div align="center">
-            <p><b><font face="Verdana, Arial, Helvetica, sans-serif" size="-1"><br>
-                Assembly Member Roster</font></b>
-            <p>
+            </ul>
         </div>
-    </td>
-</tr>
-<tr bgcolor="D8EED8">
-    <td align="left" width="25%">
-        <div align="center"><font face="Verdana, Arial, Helvetica, sans-serif" size="-1"><b>Member
-            Name</b></font></div>
-    </td>
-    <td align="left" width="8%">
-        <div align="center"><font face="Verdana, Arial, Helvetica, sans-serif" size="-1"><b>Party</b></font></div>
-    </td>
-    <td align="left" width="11%" >
-        <div align="center"><font face="Verdana, Arial, Helvetica, sans-serif" size="-1"><b>District</b></font></div>
-    </td>
-    <td align="left" width="17%" >
-        <div align="center"><font face="Verdana, Arial, Helvetica, sans-serif" size="-1"><b>Capitol
-            Phone</b></font></div>
-    </td>
-    <td align="left" width="15%" >
-        <div align="center"><font face="Verdana, Arial, Helvetica, sans-serif" size="-1"><b>Room
-            No.</b></font></div>
-    </td>
-    <td align="left" width="24%" >
-        <div align="center"><font face="Verdana, Arial, Helvetica, sans-serif" size="-1"><b>E-mail</b></font></div>
-    </td>
-</tr>
-
-<tr bgcolor="beige">
-
-    <td width="25%"><font size="2" face="arial"><b>
-
-        <a href="http://arc.asm.ca.gov/member/33">
-            Achadjian, Katcho
-        </a></b></font></td>
-    <td align="left" width="8%">
-        <div align="center"><font size="2" face="arial">
-            Rep
-        </font></div>
-    </td>
-    <td width="11%" align="left">
-        <div align="center"><font size="2" face="arial">
-            33rd
-        </font></div>
-    </td>
-    <td align="left" width="17%">
-        <div align="center"><font size="2" face="arial">
-            (916) 319-2033
-        </font></div>
-    </td>
-    <td align="left" width="15%">
-        <div align="center"><font size="2" face="arial">
-            Room 2016
-        </font></div>
-    </td>
-    <td align="center" width="24%">
-        <div align="center"><font size="2" face="arial">
-
-
-
-
-            <a title=Contact href="javascript:var feedbackwin=window.open('http://lcmspubcontact.lc.ca.gov/PublicLCMS/ContactPopup.php?district=AD33&','feedbackwin','toolbar=no,location=no,directories=no,status=no,menubar=no, titlebar=no,scrollbars=no,resizable=yes,width=610,height=640')"> comments </a>
-
-
-
-        </font> </div>
-    </td>
-</tr>
-
-<td width="25%"><font size="2" face="arial"><b>
-
-    <a href="http://asmdc.org/members/a28/">
-        Alejo, Luis A.
-    </a></b></font></td>
-<td align="left" width="8%">
-    <div align="center"><font size="2" face="arial">
-        Dem
-    </font></div>
-</td>
-<td width="11%" align="left">
-    <div align="center"><font size="2" face="arial">
-        28th
-    </font></div>
-</td>
-<td align="left" width="17%">
-    <div align="center"><font size="2" face="arial">
-        (916) 319-2028
-    </font></div>
-</td>
-<td align="left" width="15%">
-    <div align="center"><font size="2" face="arial">
-        Room 2117
-    </font></div>
-</td>
-<td align="center" width="24%">
-    <div align="center"><font size="2" face="arial">
-
-
-
-        <a href="mailto:Assemblymember.Alejo@assembly.ca.gov">[email]</a>
-
-
-
-    </font> </div>
-</td>
-</tr>
-
-<tr bgcolor="beige">
-
-    <td width="25%"><font size="2" face="arial"><b>
-
-        <a href="http://asmdc.org/members/a07/">
-            Allen, Michael
-        </a></b></font></td>
-    <td align="left" width="8%">
-        <div align="center"><font size="2" face="arial">
-            Dem
-        </font></div>
-    </td>
-    <td width="11%" align="left">
-        <div align="center"><font size="2" face="arial">
-            7th
-        </font></div>
-    </td>
-    <td align="left" width="17%">
-        <div align="center"><font size="2" face="arial">
-            (916) 319-2007
-        </font></div>
-    </td>
-    <td align="left" width="15%">
-        <div align="center"><font size="2" face="arial">
-            Room 5158
-        </font></div>
-    </td>
-    <td align="center" width="24%">
-        <div align="center"><font size="2" face="arial">
-
-
-
-            <a href="mailto:Assemblymember.Allen@assembly.ca.gov">[email]</a>
-
-
-
-        </font> </div>
-    </td>
-</tr>
-
-<td width="25%"><font size="2" face="arial"><b>
-
-    <a href="http://democrats.assembly.ca.gov/members/a13/">
-        Ammiano, Tom
-    </a></b></font></td>
-<td align="left" width="8%">
-    <div align="center"><font size="2" face="arial">
-        Dem
-    </font></div>
-</td>
-<td width="11%" align="left">
-    <div align="center"><font size="2" face="arial">
-        13th
-    </font></div>
-</td>
-<td align="left" width="17%">
-    <div align="center"><font size="2" face="arial">
-        (916) 319-2013
-    </font></div>
-</td>
-<td align="left" width="15%">
-    <div align="center"><font size="2" face="arial">
-        Room 3146
-    </font></div>
-</td>
-<td align="center" width="24%">
-    <div align="center"><font size="2" face="arial">
-
-
-
-        <a href="mailto:Assemblymember.Ammiano@assembly.ca.gov">[email]</a>
-
-
-
-    </font> </div>
-</td>
-</tr>
-
-<tr bgcolor="beige">
-
-    <td width="25%"><font size="2" face="arial"><b>
-
-        <a href="http://asmdc.org/members/a76/">
-            Atkins, Toni
-        </a></b></font></td>
-    <td align="left" width="8%">
-        <div align="center"><font size="2" face="arial">
-            Dem
-        </font></div>
-    </td>
-    <td width="11%" align="left">
-        <div align="center"><font size="2" face="arial">
-            76th
-        </font></div>
-    </td>
-    <td align="left" width="17%">
-        <div align="center"><font size="2" face="arial">
-            (916) 319-2076
-        </font></div>
-    </td>
-    <td align="left" width="15%">
-        <div align="center"><font size="2" face="arial">
-            Room 319
-        </font></div>
-    </td>
-    <td align="center" width="24%">
-        <div align="center"><font size="2" face="arial">
-
-
-
-            <a href="mailto:Assemblymember.Atkins@assembly.ca.gov">[email]</a>
-
-
-
-        </font> </div>
-    </td>
-</tr>
-
-<td width="25%"><font size="2" face="arial"><b>
-
-    <a href="http://asmdc.org/members/a24/">
-        Beall, Jim
-    </a></b></font></td>
-<td align="left" width="8%">
-    <div align="center"><font size="2" face="arial">
-        Dem
-    </font></div>
-</td>
-<td width="11%" align="left">
-    <div align="center"><font size="2" face="arial">
-        24th
-    </font></div>
-</td>
-<td align="left" width="17%">
-    <div align="center"><font size="2" face="arial">
-        (916) 319-2024
-    </font></div>
-</td>
-<td align="left" width="15%">
-    <div align="center"><font size="2" face="arial">
-        Room 2137
-    </font></div>
-</td>
-<td align="center" width="24%">
-    <div align="center"><font size="2" face="arial">
-
-
-
-        <a href="mailto:Assemblymember.Beall@assembly.ca.gov">[email]</a>
-
-
-
-    </font> </div>
-</td>
-</tr>
-
-<tr bgcolor="beige">
-
-    <td width="25%"><font size="2" face="arial"><b>
-
-        <a href="http://arc.asm.ca.gov/member/26">
-            Berryhill, Bill
-        </a></b></font></td>
-    <td align="left" width="8%">
-        <div align="center"><font size="2" face="arial">
-            Rep
-        </font></div>
-    </td>
-    <td width="11%" align="left">
-        <div align="center"><font size="2" face="arial">
-            26th
-        </font></div>
-    </td>
-    <td align="left" width="17%">
-        <div align="center"><font size="2" face="arial">
-            (916) 319-2026
-        </font></div>
-    </td>
-    <td align="left" width="15%">
-        <div align="center"><font size="2" face="arial">
-            Room 3141
-        </font></div>
-    </td>
-    <td align="center" width="24%">
-        <div align="center"><font size="2" face="arial">
-
-
-
-
-            <a title=Contact href="javascript:var feedbackwin=window.open('http://lcmspubcontact.lc.ca.gov/PublicLCMS/ContactPopup.php?district=AD26&','feedbackwin','toolbar=no,location=no,directories=no,status=no,menubar=no, titlebar=no,scrollbars=no,resizable=yes,width=610,height=640')"> comments </a>
-
-
-
-        </font> </div>
-    </td>
-</tr>
-
-<td width="25%"><font size="2" face="arial"><b>
-
-    <a href="http://asmdc.org/members/a78">
-        Block, Marty
-    </a></b></font></td>
-<td align="left" width="8%">
-    <div align="center"><font size="2" face="arial">
-        Dem
-    </font></div>
-</td>
-<td width="11%" align="left">
-    <div align="center"><font size="2" face="arial">
-        78th
-    </font></div>
-</td>
-<td align="left" width="17%">
-    <div align="center"><font size="2" face="arial">
-        (916) 319-2078
-    </font></div>
-</td>
-<td align="left" width="15%">
-    <div align="center"><font size="2" face="arial">
-        Room 3091
-    </font></div>
-</td>
-<td align="center" width="24%">
-    <div align="center"><font size="2" face="arial">
-
-
-
-        <a href="mailto:Assemblymember.Block@assembly.ca.gov">[email]</a>
-
-
-
-    </font> </div>
-</td>
-</tr>
-
-<tr bgcolor="beige">
-
-    <td width="25%"><font size="2" face="arial"><b>
-
-        <a href="http://asmdc.org/members/a40/">
-            Blumenfield, Bob
-        </a></b></font></td>
-    <td align="left" width="8%">
-        <div align="center"><font size="2" face="arial">
-            Dem
-        </font></div>
-    </td>
-    <td width="11%" align="left">
-        <div align="center"><font size="2" face="arial">
-            40th
-        </font></div>
-    </td>
-    <td align="left" width="17%">
-        <div align="center"><font size="2" face="arial">
-            (916) 319-2040
-        </font></div>
-    </td>
-    <td align="left" width="15%">
-        <div align="center"><font size="2" face="arial">
-            Room 6026
-        </font></div>
-    </td>
-    <td align="center" width="24%">
-        <div align="center"><font size="2" face="arial">
-
-
-
-            <a href="mailto:Assemblymember.Blumenfield@assembly.ca.gov">[email]</a>
-
-
-
-        </font> </div>
-    </td>
-</tr>
-
-<td width="25%"><font size="2" face="arial"><b>
-
-    <a href="http://asmdc.org/members/a11/">
-        Bonilla, Susan
-    </a></b></font></td>
-<td align="left" width="8%">
-    <div align="center"><font size="2" face="arial">
-        Dem
-    </font></div>
-</td>
-<td width="11%" align="left">
-    <div align="center"><font size="2" face="arial">
-        11th
-    </font></div>
-</td>
-<td align="left" width="17%">
-    <div align="center"><font size="2" face="arial">
-        (916) 319-2011
-    </font></div>
-</td>
-<td align="left" width="15%">
-    <div align="center"><font size="2" face="arial">
-        Room 2188
-    </font></div>
-</td>
-<td align="center" width="24%">
-    <div align="center"><font size="2" face="arial">
-
-
-
-
-        <a title=Contact href="javascript:var feedbackwin=window.open('http://lcmspubcontact.lc.ca.gov/PublicLCMS/ContactPopup.php?district=AD11&','feedbackwin','toolbar=no,location=no,directories=no,status=no,menubar=no, titlebar=no,scrollbars=no,resizable=yes,width=610,height=640')"> comments </a>
-
-
-
-    </font> </div>
-</td>
-</tr>
-
-<tr bgcolor="beige">
-
-    <td width="25%"><font size="2" face="arial"><b>
-
-        <a href="http://asmdc.org/members/a51">
-            Bradford, Steven
-        </a></b></font></td>
-    <td align="left" width="8%">
-        <div align="center"><font size="2" face="arial">
-            Dem
-        </font></div>
-    </td>
-    <td width="11%" align="left">
-        <div align="center"><font size="2" face="arial">
-            51st
-        </font></div>
-    </td>
-    <td align="left" width="17%">
-        <div align="center"><font size="2" face="arial">
-            (916) 319-2051
-        </font></div>
-    </td>
-    <td align="left" width="15%">
-        <div align="center"><font size="2" face="arial">
-            Room 5136
-        </font></div>
-    </td>
-    <td align="center" width="24%">
-        <div align="center"><font size="2" face="arial">
-
-
-
-            <a href="mailto:Assemblymember.Bradford@assembly.ca.gov">[email]</a>
-
-
-
-        </font> </div>
-    </td>
-</tr>
-
-<td width="25%"><font size="2" face="arial"><b>
-
-    <a href="http://asmdc.org/members/a41/">
-        Brownley, Julia
-    </a></b></font></td>
-<td align="left" width="8%">
-    <div align="center"><font size="2" face="arial">
-        Dem
-    </font></div>
-</td>
-<td width="11%" align="left">
-    <div align="center"><font size="2" face="arial">
-        41st
-    </font></div>
-</td>
-<td align="left" width="17%">
-    <div align="center"><font size="2" face="arial">
-        (916) 319-2041
-    </font></div>
-</td>
-<td align="left" width="15%">
-    <div align="center"><font size="2" face="arial">
-        Room 2163
-    </font></div>
-</td>
-<td align="center" width="24%">
-    <div align="center"><font size="2" face="arial">
-
-
-
-        <a href="mailto:Assemblymember.Brownley@assembly.ca.gov">[email]</a>
-
-
-
-    </font> </div>
-</td>
-</tr>
-
-<tr bgcolor="beige">
-
-    <td width="25%"><font size="2" face="arial"><b>
-
-        <a href="http://asmdc.org/members/a15">
-            Buchanan, Joan
-        </a></b></font></td>
-    <td align="left" width="8%">
-        <div align="center"><font size="2" face="arial">
-            Dem
-        </font></div>
-    </td>
-    <td width="11%" align="left">
-        <div align="center"><font size="2" face="arial">
-            15th
-        </font></div>
-    </td>
-    <td align="left" width="17%">
-        <div align="center"><font size="2" face="arial">
-            (916) 319-2015
-        </font></div>
-    </td>
-    <td align="left" width="15%">
-        <div align="center"><font size="2" face="arial">
-            Room 2148
-        </font></div>
-    </td>
-    <td align="center" width="24%">
-        <div align="center"><font size="2" face="arial">
-
-
-
-            <a href="mailto:Assemblymember.Buchanan@assembly.ca.gov">[email]</a>
-
-
-
-        </font> </div>
-    </td>
-</tr>
-
-<td width="25%"><font size="2" face="arial"><b>
-
-    <a href="http://asmdc.org/members/a53/">
-        Butler, Betsy
-    </a></b></font></td>
-<td align="left" width="8%">
-    <div align="center"><font size="2" face="arial">
-        Dem
-    </font></div>
-</td>
-<td width="11%" align="left">
-    <div align="center"><font size="2" face="arial">
-        53rd
-    </font></div>
-</td>
-<td align="left" width="17%">
-    <div align="center"><font size="2" face="arial">
-        (916) 319-2053
-    </font></div>
-</td>
-<td align="left" width="15%">
-    <div align="center"><font size="2" face="arial">
-        Room 3132
-    </font></div>
-</td>
-<td align="center" width="24%">
-    <div align="center"><font size="2" face="arial">
-
-
-
-
-        <a title=Contact href="javascript:var feedbackwin=window.open('http://lcmspubcontact.lc.ca.gov/PublicLCMS/ContactPopup.php?district=AD53&','feedbackwin','toolbar=no,location=no,directories=no,status=no,menubar=no, titlebar=no,scrollbars=no,resizable=yes,width=610,height=640')"> comments </a>
-
-
-
-    </font> </div>
-</td>
-</tr>
-
-<tr bgcolor="beige">
-
-    <td width="25%"><font size="2" face="arial"><b>
-
-        <a href="http://asmdc.org/members/a58/">
-            Calderon, Charles M.
-        </a></b></font></td>
-    <td align="left" width="8%">
-        <div align="center"><font size="2" face="arial">
-            Dem
-        </font></div>
-    </td>
-    <td width="11%" align="left">
-        <div align="center"><font size="2" face="arial">
-            58th
-        </font></div>
-    </td>
-    <td align="left" width="17%">
-        <div align="center"><font size="2" face="arial">
-            (916) 319-2058
-        </font></div>
-    </td>
-    <td align="left" width="15%">
-        <div align="center"><font size="2" face="arial">
-            Room 319
-        </font></div>
-    </td>
-    <td align="center" width="24%">
-        <div align="center"><font size="2" face="arial">
-
-
-
-            <a href="mailto:Assemblymember.Calderon@assembly.ca.gov">[email]</a>
-
-
-
-        </font> </div>
-    </td>
-</tr>
-
-<td width="25%"><font size="2" face="arial"><b>
-
-    <a href="http://asmdc.org/members/a23/">
-        Campos, Nora
-    </a></b></font></td>
-<td align="left" width="8%">
-    <div align="center"><font size="2" face="arial">
-        Dem
-    </font></div>
-</td>
-<td width="11%" align="left">
-    <div align="center"><font size="2" face="arial">
-        23rd
-    </font></div>
-</td>
-<td align="left" width="17%">
-    <div align="center"><font size="2" face="arial">
-        (916) 319-2023
-    </font></div>
-</td>
-<td align="left" width="15%">
-    <div align="center"><font size="2" face="arial">
-        Room 2175
-    </font></div>
-</td>
-<td align="center" width="24%">
-    <div align="center"><font size="2" face="arial">
-
-
-
-        <a href="mailto:Assemblymember.Campos@assembly.ca.gov">[email]</a>
-
-
-
-    </font> </div>
-</td>
-</tr>
-
-<tr bgcolor="beige">
-
-    <td width="25%"><font size="2" face="arial"><b>
-
-        <a href="http://asmdc.org/members/a62/">
-            Carter, Wilmer Amina
-        </a></b></font></td>
-    <td align="left" width="8%">
-        <div align="center"><font size="2" face="arial">
-            Dem
-        </font></div>
-    </td>
-    <td width="11%" align="left">
-        <div align="center"><font size="2" face="arial">
-            62nd
-        </font></div>
-    </td>
-    <td align="left" width="17%">
-        <div align="center"><font size="2" face="arial">
-            (916) 319-2062
-        </font></div>
-    </td>
-    <td align="left" width="15%">
-        <div align="center"><font size="2" face="arial">
-            Room 2136
-        </font></div>
-    </td>
-    <td align="center" width="24%">
-        <div align="center"><font size="2" face="arial">
-
-
-
-            <a href="mailto:Assemblymember.Carter@assembly.ca.gov">[email]</a>
-
-
-
-        </font> </div>
-    </td>
-</tr>
-
-<td width="25%"><font size="2" face="arial"><b>
-
-    <a href="http://asmdc.org/members/a45/">
-        Cedillo, Gilbert
-    </a></b></font></td>
-<td align="left" width="8%">
-    <div align="center"><font size="2" face="arial">
-        Dem
-    </font></div>
-</td>
-<td width="11%" align="left">
-    <div align="center"><font size="2" face="arial">
-        45th
-    </font></div>
-</td>
-<td align="left" width="17%">
-    <div align="center"><font size="2" face="arial">
-        (916) 319-2045
-    </font></div>
-</td>
-<td align="left" width="15%">
-    <div align="center"><font size="2" face="arial">
-        Room 5119
-    </font></div>
-</td>
-<td align="center" width="24%">
-    <div align="center"><font size="2" face="arial">
-
-
-
-        <a href="mailto:Assemblymember.Cedillo@assembly.ca.gov">[email]</a>
-
-
-
-    </font> </div>
-</td>
-</tr>
-
-<tr bgcolor="beige">
-
-    <td width="25%"><font size="2" face="arial"><b>
-
-        <a href="http://asmdc.org/members/a01/">
-            Chesbro, Wesley
-        </a></b></font></td>
-    <td align="left" width="8%">
-        <div align="center"><font size="2" face="arial">
-            Dem
-        </font></div>
-    </td>
-    <td width="11%" align="left">
-        <div align="center"><font size="2" face="arial">
-            1st
-        </font></div>
-    </td>
-    <td align="left" width="17%">
-        <div align="center"><font size="2" face="arial">
-            (916) 319-2001
-        </font></div>
-    </td>
-    <td align="left" width="15%">
-        <div align="center"><font size="2" face="arial">
-            Room 2141
-        </font></div>
-    </td>
-    <td align="center" width="24%">
-        <div align="center"><font size="2" face="arial">
-
-
-
-            <a href="mailto:Assemblymember.Chesbro@assembly.ca.gov">[email]</a>
-
-
-
-        </font> </div>
-    </td>
-</tr>
-
-<td width="25%"><font size="2" face="arial"><b>
-
-    <a href="http://arc.asm.ca.gov/member/34">
-        Conway, Connie
-    </a></b></font></td>
-<td align="left" width="8%">
-    <div align="center"><font size="2" face="arial">
-        Rep
-    </font></div>
-</td>
-<td width="11%" align="left">
-    <div align="center"><font size="2" face="arial">
-        34th
-    </font></div>
-</td>
-<td align="left" width="17%">
-    <div align="center"><font size="2" face="arial">
-        (916) 319-2034
-    </font></div>
-</td>
-<td align="left" width="15%">
-    <div align="center"><font size="2" face="arial">
-        Room 3104
-    </font></div>
-</td>
-<td align="center" width="24%">
-    <div align="center"><font size="2" face="arial">
-
-
-
-        <a href="mailto:Assemblymember.Conway@assembly.ca.gov">[email]</a>
-
-
-
-    </font> </div>
-</td>
-</tr>
-
-<tr bgcolor="beige">
-
-    <td width="25%"><font size="2" face="arial"><b>
-
-        <a href="http://arc.asm.ca.gov/member/65">
-            Cook, Paul
-        </a></b></font></td>
-    <td align="left" width="8%">
-        <div align="center"><font size="2" face="arial">
-            Rep
-        </font></div>
-    </td>
-    <td width="11%" align="left">
-        <div align="center"><font size="2" face="arial">
-            65th
-        </font></div>
-    </td>
-    <td align="left" width="17%">
-        <div align="center"><font size="2" face="arial">
-            (916) 319-2065
-        </font></div>
-    </td>
-    <td align="left" width="15%">
-        <div align="center"><font size="2" face="arial">
-            Room 5164
-        </font></div>
-    </td>
-    <td align="center" width="24%">
-        <div align="center"><font size="2" face="arial">
-
-
-
-
-            <a title=Contact href="javascript:var feedbackwin=window.open('http://lcmspubcontact.lc.ca.gov/PublicLCMS/ContactPopup.php?district=AD65&','feedbackwin','toolbar=no,location=no,directories=no,status=no,menubar=no, titlebar=no,scrollbars=no,resizable=yes,width=610,height=640')"> comments </a>
-
-
-
-        </font> </div>
-    </td>
-</tr>
-
-<td width="25%"><font size="2" face="arial"><b>
-
-    <a href="http://asmdc.org/members/a48/">
-        Davis, Mike
-    </a></b></font></td>
-<td align="left" width="8%">
-    <div align="center"><font size="2" face="arial">
-        Dem
-    </font></div>
-</td>
-<td width="11%" align="left">
-    <div align="center"><font size="2" face="arial">
-        48th
-    </font></div>
-</td>
-<td align="left" width="17%">
-    <div align="center"><font size="2" face="arial">
-        (916) 319-2048
-    </font></div>
-</td>
-<td align="left" width="15%">
-    <div align="center"><font size="2" face="arial">
-        Room 2160
-    </font></div>
-</td>
-<td align="center" width="24%">
-    <div align="center"><font size="2" face="arial">
-
-
-
-        <a href="mailto:Assemblymember.Davis@assembly.ca.gov">[email]</a>
-
-
-
-    </font> </div>
-</td>
-</tr>
-
-<tr bgcolor="beige">
-
-    <td width="25%"><font size="2" face="arial"><b>
-
-        <a href="http://asmdc.org/members/a09/">
-            Dickinson, Roger
-        </a></b></font></td>
-    <td align="left" width="8%">
-        <div align="center"><font size="2" face="arial">
-            Dem
-        </font></div>
-    </td>
-    <td width="11%" align="left">
-        <div align="center"><font size="2" face="arial">
-            9th
-        </font></div>
-    </td>
-    <td align="left" width="17%">
-        <div align="center"><font size="2" face="arial">
-            (916) 319-2009
-        </font></div>
-    </td>
-    <td align="left" width="15%">
-        <div align="center"><font size="2" face="arial">
-            Room 3126
-        </font></div>
-    </td>
-    <td align="center" width="24%">
-        <div align="center"><font size="2" face="arial">
-
-
-
-
-            <a title=Contact href="javascript:var feedbackwin=window.open('http://lcmspubcontact.lc.ca.gov/PublicLCMS/ContactPopup.php?district=AD09&','feedbackwin','toolbar=no,location=no,directories=no,status=no,menubar=no, titlebar=no,scrollbars=no,resizable=yes,width=610,height=640')"> comments </a>
-
-
-
-        </font> </div>
-    </td>
-</tr>
-
-<td width="25%"><font size="2" face="arial"><b>
-
-    <a href="http://arc.asm.ca.gov/member/59">
-        Donnelly, Tim
-    </a></b></font></td>
-<td align="left" width="8%">
-    <div align="center"><font size="2" face="arial">
-        Rep
-    </font></div>
-</td>
-<td width="11%" align="left">
-    <div align="center"><font size="2" face="arial">
-        59th
-    </font></div>
-</td>
-<td align="left" width="17%">
-    <div align="center"><font size="2" face="arial">
-        (916) 319-2059
-    </font></div>
-</td>
-<td align="left" width="15%">
-    <div align="center"><font size="2" face="arial">
-        Room 2002
-    </font></div>
-</td>
-<td align="center" width="24%">
-    <div align="center"><font size="2" face="arial">
-
-
-
-
-        <a title=Contact href="javascript:var feedbackwin=window.open('http://lcmspubcontact.lc.ca.gov/PublicLCMS/ContactPopup.php?district=AD59&','feedbackwin','toolbar=no,location=no,directories=no,status=no,menubar=no, titlebar=no,scrollbars=no,resizable=yes,width=610,height=640')"> comments </a>
-
-
-
-    </font> </div>
-</td>
-</tr>
-
-<tr bgcolor="beige">
-
-    <td width="25%"><font size="2" face="arial"><b>
-
-        <a href="http://democrats.assembly.ca.gov/members/a49/">
-            Eng, Mike
-        </a></b></font></td>
-    <td align="left" width="8%">
-        <div align="center"><font size="2" face="arial">
-            Dem
-        </font></div>
-    </td>
-    <td width="11%" align="left">
-        <div align="center"><font size="2" face="arial">
-            49th
-        </font></div>
-    </td>
-    <td align="left" width="17%">
-        <div align="center"><font size="2" face="arial">
-            (916) 319-2049
-        </font></div>
-    </td>
-    <td align="left" width="15%">
-        <div align="center"><font size="2" face="arial">
-            Room 5135
-        </font></div>
-    </td>
-    <td align="center" width="24%">
-        <div align="center"><font size="2" face="arial">
-
-
-
-            <a href="mailto:Assemblymember.Eng@assembly.ca.gov">[email]</a>
-
-
-
-        </font> </div>
-    </td>
-</tr>
-
-<td width="25%"><font size="2" face="arial"><b>
-
-    <a href="http://asmdc.org/members/a42/">
-        Feuer, Mike
-    </a></b></font></td>
-<td align="left" width="8%">
-    <div align="center"><font size="2" face="arial">
-        Dem
-    </font></div>
-</td>
-<td width="11%" align="left">
-    <div align="center"><font size="2" face="arial">
-        42nd
-    </font></div>
-</td>
-<td align="left" width="17%">
-    <div align="center"><font size="2" face="arial">
-        (916) 319-2042
-    </font></div>
-</td>
-<td align="left" width="15%">
-    <div align="center"><font size="2" face="arial">
-        Room 4005
-    </font></div>
-</td>
-<td align="center" width="24%">
-    <div align="center"><font size="2" face="arial">
-
-
-
-        <a href="mailto:Assemblymember.Feuer@assembly.ca.gov">[email]</a>
-
-
-
-    </font> </div>
-</td>
-</tr>
-
-<tr bgcolor="beige">
-
-    <td width="25%"><font size="2" face="arial"><b>
-
-        <a href="http://assembly-independent.org/committees?layout=item">
-            Fletcher, Nathan
-        </a></b></font></td>
-    <td align="left" width="8%">
-        <div align="center"><font size="2" face="arial">
-            Ind
-        </font></div>
-    </td>
-    <td width="11%" align="left">
-        <div align="center"><font size="2" face="arial">
-            75th
-        </font></div>
-    </td>
-    <td align="left" width="17%">
-        <div align="center"><font size="2" face="arial">
-            (916) 319-2075
-        </font></div>
-    </td>
-    <td align="left" width="15%">
-        <div align="center"><font size="2" face="arial">
-            Room 2130
-        </font></div>
-    </td>
-    <td align="center" width="24%">
-        <div align="center"><font size="2" face="arial">
-
-
-
-            <a href="mailto:Assemblymember.Fletcher@assembly.ca.gov">[email]</a>
-
-
-
-        </font> </div>
-    </td>
-</tr>
-
-<td width="25%"><font size="2" face="arial"><b>
-
-    <a href="http://asmdc.org/members/a22/">
-        Fong, Paul
-    </a></b></font></td>
-<td align="left" width="8%">
-    <div align="center"><font size="2" face="arial">
-        Dem
-    </font></div>
-</td>
-<td width="11%" align="left">
-    <div align="center"><font size="2" face="arial">
-        22nd
-    </font></div>
-</td>
-<td align="left" width="17%">
-    <div align="center"><font size="2" face="arial">
-        (916) 319-2022
-    </font></div>
-</td>
-<td align="left" width="15%">
-    <div align="center"><font size="2" face="arial">
-        Room 5016
-    </font></div>
-</td>
-<td align="center" width="24%">
-    <div align="center"><font size="2" face="arial">
-
-
-
-        <a href="mailto:Assemblymember.Fong@assembly.ca.gov">[email]</a>
-
-
-
-    </font> </div>
-</td>
-</tr>
-
-<tr bgcolor="beige">
-
-    <td width="25%"><font size="2" face="arial"><b>
-
-        <a href="http://asmdc.org/members/a39/">
-            Fuentes, Felipe
-        </a></b></font></td>
-    <td align="left" width="8%">
-        <div align="center"><font size="2" face="arial">
-            Dem
-        </font></div>
-    </td>
-    <td width="11%" align="left">
-        <div align="center"><font size="2" face="arial">
-            39th
-        </font></div>
-    </td>
-    <td align="left" width="17%">
-        <div align="center"><font size="2" face="arial">
-            (916) 319-2039
-        </font></div>
-    </td>
-    <td align="left" width="15%">
-        <div align="center"><font size="2" face="arial">
-            Room 4167
-        </font></div>
-    </td>
-    <td align="center" width="24%">
-        <div align="center"><font size="2" face="arial">
-
-
-
-            <a href="mailto:Assemblymember.Fuentes@assembly.ca.gov">[email]</a>
-
-
-
-        </font> </div>
-    </td>
-</tr>
-
-<td width="25%"><font size="2" face="arial"><b>
-
-    <a href="http://democrats.assembly.ca.gov/members/a55/">
-        Furutani, Warren T.
-    </a></b></font></td>
-<td align="left" width="8%">
-    <div align="center"><font size="2" face="arial">
-        Dem
-    </font></div>
-</td>
-<td width="11%" align="left">
-    <div align="center"><font size="2" face="arial">
-        55th
-    </font></div>
-</td>
-<td align="left" width="17%">
-    <div align="center"><font size="2" face="arial">
-        (916) 319-2055
-    </font></div>
-</td>
-<td align="left" width="15%">
-    <div align="center"><font size="2" face="arial">
-        Room 6025
-    </font></div>
-</td>
-<td align="center" width="24%">
-    <div align="center"><font size="2" face="arial">
-
-
-
-        <a href="mailto:Assemblymember.Furutani@assembly.ca.gov">[email]</a>
-
-
-
-    </font> </div>
-</td>
-</tr>
-
-<tr bgcolor="beige">
-
-    <td width="25%"><font size="2" face="arial"><b>
-
-        <a href="http://arc.asm.ca.gov/member/4">
-            Gaines, Beth
-        </a></b></font></td>
-    <td align="left" width="8%">
-        <div align="center"><font size="2" face="arial">
-            Rep
-        </font></div>
-    </td>
-    <td width="11%" align="left">
-        <div align="center"><font size="2" face="arial">
-            4th
-        </font></div>
-    </td>
-    <td align="left" width="17%">
-        <div align="center"><font size="2" face="arial">
-            (916) 319-2004
-        </font></div>
-    </td>
-    <td align="left" width="15%">
-        <div align="center"><font size="2" face="arial">
-            Room 4009
-        </font></div>
-    </td>
-    <td align="center" width="24%">
-        <div align="center"><font size="2" face="arial">
-
-
-
-            <a href="mailto:Assemblymember.Gaines@assembly.ca.gov">[email]</a>
-
-
-
-        </font> </div>
-    </td>
-</tr>
-
-<td width="25%"><font size="2" face="arial"><b>
-
-    <a href="http://asmdc.org/members/a17/">
-        Galgiani, Cathleen
-    </a></b></font></td>
-<td align="left" width="8%">
-    <div align="center"><font size="2" face="arial">
-        Dem
-    </font></div>
-</td>
-<td width="11%" align="left">
-    <div align="center"><font size="2" face="arial">
-        17th
-    </font></div>
-</td>
-<td align="left" width="17%">
-    <div align="center"><font size="2" face="arial">
-        (916) 319-2017
-    </font></div>
-</td>
-<td align="left" width="15%">
-    <div align="center"><font size="2" face="arial">
-        Room 5150
-    </font></div>
-</td>
-<td align="center" width="24%">
-    <div align="center"><font size="2" face="arial">
-
-
-
-        <a href="mailto:Assemblymember.Galgiani@assembly.ca.gov">[email]</a>
-
-
-
-    </font> </div>
-</td>
-</tr>
-
-<tr bgcolor="beige">
-
-    <td width="25%"><font size="2" face="arial"><b>
-
-        <a href="http://arc.asm.ca.gov/member/74">
-            Garrick, Martin
-        </a></b></font></td>
-    <td align="left" width="8%">
-        <div align="center"><font size="2" face="arial">
-            Rep
-        </font></div>
-    </td>
-    <td width="11%" align="left">
-        <div align="center"><font size="2" face="arial">
-            74th
-        </font></div>
-    </td>
-    <td align="left" width="17%">
-        <div align="center"><font size="2" face="arial">
-            (916) 319-2074
-        </font></div>
-    </td>
-    <td align="left" width="15%">
-        <div align="center"><font size="2" face="arial">
-            Room 2158
-        </font></div>
-    </td>
-    <td align="center" width="24%">
-        <div align="center"><font size="2" face="arial">
-
-
-
-            <a href="mailto:Assemblymember.Garrick@assembly.ca.gov">[email]</a>
-
-
-
-        </font> </div>
-    </td>
-</tr>
-
-<td width="25%"><font size="2" face="arial"><b>
-
-    <a href="http://asmdc.org/members/a43/">
-        Gatto, Mike
-    </a></b></font></td>
-<td align="left" width="8%">
-    <div align="center"><font size="2" face="arial">
-        Dem
-    </font></div>
-</td>
-<td width="11%" align="left">
-    <div align="center"><font size="2" face="arial">
-        43rd
-    </font></div>
-</td>
-<td align="left" width="17%">
-    <div align="center"><font size="2" face="arial">
-        (916) 319-2043
-    </font></div>
-</td>
-<td align="left" width="15%">
-    <div align="center"><font size="2" face="arial">
-        Room 2114
-    </font></div>
-</td>
-<td align="center" width="24%">
-    <div align="center"><font size="2" face="arial">
-
-
-
-        <a href="mailto:Assemblymember.Gatto@assembly.ca.gov">[email]</a>
-
-
-
-    </font> </div>
-</td>
-</tr>
-
-<tr bgcolor="beige">
-
-    <td width="25%"><font size="2" face="arial"><b>
-
-        <a href="http://asmdc.org/members/a21/">
-            Gordon, Richard S.
-        </a></b></font></td>
-    <td align="left" width="8%">
-        <div align="center"><font size="2" face="arial">
-            Dem
-        </font></div>
-    </td>
-    <td width="11%" align="left">
-        <div align="center"><font size="2" face="arial">
-            21st
-        </font></div>
-    </td>
-    <td align="left" width="17%">
-        <div align="center"><font size="2" face="arial">
-            (916) 319-2021
-        </font></div>
-    </td>
-    <td align="left" width="15%">
-        <div align="center"><font size="2" face="arial">
-            Room 4126
-        </font></div>
-    </td>
-    <td align="center" width="24%">
-        <div align="center"><font size="2" face="arial">
-
-
-
-            <a href="mailto:Assemblymember.Gordon@assembly.ca.gov">[email]</a>
-
-
-
-        </font> </div>
-    </td>
-</tr>
-
-<td width="25%"><font size="2" face="arial"><b>
-
-    <a href="http://arc.asm.ca.gov/member/37">
-        Gorell, Jeff
-    </a></b></font></td>
-<td align="left" width="8%">
-    <div align="center"><font size="2" face="arial">
-        Rep
-    </font></div>
-</td>
-<td width="11%" align="left">
-    <div align="center"><font size="2" face="arial">
-        37th
-    </font></div>
-</td>
-<td align="left" width="17%">
-    <div align="center"><font size="2" face="arial">
-        (916) 319-2037
-    </font></div>
-</td>
-<td align="left" width="15%">
-    <div align="center"><font size="2" face="arial">
-        Room 4208
-    </font></div>
-</td>
-<td align="center" width="24%">
-    <div align="center"><font size="2" face="arial">
-
-
-
-        <a href="mailto:Assemblymember.Gorell@assembly.ca.gov">[email]</a>
-
-
-
-    </font> </div>
-</td>
-</tr>
-
-<tr bgcolor="beige">
-
-    <td width="25%"><font size="2" face="arial"><b>
-
-        <a href="http://arc.asm.ca.gov/member/32">
-            Grove, Shannon L.
-        </a></b></font></td>
-    <td align="left" width="8%">
-        <div align="center"><font size="2" face="arial">
-            Rep
-        </font></div>
-    </td>
-    <td width="11%" align="left">
-        <div align="center"><font size="2" face="arial">
-            32nd
-        </font></div>
-    </td>
-    <td align="left" width="17%">
-        <div align="center"><font size="2" face="arial">
-            (916) 319-2032
-        </font></div>
-    </td>
-    <td align="left" width="15%">
-        <div align="center"><font size="2" face="arial">
-            Room 3098
-        </font></div>
-    </td>
-    <td align="center" width="24%">
-        <div align="center"><font size="2" face="arial">
-
-
-
-
-            <a title=Contact href="javascript:var feedbackwin=window.open('http://lcmspubcontact.lc.ca.gov/PublicLCMS/ContactPopup.php?district=AD32&','feedbackwin','toolbar=no,location=no,directories=no,status=no,menubar=no, titlebar=no,scrollbars=no,resizable=yes,width=610,height=640')"> comments </a>
-
-
-
-        </font> </div>
-    </td>
-</tr>
-
-<td width="25%"><font size="2" face="arial"><b>
-
-    <a href="http://arc.asm.ca.gov/member/60">
-        Hagman, Curt
-    </a></b></font></td>
-<td align="left" width="8%">
-    <div align="center"><font size="2" face="arial">
-        Rep
-    </font></div>
-</td>
-<td width="11%" align="left">
-    <div align="center"><font size="2" face="arial">
-        60th
-    </font></div>
-</td>
-<td align="left" width="17%">
-    <div align="center"><font size="2" face="arial">
-        (916) 319-2060
-    </font></div>
-</td>
-<td align="left" width="15%">
-    <div align="center"><font size="2" face="arial">
-        Room 4130
-    </font></div>
-</td>
-<td align="center" width="24%">
-    <div align="center"><font size="2" face="arial">
-
-
-
-        <a href="mailto:Assemblymember.Hagman@assembly.ca.gov">[email]</a>
-
-
-
-    </font> </div>
-</td>
-</tr>
-
-<tr bgcolor="beige">
-
-    <td width="25%"><font size="2" face="arial"><b>
-
-        <a href="http://arc.asm.ca.gov/member/29">
-            Halderman, Linda
-        </a></b></font></td>
-    <td align="left" width="8%">
-        <div align="center"><font size="2" face="arial">
-            Rep
-        </font></div>
-    </td>
-    <td width="11%" align="left">
-        <div align="center"><font size="2" face="arial">
-            29th
-        </font></div>
-    </td>
-    <td align="left" width="17%">
-        <div align="center"><font size="2" face="arial">
-            (916) 319-2029
-        </font></div>
-    </td>
-    <td align="left" width="15%">
-        <div align="center"><font size="2" face="arial">
-            Room 4009
-        </font></div>
-    </td>
-    <td align="center" width="24%">
-        <div align="center"><font size="2" face="arial">
-
-
-
-            <a href="mailto:Assemblymember.Halderman@assembly.ca.gov">[email]</a>
-
-
-
-        </font> </div>
-    </td>
-</tr>
-
-<td width="25%"><font size="2" face="arial"><b>
-
-    <a href="http://democrats.assembly.ca.gov/members/a52/">
-        Hall, Isadore III
-    </a></b></font></td>
-<td align="left" width="8%">
-    <div align="center"><font size="2" face="arial">
-        Dem
-    </font></div>
-</td>
-<td width="11%" align="left">
-    <div align="center"><font size="2" face="arial">
-        52nd
-    </font></div>
-</td>
-<td align="left" width="17%">
-    <div align="center"><font size="2" face="arial">
-        (916) 319-2052
-    </font></div>
-</td>
-<td align="left" width="15%">
-    <div align="center"><font size="2" face="arial">
-        Room 3123
-    </font></div>
-</td>
-<td align="center" width="24%">
-    <div align="center"><font size="2" face="arial">
-
-
-
-        <a href="mailto:Assemblymember.Hall@assembly.ca.gov">[email]</a>
-
-
-
-    </font> </div>
-</td>
-</tr>
-
-<tr bgcolor="beige">
-
-    <td width="25%"><font size="2" face="arial"><b>
-
-        <a href="http://arc.asm.ca.gov/member/73">
-            Harkey, Diane L.
-        </a></b></font></td>
-    <td align="left" width="8%">
-        <div align="center"><font size="2" face="arial">
-            Rep
-        </font></div>
-    </td>
-    <td width="11%" align="left">
-        <div align="center"><font size="2" face="arial">
-            73rd
-        </font></div>
-    </td>
-    <td align="left" width="17%">
-        <div align="center"><font size="2" face="arial">
-            916) 319-2073
-        </font></div>
-    </td>
-    <td align="left" width="15%">
-        <div align="center"><font size="2" face="arial">
-            Room 6027
-        </font></div>
-    </td>
-    <td align="center" width="24%">
-        <div align="center"><font size="2" face="arial">
-
-
-
-            <a href="mailto:Assemblymember.Harkey@assembly.ca.gov">[email]</a>
-
-
-
-        </font> </div>
-    </td>
-</tr>
-
-<td width="25%"><font size="2" face="arial"><b>
-
-    <a href="http://asmdc.org/members/a18/">
-        Hayashi, Mary
-    </a></b></font></td>
-<td align="left" width="8%">
-    <div align="center"><font size="2" face="arial">
-        Dem
-    </font></div>
-</td>
-<td width="11%" align="left">
-    <div align="center"><font size="2" face="arial">
-        18th
-    </font></div>
-</td>
-<td align="left" width="17%">
-    <div align="center"><font size="2" face="arial">
-        (916) 319-2018
-    </font></div>
-</td>
-<td align="left" width="15%">
-    <div align="center"><font size="2" face="arial">
-        Room 3013
-    </font></div>
-</td>
-<td align="center" width="24%">
-    <div align="center"><font size="2" face="arial">
-
-
-
-        <a href="mailto:Assemblymember.Hayashi@assembly.ca.gov">[email]</a>
-
-
-
-    </font> </div>
-</td>
-</tr>
-
-<tr bgcolor="beige">
-
-    <td width="25%"><font size="2" face="arial"><b>
-
-        <a href="http://asmdc.org/members/a57/">
-            Hern�ndez, Roger
-        </a></b></font></td>
-    <td align="left" width="8%">
-        <div align="center"><font size="2" face="arial">
-            Dem
-        </font></div>
-    </td>
-    <td width="11%" align="left">
-        <div align="center"><font size="2" face="arial">
-            57th
-        </font></div>
-    </td>
-    <td align="left" width="17%">
-        <div align="center"><font size="2" face="arial">
-            (916) 319-2057
-        </font></div>
-    </td>
-    <td align="left" width="15%">
-        <div align="center"><font size="2" face="arial">
-            Room 4146
-        </font></div>
-    </td>
-    <td align="center" width="24%">
-        <div align="center"><font size="2" face="arial">
-
-
-
-            <a href="mailto:Assemblymember.Hernandez@assembly.ca.gov">[email]</a>
-
-
-
-        </font> </div>
-    </td>
-</tr>
-
-<td width="25%"><font size="2" face="arial"><b>
-
-    <a href="http://asmdc.org/members/a19">
-        Hill, Jerry
-    </a></b></font></td>
-<td align="left" width="8%">
-    <div align="center"><font size="2" face="arial">
-        Dem
-    </font></div>
-</td>
-<td width="11%" align="left">
-    <div align="center"><font size="2" face="arial">
-        19th
-    </font></div>
-</td>
-<td align="left" width="17%">
-    <div align="center"><font size="2" face="arial">
-        (916) 319-2019
-    </font></div>
-</td>
-<td align="left" width="15%">
-    <div align="center"><font size="2" face="arial">
-        Room 3160
-    </font></div>
-</td>
-<td align="center" width="24%">
-    <div align="center"><font size="2" face="arial">
-
-
-
-        <a href="mailto:Assemblymember.Hill@assembly.ca.gov">[email]</a>
-
-
-
-    </font> </div>
-</td>
-</tr>
-
-<tr bgcolor="beige">
-
-    <td width="25%"><font size="2" face="arial"><b>
-
-        <a href="http://asmdc.org/members/a10">
-            Huber, Alyson
-        </a></b></font></td>
-    <td align="left" width="8%">
-        <div align="center"><font size="2" face="arial">
-            Dem
-        </font></div>
-    </td>
-    <td width="11%" align="left">
-        <div align="center"><font size="2" face="arial">
-            10th
-        </font></div>
-    </td>
-    <td align="left" width="17%">
-        <div align="center"><font size="2" face="arial">
-            (916) 319-2010
-        </font></div>
-    </td>
-    <td align="left" width="15%">
-        <div align="center"><font size="2" face="arial">
-            Room 4162
-        </font></div>
-    </td>
-    <td align="center" width="24%">
-        <div align="center"><font size="2" face="arial">
-
-
-
-            <a href="mailto:Assemblymember.Huber@assembly.ca.gov">[email]</a>
-
-
-
-        </font> </div>
-    </td>
-</tr>
-
-<td width="25%"><font size="2" face="arial"><b>
-
-    <a href="http://asmdc.org/members/a79/">
-        Hueso, Ben
-    </a></b></font></td>
-<td align="left" width="8%">
-    <div align="center"><font size="2" face="arial">
-        Dem
-    </font></div>
-</td>
-<td width="11%" align="left">
-    <div align="center"><font size="2" face="arial">
-        79th
-    </font></div>
-</td>
-<td align="left" width="17%">
-    <div align="center"><font size="2" face="arial">
-        (916) 319-2079
-    </font></div>
-</td>
-<td align="left" width="15%">
-    <div align="center"><font size="2" face="arial">
-        Room 5155
-    </font></div>
-</td>
-<td align="center" width="24%">
-    <div align="center"><font size="2" face="arial">
-
-
-
-        <a href="mailto:Assemblymember.Hueso@assembly.ca.gov">[email]</a>
-
-
-
-    </font> </div>
-</td>
-</tr>
-
-<tr bgcolor="beige">
-
-    <td width="25%"><font size="2" face="arial"><b>
-
-        <a href="http://asmdc.org/members/a06/">
-            Huffman, Jared
-        </a></b></font></td>
-    <td align="left" width="8%">
-        <div align="center"><font size="2" face="arial">
-            Dem
-        </font></div>
-    </td>
-    <td width="11%" align="left">
-        <div align="center"><font size="2" face="arial">
-            6th
-        </font></div>
-    </td>
-    <td align="left" width="17%">
-        <div align="center"><font size="2" face="arial">
-            (916) 319-2006
-        </font></div>
-    </td>
-    <td align="left" width="15%">
-        <div align="center"><font size="2" face="arial">
-            Room 2176
-        </font></div>
-    </td>
-    <td align="center" width="24%">
-        <div align="center"><font size="2" face="arial">
-
-
-
-            <a href="mailto:Assemblymember.Huffman@assembly.ca.gov">[email]</a>
-
-
-
-        </font> </div>
-    </td>
-</tr>
-
-<td width="25%"><font size="2" face="arial"><b>
-
-    <a href="http://arc.asm.ca.gov/member/66">
-        Jeffries, Kevin
-    </a></b></font></td>
-<td align="left" width="8%">
-    <div align="center"><font size="2" face="arial">
-        Rep
-    </font></div>
-</td>
-<td width="11%" align="left">
-    <div align="center"><font size="2" face="arial">
-        66th
-    </font></div>
-</td>
-<td align="left" width="17%">
-    <div align="center"><font size="2" face="arial">
-        (916) 319-2066
-    </font></div>
-</td>
-<td align="left" width="15%">
-    <div align="center"><font size="2" face="arial">
-        Room 5128
-    </font></div>
-</td>
-<td align="center" width="24%">
-    <div align="center"><font size="2" face="arial">
-
-
-
-
-        <a title=Contact href="javascript:var feedbackwin=window.open('http://lcmspubcontact.lc.ca.gov/PublicLCMS/ContactPopup.php?district=AD66&','feedbackwin','toolbar=no,location=no,directories=no,status=no,menubar=no, titlebar=no,scrollbars=no,resizable=yes,width=610,height=640')"> comments </a>
-
-
-
-    </font> </div>
-</td>
-</tr>
-
-<tr bgcolor="beige">
-
-    <td width="25%"><font size="2" face="arial"><b>
-
-        <a href="http://arc.asm.ca.gov/member/77">
-            Jones, Brian W.
-        </a></b></font></td>
-    <td align="left" width="8%">
-        <div align="center"><font size="2" face="arial">
-            Rep
-        </font></div>
-    </td>
-    <td width="11%" align="left">
-        <div align="center"><font size="2" face="arial">
-            77th
-        </font></div>
-    </td>
-    <td align="left" width="17%">
-        <div align="center"><font size="2" face="arial">
-            (916) 319-2077
-        </font></div>
-    </td>
-    <td align="left" width="15%">
-        <div align="center"><font size="2" face="arial">
-            Room 3147
-        </font></div>
-    </td>
-    <td align="center" width="24%">
-        <div align="center"><font size="2" face="arial">
-
-
-
-
-            <a title=Contact href="javascript:var feedbackwin=window.open('http://lcmspubcontact.lc.ca.gov/PublicLCMS/ContactPopup.php?district=AD77&','feedbackwin','toolbar=no,location=no,directories=no,status=no,menubar=no, titlebar=no,scrollbars=no,resizable=yes,width=610,height=640')"> comments </a>
-
-
-
-        </font> </div>
-    </td>
-</tr>
-
-<td width="25%"><font size="2" face="arial"><b>
-
-    <a href="http://arc.asm.ca.gov/member/36">
-        Knight, Steve
-    </a></b></font></td>
-<td align="left" width="8%">
-    <div align="center"><font size="2" face="arial">
-        Rep
-    </font></div>
-</td>
-<td width="11%" align="left">
-    <div align="center"><font size="2" face="arial">
-        36th
-    </font></div>
-</td>
-<td align="left" width="17%">
-    <div align="center"><font size="2" face="arial">
-        (916) 319-2036
-    </font></div>
-</td>
-<td align="left" width="15%">
-    <div align="center"><font size="2" face="arial">
-        Room 4015
-    </font></div>
-</td>
-<td align="center" width="24%">
-    <div align="center"><font size="2" face="arial">
-
-
-
-        <a href="mailto:Assemblymember.Knight@assembly.ca.gov">[email]</a>
-
-
-
-    </font> </div>
-</td>
-</tr>
-
-<tr bgcolor="beige">
-
-    <td width="25%"><font size="2" face="arial"><b>
-
-        <a href="http://asmdc.org/members/a50/">
-            Lara, Ricardo
-        </a></b></font></td>
-    <td align="left" width="8%">
-        <div align="center"><font size="2" face="arial">
-            Dem
-        </font></div>
-    </td>
-    <td width="11%" align="left">
-        <div align="center"><font size="2" face="arial">
-            50th
-        </font></div>
-    </td>
-    <td align="left" width="17%">
-        <div align="center"><font size="2" face="arial">
-            (916) 319-2050
-        </font></div>
-    </td>
-    <td align="left" width="15%">
-        <div align="center"><font size="2" face="arial">
-            Room 4140
-        </font></div>
-    </td>
-    <td align="center" width="24%">
-        <div align="center"><font size="2" face="arial">
-
-
-
-            <a href="mailto:Assemblymember.Lara@assembly.ca.gov">[email]</a>
-
-
-
-        </font> </div>
-    </td>
-</tr>
-
-<td width="25%"><font size="2" face="arial"><b>
-
-    <a href="http://arc.asm.ca.gov/member/3">
-        Logue, Dan
-    </a></b></font></td>
-<td align="left" width="8%">
-    <div align="center"><font size="2" face="arial">
-        Rep
-    </font></div>
-</td>
-<td width="11%" align="left">
-    <div align="center"><font size="2" face="arial">
-        3rd
-    </font></div>
-</td>
-<td align="left" width="17%">
-    <div align="center"><font size="2" face="arial">
-        (916) 319-2003
-    </font></div>
-</td>
-<td align="left" width="15%">
-    <div align="center"><font size="2" face="arial">
-        Room 4158
-    </font></div>
-</td>
-<td align="center" width="24%">
-    <div align="center"><font size="2" face="arial">
-
-
-
-
-        <a title=Contact href="javascript:var feedbackwin=window.open('http://lcmspubcontact.lc.ca.gov/PublicLCMS/ContactPopup.php?district=AD03&','feedbackwin','toolbar=no,location=no,directories=no,status=no,menubar=no, titlebar=no,scrollbars=no,resizable=yes,width=610,height=640')"> comments </a>
-
-
-
-    </font> </div>
-</td>
-</tr>
-
-<tr bgcolor="beige">
-
-    <td width="25%"><font size="2" face="arial"><b>
-
-        <a href="http://asmdc.org/members/a54/">
-            Lowenthal, Bonnie
-        </a></b></font></td>
-    <td align="left" width="8%">
-        <div align="center"><font size="2" face="arial">
-            Dem
-        </font></div>
-    </td>
-    <td width="11%" align="left">
-        <div align="center"><font size="2" face="arial">
-            54th
-        </font></div>
-    </td>
-    <td align="left" width="17%">
-        <div align="center"><font size="2" face="arial">
-            (916) 319-2054
-        </font></div>
-    </td>
-    <td align="left" width="15%">
-        <div align="center"><font size="2" face="arial">
-            Room 3152
-        </font></div>
-    </td>
-    <td align="center" width="24%">
-        <div align="center"><font size="2" face="arial">
-
-
-
-            <a href="mailto:Assemblymember.Lowenthal@assembly.ca.gov">[email]</a>
-
-
-
-        </font> </div>
-    </td>
-</tr>
-
-<td width="25%"><font size="2" face="arial"><b>
-
-    <a href="http://asmdc.org/members/a12">
-        Ma, Fiona
-    </a></b></font></td>
-<td align="left" width="8%">
-    <div align="center"><font size="2" face="arial">
-        Dem
-    </font></div>
-</td>
-<td width="11%" align="left">
-    <div align="center"><font size="2" face="arial">
-        12th
-    </font></div>
-</td>
-<td align="left" width="17%">
-    <div align="center"><font size="2" face="arial">
-        (916) 319-2012
-    </font></div>
-</td>
-<td align="left" width="15%">
-    <div align="center"><font size="2" face="arial">
-        Room 3173
-    </font></div>
-</td>
-<td align="center" width="24%">
-    <div align="center"><font size="2" face="arial">
-
-
-
-        <a href="mailto:Assemblymember.Ma@assembly.ca.gov">[email]</a>
+    </div><!-- End skipto  -->
+
+    <div class="center">
+        <div id="searchcontainer">
+            <input type="text" id="search" title="Search the Assembly Internet" onkeydown="if (event.keyCode == 13) document.getElementById('searchbutton').click();" />
+            <label for="searchbutton"><input type="submit" value="" id="searchbutton" class="button" title="Search button" onclick="location.href='/search?qs=' + (document.getElementById('search').value); return false;"/></label>
+        </div><!-- END: searchcontainer div -->
+    </div><!-- END: center div -->
+    <div class="clear"></div>
+
+
+    <div id="heading">
+        <div class="logo">
+            <a href="http://assembly.ca.gov"><img src="/sites/assembly.ca.gov/themes/assemblyinternetv1.0/common/images/seal.gif"  alt="California State Assembly Seal" /></a>
+            <p><a href="http://assembly.ca.gov">California State Assembly</a></p>
+        </div><!-- END: logo div -->
+    </div><!-- END: heading div -->
+    <!-- **************************************************************** -->
+
+    <!-- BEGIN: navigation -->
+    <div id="navigation">
+
+        <ul id='nav_list'>
+
+            <li class=""><a href="/" title="Home">Home<span></span></a><ul></ul></li>
+            <li class=" nav_default_on"><a href="/assemblymembers" title="Members" class="active">Members<span></span></a><ul class="menu"><li class=" first last"><a href="/leadership" title="Leadership">Leadership</a></li>
+            </ul></li>
+            <li class=""><a href="/committees" title="Committees">Committees<span></span></a><ul></ul></li>
+            <li class=""><a href="/schedulespublications" title="Schedules &amp; Publications">Schedules &amp; Publications<span></span></a><ul class="menu"><li class=" first"><a href="/todaysevents" title="Today&#039;s Events">Today&#039;s Events</a></li>
+                <li class=""><a href="/dailyfile" title="Daily File">Daily File</a></li>
+                <li class=""><a href="/salaries" title="Budget Information">Salaries/Expenditures</a></li>
+                <li class=" last"><a href="/legislativedeadlines" title="2015 Tentative Legislative Calendar">Legislative Deadlines</a></li>
+            </ul></li>
+            <li class=""><a href="/officescaucuses" title="Offices/Caucuses">Offices &amp; Caucuses<span></span></a><ul></ul></li>
+            <li class=""><a href="/audiotv" title="Audio/TV">Audio &amp; TV<span></span></a><ul class="menu"><li class=" first last"><a href="/listentorooms" title="Listen to Rooms">Room List</a></li>
+            </ul></li>
+            <li class=""><a href="/citizensguide" title="Citizens&#039; Guide">Public Services<span></span></a><ul class="menu"><li class=" first"><a href="/assemblypositionsavailable" title="Assembly Jobs Available">Assembly Jobs</a></li>
+                <li class=""><a href="/faq" title="FAQ">FAQ</a></li>
+                <li class=""><a href="/glossary" title="Glossary">Glossary</a></li>
+                <li class=""><a href="/legislativebranch" title="Congressional Districts">Legislative Branch</a></li>
+                <li class=""><a href="/legislativeprocess" title="Legislative Process">Legislative Process</a></li>
+                <li class=""><a href="/statecapitol" title="Assembly Services">State Capitol</a></li>
+                <li class=" last"><a href="/educationcenter" title="Teachers and Students">Teachers and Students</a></li>
+            </ul></li>
+
+        </ul>
+
+
+
+
+
+    </div><!-- END: navigation div -->
+    <div class="clear"></div>
+</div><!-- END: heading_container div -->
+
+<!-- BEGIN: content -->
+<div id="main_content_1">
+<div id="main_content_2">
+<a name="content"></a>
+
+<!-- ********** Left column begins ********** -->
+<div id="left_column">
+    <div class="column_inner vertnavigation">
+
+    </div>
+</div>
+<!-- ********** Left column ends ********** -->
+
+<!-- ********** Right column begins ********** -->
+<div id="right_column">
+    <div class="column_inner vertnavigation">
+        <!-- Display 3rd nav here -->
+
+    </div>
+    <!-- <div class="column_inner vertnavigation">
+        <h3>Related Documents</h3>
+        <ul>
+            <li><a href="#1">2011 Legislative Calendar</a></li>
+            <li><a href="#1">Video & Audio Broadcasts</a></li>
+        </ul>
+    </div> -->
+</div>
+<!-- ********** Right column ends ********** -->
+
+<!-- ********** Middle column begins ********** -->
+<div id="middle_column">
+<div class="column_inner">
+<div class="breadcrumb"><a href="/">Home</a> » <span class="active">Members</span></div>				<h1 class="title">Members</h1>
+
+<div class="node">
+    <div class="content"><p>
+        On each Assembly Member&#39;s Home Page you will find his/her email address, Capitol and District addresses and phone numbers,&nbsp;the Member&#39;s biography, a list of all the legislation authored by that Assembly Member, his/her committee memberships, press releases and other publications, district links, and more.</p>
+        <p>
+            <a href="http://findyourrep.legislature.ca.gov" target="_blank">Find your Legislator by your address</a></p>
+    </div>
+</div>
+<div class="block block-views" id="block-views-view_Members-block_1">
+<h2 class="title"></h2>
+<div class="content">
+<div class="view view-view-Members view-id-view_Members view-display-id-block_1 view-dom-id-1">
+
 
-
-
-    </font> </div>
-</td>
-</tr>
-
-<tr bgcolor="beige">
-
-    <td width="25%"><font size="2" face="arial"><b>
-
-        <a href="http://arc.asm.ca.gov/member/68">
-            Mansoor, Allan R.
-        </a></b></font></td>
-    <td align="left" width="8%">
-        <div align="center"><font size="2" face="arial">
-            Rep
-        </font></div>
-    </td>
-    <td width="11%" align="left">
-        <div align="center"><font size="2" face="arial">
-            68th
-        </font></div>
-    </td>
-    <td align="left" width="17%">
-        <div align="center"><font size="2" face="arial">
-            (916) 319-2068
-        </font></div>
-    </td>
-    <td align="left" width="15%">
-        <div align="center"><font size="2" face="arial">
-            Room 4177
-        </font></div>
-    </td>
-    <td align="center" width="24%">
-        <div align="center"><font size="2" face="arial">
-
-
-
-
-            <a title=Contact href="javascript:var feedbackwin=window.open('http://lcmspubcontact.lc.ca.gov/PublicLCMS/ContactPopup.php?district=AD68&','feedbackwin','toolbar=no,location=no,directories=no,status=no,menubar=no, titlebar=no,scrollbars=no,resizable=yes,width=610,height=640')"> comments </a>
-
-
-
-        </font> </div>
-    </td>
-</tr>
-
-<td width="25%"><font size="2" face="arial"><b>
-
-    <a href="http://asmdc.org/members/a56/">
-        Mendoza, Tony
-    </a></b></font></td>
-<td align="left" width="8%">
-    <div align="center"><font size="2" face="arial">
-        Dem
-    </font></div>
-</td>
-<td width="11%" align="left">
-    <div align="center"><font size="2" face="arial">
-        56th
-    </font></div>
-</td>
-<td align="left" width="17%">
-    <div align="center"><font size="2" face="arial">
-        (916) 319-2056
-    </font></div>
-</td>
-<td align="left" width="15%">
-    <div align="center"><font size="2" face="arial">
-        Room 2196
-    </font></div>
-</td>
-<td align="center" width="24%">
-    <div align="center"><font size="2" face="arial">
-
-
-
-        <a href="mailto:Assemblymember.Mendoza@assembly.ca.gov">[email]</a>
-
-
-
-    </font> </div>
-</td>
-</tr>
-
-<tr bgcolor="beige">
-
-    <td width="25%"><font size="2" face="arial"><b>
-
-        <a href="http://arc.asm.ca.gov/member/71">
-            Miller, Jeff
-        </a></b></font></td>
-    <td align="left" width="8%">
-        <div align="center"><font size="2" face="arial">
-            Rep
-        </font></div>
-    </td>
-    <td width="11%" align="left">
-        <div align="center"><font size="2" face="arial">
-            71st
-        </font></div>
-    </td>
-    <td align="left" width="17%">
-        <div align="center"><font size="2" face="arial">
-            (916) 319-2071
-        </font></div>
-    </td>
-    <td align="left" width="15%">
-        <div align="center"><font size="2" face="arial">
-            Room 4144
-        </font></div>
-    </td>
-    <td align="center" width="24%">
-        <div align="center"><font size="2" face="arial">
-
-
-
-            <a href="mailto:Assemblymember.Miller@assembly.ca.gov">[email]</a>
-
-
-
-        </font> </div>
-    </td>
-</tr>
-
-<td width="25%"><font size="2" face="arial"><b>
-
-    <a href="http://asmdc.org/members/a47/">
-        Mitchell, Holly J.
-    </a></b></font></td>
-<td align="left" width="8%">
-    <div align="center"><font size="2" face="arial">
-        Dem
-    </font></div>
-</td>
-<td width="11%" align="left">
-    <div align="center"><font size="2" face="arial">
-        47th
-    </font></div>
-</td>
-<td align="left" width="17%">
-    <div align="center"><font size="2" face="arial">
-        (916) 319-2047
-    </font></div>
-</td>
-<td align="left" width="15%">
-    <div align="center"><font size="2" face="arial">
-        Room 2163
-    </font></div>
-</td>
-<td align="center" width="24%">
-    <div align="center"><font size="2" face="arial">
-
-
-
-        <a href="mailto:Assemblymember.Mitchell@assembly.ca.gov">[email]</a>
-
-
-
-    </font> </div>
-</td>
-</tr>
-
-<tr bgcolor="beige">
-
-    <td width="25%"><font size="2" face="arial"><b>
-
-        <a href="http://asmdc.org/members/a27/">
-            Monning, William W.
-        </a></b></font></td>
-    <td align="left" width="8%">
-        <div align="center"><font size="2" face="arial">
-            Dem
-        </font></div>
-    </td>
-    <td width="11%" align="left">
-        <div align="center"><font size="2" face="arial">
-            27th
-        </font></div>
-    </td>
-    <td align="left" width="17%">
-        <div align="center"><font size="2" face="arial">
-            (916) 319-2027
-        </font></div>
-    </td>
-    <td align="left" width="15%">
-        <div align="center"><font size="2" face="arial">
-            Room 4164
-        </font></div>
-    </td>
-    <td align="center" width="24%">
-        <div align="center"><font size="2" face="arial">
-
-
-
-            <a href="mailto:Assemblymember.Monning@assembly.ca.gov">[email]</a>
-
-
-
-        </font> </div>
-    </td>
-</tr>
-
-<td width="25%"><font size="2" face="arial"><b>
-
-    <a href="http://arc.asm.ca.gov/member/63">
-        Morrell, Mike
-    </a></b></font></td>
-<td align="left" width="8%">
-    <div align="center"><font size="2" face="arial">
-        Rep
-    </font></div>
-</td>
-<td width="11%" align="left">
-    <div align="center"><font size="2" face="arial">
-        63rd
-    </font></div>
-</td>
-<td align="left" width="17%">
-    <div align="center"><font size="2" face="arial">
-        (916) 319-2063
-    </font></div>
-</td>
-<td align="left" width="15%">
-    <div align="center"><font size="2" face="arial">
-        Room 4102
-    </font></div>
-</td>
-<td align="center" width="24%">
-    <div align="center"><font size="2" face="arial">
-
-
-
-        <a href="mailto:Assemblymember.Morrell@assembly.ca.gov">[email]</a>
-
-
-
-    </font> </div>
-</td>
-</tr>
-
-<tr bgcolor="beige">
-
-    <td width="25%"><font size="2" face="arial"><b>
-
-        <a href="http://arc.asm.ca.gov/member/64">
-            Nestande, Brian
-        </a></b></font></td>
-    <td align="left" width="8%">
-        <div align="center"><font size="2" face="arial">
-            Rep
-        </font></div>
-    </td>
-    <td width="11%" align="left">
-        <div align="center"><font size="2" face="arial">
-            64th
-        </font></div>
-    </td>
-    <td align="left" width="17%">
-        <div align="center"><font size="2" face="arial">
-            (916) 319-2064
-        </font></div>
-    </td>
-    <td align="left" width="15%">
-        <div align="center"><font size="2" face="arial">
-            Room 4139
-        </font></div>
-    </td>
-    <td align="center" width="24%">
-        <div align="center"><font size="2" face="arial">
-
-
-
-
-            <a title=Contact href="javascript:var feedbackwin=window.open('http://lcmspubcontact.lc.ca.gov/PublicLCMS/ContactPopup.php?district=AD64&','feedbackwin','toolbar=no,location=no,directories=no,status=no,menubar=no, titlebar=no,scrollbars=no,resizable=yes,width=610,height=640')"> comments </a>
-
-
-
-        </font> </div>
-    </td>
-</tr>
-
-<td width="25%"><font size="2" face="arial"><b>
-
-    <a href="http://arc.asm.ca.gov/member/2">
-        Nielsen, Jim
-    </a></b></font></td>
-<td align="left" width="8%">
-    <div align="center"><font size="2" face="arial">
-        Rep
-    </font></div>
-</td>
-<td width="11%" align="left">
-    <div align="center"><font size="2" face="arial">
-        2nd
-    </font></div>
-</td>
-<td align="left" width="17%">
-    <div align="center"><font size="2" face="arial">
-        (916) 319-2002
-    </font></div>
-</td>
-<td align="left" width="15%">
-    <div align="center"><font size="2" face="arial">
-        Room 6031
-    </font></div>
-</td>
-<td align="center" width="24%">
-    <div align="center"><font size="2" face="arial">
-
-
-
-
-        <a title=Contact href="javascript:var feedbackwin=window.open('http://lcmspubcontact.lc.ca.gov/PublicLCMS/ContactPopup.php?district=AD02&','feedbackwin','toolbar=no,location=no,directories=no,status=no,menubar=no, titlebar=no,scrollbars=no,resizable=yes,width=610,height=640')"> comments </a>
-
-
-
-    </font> </div>
-</td>
-</tr>
-
-<tr bgcolor="beige">
-
-    <td width="25%"><font size="2" face="arial"><b>
-
-        <a href="http://arc.asm.ca.gov/member/72">
-            Norby, Chris
-        </a></b></font></td>
-    <td align="left" width="8%">
-        <div align="center"><font size="2" face="arial">
-            Rep
-        </font></div>
-    </td>
-    <td width="11%" align="left">
-        <div align="center"><font size="2" face="arial">
-            72nd
-        </font></div>
-    </td>
-    <td align="left" width="17%">
-        <div align="center"><font size="2" face="arial">
-            (916) 319-2072
-        </font></div>
-    </td>
-    <td align="left" width="15%">
-        <div align="center"><font size="2" face="arial">
-            Room 4116
-        </font></div>
-    </td>
-    <td align="center" width="24%">
-        <div align="center"><font size="2" face="arial">
-
-
-
-            <a href="mailto:Assemblymember.Norby@assembly.ca.gov">[email]</a>
-
-
-
-        </font> </div>
-    </td>
-</tr>
-
-<td width="25%"><font size="2" face="arial"><b>
-
-    <a href="http://arc.asm.ca.gov/member/25">
-        Olsen, Kristin
-    </a></b></font></td>
-<td align="left" width="8%">
-    <div align="center"><font size="2" face="arial">
-        Rep
-    </font></div>
-</td>
-<td width="11%" align="left">
-    <div align="center"><font size="2" face="arial">
-        25th
-    </font></div>
-</td>
-<td align="left" width="17%">
-    <div align="center"><font size="2" face="arial">
-        (916) 319-2025
-    </font></div>
-</td>
-<td align="left" width="15%">
-    <div align="center"><font size="2" face="arial">
-        Room 2111
-    </font></div>
-</td>
-<td align="center" width="24%">
-    <div align="center"><font size="2" face="arial">
-
-
-
-
-        <a title=Contact href="javascript:var feedbackwin=window.open('http://lcmspubcontact.lc.ca.gov/PublicLCMS/ContactPopup.php?district=AD25&','feedbackwin','toolbar=no,location=no,directories=no,status=no,menubar=no, titlebar=no,scrollbars=no,resizable=yes,width=610,height=640')"> comments </a>
-
-
-
-    </font> </div>
-</td>
-</tr>
-
-<tr bgcolor="beige">
-
-    <td width="25%"><font size="2" face="arial"><b>
-
-        <a href="http://asmdc.org/members/a05/">
-            Pan, Richard
-        </a></b></font></td>
-    <td align="left" width="8%">
-        <div align="center"><font size="2" face="arial">
-            Dem
-        </font></div>
-    </td>
-    <td width="11%" align="left">
-        <div align="center"><font size="2" face="arial">
-            5th
-        </font></div>
-    </td>
-    <td align="left" width="17%">
-        <div align="center"><font size="2" face="arial">
-            (916) 319-2005
-        </font></div>
-    </td>
-    <td align="left" width="15%">
-        <div align="center"><font size="2" face="arial">
-            Room 6005
-        </font></div>
-    </td>
-    <td align="center" width="24%">
-        <div align="center"><font size="2" face="arial">
-
-
-
-            <a href="mailto:Assemblymember.Pan@assembly.ca.gov">[email]</a>
-
-
-
-        </font> </div>
-    </td>
-</tr>
-
-<td width="25%"><font size="2" face="arial"><b>
-
-    <a href="http://asmdc.org/members/a31/">
-        Perea, Henry T.
-    </a></b></font></td>
-<td align="left" width="8%">
-    <div align="center"><font size="2" face="arial">
-        Dem
-    </font></div>
-</td>
-<td width="11%" align="left">
-    <div align="center"><font size="2" face="arial">
-        31st
-    </font></div>
-</td>
-<td align="left" width="17%">
-    <div align="center"><font size="2" face="arial">
-        (916) 319-2031
-    </font></div>
-</td>
-<td align="left" width="15%">
-    <div align="center"><font size="2" face="arial">
-        Room 3120
-    </font></div>
-</td>
-<td align="center" width="24%">
-    <div align="center"><font size="2" face="arial">
-
-
-
-        <a href="mailto:Assemblymember.Perea@assembly.ca.gov">[email]</a>
-
-
-
-    </font> </div>
-</td>
-</tr>
-
-<tr bgcolor="beige">
-
-    <td width="25%"><font size="2" face="arial"><b>
-
-        <a href="http://www.asmdc.org/speaker/">
-            P�rez, John A.
-        </a></b></font></td>
-    <td align="left" width="8%">
-        <div align="center"><font size="2" face="arial">
-            Dem
-        </font></div>
-    </td>
-    <td width="11%" align="left">
-        <div align="center"><font size="2" face="arial">
-            46th
-        </font></div>
-    </td>
-    <td align="left" width="17%">
-        <div align="center"><font size="2" face="arial">
-            (916) 319-2046
-        </font></div>
-    </td>
-    <td align="left" width="15%">
-        <div align="center"><font size="2" face="arial">
-            Room 219
-        </font></div>
-    </td>
-    <td align="center" width="24%">
-        <div align="center"><font size="2" face="arial">
-
-
-
-            <a href="mailto:Speaker.Perez@assembly.ca.gov">[email]</a>
-
-
-
-        </font> </div>
-    </td>
-</tr>
-
-<td width="25%"><font size="2" face="arial"><b>
-
-    <a href="http://asmdc.org/members/a80/">
-        P�rez, V. Manuel
-    </a></b></font></td>
-<td align="left" width="8%">
-    <div align="center"><font size="2" face="arial">
-        Dem
-    </font></div>
-</td>
-<td width="11%" align="left">
-    <div align="center"><font size="2" face="arial">
-        80th
-    </font></div>
-</td>
-<td align="left" width="17%">
-    <div align="center"><font size="2" face="arial">
-        (916) 319-2080
-    </font></div>
-</td>
-<td align="left" width="15%">
-    <div align="center"><font size="2" face="arial">
-        Room 4117
-    </font></div>
-</td>
-<td align="center" width="24%">
-    <div align="center"><font size="2" face="arial">
-
-
-
-        <a href="mailto:assemblymember.manuel.perez@assembly.ca.gov">[email]</a>
-
-
-
-    </font> </div>
-</td>
-</tr>
-
-<tr bgcolor="beige">
-
-    <td width="25%"><font size="2" face="arial"><b>
-
-        <a href="http://asmdc.org/members/a44/">
-            Portantino, Anthony J.
-        </a></b></font></td>
-    <td align="left" width="8%">
-        <div align="center"><font size="2" face="arial">
-            Dem
-        </font></div>
-    </td>
-    <td width="11%" align="left">
-        <div align="center"><font size="2" face="arial">
-            44th
-        </font></div>
-    </td>
-    <td align="left" width="17%">
-        <div align="center"><font size="2" face="arial">
-            (916) 319-2044
-        </font></div>
-    </td>
-    <td align="left" width="15%">
-        <div align="center"><font size="2" face="arial">
-            Room 5144
-        </font></div>
-    </td>
-    <td align="center" width="24%">
-        <div align="center"><font size="2" face="arial">
-
-
-
-            <a href="mailto:Assemblymember.Portantino@assembly.ca.gov">[email]</a>
-
-
-
-        </font> </div>
-    </td>
-</tr>
-
-<td width="25%"><font size="2" face="arial"><b>
-
-    <a href="http://arc.asm.ca.gov/member/67">
-        Silva, Jim
-    </a></b></font></td>
-<td align="left" width="8%">
-    <div align="center"><font size="2" face="arial">
-        Rep
-    </font></div>
-</td>
-<td width="11%" align="left">
-    <div align="center"><font size="2" face="arial">
-        67th
-    </font></div>
-</td>
-<td align="left" width="17%">
-    <div align="center"><font size="2" face="arial">
-        (916) 319-2067
-    </font></div>
-</td>
-<td align="left" width="15%">
-    <div align="center"><font size="2" face="arial">
-        Room 2170
-    </font></div>
-</td>
-<td align="center" width="24%">
-    <div align="center"><font size="2" face="arial">
-
-
-
-
-        <a title=Contact href="javascript:var feedbackwin=window.open('http://lcmspubcontact.lc.ca.gov/PublicLCMS/ContactPopup.php?district=AD67&','feedbackwin','toolbar=no,location=no,directories=no,status=no,menubar=no, titlebar=no,scrollbars=no,resizable=yes,width=610,height=640')"> comments </a>
-
-
-
-    </font> </div>
-</td>
-</tr>
-
-<tr bgcolor="beige">
-
-    <td width="25%"><font size="2" face="arial"><b>
-
-        <a href="http://asmdc.org/members/a14">
-            Skinner, Nancy
-        </a></b></font></td>
-    <td align="left" width="8%">
-        <div align="center"><font size="2" face="arial">
-            Dem
-        </font></div>
-    </td>
-    <td width="11%" align="left">
-        <div align="center"><font size="2" face="arial">
-            14th
-        </font></div>
-    </td>
-    <td align="left" width="17%">
-        <div align="center"><font size="2" face="arial">
-            (916) 319-2014
-        </font></div>
-    </td>
-    <td align="left" width="15%">
-        <div align="center"><font size="2" face="arial">
-            Room 3160
-        </font></div>
-    </td>
-    <td align="center" width="24%">
-        <div align="center"><font size="2" face="arial">
-
-
-
-            <a href="mailto:Assemblymember.Skinner@assembly.ca.gov">[email]</a>
-
-
-
-        </font> </div>
-    </td>
-</tr>
-
-<td width="25%"><font size="2" face="arial"><b>
-
-    <a href="http://arc.asm.ca.gov/member/38">
-        Smyth, Cameron
-    </a></b></font></td>
-<td align="left" width="8%">
-    <div align="center"><font size="2" face="arial">
-        Rep
-    </font></div>
-</td>
-<td width="11%" align="left">
-    <div align="center"><font size="2" face="arial">
-        38th
-    </font></div>
-</td>
-<td align="left" width="17%">
-    <div align="center"><font size="2" face="arial">
-        (916) 319-2038
-    </font></div>
-</td>
-<td align="left" width="15%">
-    <div align="center"><font size="2" face="arial">
-        Room 4098
-    </font></div>
-</td>
-<td align="center" width="24%">
-    <div align="center"><font size="2" face="arial">
-
-
-
-
-        <a title=Contact href="javascript:var feedbackwin=window.open('http://lcmspubcontact.lc.ca.gov/PublicLCMS/ContactPopup.php?district=AD38&','feedbackwin','toolbar=no,location=no,directories=no,status=no,menubar=no, titlebar=no,scrollbars=no,resizable=yes,width=610,height=640')"> comments </a>
-
-
-
-    </font> </div>
-</td>
-</tr>
-
-<tr bgcolor="beige">
-
-    <td width="25%"><font size="2" face="arial"><b>
-
-        <a href="http://asmdc.org/members/a69/">
-            Solorio, Jose
-        </a></b></font></td>
-    <td align="left" width="8%">
-        <div align="center"><font size="2" face="arial">
-            Dem
-        </font></div>
-    </td>
-    <td width="11%" align="left">
-        <div align="center"><font size="2" face="arial">
-            69th
-        </font></div>
-    </td>
-    <td align="left" width="17%">
-        <div align="center"><font size="2" face="arial">
-            (916) 319-2069
-        </font></div>
-    </td>
-    <td align="left" width="15%">
-        <div align="center"><font size="2" face="arial">
-            Room 2003
-        </font></div>
-    </td>
-    <td align="center" width="24%">
-        <div align="center"><font size="2" face="arial">
-
-
-
-            <a href="mailto:Assemblymember.Solorio@assembly.ca.gov">[email]</a>
-
-
-
-        </font> </div>
-    </td>
-</tr>
-
-<td width="25%"><font size="2" face="arial"><b>
-
-    <a href="http://asmdc.org/members/a16/">
-        Swanson, Sandr� R.
-    </a></b></font></td>
-<td align="left" width="8%">
-    <div align="center"><font size="2" face="arial">
-        Dem
-    </font></div>
-</td>
-<td width="11%" align="left">
-    <div align="center"><font size="2" face="arial">
-        16th
-    </font></div>
-</td>
-<td align="left" width="17%">
-    <div align="center"><font size="2" face="arial">
-        (916) 319-2016
-    </font></div>
-</td>
-<td align="left" width="15%">
-    <div align="center"><font size="2" face="arial">
-        Room 6012
-    </font></div>
-</td>
-<td align="center" width="24%">
-    <div align="center"><font size="2" face="arial">
-
-
-
-        <a href="mailto:Assemblymember.Swanson@assembly.ca.gov">[email]</a>
-
-
-
-    </font> </div>
-</td>
-</tr>
-
-<tr bgcolor="beige">
-
-    <td width="25%"><font size="2" face="arial"><b>
-
-        <a href="http://asmdc.org/members/a61/">
-            Torres, Norma J.
-        </a></b></font></td>
-    <td align="left" width="8%">
-        <div align="center"><font size="2" face="arial">
-            Dem
-        </font></div>
-    </td>
-    <td width="11%" align="left">
-        <div align="center"><font size="2" face="arial">
-            61st
-        </font></div>
-    </td>
-    <td align="left" width="17%">
-        <div align="center"><font size="2" face="arial">
-            (916) 319-2061
-        </font></div>
-    </td>
-    <td align="left" width="15%">
-        <div align="center"><font size="2" face="arial">
-            Room 4167
-        </font></div>
-    </td>
-    <td align="center" width="24%">
-        <div align="center"><font size="2" face="arial">
-
-
-
-            <a href="mailto:Assemblymember.Torres@assembly.ca.gov">[email]</a>
-
-
-
-        </font> </div>
-    </td>
-</tr>
-
-<td width="25%"><font size="2" face="arial"><b>
-
-    <a href="http://arc.asm.ca.gov/member/30">
-        Valadao, David G.
-    </a></b></font></td>
-<td align="left" width="8%">
-    <div align="center"><font size="2" face="arial">
-        Rep
-    </font></div>
-</td>
-<td width="11%" align="left">
-    <div align="center"><font size="2" face="arial">
-        30th
-    </font></div>
-</td>
-<td align="left" width="17%">
-    <div align="center"><font size="2" face="arial">
-        (916) 319-2030
-    </font></div>
-</td>
-<td align="left" width="15%">
-    <div align="center"><font size="2" face="arial">
-        Room 2174
-    </font></div>
-</td>
-<td align="center" width="24%">
-    <div align="center"><font size="2" face="arial">
-
-
-
-        <a href="mailto:Assemblymember.Valadao@assembly.ca.gov">[email]</a>
-
-
-
-    </font> </div>
-</td>
-</tr>
-
-<tr bgcolor="beige">
-
-    <td width="25%"><font size="2" face="arial"><b>
-
-        <a href="http://arc.asm.ca.gov/member/70">
-            Wagner, Donald P.
-        </a></b></font></td>
-    <td align="left" width="8%">
-        <div align="center"><font size="2" face="arial">
-            Rep
-        </font></div>
-    </td>
-    <td width="11%" align="left">
-        <div align="center"><font size="2" face="arial">
-            70th
-        </font></div>
-    </td>
-    <td align="left" width="17%">
-        <div align="center"><font size="2" face="arial">
-            (916) 319-2070
-        </font></div>
-    </td>
-    <td align="left" width="15%">
-        <div align="center"><font size="2" face="arial">
-            Room 4153
-        </font></div>
-    </td>
-    <td align="center" width="24%">
-        <div align="center"><font size="2" face="arial">
-
-
-
-
-            <a title=Contact href="javascript:var feedbackwin=window.open('http://lcmspubcontact.lc.ca.gov/PublicLCMS/ContactPopup.php?district=AD70&','feedbackwin','toolbar=no,location=no,directories=no,status=no,menubar=no, titlebar=no,scrollbars=no,resizable=yes,width=610,height=640')"> comments </a>
-
-
-
-        </font> </div>
-    </td>
-</tr>
-
-<td width="25%"><font size="2" face="arial"><b>
-
-    <a href="http://asmdc.org/members/a20/">
-        Wieckowski, Bob
-    </a></b></font></td>
-<td align="left" width="8%">
-    <div align="center"><font size="2" face="arial">
-        Dem
-    </font></div>
-</td>
-<td width="11%" align="left">
-    <div align="center"><font size="2" face="arial">
-        20th
-    </font></div>
-</td>
-<td align="left" width="17%">
-    <div align="center"><font size="2" face="arial">
-        (916) 319-2020
-    </font></div>
-</td>
-<td align="left" width="15%">
-    <div align="center"><font size="2" face="arial">
-        Room 4016
-    </font></div>
-</td>
-<td align="center" width="24%">
-    <div align="center"><font size="2" face="arial">
-
-
-
-        <a href="mailto:Assemblymember.Wieckowski@asm.ca.gov">[email]</a>
-
-
-
-    </font> </div>
-</td>
-</tr>
-
-<tr bgcolor="beige">
-
-    <td width="25%"><font size="2" face="arial"><b>
-
-        <a href="http://asmdc.org/members/a35">
-            Williams, Das
-        </a></b></font></td>
-    <td align="left" width="8%">
-        <div align="center"><font size="2" face="arial">
-            Dem
-        </font></div>
-    </td>
-    <td width="11%" align="left">
-        <div align="center"><font size="2" face="arial">
-            35th
-        </font></div>
-    </td>
-    <td align="left" width="17%">
-        <div align="center"><font size="2" face="arial">
-            (916) 319-2035
-        </font></div>
-    </td>
-    <td align="left" width="15%">
-        <div align="center"><font size="2" face="arial">
-            Room 6011
-        </font></div>
-    </td>
-    <td align="center" width="24%">
-        <div align="center"><font size="2" face="arial">
-
-
-
-            <a href="mailto:Assemblymember.Williams@assembly.ca.gov">[email]</a>
-
-
-
-        </font> </div>
-    </td>
-</tr>
-
-<td width="25%"><font size="2" face="arial"><b>
-
-    <a href="http://asmdc.org/members/a08/">
-        Yamada, Mariko
-    </a></b></font></td>
-<td align="left" width="8%">
-    <div align="center"><font size="2" face="arial">
-        Dem
-    </font></div>
-</td>
-<td width="11%" align="left">
-    <div align="center"><font size="2" face="arial">
-        8th
-    </font></div>
-</td>
-<td align="left" width="17%">
-    <div align="center"><font size="2" face="arial">
-        (916) 319-2008
-    </font></div>
-</td>
-<td align="left" width="15%">
-    <div align="center"><font size="2" face="arial">
-        Room 5160
-    </font></div>
-</td>
-<td align="center" width="24%">
-    <div align="center"><font size="2" face="arial">
-
-
-
-        <a href="mailto:Assemblymember.Yamada@assembly.ca.gov">[email]</a>
-
-
-
-    </font> </div>
-</td>
-</tr>
 
+<div class="view-content">
+<table class="views-table cols-80">
+<thead>
+<tr>
+    <th class="views-field views-field-field-member-lname-value-1">
+        <a href="/assemblymembers?order=field_member_lname_value_1&amp;sort=asc" title="sort by Name" class="active">Name</a>        </th>
+    <th class="views-field views-field-field-member-district-value">
+        <a href="/assemblymembers?order=field_member_district_value&amp;sort=asc" title="sort by District" class="active">District</a>        </th>
+    <th class="views-field views-field-field-member-party-value">
+        <a href="/assemblymembers?order=field_member_party_value&amp;sort=asc" title="sort by Party" class="active">Party</a>        </th>
+    <th class="views-field views-field-field-member-feedbackurl-value">
+        Office &amp; Contact Information        </th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd views-row-first">
+    <td class="views-field views-field-field-member-lname-value-1">
+        <a href="https://ad35.assemblygop.com">Achadjian, Katcho
+        </a><p><img  class="imagefield imagefield-field_member_photo" width="120" height="150" alt="Member Katcho Achadjian" src="http://assembly.ca.gov/sites/assembly.ca.gov/files/memberphotos/33.jpg?1320965045" /></p>          </td>
+    <td class="views-field views-field-field-member-district-value">
+        35          </td>
+    <td class="views-field views-field-field-member-party-value">
+        Republican          </td>
+    <td class="views-field views-field-field-member-feedbackurl-value">
+        <a href="https://lcmspubcontact.lc.ca.gov/PublicLCMS/ContactPopup.php?district=AD35">Contact Assembly Member Katcho Achadjian</a><h3>
+        Capitol Office</h3>
+        <p>
+            P.O. Box 942849, Room 4098, Sacramento, CA 94249-0035; (916) 319-2035</p>
+        <h3>
+            District Office</h3>
+        <p>
+            1150 Osos Street, Suite 207, San Luis Obispo, CA 93401; (805) 549-3381</p>          </td>
+</tr>
+<tr class="even">
+    <td class="views-field views-field-field-member-lname-value-1">
+        <a href="http://asmdc.org/members/a30">Alejo, Luis A.
+        </a><p><img  class="imagefield imagefield-field_member_photo" width="120" height="150" alt="Member Luis A. Alejo" src="http://assembly.ca.gov/sites/assembly.ca.gov/files/memberphotos/28.jpg?1320965088" /></p>          </td>
+    <td class="views-field views-field-field-member-district-value">
+        30          </td>
+    <td class="views-field views-field-field-member-party-value">
+        Democrat          </td>
+    <td class="views-field views-field-field-member-feedbackurl-value">
+        <a href="https://lcmspubcontact.lc.ca.gov/PublicLCMS/ContactPopup.php?district=AD30">Contact Assembly Member Luis A. Alejo</a><h3>
+        Capitol Office</h3>
+        <p>
+            P.O. Box 942849, Room 2117, Sacramento, CA 94249-0030; (916) 319-2030</p>
+        <h3>
+            District Office</h3>
+        <p>
+            100 West Alisal Street, Suite 134, Salinas, CA 93901; (831) 759-8676<br />
+            365 Fourth Street, Hollister, CA 95023; (831) 638-3228<br />
+            275 Main Street, Suite 104, Watsonville, CA 95076; (831) 761-7428<br />
+            &nbsp;</p>          </td>
+</tr>
+<tr class="odd">
+    <td class="views-field views-field-field-member-lname-value-1">
+        <a href="https://ad72.assemblygop.com/">Allen, Travis
+        </a><p><img  class="imagefield imagefield-field_member_photo" width="120" height="150" alt="Member Travis Allen" src="http://assembly.ca.gov/sites/assembly.ca.gov/files/memberphotos/AD72-Travis_Allen.jpg?1354556969" /></p>          </td>
+    <td class="views-field views-field-field-member-district-value">
+        72          </td>
+    <td class="views-field views-field-field-member-party-value">
+        Republican          </td>
+    <td class="views-field views-field-field-member-feedbackurl-value">
+        <a href="https://lcmspubcontact.lc.ca.gov/PublicLCMS/ContactPopup.php?district=AD72">Contact Assembly Member Travis Allen</a><h3>
+        Capitol Office</h3>
+        <p>
+            P.O. Box 942849, Room 4015, Sacramento, CA 94249-0072; (916) 319-2072</p>
+        <h3>
+            District Office</h3>
+        <p>
+            17011 Beach Blvd, Suite 1120, Huntington Beach, CA 92647; (714) 843-4966</p>          </td>
+</tr>
+<tr class="even">
+    <td class="views-field views-field-field-member-lname-value-1">
+        <a href="http://asmdc.org/speaker/">Atkins, Toni G.
+        </a><p><img  class="imagefield imagefield-field_member_photo" width="120" height="150" alt="Member Toni G. Atkins" src="http://assembly.ca.gov/sites/assembly.ca.gov/files/memberphotos/AD78-Atkins-120x150.jpg?1402339155" /></p>          </td>
+    <td class="views-field views-field-field-member-district-value">
+        78          </td>
+    <td class="views-field views-field-field-member-party-value">
+        Democrat          </td>
+    <td class="views-field views-field-field-member-feedbackurl-value">
+        <a href="https://lcmspubcontact.lc.ca.gov/PublicLCMS/ContactPopup.php?district=AD78">Contact Assembly Member Toni G. Atkins</a><h3>
+        Capitol Office</h3>
+        <p>
+            P.O. Box 942849, Room 219, Sacramento, CA 94249-0078; (916) 319-2078</p>
+        <h3>
+            District Office</h3>
+        <p>
+            1350 Front Street, Suite 6054, San Diego, CA 92101; (619) 645-3090</p>          </td>
+</tr>
+<tr class="odd">
+    <td class="views-field views-field-field-member-lname-value-1">
+        <a href="http://ad16.asmrc.org/">Baker, Catharine B.
+        </a><p><img  class="imagefield imagefield-field_member_photo" width="120" height="150" alt="Member Catharine B. Baker" src="http://assembly.ca.gov/sites/assembly.ca.gov/files/memberphotos/Baker_LDC_headshot.jpg?1417458932" /></p>          </td>
+    <td class="views-field views-field-field-member-district-value">
+        16          </td>
+    <td class="views-field views-field-field-member-party-value">
+        Republican          </td>
+    <td class="views-field views-field-field-member-feedbackurl-value">
+        <a href="https://lcmspubcontact.lc.ca.gov/PublicLCMS/ContactPopup.php?district=AD16">Contact Assembly Member Catharine B. Baker</a><h3>
+        Capitol Office</h3>
+        <p>
+            P.O. Box 942849, Room 4153, Sacramento, CA 94249-0016; (916) 319-2016</p>
+        <h3>
+            District Office</h3>
+        <p>
+            2694 Bishop Dr., Suite 275, San Ramon, CA 94583; (925) 328-1515</p>          </td>
+</tr>
+<tr class="even">
+    <td class="views-field views-field-field-member-lname-value-1">
+        <a href="https://ad05.assemblygop.com">Bigelow, Frank
+        </a><p><img  class="imagefield imagefield-field_member_photo" width="120" height="150" alt="Member Frank Bigelow" src="http://assembly.ca.gov/sites/assembly.ca.gov/files/memberphotos/AD05-Frank_Bigelow.jpg?1354549849" /></p>          </td>
+    <td class="views-field views-field-field-member-district-value">
+        05          </td>
+    <td class="views-field views-field-field-member-party-value">
+        Republican          </td>
+    <td class="views-field views-field-field-member-feedbackurl-value">
+        <a href="https://lcmspubcontact.lc.ca.gov/PublicLCMS/ContactPopup.php?district=AD05">Contact Assembly Member Frank Bigelow</a><h3>
+        Capitol Office</h3>
+        <p>
+            P.O. Box 942849, Room 6027, Sacramento, CA 94249-0005; (916) 319-2005</p>
+        <h3>
+            District Office</h3>
+        <p>
+            2441 Headington Road, Placerville, CA 95667; (530) 295-5505<br />
+            730 North I Street, Suite 102, Madera, CA 93637; (559) 673-0501<br />
+            33 C Broadway Jackson, CA 95642; (209) 223-0505<br />
+            <br />
+            &nbsp;</p>          </td>
+</tr>
+<tr class="odd">
+    <td class="views-field views-field-field-member-lname-value-1">
+        <a href="http://asmdc.org/members/a50">Bloom, Richard
+        </a><p><img  class="imagefield imagefield-field_member_photo" width="120" height="150" alt="Member Richard Bloom" src="http://assembly.ca.gov/sites/assembly.ca.gov/files/memberphotos/AD50-Bloom.jpg?1354556621" /></p>          </td>
+    <td class="views-field views-field-field-member-district-value">
+        50          </td>
+    <td class="views-field views-field-field-member-party-value">
+        Democrat          </td>
+    <td class="views-field views-field-field-member-feedbackurl-value">
+        <a href="https://lcmspubcontact.lc.ca.gov/PublicLCMS/ContactPopup.php?district=AD50">Contact Assembly Member Richard Bloom</a><h3>
+        Capitol Office</h3>
+        <p>
+            P.O. Box 942849, Room 2003, Sacramento, CA 94249-0050; (916) 319-2050</p>
+        <h3>
+            District Office</h3>
+        <p>
+            2800 28th Street, Suite 150, Santa Monica, CA 90405; (310) 450-0041</p>          </td>
+</tr>
+<tr class="even">
+    <td class="views-field views-field-field-member-lname-value-1">
+        <a href="http://asmdc.org/members/a14/">Bonilla, Susan
+        </a><p><img  class="imagefield imagefield-field_member_photo" width="120" height="150" alt="Member Susan Bonilla" src="http://assembly.ca.gov/sites/assembly.ca.gov/files/memberphotos/11.jpg?1320966675" /></p>          </td>
+    <td class="views-field views-field-field-member-district-value">
+        14          </td>
+    <td class="views-field views-field-field-member-party-value">
+        Democrat          </td>
+    <td class="views-field views-field-field-member-feedbackurl-value">
+        <a href="https://lcmspubcontact.lc.ca.gov/PublicLCMS/ContactPopup.php?district=AD14">Contact Assembly Member Susan Bonilla</a><h3>
+        Capitol Office</h3>
+        <p>
+            P.O. Box 942849, Room 4140, Sacramento, CA 94249-0014; (916) 319-2014</p>
+        <h3>
+            District Office</h3>
+        <p>
+            2151 Salvio Street, Suite 395, Concord, CA 94520; (925) 521-1511<br />
+            <br />
+            &nbsp;</p>          </td>
+</tr>
+<tr class="odd">
+    <td class="views-field views-field-field-member-lname-value-1">
+        <a href="http://asmdc.org/members/a18">Bonta, Rob
+        </a><p><img  class="imagefield imagefield-field_member_photo" width="120" height="150" alt="Member Rob Bonta" src="http://assembly.ca.gov/sites/assembly.ca.gov/files/memberphotos/AD18-Bonta.jpg?1354550887" /></p>          </td>
+    <td class="views-field views-field-field-member-district-value">
+        18          </td>
+    <td class="views-field views-field-field-member-party-value">
+        Democrat          </td>
+    <td class="views-field views-field-field-member-feedbackurl-value">
+        <a href="https://lcmspubcontact.lc.ca.gov/PublicLCMS/ContactPopup.php?district=AD18">Contact Assembly Member Rob Bonta</a><h3>
+        Capitol Office</h3>
+        <p>
+            P.O. Box 942849, Room 6005, Sacramento, CA 94249-0018; (916) 319-2018</p>
+        <h3>
+            District Office</h3>
+        <p>
+            1515 Clay Street, Suite 2204, Oakland, CA&nbsp; 94612; (510) 286-1670</p>
+        <!--
+        <h3>
+            District Office</h3>
+        <p>
+            455 Golden Gate Avenue, Suite 14600, San Francisco, CA 94102; (415) 557-2312&nbsp;</p>-->          </td>
+</tr>
+<tr class="even">
+    <td class="views-field views-field-field-member-lname-value-1">
+        <a href="http://ad73.asmrc.org/">Brough, William P.
+        </a><p><img  class="imagefield imagefield-field_member_photo" width="120" height="150" alt="Member William P. Brough" src="http://assembly.ca.gov/sites/assembly.ca.gov/files/memberphotos/Brough_LDC_headshot.jpg?1417460511" /></p>          </td>
+    <td class="views-field views-field-field-member-district-value">
+        73          </td>
+    <td class="views-field views-field-field-member-party-value">
+        Republican          </td>
+    <td class="views-field views-field-field-member-feedbackurl-value">
+        <a href="https://lcmspubcontact.lc.ca.gov/PublicLCMS/ContactPopup.php?district=AD73">Contact Assembly Member William P. Brough</a><h3>
+        Capitol Office</h3>
+        <p>
+            P.O. Box 942849, Room 2174, Sacramento, CA 94249-0073; (916) 319-2073</p>
+        <h3>
+            District Office</h3>
+        <p>
+            29122 Rancho Viejo Road, Suite 111, San Juan Capistrano, CA 92675; (949) 347-7301</p>          </td>
+</tr>
+<tr class="odd">
+    <td class="views-field views-field-field-member-lname-value-1">
+        <a href="http://asmdc.org/members/a47">Brown, Cheryl R.
+        </a><p><img  class="imagefield imagefield-field_member_photo" width="120" height="150" alt="Member Cheryl R. Brown" src="http://assembly.ca.gov/sites/assembly.ca.gov/files/memberphotos/AD47-Brown.jpg?1354556114" /></p>          </td>
+    <td class="views-field views-field-field-member-district-value">
+        47          </td>
+    <td class="views-field views-field-field-member-party-value">
+        Democrat          </td>
+    <td class="views-field views-field-field-member-feedbackurl-value">
+        <a href="https://lcmspubcontact.lc.ca.gov/PublicLCMS/ContactPopup.php?district=AD47">Contact Assembly Member Cheryl R. Brown</a><h3>
+        Capitol Office</h3>
+        <p>
+            P.O. Box 942849, Room 2136, Sacramento, CA 94249-0047; (916) 319-2047</p>
+        <h3>
+            District Office</h3>
+        <p>
+            290 North D Street, Suite 903, San Bernardino, CA 92401; (909) 381-3238<br />
+            8353 Sierra Avenue, Fontana, CA 92335; (909) 350-7646</p>          </td>
+</tr>
+<tr class="even">
+    <td class="views-field views-field-field-member-lname-value-1">
+        <a href="http://asmdc.org/members/a62">Burke, Autumn R.
+        </a><p><img  class="imagefield imagefield-field_member_photo" width="120" height="150" alt="Member Autumn R. Burke" src="http://assembly.ca.gov/sites/assembly.ca.gov/files/memberphotos/AD62_Burke_Portrait150_20141201_v2.jpg?1417457364" /></p>          </td>
+    <td class="views-field views-field-field-member-district-value">
+        62          </td>
+    <td class="views-field views-field-field-member-party-value">
+        Democrat          </td>
+    <td class="views-field views-field-field-member-feedbackurl-value">
+        <a href="https://lcmspubcontact.lc.ca.gov/PublicLCMS/ContactPopup.php?district=AD62">Contact Assembly Member Autumn R. Burke</a><h3>
+        Capitol Office</h3>
+        <p>
+            P.O. Box 942849, Room 5144, Sacramento, CA 94249-0062; (916) 319-2062</p>
+        <h3>
+            District Office</h3>
+        <p>
+            One Manchester Blvd, Suite 601, Inglewood, CA 90301; (310) 412-6400</p>          </td>
+</tr>
+<tr class="odd">
+    <td class="views-field views-field-field-member-lname-value-1">
+        <a href="http://asmdc.org/members/a57">Calderon, Ian C.
+        </a><p><img  class="imagefield imagefield-field_member_photo" width="120" height="150" alt="Member  Ian C. Calderon" src="http://assembly.ca.gov/sites/assembly.ca.gov/files/memberphotos/AD57.jpg?1405616446" /></p>          </td>
+    <td class="views-field views-field-field-member-district-value">
+        57          </td>
+    <td class="views-field views-field-field-member-party-value">
+        Democrat          </td>
+    <td class="views-field views-field-field-member-feedbackurl-value">
+        <a href="https://lcmspubcontact.lc.ca.gov/PublicLCMS/ContactPopup.php?district=AD57">Contact Assembly Member Ian C. Calderon</a><h3>
+        Capitol Office</h3>
+        <p>
+            P.O. Box 942849, Room 2148, Sacramento, CA 94249-0057; (916) 319-2057</p>
+        <h3>
+            District Office</h3>
+        <p>
+            13181 Crossroads Parkway, Suite 160, City of Industry, CA 91746-3497; (562) 692-5858</p>          </td>
+</tr>
+<tr class="even">
+    <td class="views-field views-field-field-member-lname-value-1">
+        <a href="http://asmdc.org/members/a27">Campos, Nora
+        </a><p><img  class="imagefield imagefield-field_member_photo" width="120" height="150" alt="Member Nora Campos" src="http://assembly.ca.gov/sites/assembly.ca.gov/files/memberphotos/23.jpg?1320967128" /></p>          </td>
+    <td class="views-field views-field-field-member-district-value">
+        27          </td>
+    <td class="views-field views-field-field-member-party-value">
+        Democrat          </td>
+    <td class="views-field views-field-field-member-feedbackurl-value">
+        <a href="https://lcmspubcontact.lc.ca.gov/PublicLCMS/ContactPopup.php?district=AD27">Contact Assembly Member Nora Campos</a><h3>
+        Capitol Office</h3>
+        <p>
+            P.O. Box 942849, Room 4016, Sacramento, CA 94249-0027; (916) 319-2027</p>
+        <h3>
+            District Office</h3>
+        <p>
+            100 Paseo De San Antonio, Suite 319, San Jose, CA 95113; (408) 277-1220</p>          </td>
+</tr>
+<tr class="odd">
+    <td class="views-field views-field-field-member-lname-value-1">
+        <a href="https://ad55.assemblygop.com/">Chang, Ling Ling
+        </a><p><img  class="imagefield imagefield-field_member_photo" width="120" height="150" alt="Member Ling Ling Chang" src="http://assembly.ca.gov/sites/assembly.ca.gov/files/memberphotos/Chang_LDC_headshot.jpg?1417457292" /></p>          </td>
+    <td class="views-field views-field-field-member-district-value">
+        55          </td>
+    <td class="views-field views-field-field-member-party-value">
+        Republican          </td>
+    <td class="views-field views-field-field-member-feedbackurl-value">
+        <a href="https://lcmspubcontact.lc.ca.gov/PublicLCMS/ContactPopup.php?district=AD55">Contact Assembly Member Ling Ling Chang</a><h3>
+        Capitol Office</h3>
+        <p>
+            P.O. Box 942849, Room 3149, Sacramento, CA 94249-0055; (916) 319-2055</p>
+        <h3>
+            District Office</h3>
+        <p>
+            13920 City Center Drive, Suite 260, Chino Hills, CA 91709; (909) 627-7021</p>          </td>
+</tr>
+<tr class="even">
+    <td class="views-field views-field-field-member-lname-value-1">
+        <a href="http://asmdc.org/members/a49">Chau, Ed
+        </a><p><img  class="imagefield imagefield-field_member_photo" width="120" height="150" alt="Member Ed Chau" src="http://assembly.ca.gov/sites/assembly.ca.gov/files/memberphotos/AD49-Chau.jpg?1354556452" /></p>          </td>
+    <td class="views-field views-field-field-member-district-value">
+        49          </td>
+    <td class="views-field views-field-field-member-party-value">
+        Democrat          </td>
+    <td class="views-field views-field-field-member-feedbackurl-value">
+        <a href="https://lcmspubcontact.lc.ca.gov/PublicLCMS/ContactPopup.php?district=AD49">Contact Assembly Member Ed Chau</a><h3>
+        Capitol Office</h3>
+        <p>
+            P.O. Box 942849, Room 2179, Sacramento, CA 94249-0049; (916) 319-2049</p>
+        <h3>
+            District Office</h3>
+        <p>
+            1255 Corporate Center Drive, Suite 306, Monterery Park, CA 91754; (323) 264-4949&nbsp;</p>          </td>
+</tr>
+<tr class="odd">
+    <td class="views-field views-field-field-member-lname-value-1">
+        <a href="https://ad76.assemblygop.com/">Chávez, Rocky J.
+        </a><p><img  class="imagefield imagefield-field_member_photo" width="120" height="150" alt="Member Rocky J. Chávez" src="http://assembly.ca.gov/sites/assembly.ca.gov/files/memberphotos/AD76-Rocky_Chavez.jpg?1354556835" /></p>          </td>
+    <td class="views-field views-field-field-member-district-value">
+        76          </td>
+    <td class="views-field views-field-field-member-party-value">
+        Republican          </td>
+    <td class="views-field views-field-field-member-feedbackurl-value">
+        <a href="https://lcmspubcontact.lc.ca.gov/PublicLCMS/ContactPopup.php?district=AD76">Contact Assembly Member Rocky J. Chávez</a><h3>
+        Capitol Office</h3>
+        <p>
+            P.O. Box 942849, Room 2170, Sacramento, CA 94249-0076; (916) 319-2076</p>
+        <h3>
+            District Office</h3>
+        <p>
+            1910 Palomar Point Way, Suite 106, Carlsbad, CA 92008; (760) 929-7998</p>          </td>
+</tr>
+<tr class="even">
+    <td class="views-field views-field-field-member-lname-value-1">
+        <a href="http://asmdc.org/members/a17">Chiu, David
+        </a><p><img  class="imagefield imagefield-field_member_photo" width="120" height="150" alt="Member David Chiu" src="http://assembly.ca.gov/sites/assembly.ca.gov/files/memberphotos/AD17_Chiu_Portrait150_20141201.jpg?1417458588" /></p>          </td>
+    <td class="views-field views-field-field-member-district-value">
+        17          </td>
+    <td class="views-field views-field-field-member-party-value">
+        Democrat          </td>
+    <td class="views-field views-field-field-member-feedbackurl-value">
+        <a href="https://lcmspubcontact.lc.ca.gov/PublicLCMS/ContactPopup.php?district=AD17">Contact Assembly Member David Chiu</a><h3>
+        Capitol Office</h3>
+        <p>
+            P.O. Box 942849, Room 2196, Sacramento, CA 94249-0017; (916) 319-2017</p>
+        <h3>
+            District Office</h3>
+        <p>
+            455 Golden Gate Avenue, Suite 14300, San Francisco, CA 94102; (415) 557-3013</p>          </td>
+</tr>
+<tr class="odd">
+    <td class="views-field views-field-field-member-lname-value-1">
+        <a href="http://asmdc.org/members/a25">Chu, Kansen
+        </a><p><img  class="imagefield imagefield-field_member_photo" width="120" height="150" alt="Member Kansen Chu" src="http://assembly.ca.gov/sites/assembly.ca.gov/files/memberphotos/chu.png?1417452722" /></p>          </td>
+    <td class="views-field views-field-field-member-district-value">
+        25          </td>
+    <td class="views-field views-field-field-member-party-value">
+        Democrat          </td>
+    <td class="views-field views-field-field-member-feedbackurl-value">
+        <a href="https://lcmspubcontact.lc.ca.gov/PublicLCMS/ContactPopup.php?district=AD25">Contact Assembly Member Kansen Chu</a><h3>
+        Capitol Office</h3>
+        <p>
+            P.O. Box 942849, Room 5175, Sacramento, CA 94249-0025; (916) 319-2025</p>
+        <h3>
+            District Office</h3>
+        <p>
+            39510 Paseo Padre Parkway, Suite 280, Fremont, CA 94538; (510) 440-9030</p>          </td>
+</tr>
+<tr class="even">
+    <td class="views-field views-field-field-member-lname-value-1">
+        <a href="http://asmdc.org/members/a08">Cooley, Ken
+        </a><p><img  class="imagefield imagefield-field_member_photo" width="120" height="150" alt="Member Ken Cooley" src="http://assembly.ca.gov/sites/assembly.ca.gov/files/memberphotos/AD08-Cooley_0.jpg?1359146340" /></p>          </td>
+    <td class="views-field views-field-field-member-district-value">
+        08          </td>
+    <td class="views-field views-field-field-member-party-value">
+        Democrat          </td>
+    <td class="views-field views-field-field-member-feedbackurl-value">
+        <a href="https://lcmspubcontact.lc.ca.gov/PublicLCMS/ContactPopup.php?district=AD08">Contact Assembly Member Ken Cooley</a><h3>
+        Capitol Office</h3>
+        <p>
+            P.O. Box 942849, Room 3146, Sacramento, CA 94249-0008; (916) 319-2008</p>
+        <h3>
+            District Office</h3>
+        <p>
+            2729 Prospect Park Drive, Suite 130, Rancho Cordova, CA 95670; (916) 464-1910</p>          </td>
+</tr>
+<tr class="odd">
+    <td class="views-field views-field-field-member-lname-value-1">
+        <a href="http://asmdc.org/members/a09">Cooper, Jim
+        </a><p><img  class="imagefield imagefield-field_member_photo" width="120" height="150" alt="Member Jim Cooper" src="http://assembly.ca.gov/sites/assembly.ca.gov/files/memberphotos/AD09_Cooper_Portrait150_20141201.jpg?1417457081" /></p>          </td>
+    <td class="views-field views-field-field-member-district-value">
+        09          </td>
+    <td class="views-field views-field-field-member-party-value">
+        Democrat          </td>
+    <td class="views-field views-field-field-member-feedbackurl-value">
+        <a href="https://lcmspubcontact.lc.ca.gov/PublicLCMS/ContactPopup.php?district=AD09">Contact Assembly Member Jim Cooper</a><h3>
+        Capitol Office</h3>
+        <p>
+            P.O. Box 942849, Room 5158, Sacramento, CA 94249-0009; (916) 319-2009</p>
+        <h3>
+            District Office</h3>
+        <p>
+            2251 Florin Road, Suite 156, Sacramento 95822; (916) 262-0999</p>          </td>
+</tr>
+<tr class="even">
+    <td class="views-field views-field-field-member-lname-value-1">
+        <a href="http://www.asmdc.org/members/a45">Dababneh, Matthew
+        </a><p><img  class="imagefield imagefield-field_member_photo" width="120" height="150" alt="Member Matthew Dababneh" src="http://assembly.ca.gov/sites/assembly.ca.gov/files/memberphotos/AD45.jpg?1389037107" /></p>          </td>
+    <td class="views-field views-field-field-member-district-value">
+        45          </td>
+    <td class="views-field views-field-field-member-party-value">
+        Democrat          </td>
+    <td class="views-field views-field-field-member-feedbackurl-value">
+        <a href="https://lcmspubcontact.lc.ca.gov/PublicLCMS/ContactPopup.php?district=AD45">Contact Assembly Member Matthew Dababneh</a><h3>
+        Capitol Office</h3>
+        <p>
+            P.O. Box 942849, Room 4122, Sacramento, CA 94249-0045; (916) 319-2045</p>
+        <h3>
+            District Office</h3>
+        <p>
+            6150 Van Nuys Blvd, Suite 306, Van Nuys, CA 91401; (818) 904-3840</p>          </td>
+</tr>
+<tr class="odd">
+    <td class="views-field views-field-field-member-lname-value-1">
+        <a href="https://ad01.assemblygop.com/">Dahle, Brian
+        </a><p><img  class="imagefield imagefield-field_member_photo" width="120" height="150" alt="Member Brian Dahle" src="http://assembly.ca.gov/sites/assembly.ca.gov/files/memberphotos/AD01-Brian_Dahle.jpg?1354545520" /></p>          </td>
+    <td class="views-field views-field-field-member-district-value">
+        01          </td>
+    <td class="views-field views-field-field-member-party-value">
+        Republican          </td>
+    <td class="views-field views-field-field-member-feedbackurl-value">
+        <a href="https://lcmspubcontact.lc.ca.gov/PublicLCMS/ContactPopup.php?district=AD01">Contact Assembly Member Brian Dahle</a><h3>
+        Capitol Office</h3>
+        <p>
+            P.O. Box 942849, Room 2158, Sacramento, CA 94249-0001; (916) 319-2001</p>
+        <h3>
+            District Office</h3>
+        <p>
+            280 Hemsted Drive, Suite 110, Redding, CA 96002; (530) 223-6300</p>          </td>
+</tr>
+<tr class="even">
+    <td class="views-field views-field-field-member-lname-value-1">
+        <a href="http://asmdc.org/members/a69">Daly, Tom
+        </a><p><img  class="imagefield imagefield-field_member_photo" width="120" height="150" alt="Member Tom Daly" src="http://assembly.ca.gov/sites/assembly.ca.gov/files/memberphotos/AD69-Daly.jpg?1354559825" /></p>          </td>
+    <td class="views-field views-field-field-member-district-value">
+        69          </td>
+    <td class="views-field views-field-field-member-party-value">
+        Democrat          </td>
+    <td class="views-field views-field-field-member-feedbackurl-value">
+        <a href="https://lcmspubcontact.lc.ca.gov/PublicLCMS/ContactPopup.php?district=AD69">Contact Assembly Member Tom Daly</a><h3>
+        Capitol Office</h3>
+        <p>
+            P.O. Box 942849, Room 3126, Sacramento, CA 94249-0069; (916) 319-2069</p>
+        <h3>
+            District Office</h3>
+        <p>
+            2400 East Katella Avenue, Suite 640; Anaheim, CA 92806; (714) 939-8469<!-- Fax (714) 939-8986 --></p>
+        <p>
+            <!--
+            <h3>
+                District Office</h3>
+            <p>
+                500 Center Street, El Segundo, CA 90245; (310) 615-3515</p>--></p>          </td>
+</tr>
+<tr class="odd">
+    <td class="views-field views-field-field-member-lname-value-1">
+        <a href="http://asmdc.org/members/a04">Dodd, Bill
+        </a><p><img  class="imagefield imagefield-field_member_photo" width="120" height="150" alt="Member Bill Dodd" src="http://assembly.ca.gov/sites/assembly.ca.gov/files/memberphotos/AD04_Dodd_Portrait150_20141201_v2.jpg?1417456364" /></p>          </td>
+    <td class="views-field views-field-field-member-district-value">
+        04          </td>
+    <td class="views-field views-field-field-member-party-value">
+        Democrat          </td>
+    <td class="views-field views-field-field-member-feedbackurl-value">
+        <a href="https://lcmspubcontact.lc.ca.gov/PublicLCMS/ContactPopup.php?district=AD04">Contact Assembly Member Bill Dodd</a><h3>
+        Capitol Office</h3>
+        <p>
+            P.O. Box 942849, Room 2137, Sacramento, CA 94249-0004; (916) 319-2004</p>
+        <h3>
+            District Office</h3>
+        <p>
+            725 Main Street, Suite 206, Woodland, CA 95695; (530) 662-7867<br />
+            4381 Broadway Street, Suite 108, American Canyon, CA 94503; (707) 552-4405</p>          </td>
+</tr>
+<tr class="even">
+    <td class="views-field views-field-field-member-lname-value-1">
+        <a href="http://asmdc.org/members/a13">Eggman, Susan Talamantes
+        </a><p><img  class="imagefield imagefield-field_member_photo" width="120" height="150" alt="Member Susan Talamantes Eggman" src="http://assembly.ca.gov/sites/assembly.ca.gov/files/memberphotos/AD13.jpg?1358465307" /></p>          </td>
+    <td class="views-field views-field-field-member-district-value">
+        13          </td>
+    <td class="views-field views-field-field-member-party-value">
+        Democrat          </td>
+    <td class="views-field views-field-field-member-feedbackurl-value">
+        <a href="https://lcmspubcontact.lc.ca.gov/PublicLCMS/ContactPopup.php?district=AD13">Contact Assembly Member Susan Talamantes Eggman</a><h3>
+        Capitol Office</h3>
+        <p>
+            P.O. Box 942849, Room 3173, Sacramento, CA 94249-0013; (916) 319-2013</p>
+        <h3>
+            District Office</h3>
+        <p>
+            31 East Channel Street, Suite 306, Stockton, CA 95202; (209) 948-7479</p>
+        <!--
+        <h3>
+            District Office</h3>
+        <p>
+            1515 Clay Street, Suite 2204, Oakland, CA 94612; (510) 286-1670</p>-->          </td>
+</tr>
+<tr class="odd">
+    <td class="views-field views-field-field-member-lname-value-1">
+        <a href="http://asmdc.org/members/a11">Frazier, Jim
+        </a><p><img  class="imagefield imagefield-field_member_photo" width="120" height="150" alt="Member Jim  Frazier" src="http://assembly.ca.gov/sites/assembly.ca.gov/files/memberphotos/AD11.jpg?1361397192" /></p>          </td>
+    <td class="views-field views-field-field-member-district-value">
+        11          </td>
+    <td class="views-field views-field-field-member-party-value">
+        Democrat          </td>
+    <td class="views-field views-field-field-member-feedbackurl-value">
+        <a href="https://lcmspubcontact.lc.ca.gov/PublicLCMS/ContactPopup.php?district=AD11">Contact Assembly Member Jim Frazier</a><h3>
+        Capitol Office</h3>
+        <p>
+            P.O. Box 942849, Room 3091, Sacramento, CA 94249-0011; (916) 319-2011</p>
+        <h3>
+            District Office</h3>
+        <p>
+            1261 Travis Blvd, Suite 110, Fairfield, CA 94533; (707) 399-3011<br />
+            4703 Lone Tree Way, Antioch, CA 94531; (925) 778-5790<br />
+            &nbsp;</p>          </td>
+</tr>
+<tr class="even">
+    <td class="views-field views-field-field-member-lname-value-1">
+        <a href="https://ad06.assemblygop.com/">Gaines, Beth
+        </a><p><img  class="imagefield imagefield-field_member_photo" width="120" height="150" alt="Member Beth Gaines" src="http://assembly.ca.gov/sites/assembly.ca.gov/files/memberphotos/4.jpg?1320968337" /></p>          </td>
+    <td class="views-field views-field-field-member-district-value">
+        06          </td>
+    <td class="views-field views-field-field-member-party-value">
+        Republican          </td>
+    <td class="views-field views-field-field-member-feedbackurl-value">
+        <a href="https://lcmspubcontact.lc.ca.gov/PublicLCMS/ContactPopup.php?district=AD06">Contact Assembly Member Beth Gaines</a><h3>
+        Capitol Office</h3>
+        <p>
+            P.O. Box 942849, Room 2130, Sacramento, CA 94249-0006; (916) 319-2006</p>
+        <h3>
+            District Office</h3>
+        <p>
+            8799-A Auburn Folsom Road, Granite Bay, CA 95746; (916) 774-4430</p>          </td>
+</tr>
+<tr class="odd">
+    <td class="views-field views-field-field-member-lname-value-1">
+        <a href="http://ad03.asmrc.org/">Gallagher, James
+        </a><p><img  class="imagefield imagefield-field_member_photo" width="120" height="150" alt="Member James Gallagher" src="http://assembly.ca.gov/sites/assembly.ca.gov/files/memberphotos/Gallagher_LDC_headshot.jpg?1417455846" /></p>          </td>
+    <td class="views-field views-field-field-member-district-value">
+        03          </td>
+    <td class="views-field views-field-field-member-party-value">
+        Republican          </td>
+    <td class="views-field views-field-field-member-feedbackurl-value">
+        <a href="https://lcmspubcontact.lc.ca.gov/PublicLCMS/ContactPopup.php?district=AD03">Contact Assembly Member James Gallagher</a><h3>
+        Capitol Office</h3>
+        <p>
+            P.O. Box 942849, Room 5128, Sacramento, CA 94249-0003; (916) 319-2003</p>
+        <h3>
+            District Office</h3>
+        <p>
+            150 Amber Grove Drive, Suite 154, Chico, CA 95973; (530) 895-4217<br />
+            &nbsp;</p>          </td>
+</tr>
+<tr class="even">
+    <td class="views-field views-field-field-member-lname-value-1">
+        <a href="http://asmdc.org/members/a58">Garcia, Cristina
+        </a><p><img  class="imagefield imagefield-field_member_photo" width="120" height="150" alt="Member Cristina Garcia" src="http://assembly.ca.gov/sites/assembly.ca.gov/files/memberphotos/AD58-Garcia.jpg?1354557083" /></p>          </td>
+    <td class="views-field views-field-field-member-district-value">
+        58          </td>
+    <td class="views-field views-field-field-member-party-value">
+        Democrat          </td>
+    <td class="views-field views-field-field-member-feedbackurl-value">
+        <a href="https://lcmspubcontact.lc.ca.gov/PublicLCMS/ContactPopup.php?district=AD58">Contact Assembly Member Cristina Garcia</a><h3>
+        Capitol Office</h3>
+        <p>
+            P.O. Box 942849, Room 2013, Sacramento, CA 94249-0058; (916) 319-2058</p>
+        <h3>
+            District Office</h3>
+        <p>
+            8255 Firestone Blvd, Suite 203, Downey, CA 90241; (562) 861-5803<!-- 18747 Clarkdale Avenue, Artesia, CA 90701; (562) 774-2358 --></p>          </td>
+</tr>
+<tr class="odd">
+    <td class="views-field views-field-field-member-lname-value-1">
+        <a href="http://asmdc.org/members/a56">Garcia, Eduardo
+        </a><p><img  class="imagefield imagefield-field_member_photo" width="120" height="150" alt="Member Eduardo Garcia" src="http://assembly.ca.gov/sites/assembly.ca.gov/files/memberphotos/AD56_Garcia_Portrait150_20141201.jpg?1417457446" /></p>          </td>
+    <td class="views-field views-field-field-member-district-value">
+        56          </td>
+    <td class="views-field views-field-field-member-party-value">
+        Democrat          </td>
+    <td class="views-field views-field-field-member-feedbackurl-value">
+        <a href="https://lcmspubcontact.lc.ca.gov/PublicLCMS/ContactPopup.php?district=AD56">Contact Assembly Member Eduardo Garcia</a><h3>
+        Capitol Office</h3>
+        <p>
+            P.O. Box 942849, Room 4162, Sacramento, CA 94249-0056; (916) 319-2056</p>
+        <h3>
+            District Office</h3>
+        <p>
+            45-677 Oasis Street, Indio, CA 92201; (760) 342-8047<br />
+            1625 West Main Street, Suite 220, El Centro, CA 92243; (760) 336-8912</p>          </td>
+</tr>
+<tr class="even">
+    <td class="views-field views-field-field-member-lname-value-1">
+        <a href="http://asmdc.org/members/a43">Gatto, Mike
+        </a><p><img  class="imagefield imagefield-field_member_photo" width="120" height="150" alt="Member Mike Gatto" src="http://assembly.ca.gov/sites/assembly.ca.gov/files/memberphotos/AD43.jpg?1401489159" /></p>          </td>
+    <td class="views-field views-field-field-member-district-value">
+        43          </td>
+    <td class="views-field views-field-field-member-party-value">
+        Democrat          </td>
+    <td class="views-field views-field-field-member-feedbackurl-value">
+        <a href="https://lcmspubcontact.lc.ca.gov/PublicLCMS/ContactPopup.php?district=AD43">Contact Assembly Member Mike Gatto</a><h3>
+        Capitol Office</h3>
+        <p>
+            P.O. Box 942849, Room 3152, Sacramento, CA 94249-0043; (916) 319-2043</p>
+        <h3>
+            District Office</h3>
+        <p>
+            300 East Magnolia Blvd, Suite 504, Burbank, CA 91502; (818) 558-3043</p>          </td>
+</tr>
+<tr class="odd">
+    <td class="views-field views-field-field-member-lname-value-1">
+        <a href="http://asmdc.org/members/a64">Gipson, Mike A.
+        </a><p><img  class="imagefield imagefield-field_member_photo" width="120" height="150" alt="Member Mike A. Gipson" src="http://assembly.ca.gov/sites/assembly.ca.gov/files/memberphotos/AD64_Gipson_Portrait150_20141201.jpg?1417456672" /></p>          </td>
+    <td class="views-field views-field-field-member-district-value">
+        64          </td>
+    <td class="views-field views-field-field-member-party-value">
+        Democrat          </td>
+    <td class="views-field views-field-field-member-feedbackurl-value">
+        <a href="https://lcmspubcontact.lc.ca.gov/PublicLCMS/ContactPopup.php?district=AD64">Contact Assembly Member Mike A. Gipson</a><h3>
+        Capitol Office</h3>
+        <p>
+            P.O. Box 942849, Room 4164, Sacramento, CA 94249-0064; (916) 319-2064</p>
+        <h3>
+            District Office</h3>
+        <p>
+            2200 W. Artesia Blvd., Suite 210, Rancho Dominguez, CA 90220; (310) 223-1201</p>          </td>
+</tr>
+<tr class="even">
+    <td class="views-field views-field-field-member-lname-value-1">
+        <a href="http://asmdc.org/members/a51">Gomez, Jimmy
+        </a><p><img  class="imagefield imagefield-field_member_photo" width="120" height="150" alt="Member Jimmy Gomez" src="http://assembly.ca.gov/sites/assembly.ca.gov/files/memberphotos/AD51-Gomez.jpg?1354556752" /></p>          </td>
+    <td class="views-field views-field-field-member-district-value">
+        51          </td>
+    <td class="views-field views-field-field-member-party-value">
+        Democrat          </td>
+    <td class="views-field views-field-field-member-feedbackurl-value">
+        <a href="https://lcmspubcontact.lc.ca.gov/PublicLCMS/ContactPopup.php?district=AD51">Contact Assembly Member Jimmy Gomez</a><h3>
+        Capitol Office</h3>
+        <p>
+            P.O. Box 942849, Room 2114, Sacramento, CA 94249-0051; (916) 319-2051</p>
+        <h3>
+            District Office</h3>
+        <p>
+            1910 West Sunset Blvd, Suite 810, Los Angeles, CA 90026; (213) 483-5151</p>          </td>
+</tr>
+<tr class="odd">
+    <td class="views-field views-field-field-member-lname-value-1">
+        <a href="http://asmdc.org/members/a80/">Gonzalez, Lorena
+        </a><p><img  class="imagefield imagefield-field_member_photo" width="120" height="150" alt="Member Lorena  Gonzalez" src="http://assembly.ca.gov/sites/assembly.ca.gov/files/memberphotos/AD80.jpg?1394740663" /></p>          </td>
+    <td class="views-field views-field-field-member-district-value">
+        80          </td>
+    <td class="views-field views-field-field-member-party-value">
+        Democrat          </td>
+    <td class="views-field views-field-field-member-feedbackurl-value">
+        <a href="https://lcmspubcontact.lc.ca.gov/PublicLCMS/ContactPopup.php?district=AD80">Contact Assembly Member Lorena Gonzalez</a><h3>
+        Capitol Office</h3>
+        <p>
+            P.O. Box 942849, Room 6012, Sacramento, CA 94249-0080; (916) 319-2080</p>
+        <h3>
+            District Office</h3>
+        <p>
+            1350 Front Street, Suite 6022, San Diego, CA 92101; (619) 338-8090</p>          </td>
+</tr>
+<tr class="even">
+    <td class="views-field views-field-field-member-lname-value-1">
+        <a href="http://asmdc.org/members/a24">Gordon, Richard S.
+        </a><p><img  class="imagefield imagefield-field_member_photo" width="120" height="150" alt="Member Richard S. Gordon" src="http://assembly.ca.gov/sites/assembly.ca.gov/files/memberphotos/21.jpg?1320968633" /></p>          </td>
+    <td class="views-field views-field-field-member-district-value">
+        24          </td>
+    <td class="views-field views-field-field-member-party-value">
+        Democrat          </td>
+    <td class="views-field views-field-field-member-feedbackurl-value">
+        <a href="https://lcmspubcontact.lc.ca.gov/PublicLCMS/ContactPopup.php?district=AD24">Contact Assembly Member Richard S. Gordon</a><h3>
+        Capitol Office</h3>
+        <p>
+            P.O. Box 942849, Room 3013, Sacramento, CA 94249-0024; (916) 319-2024</p>
+        <h3>
+            District Office</h3>
+        <p>
+            5050 El Camino Real, Suite 117, Los Altos, CA 94022; (650) 691-2121</p>          </td>
+</tr>
+<tr class="odd">
+    <td class="views-field views-field-field-member-lname-value-1">
+        <a href="http://asmdc.org/members/a21">Gray, Adam C.
+        </a><p><img  class="imagefield imagefield-field_member_photo" width="120" height="150" alt="Member Adam C. Gray" src="http://assembly.ca.gov/sites/assembly.ca.gov/files/memberphotos/gray.png?1415646149" /></p>          </td>
+    <td class="views-field views-field-field-member-district-value">
+        21          </td>
+    <td class="views-field views-field-field-member-party-value">
+        Democrat          </td>
+    <td class="views-field views-field-field-member-feedbackurl-value">
+        <a href="https://lcmspubcontact.lc.ca.gov/PublicLCMS/ContactPopup.php?district=AD21">Contact Assembly Member Adam C. Gray</a><h3>
+        Capitol Office</h3>
+        <p>
+            P.O. Box 942849, Room 4117/4121, Sacramento, CA 94249-0021; (916) 319-2021</p>
+        <h3>
+            District Office</h3>
+        <p>
+            690 West 16th Street, Merced, CA 95340; (209) 726-5465<br />
+            1010 Tenth Street, Suite 5800, Modesto, CA 95354; (209) 521-2111</p>          </td>
+</tr>
+<tr class="even">
+    <td class="views-field views-field-field-member-lname-value-1">
+        <a href="https://ad34.assemblygop.com/">Grove, Shannon L.
+        </a><p><img  class="imagefield imagefield-field_member_photo" width="120" height="150" alt="Member Shannon L. Grove" src="http://assembly.ca.gov/sites/assembly.ca.gov/files/memberphotos/grove.jpg?1354555079" /></p>          </td>
+    <td class="views-field views-field-field-member-district-value">
+        34          </td>
+    <td class="views-field views-field-field-member-party-value">
+        Republican          </td>
+    <td class="views-field views-field-field-member-feedbackurl-value">
+        <a href="https://lcmspubcontact.lc.ca.gov/PublicLCMS/ContactPopup.php?district=AD34">Contact Assembly Member Shannon L. Grove</a><h3>
+        Capitol Office</h3>
+        <p>
+            P.O. Box 942849, Room 4208, Sacramento, CA 94249-0034; (916) 319-2034</p>
+        <h3>
+            District Office</h3>
+        <p>
+            4900 California Ave., Suite 100B, Bakersfield, CA 93309; (661) 395-2995</p>          </td>
+</tr>
+<tr class="odd">
+    <td class="views-field views-field-field-member-lname-value-1">
+        <a href="http://ad66.asmrc.org/">Hadley, David
+        </a><p><img  class="imagefield imagefield-field_member_photo" width="120" height="150" alt="Member David Hadley" src="http://assembly.ca.gov/sites/assembly.ca.gov/files/memberphotos/Hadley_LDC_headshot.jpg?1417460449" /></p>          </td>
+    <td class="views-field views-field-field-member-district-value">
+        66          </td>
+    <td class="views-field views-field-field-member-party-value">
+        Republican          </td>
+    <td class="views-field views-field-field-member-feedbackurl-value">
+        <a href="https://lcmspubcontact.lc.ca.gov/PublicLCMS/ContactPopup.php?district=AD66">Contact Assembly Member David Hadley</a><h3>
+        Capitol Office</h3>
+        <p>
+            P.O. Box 942849, Room 4102, Sacramento, CA 94249-0066; (916) 319-2066</p>
+        <h3>
+            District Office</h3>
+        <p>
+            3460 Torrance Blvd, Suite 306, Torrance, CA 90503; (310) 316-2164</p>          </td>
+</tr>
+<tr class="even">
+    <td class="views-field views-field-field-member-lname-value-1">
+        <a href="https://ad74.assemblygop.com/">Harper, Matthew
+        </a><p><img  class="imagefield imagefield-field_member_photo" width="120" height="150" alt="Member Matthew Harper" src="http://assembly.ca.gov/sites/assembly.ca.gov/files/memberphotos/Harper_LDC_headshot.jpg?1417460577" /></p>          </td>
+    <td class="views-field views-field-field-member-district-value">
+        74          </td>
+    <td class="views-field views-field-field-member-party-value">
+        Republican          </td>
+    <td class="views-field views-field-field-member-feedbackurl-value">
+        <a href="https://lcmspubcontact.lc.ca.gov/PublicLCMS/ContactPopup.php?district=AD74">Contact Assembly Member Matthew Harper</a><h3>
+        Capitol Office</h3>
+        <p>
+            P.O. Box 942849, Room 2002, Sacramento, CA 94249-0074; (916) 319-2074</p>
+        <h3>
+            District Office</h3>
+        <p>
+            1503 South Coast Drive, Suite 205, Costa Mesa, CA 92626; (714) 668-2100</p>          </td>
+</tr>
+<tr class="odd">
+    <td class="views-field views-field-field-member-lname-value-1">
+        <a href="http://asmdc.org/members/a48">Hernández, Roger
+        </a><p><img  class="imagefield imagefield-field_member_photo" width="120" height="150" alt="Member Roger Hernández" src="http://assembly.ca.gov/sites/assembly.ca.gov/files/memberphotos/AD48_photo.jpg?1393364059" /></p>          </td>
+    <td class="views-field views-field-field-member-district-value">
+        48          </td>
+    <td class="views-field views-field-field-member-party-value">
+        Democrat          </td>
+    <td class="views-field views-field-field-member-feedbackurl-value">
+        <a href="https://lcmspubcontact.lc.ca.gov/PublicLCMS/ContactPopup.php?district=AD48">Contact Assembly Member Roger Hernández</a><h3>
+        Capitol Office</h3>
+        <p>
+            P.O. Box 942849, Room 5016, Sacramento, CA 94249-0048; (916) 319-2048</p>
+        <h3>
+            District Office</h3>
+        <p>
+            100 N. Barranca Street, Suite 895, West Covina, CA 91791; (626) 960-4457</p>          </td>
+</tr>
+<tr class="even">
+    <td class="views-field views-field-field-member-lname-value-1">
+        <a href="http://asmdc.org/members/a41">Holden, Chris R.
+        </a><p><img  class="imagefield imagefield-field_member_photo" width="120" height="150" alt="Member Chris R. Holden" src="http://assembly.ca.gov/sites/assembly.ca.gov/files/memberphotos/AD41-Holden.jpg?1354555587" /></p>          </td>
+    <td class="views-field views-field-field-member-district-value">
+        41          </td>
+    <td class="views-field views-field-field-member-party-value">
+        Democrat          </td>
+    <td class="views-field views-field-field-member-feedbackurl-value">
+        <a href="https://lcmspubcontact.lc.ca.gov/PublicLCMS/ContactPopup.php?district=AD41">Contact Assembly Member Chris R. Holden</a><h3>
+        Capitol Office</h3>
+        <p>
+            P.O. Box 942849, Room 319, Sacramento, CA 94249-0041; (916) 319-2041</p>
+        <h3>
+            District Office</h3>
+        <p>
+            <font size="1">600 Rosemead Blvd, Suite 117, Pasadena, CA 91107</font>; (626) 351-1917<br />
+            415 W. Foothill Blvd, Suite 124, Claremont, CA 91711; (909) 624-7876<br />
+            &nbsp;</p>          </td>
+</tr>
+<tr class="odd">
+    <td class="views-field views-field-field-member-lname-value-1">
+        <a href="http://asmdc.org/members/a44">Irwin, Jacqui
+        </a><p><img  class="imagefield imagefield-field_member_photo" width="120" height="150" alt="Member Jacqui Irwin" src="http://assembly.ca.gov/sites/assembly.ca.gov/files/memberphotos/AD44_Irwin_Portrait150_20141201.jpg?1417455810" /></p>          </td>
+    <td class="views-field views-field-field-member-district-value">
+        44          </td>
+    <td class="views-field views-field-field-member-party-value">
+        Democrat          </td>
+    <td class="views-field views-field-field-member-feedbackurl-value">
+        <a href="https://lcmspubcontact.lc.ca.gov/PublicLCMS/ContactPopup.php?district=AD44">Contact Assembly Member Jacqui Irwin</a><h3>
+        Capitol Office</h3>
+        <p>
+            P.O. Box 942849, Room 6011, Sacramento, CA 94249-0044; (916) 319-2044</p>
+        <h3>
+            District Office</h3>
+        <p>
+            2301 East Daily Drive, Suite 200, Camarillo, CA 93010; (805) 482-1904</p>          </td>
+</tr>
+<tr class="even">
+    <td class="views-field views-field-field-member-lname-value-1">
+        <a href="https://ad71.assemblygop.com">Jones, Brian W.
+        </a><p><img  class="imagefield imagefield-field_member_photo" width="120" height="150" alt="Member Brian W. Jones" src="http://assembly.ca.gov/sites/assembly.ca.gov/files/memberphotos/77.jpg?1320969579" /></p>          </td>
+    <td class="views-field views-field-field-member-district-value">
+        71          </td>
+    <td class="views-field views-field-field-member-party-value">
+        Republican          </td>
+    <td class="views-field views-field-field-member-feedbackurl-value">
+        <a href="https://lcmspubcontact.lc.ca.gov/PublicLCMS/ContactPopup.php?district=AD71">Contact Assembly Member Brian W. Jones</a><h3>
+        Capitol Office</h3>
+        <p>
+            P.O. Box 942849, Room 3141, Sacramento, CA 94249-0071; (916) 319-2071</p>
+        <h3>
+            District Office</h3>
+        <p>
+            10152 Mission Gorge Road, Santee, CA 92071; (619) 441-2322</p>          </td>
+</tr>
+<tr class="odd">
+    <td class="views-field views-field-field-member-lname-value-1">
+        <a href="http://asmdc.org/members/a59">Jones-Sawyer, Sr., Reginald B.
+        </a><p><img  class="imagefield imagefield-field_member_photo" width="120" height="150" alt="Member Reginald B. Jones-Sawyer, Sr." src="http://assembly.ca.gov/sites/assembly.ca.gov/files/memberphotos/AD59-Jones-Sawyer.jpg?1354557314" /></p>          </td>
+    <td class="views-field views-field-field-member-district-value">
+        59          </td>
+    <td class="views-field views-field-field-member-party-value">
+        Democrat          </td>
+    <td class="views-field views-field-field-member-feedbackurl-value">
+        <a href="https://lcmspubcontact.lc.ca.gov/PublicLCMS/ContactPopup.php?district=AD59">Contact Assembly Member Reginald B. Jones-Sawyer, Sr.</a><h3>
+        Capitol Office</h3>
+        <p>
+            P.O. Box 942849, Room 4126, Sacramento, CA 94249-0059; (916) 319-2059</p>
+        <h3>
+            District Office</h3>
+        <p>
+            700 Exposition Park Drive, Los Angeles, CA 90037; (213) 744-2111</p>          </td>
+</tr>
+<tr class="even">
+    <td class="views-field views-field-field-member-lname-value-1">
+        <a href="http://ad65.asmrc.org/">Kim, Young O.
+        </a><p><img  class="imagefield imagefield-field_member_photo" width="120" height="150" alt="Member Young O. Kim " src="http://assembly.ca.gov/sites/assembly.ca.gov/files/memberphotos/Kim_LDC_headshot.jpg?1417458178" /></p>          </td>
+    <td class="views-field views-field-field-member-district-value">
+        65          </td>
+    <td class="views-field views-field-field-member-party-value">
+        Republican          </td>
+    <td class="views-field views-field-field-member-feedbackurl-value">
+        <a href="https://lcmspubcontact.lc.ca.gov/PublicLCMS/ContactPopup.php?district=AD65">Contact Assembly Member Young O. Kim</a><h3>
+        Capitol Office</h3>
+        <p>
+            P.O. Box 942849, Room 4177, Sacramento, CA 94249-0065; (916) 319-2065</p>
+        <h3>
+            District Office</h3>
+        <p>
+            1400 North Harbor Blvd, Suite 601, Fullerton, CA 92835; (714) 526-7272</p>          </td>
+</tr>
+<tr class="odd">
+    <td class="views-field views-field-field-member-lname-value-1">
+        <a href="https://ad36.assemblygop.com/">Lackey, Tom
+        </a><p><img  class="imagefield imagefield-field_member_photo" width="120" height="151" alt="Member Tom Lackey" src="http://assembly.ca.gov/sites/assembly.ca.gov/files/memberphotos/lackey.png?1417455609" /></p>          </td>
+    <td class="views-field views-field-field-member-district-value">
+        36          </td>
+    <td class="views-field views-field-field-member-party-value">
+        Republican          </td>
+    <td class="views-field views-field-field-member-feedbackurl-value">
+        <a href="https://lcmspubcontact.lc.ca.gov/PublicLCMS/ContactPopup.php?district=AD36">Contact Assembly Member Tom Lackey</a><h3>
+        Capitol Office</h3>
+        <p>
+            P.O. Box 942849, Room 4009, Sacramento, CA 94249-0036; (916) 319-2036</p>
+        <h3>
+            District Office</h3>
+        <p>
+            41319 12th Street West, Suite 105, Palmdale, CA 93551; (661) 267-7636</p>          </td>
+</tr>
+<tr class="even">
+    <td class="views-field views-field-field-member-lname-value-1">
+        <a href="http://asmdc.org/members/a10">Levine, Marc
+        </a><p><img  class="imagefield imagefield-field_member_photo" width="120" height="150" alt="Member Marc Levine" src="http://assembly.ca.gov/sites/assembly.ca.gov/files/memberphotos/AD10-Levine_0.jpg?1369346546" /></p>          </td>
+    <td class="views-field views-field-field-member-district-value">
+        10          </td>
+    <td class="views-field views-field-field-member-party-value">
+        Democrat          </td>
+    <td class="views-field views-field-field-member-feedbackurl-value">
+        <a href="https://lcmspubcontact.lc.ca.gov/PublicLCMS/ContactPopup.php?district=AD10">Contact Assembly Member Marc Levine</a><h3>
+        Capitol Office</h3>
+        <p>
+            P.O. Box 942849, Room 2141, Sacramento, CA 94249-0010; (916) 319-2010</p>
+        <h3>
+            District Office</h3>
+        <p>
+            3501 Civic Center Drive,&nbsp;Suite 412, San Rafael, CA 94903; (415) 479-4920<br />
+            11 English Street, Petaluma, CA 94952; (707) 773-0606<br />
+            50 D Street,&nbsp;Suite 301, Santa Rosa CA 95404; (707) 576-2631</p>          </td>
+</tr>
+<tr class="odd">
+    <td class="views-field views-field-field-member-lname-value-1">
+        <a href="https://ad60.assemblygop.com/">Linder, Eric
+        </a><p><img  class="imagefield imagefield-field_member_photo" width="120" height="150" alt="Member Eric Linder" src="http://assembly.ca.gov/sites/assembly.ca.gov/files/memberphotos/AD-60-Eric_Linder.jpg?1354563610" /></p>          </td>
+    <td class="views-field views-field-field-member-district-value">
+        60          </td>
+    <td class="views-field views-field-field-member-party-value">
+        Republican          </td>
+    <td class="views-field views-field-field-member-feedbackurl-value">
+        <a href="https://lcmspubcontact.lc.ca.gov/PublicLCMS/ContactPopup.php?district=AD60">Contact Assembly Member Eric Linder</a><h3>
+        Capitol Office</h3>
+        <p>
+            P.O. Box 942849, Room 2016, Sacramento, CA 94249-0060; (916) 319-2060</p>
+        <h3>
+            District Office</h3>
+        <p>
+            4740 Green River Road, Suite 310-311, Corona, CA 92880;&nbsp;(951) 371-6860</p>          </td>
+</tr>
+<tr class="even">
+    <td class="views-field views-field-field-member-lname-value-1">
+        <a href="http://asmdc.org/members/a39">Lopez, Patty
+        </a><p><img  class="imagefield imagefield-field_member_photo" width="120" height="150" alt="Member Patty Lopez" src="http://assembly.ca.gov/sites/assembly.ca.gov/files/memberphotos/AD39_Lopez.jpg?1417731835" /></p>          </td>
+    <td class="views-field views-field-field-member-district-value">
+        39          </td>
+    <td class="views-field views-field-field-member-party-value">
+        Democrat          </td>
+    <td class="views-field views-field-field-member-feedbackurl-value">
+        <a href="https://lcmspubcontact.lc.ca.gov/PublicLCMS/ContactPopup.php?district=AD39">Contact Assembly Member Patty Lopez</a><h3>
+        Capitol Office</h3>
+        <p>
+            P.O. Box 942849, Room 5160, Sacramento, CA 94249-0039; (916) 319-2039</p>
+        <h3>
+            District Office</h3>
+        <p>
+            9300 Laurel Canyon Blvd., First Floor, Arleta, CA 91331-4314; (818) 504-3911</p>          </td>
+</tr>
+<tr class="odd">
+    <td class="views-field views-field-field-member-lname-value-1">
+        <a href="http://asmdc.org/members/a28">Low, Evan
+        </a><p><img  class="imagefield imagefield-field_member_photo" width="120" height="150" alt="Member Evan Low" src="http://assembly.ca.gov/sites/assembly.ca.gov/files/memberphotos/AD28-Low.jpg?1418166815" /></p>          </td>
+    <td class="views-field views-field-field-member-district-value">
+        28          </td>
+    <td class="views-field views-field-field-member-party-value">
+        Democrat          </td>
+    <td class="views-field views-field-field-member-feedbackurl-value">
+        <a href="https://lcmspubcontact.lc.ca.gov/PublicLCMS/ContactPopup.php?district=AD28">Contact Assembly Member Evan Low</a><h3>
+        Capitol Office</h3>
+        <p>
+            P.O. Box 942849, Room 2175, Sacramento, CA 94249-0028; (916) 319-2028</p>
+        <h3>
+            District Office</h3>
+        <p>
+            2105 South Bascom Avenue, Suite 160, Campbell, CA 95008; (408) 371-2802&nbsp;&nbsp;</p>          </td>
+</tr>
+<tr class="even">
+    <td class="views-field views-field-field-member-lname-value-1">
+        <a href="http://ad77.asmrc.org">Maienschein, Brian
+        </a><p><img  class="imagefield imagefield-field_member_photo" width="120" height="150" alt="Member Brian Maienschein" src="http://assembly.ca.gov/sites/assembly.ca.gov/files/memberphotos/AD77-Brian_Maienschein.jpg?1354556586" /></p>          </td>
+    <td class="views-field views-field-field-member-district-value">
+        77          </td>
+    <td class="views-field views-field-field-member-party-value">
+        Republican          </td>
+    <td class="views-field views-field-field-member-feedbackurl-value">
+        <a href="https://lcmspubcontact.lc.ca.gov/PublicLCMS/ContactPopup.php?district=AD77">Contact Assembly Member Brian Maienschein</a><h3>
+        Capitol Office</h3>
+        <p>
+            P.O. Box 942849, Room 4139, Sacramento, CA 94249-0077; (916) 319-2077</p>
+        <h3>
+            District Office</h3>
+        <p>
+            12396 World Trade Drive, Suite 118, San Diego, CA 92128; (858) 675-0077&nbsp;</p>          </td>
+</tr>
+<tr class="odd">
+    <td class="views-field views-field-field-member-lname-value-1">
+        <a href="http://ad26.asmrc.org/">Mathis, Devon J.
+        </a><p><img  class="imagefield imagefield-field_member_photo" width="120" height="150" alt="Member Devon J. Mathis" src="http://assembly.ca.gov/sites/assembly.ca.gov/files/memberphotos/mathis.png?1417455757" /></p>          </td>
+    <td class="views-field views-field-field-member-district-value">
+        26          </td>
+    <td class="views-field views-field-field-member-party-value">
+        Republican          </td>
+    <td class="views-field views-field-field-member-feedbackurl-value">
+        <a href="https://lcmspubcontact.lc.ca.gov/PublicLCMS/ContactPopup.php?district=AD26">Contact Assembly Member Devon J. Mathis</a><h3>
+        Capitol Office</h3>
+        <p>
+            P.O. Box 942849, Room 5126, Sacramento, CA 94249-0026; (916) 319-2026</p>
+        <h3>
+            District Office</h3>
+        <p>
+            113 North Church Street, Suite 505, Visalia, CA 93291; (559) 636-3440</p>          </td>
+</tr>
+<tr class="even">
+    <td class="views-field views-field-field-member-lname-value-1">
+        <a href="https://ad42.assemblygop.com/">Mayes, Chad
+        </a><p><img  class="imagefield imagefield-field_member_photo" width="120" height="150" alt="Member Chad Mayes" src="http://assembly.ca.gov/sites/assembly.ca.gov/files/memberphotos/Mayes_LDC_headshot.jpg?1417455728" /></p>          </td>
+    <td class="views-field views-field-field-member-district-value">
+        42          </td>
+    <td class="views-field views-field-field-member-party-value">
+        Republican          </td>
+    <td class="views-field views-field-field-member-feedbackurl-value">
+        <a href="https://lcmspubcontact.lc.ca.gov/PublicLCMS/ContactPopup.php?district=AD42">Contact Assembly Member Chad Mayes</a><h3>
+        Capitol Office</h3>
+        <p>
+            P.O. Box 942849, Room 4144, Sacramento, CA 94249-0042; (916) 319-2042</p>
+        <h3>
+            District Office</h3>
+        <p>
+            2091 West Florida Avenue, Suite 125, Hemet, CA 92545; (951) 925-8306<br />
+            73-710 Fred Waring Drive, Suite 116, Palm Desert, CA 92260; (760) 674-0164</p>          </td>
+</tr>
+<tr class="odd">
+    <td class="views-field views-field-field-member-lname-value-1">
+        <a href="http://asmdc.org/members/a07/">McCarty, Kevin
+        </a><p><img  class="imagefield imagefield-field_member_photo" width="120" height="150" alt="Member Kevin McCarty" src="http://assembly.ca.gov/sites/assembly.ca.gov/files/memberphotos/AD07_McCarty_Portrait150_20141201.jpg?1417456563" /></p>          </td>
+    <td class="views-field views-field-field-member-district-value">
+        07          </td>
+    <td class="views-field views-field-field-member-party-value">
+        Democrat          </td>
+    <td class="views-field views-field-field-member-feedbackurl-value">
+        <a href="https://lcmspubcontact.lc.ca.gov/PublicLCMS/ContactPopup.php?district=AD07">Contact Assembly Member Kevin McCarty</a><h3>
+        Capitol Office</h3>
+        <p>
+            P.O. Box 942849, Room 2160, Sacramento, CA 94249-0007; (916) 319-2007</p>
+        <h3>
+            District Office</h3>
+        <p>
+            915 L Street, Suite 110, Sacramento, CA 95814; (916) 324-4676<br />
+            &nbsp;</p>          </td>
+</tr>
+<tr class="even">
+    <td class="views-field views-field-field-member-lname-value-1">
+        <a href="http://asmdc.org/members/a61">Medina, Jose
+        </a><p><img  class="imagefield imagefield-field_member_photo" width="120" height="150" alt="Member Jose Medina" src="http://assembly.ca.gov/sites/assembly.ca.gov/files/memberphotos/AD61-Medina_0.jpg?1359655255" /></p>          </td>
+    <td class="views-field views-field-field-member-district-value">
+        61          </td>
+    <td class="views-field views-field-field-member-party-value">
+        Democrat          </td>
+    <td class="views-field views-field-field-member-feedbackurl-value">
+        <a href="https://lcmspubcontact.lc.ca.gov/PublicLCMS/ContactPopup.php?district=AD61">Contact Assembly Member Jose Medina</a><h3>
+        Capitol Office</h3>
+        <p>
+            P.O. Box 942849, Room 5135, Sacramento, CA 94249-0061; (916) 319-2061</p>
+        <h3>
+            District Office</h3>
+        <p>
+            1223 University Avenue, Suite 230, Riverside, CA 92507; (951) 369-6644<br />
+            137 N. Perris Blvd, Suite 15, Perris, CA 92570; (951) 369-6644</p>
+        <!--
+        <h3>
+            District Office</h3>
+        <p>
+            360 West Avenue 26, Suite 121 &amp; 122, Los Angeles, CA 90031; (323) 225-4545</p>-->          </td>
+</tr>
+<tr class="odd">
+    <td class="views-field views-field-field-member-lname-value-1">
+        <a href="https://ad67.assemblygop.com/">Melendez, Melissa A.
+        </a><p><img  class="imagefield imagefield-field_member_photo" width="120" height="150" alt="Member Melissa A. Melendez" src="http://assembly.ca.gov/sites/assembly.ca.gov/files/memberphotos/MelissaMelendez.jpg?1360868038" /></p>          </td>
+    <td class="views-field views-field-field-member-district-value">
+        67          </td>
+    <td class="views-field views-field-field-member-party-value">
+        Republican          </td>
+    <td class="views-field views-field-field-member-feedbackurl-value">
+        <a href="https://lcmspubcontact.lc.ca.gov/PublicLCMS/ContactPopup.php?district=AD67">Contact Assembly Member Melissa A. Melendez</a><h3>
+        Capitol Office</h3>
+        <p>
+            P.O. Box 942849, Room 6031, Sacramento, CA 94249-0067; (916) 319-2067</p>
+        <h3>
+            District Office</h3>
+        <p>
+            41391 Kalmia Street, Suite 220, Murrieta, CA 92562; (951) 894-1232</p>          </td>
+</tr>
+<tr class="even">
+    <td class="views-field views-field-field-member-lname-value-1">
+        <a href="http://asmdc.org/members/a22">Mullin, Kevin
+        </a><p><img  class="imagefield imagefield-field_member_photo" width="120" height="150" alt="Member Kevin Mullin" src="http://assembly.ca.gov/sites/assembly.ca.gov/files/memberphotos/AD22-Mullin.jpg?1354561409" /></p>          </td>
+    <td class="views-field views-field-field-member-district-value">
+        22          </td>
+    <td class="views-field views-field-field-member-party-value">
+        Democrat          </td>
+    <td class="views-field views-field-field-member-feedbackurl-value">
+        <a href="https://lcmspubcontact.lc.ca.gov/PublicLCMS/ContactPopup.php?district=AD22">Contact Assembly Member Kevin Mullin</a><h3>
+        Capitol Office</h3>
+        <p>
+            P.O. Box 942849, Room 3160, Sacramento, CA 94249-0022; (916) 319-2022</p>
+        <h3>
+            District Office</h3>
+        <p>
+            1528 South El Camino Real, Suite 302, San Mateo, CA 94402; (650) 349-2200 <!--
+<h3>
+	District Office</h3>
+<p>
+	4557 Quail Lake Drive, Suite C3, Stockton, CA 95207; (209) 473-6972</p>--></p>          </td>
+</tr>
+<tr class="odd">
+    <td class="views-field views-field-field-member-lname-value-1">
+        <a href="http://asmdc.org/members/a46">Nazarian, Adrin
+        </a><p><img  class="imagefield imagefield-field_member_photo" width="120" height="150" alt="Member Adrin Nazarian" src="http://assembly.ca.gov/sites/assembly.ca.gov/files/memberphotos/AD46-Nazarian.jpg?1354555803" /></p>          </td>
+    <td class="views-field views-field-field-member-district-value">
+        46          </td>
+    <td class="views-field views-field-field-member-party-value">
+        Democrat          </td>
+    <td class="views-field views-field-field-member-feedbackurl-value">
+        <a href="https://lcmspubcontact.lc.ca.gov/PublicLCMS/ContactPopup.php?district=AD46">Contact Assembly Member Adrin Nazarian</a><h3>
+        Capitol Office</h3>
+        <p>
+            P.O. Box 942849, Room 4146, Sacramento, CA 94249-0046; (916) 319-2046</p>
+        <h3>
+            District Office</h3>
+        <p>
+            6150 Van Nuys Blvd, Suite 300, Van Nuys, CA 91401; (818) 376-4246</p>
+        <!--
+        <h3>
+            District Office</h3>
+        <p>
+            9200 Sunset Blvd., Suite 1212, West Hollywood, CA 90069; (310) 285-5490</p>-->          </td>
+</tr>
+<tr class="even">
+    <td class="views-field views-field-field-member-lname-value-1">
+        <a href="http://asmdc.org/members/a70">O&#039;Donnell, Patrick
+        </a><p><img  class="imagefield imagefield-field_member_photo" width="120" height="150" alt="Member Patrick O&amp;#039;Donnell" src="http://assembly.ca.gov/sites/assembly.ca.gov/files/memberphotos/AD70_ODonnell_Portrait150_20141201.jpg?1417454926" /></p>          </td>
+    <td class="views-field views-field-field-member-district-value">
+        70          </td>
+    <td class="views-field views-field-field-member-party-value">
+        Democrat          </td>
+    <td class="views-field views-field-field-member-feedbackurl-value">
+        <a href="https://lcmspubcontact.lc.ca.gov/PublicLCMS/ContactPopup.php?district=AD70">Contact Assembly Member Patrick O&#039;Donnell</a><h3>
+        Capitol Office</h3>
+        <p>
+            P.O. Box 942849, Room 4167, Sacramento, CA 94249-0070; (916) 319-2070</p>
+        <h3>
+            District Office</h3>
+        <p>
+            110 Pine Avenue, Suite 804, Long Beach, CA 90802; (562) 495-2915<br />
+            461 West 6th Street, Suite 209; San Pedro, CA 90731; (310) 548-6420</p>          </td>
+</tr>
+<tr class="odd">
+    <td class="views-field views-field-field-member-lname-value-1">
+        <a href="https://ad33.assemblygop.com/">Obernolte, Jay
+        </a><p><img  class="imagefield imagefield-field_member_photo" width="120" height="150" alt="Member Jay Obernolte" src="http://assembly.ca.gov/sites/assembly.ca.gov/files/memberphotos/obernolte.png?1417455684" /></p>          </td>
+    <td class="views-field views-field-field-member-district-value">
+        33          </td>
+    <td class="views-field views-field-field-member-party-value">
+        Republican          </td>
+    <td class="views-field views-field-field-member-feedbackurl-value">
+        <a href="https://lcmspubcontact.lc.ca.gov/PublicLCMS/ContactPopup.php?district=AD33">Contact Assembly Member Jay Obernolte</a><h3>
+        Capitol Office</h3>
+        <p>
+            P.O. Box 942849, Room 4116, Sacramento, CA 94249-0033; (916) 319-2033</p>
+        <h3>
+            District Office</h3>
+        <p>
+            15900 Smoketree Street Suite 100, Hesperia, CA 92345; (760) 244-5277&nbsp;</p>          </td>
+</tr>
+<tr class="even">
+    <td class="views-field views-field-field-member-lname-value-1">
+        <a href="https://ad12.assemblygop.com/">Olsen, Kristin
+        </a><p><img  class="imagefield imagefield-field_member_photo" width="120" height="151" alt="Member Kristin Olsen" src="http://assembly.ca.gov/sites/assembly.ca.gov/files/memberphotos/Olsen%20official%20ASM%20photo.jpg?1325788893" /></p>          </td>
+    <td class="views-field views-field-field-member-district-value">
+        12          </td>
+    <td class="views-field views-field-field-member-party-value">
+        Republican          </td>
+    <td class="views-field views-field-field-member-feedbackurl-value">
+        <a href="https://lcmspubcontact.lc.ca.gov/PublicLCMS/ContactPopup.php?district=AD12">Contact Assembly Member Kristin Olsen</a><h3>
+        Capitol Office</h3>
+        <p>
+            P.O. Box 942849, Room 3104, Sacramento, CA 94249-0012; (916) 319-2012</p>
+        <h3>
+            District Office</h3>
+        <p>
+            3719 Tully Road, Suite C, Modesto, CA 95356; (209) 576-6425</p>          </td>
+</tr>
+<tr class="odd">
+    <td class="views-field views-field-field-member-lname-value-1">
+        <a href="https://ad23.assemblygop.com">Patterson, Jim
+        </a><p><img  class="imagefield imagefield-field_member_photo" width="120" height="150" alt="Member Jim Patterson" src="http://assembly.ca.gov/sites/assembly.ca.gov/files/memberphotos/AD23-Jim_Patterson.jpg?1354552784" /></p>          </td>
+    <td class="views-field views-field-field-member-district-value">
+        23          </td>
+    <td class="views-field views-field-field-member-party-value">
+        Republican          </td>
+    <td class="views-field views-field-field-member-feedbackurl-value">
+        <a href="https://lcmspubcontact.lc.ca.gov/PublicLCMS/ContactPopup.php?district=AD23">Contact Assembly Member Jim Patterson</a><h3>
+        Capitol Office</h3>
+        <p>
+            P.O. Box 942849, Room 3132, Sacramento, CA 94249-0023; (916) 319-2023</p>
+        <h3>
+            District Office</h3>
+        <p>
+            6245 N. Fresno Street, Suite 106, Fresno, CA 93710; (559) 446-2029</p>          </td>
+</tr>
+<tr class="even">
+    <td class="views-field views-field-field-member-lname-value-1">
+        <a href="http://asmdc.org/members/a31">Perea, Henry T.
+        </a><p><img  class="imagefield imagefield-field_member_photo" width="120" height="150" alt="Member Henry T. Perea" src="http://assembly.ca.gov/sites/assembly.ca.gov/files/memberphotos/31.jpg?1321660110" /></p>          </td>
+    <td class="views-field views-field-field-member-district-value">
+        31          </td>
+    <td class="views-field views-field-field-member-party-value">
+        Democrat          </td>
+    <td class="views-field views-field-field-member-feedbackurl-value">
+        <a href="https://lcmspubcontact.lc.ca.gov/PublicLCMS/ContactPopup.php?district=AD31">Contact Assembly Member Henry T. Perea</a><h3>
+        Capitol Office</h3>
+        <p>
+            P.O. Box 942849, Room 3120, Sacramento, CA 94249-0031; (916) 319-2031</p>
+        <h3>
+            District Office</h3>
+        <p>
+            2550 Mariposa Mall, Suite 5031, Fresno, CA 93721; (559) 445-5532</p>          </td>
+</tr>
+<tr class="odd">
+    <td class="views-field views-field-field-member-lname-value-1">
+        <a href="http://asmdc.org/members/a20">Quirk, Bill
+        </a><p><img  class="imagefield imagefield-field_member_photo" width="120" height="150" alt="Member Bill Quirk" src="http://assembly.ca.gov/sites/assembly.ca.gov/files/memberphotos/AD20-Quirk.jpg?1354551652" /></p>          </td>
+    <td class="views-field views-field-field-member-district-value">
+        20          </td>
+    <td class="views-field views-field-field-member-party-value">
+        Democrat          </td>
+    <td class="views-field views-field-field-member-feedbackurl-value">
+        <a href="https://lcmspubcontact.lc.ca.gov/PublicLCMS/ContactPopup.php?district=AD20">Contact Assembly Member Bill Quirk</a><h3>
+        Capitol Office</h3>
+        <p>
+            P.O. Box 942849, Room 2163, Sacramento, CA 94249-0020; (916) 319-2020</p>
+        <h3>
+            District Office</h3>
+        <p>
+            22320 Foothill Blvd, Suite 540, Hayward, CA 94541; (510) 583-8818</p>          </td>
+</tr>
+<tr class="even">
+    <td class="views-field views-field-field-member-lname-value-1">
+        <a href="http://asmdc.org/members/a63">Rendon, Anthony
+        </a><p><img  class="imagefield imagefield-field_member_photo" width="120" height="150" alt="Member Anthony Rendon" src="http://assembly.ca.gov/sites/assembly.ca.gov/files/memberphotos/AD63.jpg?1363042184" /></p>          </td>
+    <td class="views-field views-field-field-member-district-value">
+        63          </td>
+    <td class="views-field views-field-field-member-party-value">
+        Democrat          </td>
+    <td class="views-field views-field-field-member-feedbackurl-value">
+        <a href="https://lcmspubcontact.lc.ca.gov/PublicLCMS/ContactPopup.php?district=AD63">Contact Assembly Member Anthony Rendon</a><h3>
+        Capitol Office</h3>
+        <p>
+            P.O. Box 942849, Room 5136, Sacramento, CA 94249-0063; (916) 319-2063</p>
+        <h3>
+            District Office</h3>
+        <p>
+            12132 South Garfield Avenue, South Gate, CA 90280; (562) 529-3250</p>          </td>
+</tr>
+<tr class="odd">
+    <td class="views-field views-field-field-member-lname-value-1">
+        <a href="http://asmdc.org/members/a54">Ridley-Thomas, Sebastian
+        </a><p><img  class="imagefield imagefield-field_member_photo" width="120" height="150" alt="Member Sebastian Ridley-Thomas " src="http://assembly.ca.gov/sites/assembly.ca.gov/files/memberphotos/AD54.jpg?1388710814" /></p>          </td>
+    <td class="views-field views-field-field-member-district-value">
+        54          </td>
+    <td class="views-field views-field-field-member-party-value">
+        Democrat          </td>
+    <td class="views-field views-field-field-member-feedbackurl-value">
+        <a href="https://lcmspubcontact.lc.ca.gov/PublicLCMS/ContactPopup.php?district=AD54">Contact Assembly Member Sebastian Ridley-Thomas</a><h3>
+        Capitol Office</h3>
+        <p>
+            P.O. Box 942849, Room 2176, Sacramento, CA 94249-0054; (916) 319-2054</p>
+        <p>
+            &nbsp;</p>
+        <h3>
+            District Office</h3>
+        <p>
+            300 Corporate Pointe, Suite 380, Culver City, CA&nbsp;90230; (310) 342-1070<br />
+            &nbsp;</p>          </td>
+</tr>
+<tr class="even">
+    <td class="views-field views-field-field-member-lname-value-1">
+        <a href="http://www.asmdc.org/members/a52/">Rodriguez, Freddie
+        </a><p><img  class="imagefield imagefield-field_member_photo" width="120" height="150" alt="Member Freddie Rodriguez" src="http://assembly.ca.gov/sites/assembly.ca.gov/files/memberphotos/AD52_Rodriguez_0.jpg?1381522228" /></p>          </td>
+    <td class="views-field views-field-field-member-district-value">
+        52          </td>
+    <td class="views-field views-field-field-member-party-value">
+        Democrat          </td>
+    <td class="views-field views-field-field-member-feedbackurl-value">
+        <a href="https://lcmspubcontact.lc.ca.gov/PublicLCMS/ContactPopup.php?district=AD52">Contact Assembly Member Freddie Rodriguez</a><h3>
+        Capitol Office</h3>
+        <p>
+            P.O. Box 942849, Room 6025, Sacramento, CA 94249-0052; (916) 319-2052</p>
+        <h3>
+            District Office</h3>
+        <p>
+            13160 7th Street, Chino, CA 91710; (909) 902-9606<!-- 18747 Clarkdale Avenue, Artesia, CA 90701; (562) 774-2358 --></p>          </td>
+</tr>
+<tr class="odd">
+    <td class="views-field views-field-field-member-lname-value-1">
+        <a href="http://asmdc.org/members/a32">Salas, Jr., Rudy
+        </a><p><img  class="imagefield imagefield-field_member_photo" width="120" height="150" alt="Member Rudy Salas, Jr." src="http://assembly.ca.gov/sites/assembly.ca.gov/files/memberphotos/AD32_0.jpg?1363042121" /></p>          </td>
+    <td class="views-field views-field-field-member-district-value">
+        32          </td>
+    <td class="views-field views-field-field-member-party-value">
+        Democrat          </td>
+    <td class="views-field views-field-field-member-feedbackurl-value">
+        <a href="https://lcmspubcontact.lc.ca.gov/PublicLCMS/ContactPopup.php?district=AD32">Contact Assembly Member Rudy Salas, Jr.</a><h3>
+        Capitol Office</h3>
+        <p>
+            P.O. Box 942849, Room 2188, Sacramento, CA 94249-0032; (916) 319-2032</p>
+        <h3>
+            District Office</h3>
+        <p>
+            1430 Truxtun Ave, Suite 803, Bakersfield, CA 93301; (661) 335-0302<br />
+            113 Court Street, Suite 201, Hanford, CA 93230; (559) 585-7170</p>          </td>
+</tr>
+<tr class="even">
+    <td class="views-field views-field-field-member-lname-value-1">
+        <a href="http://asmdc.org/members/a53">Santiago, Miguel
+        </a><p><img  class="imagefield imagefield-field_member_photo" width="120" height="150" alt="Member Miguel Santiago" src="http://assembly.ca.gov/sites/assembly.ca.gov/files/memberphotos/AD53_Santiago_Portrait150_20141201.jpg?1417459693" /></p>          </td>
+    <td class="views-field views-field-field-member-district-value">
+        53          </td>
+    <td class="views-field views-field-field-member-party-value">
+        Democrat          </td>
+    <td class="views-field views-field-field-member-feedbackurl-value">
+        <a href="https://lcmspubcontact.lc.ca.gov/PublicLCMS/ContactPopup.php?district=AD53">Contact Assembly Member Miguel Santiago</a><h3>
+        Capitol Office</h3>
+        <p>
+            P.O. Box 942849, Room 5119, Sacramento, CA 94249-0053; (916) 319-2053</p>
+        <h3>
+            District Office</h3>
+        <p>
+            320 West 4th Street, Room 1050, Los Angeles, CA 90013; (213) 620-4646</p>          </td>
+</tr>
+<tr class="odd">
+    <td class="views-field views-field-field-member-lname-value-1">
+        <a href="https://ad40.assemblygop.com/">Steinorth, Marc
+        </a><p><img  class="imagefield imagefield-field_member_photo" width="120" height="150" alt="Member Marc Steinorth" src="http://assembly.ca.gov/sites/assembly.ca.gov/files/memberphotos/Steinorth_LDC_headshot.jpg?1417455674" /></p>          </td>
+    <td class="views-field views-field-field-member-district-value">
+        40          </td>
+    <td class="views-field views-field-field-member-party-value">
+        Republican          </td>
+    <td class="views-field views-field-field-member-feedbackurl-value">
+        <a href="https://lcmspubcontact.lc.ca.gov/PublicLCMS/ContactPopup.php?district=AD40">Contact Assembly Member Marc Steinorth</a><h3>
+        Capitol Office</h3>
+        <p>
+            P.O. Box 942849, Room 2111, Sacramento, CA 94249-0040; (916) 319-2040</p>
+        <h3>
+            District Office</h3>
+        <p>
+            10604 N Trademark Parkway Suite 308, Rancho Cucamonga, CA 91730; (909) 466-9096</p>          </td>
+</tr>
+<tr class="even">
+    <td class="views-field views-field-field-member-lname-value-1">
+        <a href="http://asmdc.org/members/a29">Stone, Mark
+        </a><p><img  class="imagefield imagefield-field_member_photo" width="120" height="150" alt="Member Mark Stone" src="http://assembly.ca.gov/sites/assembly.ca.gov/files/memberphotos/AD29-Stone.jpg?1354552907" /></p>          </td>
+    <td class="views-field views-field-field-member-district-value">
+        29          </td>
+    <td class="views-field views-field-field-member-party-value">
+        Democrat          </td>
+    <td class="views-field views-field-field-member-feedbackurl-value">
+        <a href="https://lcmspubcontact.lc.ca.gov/PublicLCMS/ContactPopup.php?district=AD29">Contact Assembly Member Mark Stone</a><h3>
+        Capitol Office</h3>
+        <p>
+            P.O. Box 942849, Room 5155, Sacramento, CA 94249-0029; (916) 319-2029</p>
+        <h3>
+            District Office</h3>
+        <p>
+            701 Ocean Street, Suite 318-B, Santa Cruz, CA 95060; (831) 425-1503<br />
+            99 Pacific Street, Suite 555D, Monterey, CA 93940; (831) 649-2832<br />
+            &nbsp;</p>
+        <p>
+            <!--
+            <h3>
+                District Office</h3>
+            <p>
+                6245 N. Fresno Street, Suite 106, Fresno, CA 93710; (559) 446-2029</p>--></p>          </td>
+</tr>
+<tr class="odd">
+    <td class="views-field views-field-field-member-lname-value-1">
+        <a href="http://asmdc.org/members/a15">Thurmond, Tony
+        </a><p><img  class="imagefield imagefield-field_member_photo" width="120" height="150" alt="Member Tony Thurmond" src="http://assembly.ca.gov/sites/assembly.ca.gov/files/memberphotos/AD15_Thurmond_Portrait150_20141201.jpg?1417459998" /></p>          </td>
+    <td class="views-field views-field-field-member-district-value">
+        15          </td>
+    <td class="views-field views-field-field-member-party-value">
+        Democrat          </td>
+    <td class="views-field views-field-field-member-feedbackurl-value">
+        <a href="https://lcmspubcontact.lc.ca.gov/PublicLCMS/ContactPopup.php?district=AD15">Contact Assembly Member Tony Thurmond</a><h3>
+        Capitol Office</h3>
+        <p>
+            P.O. Box 942849, Room 5150, Sacramento, CA 94249-0015; (916) 319-2015</p>
+        <h3>
+            District Office</h3>
+        <p>
+            1515 Clay Street, Suite 2201, Oakland, CA 94612; (510) 286-1400</p>          </td>
+</tr>
+<tr class="even">
+    <td class="views-field views-field-field-member-lname-value-1">
+        <a href="http://asmdc.org/members/a19">Ting, Philip Y.
+        </a><p><img  class="imagefield imagefield-field_member_photo" width="120" height="168" alt="Member Philip Y.  Ting" src="http://assembly.ca.gov/sites/assembly.ca.gov/files/memberphotos/AD19_Ting_0.jpg?1379709049" /></p>          </td>
+    <td class="views-field views-field-field-member-district-value">
+        19          </td>
+    <td class="views-field views-field-field-member-party-value">
+        Democrat          </td>
+    <td class="views-field views-field-field-member-feedbackurl-value">
+        <a href="https://lcmspubcontact.lc.ca.gov/PublicLCMS/ContactPopup.php?district=AD19">Contact Assembly Member Philip Y. Ting</a><h3>
+        Capitol Office</h3>
+        <p>
+            P.O. Box 942849, Room 3123, Sacramento, CA 94249-0019; (916) 319-2019</p>
+        <h3>
+            District Office</h3>
+        <p>
+            455 Golden&nbsp;Gate Avenue, Suite 14600, San Francisco, CA 94102; (415) 557-2312</p>          </td>
+</tr>
+<tr class="odd">
+    <td class="views-field views-field-field-member-lname-value-1">
+        <a href="https://ad68.assemblygop.com/">Wagner, Donald P.
+        </a><p><img  class="imagefield imagefield-field_member_photo" width="120" height="150" alt="Member Donald P. Wagner" src="http://assembly.ca.gov/sites/assembly.ca.gov/files/memberphotos/70.jpg?1321660850" /></p>          </td>
+    <td class="views-field views-field-field-member-district-value">
+        68          </td>
+    <td class="views-field views-field-field-member-party-value">
+        Republican          </td>
+    <td class="views-field views-field-field-member-feedbackurl-value">
+        <a href="https://lcmspubcontact.lc.ca.gov/PublicLCMS/ContactPopup.php?district=AD68">Contact Assembly Member Donald P. Wagner</a><h3>
+        Capitol Office</h3>
+        <p>
+            P.O. Box 942849, Room 3098, Sacramento, CA 94249-0068; (916) 319-2068</p>
+        <h3>
+            District Office</h3>
+        <p>
+            17821 East 17th Street, Suite 150, Tustin, CA 92780; (714) 665-6868</p>          </td>
+</tr>
+<tr class="even">
+    <td class="views-field views-field-field-member-lname-value-1">
+        <a href="https://ad75.assemblygop.com/">Waldron, Marie
+        </a><p><img  class="imagefield imagefield-field_member_photo" width="120" height="150" alt="Member Marie Waldron" src="http://assembly.ca.gov/sites/assembly.ca.gov/files/memberphotos/AD75-Marie_Waldron.jpg?1354558469" /></p>          </td>
+    <td class="views-field views-field-field-member-district-value">
+        75          </td>
+    <td class="views-field views-field-field-member-party-value">
+        Republican          </td>
+    <td class="views-field views-field-field-member-feedbackurl-value">
+        <a href="https://lcmspubcontact.lc.ca.gov/PublicLCMS/ContactPopup.php?district=AD75">Contact Assembly Member Marie Waldron</a><h3>
+        Capitol Office</h3>
+        <p>
+            P.O. Box 942849, Room 4130, Sacramento, CA 94249-0075; (916) 319-2075</p>
+        <h3>
+            District Office</h3>
+        <p>
+            <font size="1">350 West 5th Avenue, <font size="1">Suite </font>110, Escondido, CA 92025</font>; (760) 480-7570</p>          </td>
+</tr>
+<tr class="odd">
+    <td class="views-field views-field-field-member-lname-value-1">
+        <a href="http://asmdc.org/members/a79/">Weber, Shirley N.
+        </a><p><img  class="imagefield imagefield-field_member_photo" width="120" height="150" alt="Member Shirley N. Weber" src="http://assembly.ca.gov/sites/assembly.ca.gov/files/memberphotos/AD79-Weber.jpg?1354556401" /></p>          </td>
+    <td class="views-field views-field-field-member-district-value">
+        79          </td>
+    <td class="views-field views-field-field-member-party-value">
+        Democrat          </td>
+    <td class="views-field views-field-field-member-feedbackurl-value">
+        <a href="https://lcmspubcontact.lc.ca.gov/PublicLCMS/ContactPopup.php?district=AD79">Contact Assembly Member Shirley N. Weber</a><h3>
+        Capitol Office</h3>
+        <p>
+            P.O. Box 942849, Room 6026, Sacramento, CA 94249-0079; (916) 319-2079</p>
+        <h3>
+            District Office</h3>
+        <p>
+            1350 Front Street, Suite 6046, San Diego, CA 92101; (619) 531-7913</p>          </td>
+</tr>
+<tr class="even">
+    <td class="views-field views-field-field-member-lname-value-1">
+        <a href="http://ad38.asmrc.org">Wilk, Scott
+        </a><p><img  class="imagefield imagefield-field_member_photo" width="120" height="150" alt="Member Scott Wilk" src="http://assembly.ca.gov/sites/assembly.ca.gov/files/memberphotos/AD38-Scott_Wilk.jpg?1354555209" /></p>          </td>
+    <td class="views-field views-field-field-member-district-value">
+        38          </td>
+    <td class="views-field views-field-field-member-party-value">
+        Republican          </td>
+    <td class="views-field views-field-field-member-feedbackurl-value">
+        <a href="https://lcmspubcontact.lc.ca.gov/PublicLCMS/ContactPopup.php?district=AD38">Contact Assembly Member Scott Wilk</a><h3>
+        Capitol Office</h3>
+        <p>
+            P.O. Box 942849, Room 4158, Sacramento, CA 94249-0038; (916) 319-2038</p>
+        <h3>
+            District Office</h3>
+        <p>
+            <font size="1">27441 Tourney Road, Suite 160, Valencia, CA 91355</font>; (661) 286-1565</p>          </td>
+</tr>
+<tr class="odd">
+    <td class="views-field views-field-field-member-lname-value-1">
+        <a href="http://asmdc.org/members/a37">Williams, Das
+        </a><p><img  class="imagefield imagefield-field_member_photo" width="120" height="150" alt="Member Das Williams" src="http://assembly.ca.gov/sites/assembly.ca.gov/files/memberphotos/35.jpg?1321660972" /></p>          </td>
+    <td class="views-field views-field-field-member-district-value">
+        37          </td>
+    <td class="views-field views-field-field-member-party-value">
+        Democrat          </td>
+    <td class="views-field views-field-field-member-feedbackurl-value">
+        <a href="https://lcmspubcontact.lc.ca.gov/PublicLCMS/ContactPopup.php?district=AD37">Contact Assembly Member Das Williams</a><h3>
+        Capitol Office</h3>
+        <p>
+            P.O. Box 942849, Room 4005, Sacramento, CA 94249-0037; (916) 319-2037</p>
+        <h3>
+            District Office</h3>
+        <p>
+            101 West Anapamu Street, Suite A, Santa Barbara, CA 93101; (805) 564-1649<br />
+            89 South California Street, Suite F, Ventura, CA 93001; (805) 641-3700</p>          </td>
+</tr>
+<tr class="even views-row-last">
+    <td class="views-field views-field-field-member-lname-value-1">
+        <a href="http://asmdc.org/members/a02/">Wood, Jim
+        </a><p><img  class="imagefield imagefield-field_member_photo" width="120" height="150" alt="Member Jim Wood" src="http://assembly.ca.gov/sites/assembly.ca.gov/files/memberphotos/AD02_Wood_Portrait150_20141201_v2.jpg?1417456205" /></p>          </td>
+    <td class="views-field views-field-field-member-district-value">
+        02          </td>
+    <td class="views-field views-field-field-member-party-value">
+        Democrat          </td>
+    <td class="views-field views-field-field-member-feedbackurl-value">
+        <a href="https://lcmspubcontact.lc.ca.gov/PublicLCMS/ContactPopup.php?district=AD02">Contact Assembly Member Jim Wood</a><h3>
+        Capitol Office</h3>
+        <p>
+            P.O. Box 942849, Room 5164, Sacramento, CA 94249-0002; (916) 319-2002</p>
+        <h3>
+            District Office</h3>
+        <p>
+            50 D Street, Suite 450, Santa Rosa, CA 95404; (707) 576-2526<br />
+            710 E Street, Suite 150, Eureka, CA 95501; (707) 445-7014<br />
+            200 S School Street, Suite D, Ukiah, CA <span class="zip">95482</span>; (707) 463-5770</p>          </td>
+</tr>
+</tbody>
 </table>
-</blockquote>
-<!-- Insert Directory pages before this point -->
+</div>
+
+
+
+
+
+
+</div>     </div><!-- END: content -->
+</div><!-- END: block -->
+</div>
+<div class="clear"></div>
+</div>
+<!-- ********** Middle column content ends ********** -->
+
+</div>
+</div>
+
+
+<!-- BEGIN: Footer -->
+<!-- BEGIN: footer_container -->
+<div id="footer_container">
+    <div id="footer">
+        <div class="block block-lwpblocks" id="block-lwpblocks-footer_block">
+            <h2 class="title"></h2>
+            <div class="content">
+                <p>
+                    &nbsp;</p>
+                <div class="column_inner">
+                    <div class="left vertnavigation">
+                        <h4>
+                            Find my Representative</h4>
+                        <ul>
+                            <li>
+                                <a href="http://assembly.ca.gov/assemblymembers">Assembly Roster</a></li>
+                            <li>
+                                <a class="newwin" href="http://findyourrep.legislature.ca.gov/" title="...new window">By Your Address</a></li>
+                            <li>
+                                <a href="http://assembly.ca.gov/assemblymembers?order=field_member_district_value&amp;sort=asc">By District</a></li>
+                            <li>
+                                &nbsp;</li>
+                        </ul>
+                    </div>
+                    <!-- END: left div -->	<div class="left vertnavigation">
+                    <h4>
+                        Search for Legislation</h4>
+                    <ul>
+                        <li>
+                            <a class="external" href="http://leginfo.legislature.ca.gov/" target="_blank" title="...new website">Bill Search (New LegInfo)</a></li>
+                        <li>
+                            <a class="external" href="http://www.leginfo.ca.gov/bilinfo.html" target="_blank" title="...new website">Bill Search (LegInfo)</a></li>
+                        <li>
+                            <a class="external" href="http://leginfo.legislature.ca.gov/faces/codes.xhtml" target="_blank" title="...new website">California Law</a></li>
+                    </ul>
+                </div>
+                    <!-- END: left div -->	<div class="left vertnavigation">
+                    <h4>
+                        Related Sites</h4>
+                    <ul>
+                        <li>
+                            <a class="external" href="http://gov.ca.gov/home.php" target="_blank" title="...new website">Governor of California</a></li>
+                        <li>
+                            <a class="external" href="http://www.ltg.ca.gov/" target="_blank" title="...new website">Lieutenant Governor</a></li>
+                        <li>
+                            <a href="http://senate.ca.gov" target="_blank">California State Senate</a></li>
+                        <li>
+                            <a class="external" href="http://capitolmuseum.ca.gov/" target="_blank" title="...new website">Capitol Museum</a></li>
+                        <li>
+                            <a class="external" href="http://www.sos.ca.gov/" target="_blank" title="...new website">Secretary of State</a></li>
+                        <li>
+                            <a class="external" href="http://www.ca.gov/" target="_blank" title="...new website">State of California</a></li>
+                    </ul>
+                </div>
+                    <!-- END: left div -->	<div class="left vertnavigation">
+                    <h4>
+                        Quick Links</h4>
+                    <ul>
+                        <li>
+                            <a class="external" href="http://www.assembly.ca.gov">Assembly Home Page</a></li>
+                        <li>
+                            <a href="http://assembly.ca.gov/todaysevents">Today&#39;s Assembly Events</a></li>
+                        <li>
+                            <a href="http://assembly.ca.gov/dailyfile">Assembly Daily File</a></li>
+                        <li>
+                            <a href="/legislativedeadlines">Legislative Calendar</a></li>
+                        <li>
+                            <a href="http://assembly.ca.gov/salaries">Member &amp; Staff Salaries</a></li>
+                        <li>
+                            <a href="http://assembly.ca.gov/salaries">Expenditure Reports</a></li>
+                    </ul>
+                </div>
+                    <!-- END: left div -->	<div class="left vertnavigation">
+                    <h4>
+                        Downloads</h4>
+                    <ul>
+                        <li>
+                            <a class="external" href="http://get.adobe.com/reader/" title="...new website">Download Acrobat Reader</a></li>
+                        <li>
+                            <a class="external" href="http://windows.microsoft.com/en-US/windows/downloads/windows-media-player" title="...new website">Download Media Player</a></li>
+                        <li>
+                            <a class="external" href="http://www.apple.com/quicktime/" title="...new website">Download Quick Time</a></li>
+                        <li>
+                            <a href="http://www.sos.ca.gov/elections/elections_vr.htm"><img alt="Register To Vote" src="/sites/assembly.ca.gov/files/imagefield_thumbs/register-to-vote.png" style="width: 116px; height: 40px;" /></a></li>
+                    </ul>
+                </div>
+                    <!-- END: left div --></div>
+                <!-- END: column_inner div -->    </div><!-- END: content -->
+        </div><!-- END: block -->
+    </div>
+</div><!-- End footer_container -->
+<div class="clear"></div>
+
+<!-- BEGIN: subfooter -->
+<div id="subfooter" class="horznavigation">
+    <div class="block block-lwpblocks" id="block-lwpblocks-subfooter_block">
+        <h2 class="title"></h2>
+        <div class="content">
+            <ul>
+                <li>
+                    <a href="/faq">Help</a> ::</li>
+                <li>
+                    <a href="/sitemap">Site Map</a> ::</li>
+                <li>
+                    <a href="http://www.legislature.ca.gov/footer/use_privacy_policy.html">Privacy and Conditions of Use</a></li>
+            </ul>
+            <ul>
+                <li>
+                    <a href="#top">Back to Top</a></li>
+            </ul>
+            <p>
+                Copyright &copy; 2011 State of California</p>
+        </div><!-- END: content -->
+    </div><!-- END: block -->
+</div>
+<!-- END: subfooter div -->
+<!-- END: Footer -->
+
+
 </body>
+
+
 </html>

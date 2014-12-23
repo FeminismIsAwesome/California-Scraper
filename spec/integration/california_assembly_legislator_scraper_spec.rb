@@ -10,7 +10,7 @@ RSpec.describe CaliforniaAssemblyLegislatureScraper, :type => :model do
       my_response
     }
     legislators = CaliforniaAssemblyLegislatureScraper.getCaliforniaAssembly()
-    expect(legislators.length).to eq(40)
+    expect(legislators.length).to eq(80)
   end
 
   it "should get first assembly person's detail in roster" do
@@ -25,12 +25,12 @@ RSpec.describe CaliforniaAssemblyLegislatureScraper, :type => :model do
     expect(first_legislator.first_name).to eq("Katcho")
     expect(first_legislator.last_name).to eq("Achadjian")
     expect(first_legislator.middle_name).to be_nil
-    expect(first_legislator.party).to eq("Rep")
+    expect(first_legislator.party).to eq("Republican")
     expect(first_legislator.house).to eq("Assembly")
-    expect(first_legislator.district).to eq("33rd")
-    expect(first_legislator.capital_phone).to eq("(916) 319-2033")
-    expect(first_legislator.room_number).to eq("Room 2016")
-    expect(first_legislator.email).to eq("http://lcmspubcontact.lc.ca.gov/PublicLCMS/ContactPopup.php?district=AD33&")
+    expect(first_legislator.district).to eq("35")
+    expect(first_legislator.capital_phone).to eq("(916) 319-2035")
+    expect(first_legislator.room_number).to eq("P.O. Box 942849, Room 4098, Sacramento, CA 94249-0035; (916) 319-2035")
+    expect(first_legislator.email).to eq("https://lcmspubcontact.lc.ca.gov/PublicLCMS/ContactPopup.php?district=AD35")
     expect(first_legislator.state).to eq("CA")
   end
 end

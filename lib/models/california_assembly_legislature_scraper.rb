@@ -5,17 +5,21 @@ class CaliforniaAssemblyLegislatureScraper
   def self.getCaliforniaAssembly
     response = RestClient.get @@assembly_reference_url
     html_doc = Nokogiri::HTML(response.body.force_encoding("ISO-8859-1"))
-    html_doc.css("tr:nth-child(n+3)").map {|row|
+    html_doc.css("table tbody tr").map {|row|
       columns_of_row = row.css("td")
-      member_name = split_name(columns_of_row[0].text)
+      member_row = row.css(".views-field-field-member-lname-value-1")
+      district_row = row.css(".views-field-field-member-district-value")
+      party_row = row.css(".views-field-field-member-party-value")
+      feedback_row = row.css(".views-field-field-member-feedbackurl-value")
+      member_name = split_name(member_row.text)
       first_name = get_first_name_from(member_name)
       middle_name = get_middle_name_from(member_name)
       last_name = get_last_name_from(member_name)
-      party = clean_text(columns_of_row[1].text)
-      district = clean_text(columns_of_row[2].text)
-      capital_phone = clean_text(columns_of_row[3].text)
-      room_number = clean_text(columns_of_row[4].text)
-      email = extract_email(columns_of_row)
+      party = clean_text(party_row.text)
+      district = clean_text(district_row.text)
+      capital_phone = extract_phone_number_from(feedback_row, 0)
+      room_number = feedback_row.css("p")[0].text.gsub("\n","").strip
+      email = extract_email(feedback_row)
       Legislator.new(first_name: first_name, middle_name: middle_name, last_name: last_name,
                     party: party, district: district, capital_phone: capital_phone, room_number: room_number, email: email,
                     house: "Assembly", state: "CA")
@@ -23,8 +27,18 @@ class CaliforniaAssemblyLegislatureScraper
 
   end
 
-  def self.extract_email(columns_of_row)
-    possible_email = columns_of_row[5].css("a")[0]['href']
+  def self.extract_phone_number_from(feedback_row, index)
+    contact_text = feedback_row.css("p")[index].text
+    phoneRegex = /\(\d\d\d\) \d\d\d-\d\d\d\d/m
+    if contact_text.match(phoneRegex)
+      contact_text.match(phoneRegex)[0]
+    else
+      puts contact_text
+    end
+  end
+
+  def self.extract_email(email_row)
+    possible_email = email_row.css("a")[0]['href']
     if(possible_email.match(/javascript/))
       possible_email.match(/'http.*?'/)[0].gsub("'","").strip
     else
@@ -49,9 +63,13 @@ class CaliforniaAssemblyLegislatureScraper
   end
 
   def self.split_name(member_name)
-    member_name.split(" ").map {|name|
-      name.gsub(",","")
-    }
+    names = member_name.gsub("\n","").strip.split(",")
+    secondHalfOfName = names[1].strip.split(" ")
+    if secondHalfOfName.length > 2
+      [names[0].strip, secondHalfOfName[0].strip, secondHalfOfName[1].strip]
+    else
+      [names[0].strip, names[1].strip]
+    end
   end
 
   def self.get_first_name_from(member_name)
