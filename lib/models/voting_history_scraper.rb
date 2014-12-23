@@ -66,6 +66,7 @@ class VotingHistoryScraper
   def self.getAbsentsFor(content)
     if (content.match(/(ABSENT|NO VOTE RECORDED).*/m))
       absents = content.match(/(ABSENT|NO VOTE RECORDED).*<br>/m)[0]
+      absents = absents[0..absents.length-" <br>".length]
       absents = getLines(absents,2,1)
       get_names_of_votes_given(absents)
     end

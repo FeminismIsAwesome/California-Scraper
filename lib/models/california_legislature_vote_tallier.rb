@@ -20,17 +20,34 @@ class CaliforniaLegislatureVoteTallier
     end
   end
 
+
   def self.getVotesOf(type, legislator, year)
     bills = fetchBillsGivenAmbivalentName(legislator, type, year)
-    bills.map {|bill|
-      vote = VotingRecord.new
-      vote.bill_number = bill.billNumber
-      vote.bill_type = bill.billType
-      vote.legislator = legislator
-      vote.vote = type
-      vote.year = year
-      vote
-    }
+    votes = getVotesBasedOff(bills, legislator, type, year)
+    if(votes == nil)
+      []
+    else
+      votes
+    end
+  end
+
+  def self.getVotesBasedOff(bills, legislator, type, year)
+    bills.reject { |val| val.nil? }.map { |bill|
+      matchingVotingSessions = bill.votingSessions.select { |votingSession|
+        votesOfType = votingSession.send type
+        votesOfType.include?(legislator.last_name) || votesOfType.include?(legislator.full_name)
+      }
+      matchingVotingSessions.map { |votingSession|
+        vote = VotingRecord.new
+        vote.bill_number = bill.billNumber
+        vote.bill_type = bill.billType
+        vote.legislator = legislator
+        vote.vote = type
+        vote.year = year
+        vote.voting_location = votingSession.location
+        vote
+      }
+    }.reduce(:+)
   end
 
   def self.fetchBillsGivenAmbivalentName(legislator, type, year)

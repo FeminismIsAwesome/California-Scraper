@@ -5,4 +5,5 @@ class VotingRecord
   field :bill_number, type: String
   field :bill_type, type: String
   field :year, type: String
+  field :voting_location, type: String
 end

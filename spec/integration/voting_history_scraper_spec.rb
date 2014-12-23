@@ -7,13 +7,32 @@ RSpec.describe "voting history scraper", :type => :model do
   noYesVotesFile = File.open("spec/integration/examples/no_yes_votes_session.html")
   manyVotesFile = File.open("spec/integration/examples/many_votes_with_accents.html")
   sessionWithAccentsFile = File.open("spec/integration/examples/few_votes_with_accents.html")
+  absentVotesSenateFile = File.open("spec/integration/examples/absent_senate_vote.html")
+  absentVotesAssemblyFile = File.open("spec/integration/examples/absent_assembly_vote.html")
 
   sampleHistoryWith0NoVotes = noNoVotesFile.read
   sampleHistoryWith0YesVotes = noYesVotesFile.read
   sampleSessionWithManyVotes = manyVotesFile.read
   sessionWithAccents = sessionWithAccentsFile.read
+  absentVotesSenate = absentVotesSenateFile.read
+  absentVotesAssembly = absentVotesAssemblyFile.read
 
   it "should get voting noes history as noes when none exist" do
+    voting_history = VotingHistoryScraper.get_voting_history_for(sampleHistoryWith0NoVotes)
+    expect(voting_history.noes.length).to eq(0)
+  end
+
+  it "should get voting absent history if a senate vote" do
+    voting_history = VotingHistoryScraper.get_voting_history_for(absentVotesSenate)
+    expect(voting_history.absent.length).to eq(8)
+  end
+
+  it "should get voting absent history if an assembly vote" do
+    voting_history = VotingHistoryScraper.get_voting_history_for(absentVotesAssembly)
+    expect(voting_history.absent.length).to eq(1)
+  end
+
+  it "should get voting absent history if an assembly vote" do
     voting_history = VotingHistoryScraper.get_voting_history_for(sampleHistoryWith0NoVotes)
     expect(voting_history.noes.length).to eq(0)
   end
@@ -30,7 +49,7 @@ RSpec.describe "voting history scraper", :type => :model do
 
   it "should get voting absent history" do
     voting_history = VotingHistoryScraper.get_voting_history_for(sampleHistoryWith0NoVotes)
-    expect(voting_history.absent.length).to eq(2)
+    expect(voting_history.absent.length).to eq(1)
     expect(voting_history.absent[0]).to eq("Quirk")
   end
 
