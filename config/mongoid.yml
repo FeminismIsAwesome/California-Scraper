@@ -70,4 +70,4 @@ test:
 production:
   sessions:
     default:
-      uri: <%= ENV['MONGOLAB_URI'] %>
+      uri: 'mongodb://username:password@host1:port1,host2:port2/database'
