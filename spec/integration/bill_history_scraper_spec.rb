@@ -79,6 +79,7 @@ RSpec.describe "california web crawler", :type => :model do
     billResults = Bill.first
     expect(billResults.billType).to eq("AB")
     expect(billResults.votingSessions.count).to eq(1)
+    expect(billResults.bill_url).to eq("http://www.leginfo.ca.gov/cgi-bin/postquery?bill_number=ab_2&sess=1314")
   end
 
 

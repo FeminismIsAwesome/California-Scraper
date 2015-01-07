@@ -53,13 +53,17 @@ class CaliforniaWebCrawler
   end
 
   def self.getVotingHistoryLinksFor(bill)
-    searchDetails = self.formatRequestForBillDetails(bill)
-    billDetailsUrl = "#{@@bill_details_header}#{searchDetails}"
+    billDetailsUrl = getSearchUrlForBill(bill)
     response = RestClient.get billDetailsUrl
     votingHistories = BillNameScraper.get_votes_given(response.body)
     votingHistories.map {|votingHistoryUrl|
       "#{@@domain_name}#{votingHistoryUrl}"
     }
+  end
+
+  def self.getSearchUrlForBill(bill)
+    searchDetails = self.formatRequestForBillDetails(bill)
+    "#{@@bill_details_header}#{searchDetails}"
   end
 
   def self.getVotingHistoriesGiven(votingHistoryLinks)
@@ -73,7 +77,7 @@ class CaliforniaWebCrawler
   def self.storeVotingHistoriesFor(bill)
     votingHistoryLinks = self.getVotingHistoryLinksFor(bill)
     votingSessions = self.getVotingHistoriesGiven(votingHistoryLinks)
-    Bill.new(votingSessions:votingSessions, billNumber: bill.billNumber, billType: bill.billType, year: bill.year).save!
+    Bill.new(votingSessions:votingSessions, billNumber: bill.billNumber, billType: bill.billType, year: bill.year, bill_url: self.getSearchUrlForBill(bill)).save!
   end
 
 
