@@ -34,9 +34,8 @@ class CaliforniaLegislatureVoteTallier
   def self.getVotesBasedOff(bills, legislator, type, year)
     bills.reject { |val| val.nil? }.map { |bill|
       matchingVotingSessions = bill.votingSessions.select { |votingSession|
-        puts type
         votesOfType = votingSession.send type
-        votesOfType.include?(legislator.last_name) || votesOfType.include?(legislator.full_name)
+        votesOfType != nil && (votesOfType.include?(legislator.last_name) || votesOfType.include?(legislator.full_name))
       }
       matchingVotingSessions.map { |votingSession|
         vote = VotingRecord.new
