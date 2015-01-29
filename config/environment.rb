@@ -1,4 +1,3 @@
-ActiveRecord::Base.logger.level = Logger::DEBUG
 # Load the Rails application.
 Dir['./lib/models/*.rb'].each { |f| require(f) }
 Dir['./lib/crawlers/*.rb'].each { |f| require(f) }
