@@ -1,14 +1,15 @@
 <!DOCTYPE html>
-<html>
+<html ng-app="reportcard">
 <head>
-  <title>Rails4Mongoid</title>
+  <title>California Bill Scraper</title>
   <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true %>
   <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
   <%= csrf_meta_tags %>
 </head>
 <body>
-
-<%= yield %>
+<div class="container" ng-view>
+	<%= yield %>
+</div>
 
 </body>
 </html>

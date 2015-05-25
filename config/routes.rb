@@ -6,6 +6,7 @@ Rails.application.routes.draw do
     end
   end
 
+  root :to => 'report_card#index'
   namespace :example do
     get 'legislators/:last_name' => "legislators#show"
   end
