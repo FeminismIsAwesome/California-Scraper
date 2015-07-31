@@ -6,6 +6,7 @@ class CaliforniaWebCrawler
   @@bill_details_header = "http://www.leginfo.ca.gov/cgi-bin/postquery?"
   def self.getHistoryFor(bill_header)
     historyUrl = getHistoryLinkGiven(bill_header)
+    puts historyUrl
     historyResponse = RestClient.get historyUrl
     beforeAndAfterHistory = historyResponse.split("BILL HISTORY")
     HistoryParser.new().billHistoriesFor(beforeAndAfterHistory[2])
