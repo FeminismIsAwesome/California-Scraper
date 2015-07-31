@@ -3,12 +3,14 @@ require "rails_helper"
 RSpec.describe "california web crawler", :type => :model do
   it "should query bills" do
     file = File.open("spec/integration/examples/bill_history_example_basic.html")
+    file2 = File.open("spec/integration/examples/bill_history_details_example_basic.html")
     contents = file.read
+    historyContents = file2.read
     net_http_resp = Net::HTTPResponse.new(1.0, 200, "OK")
+    history_http_resp = Net::HTTPResponse.new(1.0, 200, "OK")
+    history_response = RestClient::Response.create(historyContents, history_http_resp, nil)
     my_response = RestClient::Response.create(contents, net_http_resp, nil)
-    allow(RestClient).to receive(:get) {
-      my_response
-    }
+    allow(RestClient).to receive(:get).and_return(my_response, history_response) 
     bill = AssemblyBillHeader.new(billNumber: 2, billType: "AB")
     billHistory = CaliforniaWebCrawler.getHistoryFor(bill)
     expect(billHistory["2014"][0]).to match(/Feb\. 3	From committee/)
