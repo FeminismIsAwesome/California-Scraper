@@ -1,9 +1,10 @@
 Rails.application.routes.draw do
   namespace :api, defaults: {format: "json"} do
     resources :bills, except: [:create, :new, :edit]
-    resources :legislators, except: [:create, :new, :edit] do
+    resources :legislators, except: [:create, :new, :edit, :show] do
       get "bills"
     end
+    get 'legislators/votes' => "legislators#get_votes_for_bills"
   end
 
   root :to => 'report_card#index'
