@@ -23,7 +23,7 @@ class Api::LegislatorsController < ApplicationController
         :billType => splitBillBySpace[0]
       )
     }
-    full_name = params[:legislator_id]
+    full_name = params[:legislator_name]
     names = get_first_and_last_name_from(full_name)
     legislator = Legislator.where(:last_name => names[:last_name])
     if names[:first_name]

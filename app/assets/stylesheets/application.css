@@ -13,3 +13,20 @@
  *= require_tree .
  *= require_self
  */
+
+.legislator {
+	width: 100%;
+	border: 1px solid black;
+	margin: 5px;
+}
+.legislator:hover {
+	background-color: green;
+}
+.legislator .selected{
+	background-color: green;
+}
+
+.legislator-search {
+	overflow-y: scroll;
+	max-height: 200px;
+}
