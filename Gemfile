@@ -3,6 +3,8 @@ gem 'rspec-rails', :group => [:test, :development]
 group :test do
   gem 'database_cleaner'
 end
+gem 'rails_12factor', group: :production
+
 gem 'rest_client'
 gem 'mongoid'
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
