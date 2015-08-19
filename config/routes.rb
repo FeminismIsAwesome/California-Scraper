@@ -5,6 +5,7 @@ Rails.application.routes.draw do
       get "bills"
     end
     get 'legislators/votes' => "legislators#get_votes_for_bills"
+    get 'legislators/votes/all' => "legislators#get_votes_for_bills_and_legislators"
   end
 
   root :to => 'report_card#index'

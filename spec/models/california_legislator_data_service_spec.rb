@@ -47,4 +47,36 @@ RSpec.describe CaliforniaLegislatorDataService, :type => :model do
 		expect(votes[1]).to eq(votingRecord3)
 	end
 
+	it "should get same votes from one voting locations for mutliple senators" do
+		bill = Bill.create(billNumber: "13", billType: "HR")
+		bill2 = Bill.create(billNumber: "14", billType: "SB")
+		bill3 = Bill.create(billNumber: "13", billType: "SB")
+		votingRecord = VotingRecord.create(vote: "noes", year: "2014", voting_location: "ASM. FLOOR", legislator: legislator1, bill_identity:"HR13")
+		votingRecord2 = VotingRecord.create(vote: "noes", year: "2014", voting_location: "ASM. FLOOR", bill_identity:"HR13", legislator: legislator2)
+		votingRecord3 = VotingRecord.create(vote: "ayes", year: "2014", voting_location: "SEN. FLOOR", bill_identity:"HR13", legislator: legislator3)
+		votes = CaliforniaLegislatorDataService.getVotesAndBillsForLegislators([bill], [legislator1, legislator2])
+		expect(votes.length).to eq(2)
+		expect(votes[0]).to eq(votingRecord)
+		expect(votes[1]).to eq(votingRecord2)
+	end
+
+	it "should get same votes from multiple voting locations for multiple senators" do
+		bill = Bill.create(billNumber: "13", billType: "HR")
+		bill2 = Bill.create(billNumber: "14", billType: "SB")
+		bill3 = Bill.create(billNumber: "13", billType: "SB")
+		votingRecord = VotingRecord.create(vote: "noes", year: "2014", voting_location: "ASM. FLOOR", legislator: legislator1, bill_identity:"HR13")
+		votingRecord2 = VotingRecord.create(vote: "noes", year: "2014", voting_location: "ASM. FLOOR", bill_identity:"HR13", legislator: legislator2)
+		votingRecord3 = VotingRecord.create(vote: "ayes", year: "2014", voting_location: "SEN. FLOOR", bill_identity:"HR13", legislator: legislator3)
+		votingRecord4 = VotingRecord.create(vote: "ayes", year: "2014", voting_location: "SEN. FLOOR", bill_identity:"SB13", legislator: legislator1)
+		votingRecord5 = VotingRecord.create(vote: "ayes", year: "2014", voting_location: "SEN. FLOOR", bill_identity:"SB13", legislator: legislator2)
+		votingRecord6 = VotingRecord.create(vote: "ayes", year: "2014", voting_location: "SEN. FLOOR", bill_identity:"SB14", legislator: legislator2)
+		votes = CaliforniaLegislatorDataService.getVotesAndBillsForLegislators([bill, bill3], [legislator1, legislator2])
+		expect(votes.length).to eq(4)
+		expect(votes[0]).to eq(votingRecord)
+		expect(votes[1]).to eq(votingRecord2)
+		expect(votes[2]).to eq(votingRecord4)
+		expect(votes[3]).to eq(votingRecord5)
+
+	end
+
 end
