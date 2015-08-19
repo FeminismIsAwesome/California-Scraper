@@ -1,4 +1,3 @@
-//= require angular/report-card.js
 app.directive('legislatorNameSearchbar',function(LegislatorDataService) {
   return {
     transclude: true,
