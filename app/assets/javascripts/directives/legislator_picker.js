@@ -1,4 +1,5 @@
 app = angular.module('reportcard');
+console.log("No legislator picker loads first");
 app.directive('legislatorNameSearchbar',function(LegislatorDataService) {
   return {
     transclude: true,
