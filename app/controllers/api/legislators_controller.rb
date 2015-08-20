@@ -33,9 +33,26 @@ class Api::LegislatorsController < ApplicationController
         :billType => splitBillBySpace[0]
       )
     }
-    @votes = CaliforniaLegislatorDataService.getVotesAndBillsForLegislators(bills, legislators)
-    respond_with(@votes) do |format|
-      format.json { render :json => @votes.as_json }
+    myCounter = 0
+    @votes = CaliforniaLegislatorDataService.getVotesAndBillsForLegislators(bills, legislators).to_a
+
+    @votes_by_user = {}
+    @votes.each do |vote|
+      puts "MEOW"
+      puts vote
+      if @votes_by_user[vote.legislator]
+        puts "STUCK HERE"
+        @votes_by_user[vote.legislator] += [vote]
+      else
+        @votes_by_user[vote.legislator] = [vote]
+      end
+    end
+    @votes_by_user = @votes_by_user.reduce([]) {|memo, (legislator, votes)| memo += [{
+      legislator: legislator.as_json,
+      votes: votes
+      }]}
+    respond_with(@votes_by_user) do |format|
+      format.json { render :json => @votes_by_user.as_json }
     end
   end
 

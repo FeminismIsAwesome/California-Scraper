@@ -1,4 +1,32 @@
 ALL BILLS 
-<div ng-repeat="vote in votes">
-	{{vote}}
-</div>
+<table class="voting-records">
+	<tr>
+		<td>
+			Assemblymember
+		</td>
+		<td>
+			Party
+		</td>
+		<td>
+			District
+		</td>
+		<td ng-repeat="bill in bills">
+			{{bill.billType}} {{bill.billNumber}}
+		</td>
+	</tr>
+	<tr ng-repeat="legislatorWithVote in legislatorsWithVotes">
+		<td>
+			{{legislatorWithVote.legislator.first_name}} {{legislatorWithVote.legislator.last_name}}
+		</td>
+		<td>
+			{{legislatorWithVote.legislator.party | formatParty}}
+		</td>
+		<td>
+			{{legislatorWithVote.legislator.district}}
+		</td>
+		<td ng-repeat="vote in legislatorWithVote.votes">
+			{{vote | formatVote}}
+		</td>
+	</tr>
+
+</table>

@@ -14,6 +14,13 @@
  *= require_self
  */
 
+.voting-records {
+	border: 1px solid black;
+}
+ .voting-records td {
+ 	border: 1px solid black;
+ }
+
 .legislator {
 	width: 100%;
 	border: 1px solid black;
