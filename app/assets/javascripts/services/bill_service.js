@@ -1,9 +1,6 @@
 console.log('doo daa doo daa');
 var app = angular.module('reportcard');
-app.service('BillService', ['$http', function($http) {
-    return {
-        getBillsForCard: function() {
-            return [{
+var reproJusticeBills = [{
                 billType: "AB",
                 billNumber: "241"
             }, {
@@ -42,7 +39,18 @@ app.service('BillService', ['$http', function($http) {
             },{
                 billType: "SB",
                 billNumber: "1135"
-            }]
+            }];
+app.service('BillService', ['$http', function($http) {
+    var state = {};
+    return {
+        getBillsForCard: function() {
+            return reproJusticeBills;
+        },
+        setBills: function(bills) {
+            state.bills = bills;
+        },
+        getBills: function() {
+            return state.bills;
         }
     }
 }]);

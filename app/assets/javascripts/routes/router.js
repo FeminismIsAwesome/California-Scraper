@@ -9,9 +9,17 @@ app.config([
             templateUrl: '/templates/legislators/all',
             controller: 'LegislatorsController'
         });
+        $routeProvider.when('/reportCard/new', {
+            templateUrl: '/templates/report/new',
+            controller: 'ReportCardNewController'
+        })
         $routeProvider.otherwise({
             templateUrl: '/',
             controller: 'ReportCardHomeController'
         });
+        $routeProvider.when('/reportCard/yourcard/all', {
+            templateUrl: '/templates/report/all-legislators',
+            controller: 'ReportCardLegislatorsController'
+        })
     }
 ]);

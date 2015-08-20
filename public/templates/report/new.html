@@ -1,0 +1,20 @@
+<h2> New report card </h2>
+<div> Bill Type: </div>
+<input type="text" ng-model="billType"></input>
+<div> Bill Number: </div>
+<input type="text" ng-model="billNumber"></input>
+<button ng-click="addBill()">
+	Add bill
+</button>
+Current bills you have:
+<div ng-repeat="bill in bills">
+	<div>
+		{{bill.billType}} - {{bill.billNumber}}
+	</div>
+	<button ng-click="removeBill($index)">
+		Remove bill
+	</button>
+</div>
+<button ng-click="submitBills()" ng-if="bills.length > 0"> 
+	Generate Report
+</button>

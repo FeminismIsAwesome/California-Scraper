@@ -38,16 +38,19 @@ class Api::LegislatorsController < ApplicationController
 
     @votes_by_user = {}
     @votes.each do |vote|
-      puts "MEOW"
-      puts vote
       if @votes_by_user[vote.legislator]
-        puts "STUCK HERE"
         @votes_by_user[vote.legislator] += [vote]
       else
         @votes_by_user[vote.legislator] = [vote]
       end
     end
-    @votes_by_user = @votes_by_user.reduce([]) {|memo, (legislator, votes)| memo += [{
+
+    legislators.each do |legislator| 
+      if @votes_by_user[legislator] == nil
+        @votes_by_user[legislator] = []
+      end
+    end
+        @votes_by_user = @votes_by_user.reduce([]) {|memo, (legislator, votes)| memo += [{
       legislator: legislator.as_json,
       votes: votes
       }]}
