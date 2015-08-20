@@ -1,4 +1,4 @@
-//= require angular/report-card
+var app = angular.module('reportcard');
 app.config([
     '$routeProvider', '$locationProvider', function($routeProvider, $locationProvider) {
     	$routeProvider.when('/', {

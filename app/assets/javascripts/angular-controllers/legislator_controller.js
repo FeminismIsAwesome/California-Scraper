@@ -1,4 +1,4 @@
-//= require angular/report-card
+var app = angular.module('reportcard');
 app.controller('LegislatorsController', ['$scope', 'LegislatorDataService','BillService', function($scope, LegislatorDataService,BillService) {
     LegislatorDataService.getLegislators().then(function(legislators) {
         return legislators.data.map(function(legislator) {

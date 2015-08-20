@@ -1,3 +1,4 @@
+var app = angular.module('reportcard');
 app.service('LegislatorDataService', ['$http', function($http) {
     return {
         getLegislators: function() {

@@ -1,4 +1,4 @@
-//= require angular/report-card
+var app = angular.module('reportcard');
 app.controller('ReportCardHomeController', ['$scope', 'LegislatorDataService', 'BillService', '$location', function($scope, LegislatorDataService, BillService, $location) {
     $scope.$watch('selectedLegislator', function(legislator) {
         if(legislator) {

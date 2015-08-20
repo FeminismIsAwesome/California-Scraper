@@ -1,4 +1,5 @@
-
+console.log('doo daa doo daa');
+var app = angular.module('reportcard');
 app.service('BillService', ['$http', function($http) {
     return {
         getBillsForCard: function() {
