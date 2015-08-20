@@ -4,7 +4,7 @@ group :test do
   gem 'database_cleaner'
 end
 gem 'rails_12factor', group: :production
-
+gem 'bower-rails'
 gem 'rest_client'
 gem 'mongoid'
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
@@ -25,9 +25,6 @@ group :test, :development do
 	gem 'phantomjs'
 end
 # gem 'protractor-rails'
-
-gem 'angularjs-rails'
-gem 'angular-ui-bootstrap-rails'
 # Use jquery as the JavaScript library
 gem 'jquery-rails'
 # Turbolinks makes following links in your web application faster. Read more: https://github.com/rails/turbolinks

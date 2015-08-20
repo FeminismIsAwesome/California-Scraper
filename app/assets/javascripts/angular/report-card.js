@@ -1,1 +1,1 @@
-var app = angular.module('reportcard', ['ngRoute', 'ngResource']); 
+var app = angular.module('reportcard', ['ngRoute']); 
