@@ -12,4 +12,5 @@
 //
 //= require angular/angular
 //= require angular-route/angular-route
+//= require angular-mocks/angular-mocks
 //= require_tree .
