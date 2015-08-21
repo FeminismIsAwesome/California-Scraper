@@ -1,0 +1,36 @@
+@import 'font-awesome';
+.positive-vote {
+	color: green;
+}
+.negative-vote {
+	color: red;
+}
+.absent-vote {
+	color:yellow;
+}
+.null-vote {
+	color: gray;
+}
+.voting-records {
+	border: 1px solid black;
+}
+ .voting-records td {
+ 	border: 1px solid black;
+ }
+
+.legislator {
+	width: 100%;
+	border: 1px solid black;
+	margin: 5px;
+}
+.legislator:hover {
+	background-color: green;
+}
+.legislator .selected{
+	background-color: green;
+}
+
+.legislator-search {
+	overflow-y: scroll;
+	max-height: 200px;
+}

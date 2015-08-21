@@ -1,0 +1,7 @@
+
+<div ng-switch="vote.vote">
+	<i class="fa fa-check positive-vote" ng-switch-when="ayes"> </i>
+	<i class="fa fa-times-circle-o negative-vote" ng-switch-when="noes"></i>
+	<i class="fa fa-circle absent-vote" ng-switch-when="absent"></i>
+	<i class="fa fa-check null-vote" ng-switch-default> </i>
+</div>

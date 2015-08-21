@@ -7,6 +7,7 @@ gem 'rails_12factor', group: :production
 gem 'bower-rails'
 gem 'rest_client'
 gem 'mongoid'
+gem "font-awesome-rails"
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '4.1.0'
 # Use SCSS for stylesheets

@@ -24,7 +24,8 @@
 			{{legislatorWithVote.legislator.district}}
 		</td>
 		<td ng-repeat="vote in legislatorWithVote.votes">
-			{{vote | formatVote}}
+			<format-vote vote=vote>
+			</format-vote>
 		</td>
 	</tr>
 
