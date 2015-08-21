@@ -14,7 +14,7 @@
 </legislator-name-searchbar>
 <legislator-name-searchbar selected-legislator="selectedLegislator" ng-show="showSearchDistrict" search-attribute="district">
 </legislator-name-searchbar>
-<div ng-repeat="vote in votes">
+<div class="votes-legislator" ng-repeat="vote in votes">
 	<div> Bill: {{vote.bill_identity}}</div>
 	<div> Year of bill: {{vote.year}} </div>
 	<div> Voted: {{vote.vote}} </div>
