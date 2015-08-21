@@ -1,19 +1,20 @@
 app = angular.module('reportcard');
 console.log("No legislator picker loads first");
-app.directive('legislatorNameSearchbar',['LegislatorDataService',function(LegislatorDataService) {
+app.directive('legislatorNameSearchbar', ['LegislatorDataService', function(LegislatorDataService) {
   return {
     transclude: true,
     templateUrl: '/templates/legislator_search.html',
     scope: {
-      selectedLegislator: '='
+      selectedLegislator: '=',
+      searchAttribute: '@'
     },
-    link: function(scope,elem, attrs) {
+    link: function(scope, elem, attrs) {
       LegislatorDataService.getLegislators().then(function(legislators) {
         scope.legislators = legislators.data.map(function(legislator) {
-            legislator.fullName = legislator.first_name + " " + legislator.last_name;
-            return legislator;
+          legislator.name = legislator.first_name + " " + legislator.last_name;
+          return legislator;
         }).sort(function(legislator1, legislator2) {
-          return legislator1.fullName.localeCompare(legislator2.fullName);
+          return legislator1.name.localeCompare(legislator2.name);
         });
         scope.legislatorsToSearch = scope.legislators;
       });
@@ -24,12 +25,12 @@ app.directive('legislatorNameSearchbar',['LegislatorDataService',function(Legisl
       scope.shouldHighlight = function($index) {
         return scope.selectedLegislatorIndex === $index;
       }
-    	scope.searchForLegislators = function() {
-    		scope.legislatorsToSearch = scope.legislators.filter(function(legislator) {
-        	return legislator.fullName.includes(scope.legislatorSearch);
-    		});
-  		}
-  	}
+      scope.searchForLegislators = function() {
+        scope.legislatorsToSearch = scope.legislators.filter(function(legislator) {
+          return legislator[scope.searchAttribute].includes(scope.legislatorSearch);
+        });
+      }
+    }
 
   }
 }]);

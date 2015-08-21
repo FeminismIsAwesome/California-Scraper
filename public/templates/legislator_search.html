@@ -1,9 +1,14 @@
-Find a legislator by name:
+<div>
+	Find a legislator by {{searchAttribute}}:
+</div>
 <input type="text" id="legislator-name" ng-model="legislatorSearch" ng-change="searchForLegislators()"> </input>
 <div class="legislator-search">
 	<div class="legislator" ng-repeat="legislator in legislatorsToSearch">
-		<div ng-class="{selected: shouldHighlight($index)}" ng-click="selectLegislator($index)">
+		<div class="search-name" ng-class="{selected: shouldHighlight($index)}" ng-click="selectLegislator($index)">
 			{{legislator.first_name}} {{legislator.last_name}} 
+		</div>
+		<div class="search-descriptor" ng-if="searchAttribute != 'name'">
+			{{legislator[searchAttribute]}}
 		</div>
 	</div>
 </div>

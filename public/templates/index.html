@@ -2,7 +2,17 @@
 	Reproductive Justice Report Card
 </div>
 <a ng-click="goToAllLegislators()" > See Report card for all legislators </a>
-<legislator-name-searchbar selected-legislator="selectedLegislator">
+<div class="searchbar"> 
+	<div ng-click="showSearchByName()">
+		Search by name
+	</div>
+	<div ng-click="showSearchByDistrict()">
+		Search by district
+	</div>
+</div>
+<legislator-name-searchbar selected-legislator="selectedLegislator" ng-show="showSearchName" search-attribute="name">
+</legislator-name-searchbar>
+<legislator-name-searchbar selected-legislator="selectedLegislator" ng-show="showSearchDistrict" search-attribute="district">
 </legislator-name-searchbar>
 <div ng-repeat="vote in votes">
 	<div> Bill: {{vote.bill_identity}}</div>
