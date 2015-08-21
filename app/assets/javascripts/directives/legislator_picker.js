@@ -27,7 +27,8 @@ app.directive('legislatorNameSearchbar', ['LegislatorDataService', function(Legi
       }
       scope.searchForLegislators = function() {
         scope.legislatorsToSearch = scope.legislators.filter(function(legislator) {
-          return legislator[scope.searchAttribute].includes(scope.legislatorSearch);
+          var legislatorAttributeToSearchBy = legislator[scope.searchAttribute];
+          return legislatorAttributeToSearchBy.toLowerCase().includes(scope.legislatorSearch.toLowerCase());
         });
       }
     }
