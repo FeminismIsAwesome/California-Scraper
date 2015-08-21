@@ -10,7 +10,7 @@ app.controller('ReportCardHomeController', ['$scope', 'LegislatorDataService', '
           if (vote.vote === "ayes") {
             voteWeight = 1;
           } else if (vote.vote === "noes") {
-            voteWeight = -1;
+            // voteWeight = -1;
           }
           return memo + voteWeight;
         }, 0);
