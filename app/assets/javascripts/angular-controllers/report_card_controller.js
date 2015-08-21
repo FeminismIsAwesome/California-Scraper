@@ -18,6 +18,9 @@ app.controller('ReportCardHomeController', ['$scope', 'LegislatorDataService', '
     }
   });
   $scope.renderVoteAsGrade = function() {
+    if ($scope.votes.length === 0) {
+      return "";
+    }
     var percentage = $scope.voteTotal / $scope.votes.length;
     if (percentage >= 0.9) {
       return "A";
