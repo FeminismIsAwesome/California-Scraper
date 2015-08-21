@@ -73,6 +73,7 @@ app.controller('LegislatorsController', ['$scope', 'LegislatorDataService', 'Bil
     return legislatorWithVote;
   }
 
+  $scope.loading = true;
   LegislatorDataService.getLegislators().then(function(legislators) {
     return legislators.data.map(function(legislator) {
       legislator.fullName = legislator.first_name + " " + legislator.last_name;
@@ -84,6 +85,7 @@ app.controller('LegislatorsController', ['$scope', 'LegislatorDataService', 'Bil
     $scope.bills = sortBills(bills);
     return LegislatorDataService.getBillsForAllLegislators(bills).then(function(votes) {
       $scope.legislatorsWithVotes = votes.data.sort(sortByLastName).map(organizeVotes);
+      $scope.loading = false;
     });
   });
 }]);
