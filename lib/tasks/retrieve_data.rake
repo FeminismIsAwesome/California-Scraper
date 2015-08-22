@@ -43,7 +43,7 @@ end
   end
 
   task delete_voting_relationships_data: :environment do
-  VotingRecord.all.destroy
-end
+    VotingRecord.all.destroy
+  end
 
 end
