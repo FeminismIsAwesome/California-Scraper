@@ -1,0 +1,2404 @@
+
+                        2013-2014 SENATE BILLS
+                        SORTED BY  BILL NUMBER
+
+BILL     AUTHOR                TOPIC
+NUMBER
+
+SB 1    Steinberg           Sustainable Communities Investment Authority.
+SB 2    Lieu                Political Reform Act of 1974.
+SB 3    Yee                 Political Reform Act of 1974.
+SB 4    Pavley              Oil and gas: well stimulation.
+SB 5    Padilla             Teacher credentialing.
+SB 6    Lieu                Business.
+SB 7    Steinberg           Public works: charter cities.
+SB 8    Yee                 Public postsecondary education: executive officer
+                            compensation.
+SB 9    Price               State government: social innovation and
+                            entrepreneurship.
+SB 10   Padilla             School employees: dismissal, suspension, and
+                            leave of absence procedures.
+SB 11   Pavley              Alternative fuel and vehicle technologies:
+                            funding programs.
+SB 12   Corbett             Consumer affairs.
+SB 13   Beall               Public employees' retirement benefits.
+SB 14   Gaines              Bear Lake Reservoir: recreational use.
+SB 15   Padilla             Aviation: unmanned aircraft systems.
+SB 16   Gaines              Administration of justice: county costs:
+                            nonhomicide criminal trials.
+SB 17   Gaines              State responsibility areas: fire prevention fees.
+SB 18   Leno                Medi-Cal renewal.
+SB 19   Knight              Sales and use taxes: exemptions: property for use
+                            in space flight.
+SB 20   Hernandez           Individual health care coverage: enrollment
+                            periods.
+SB 21   Roth                University of California: UC Riverside Medical
+                            School.
+SB 22   Beall               Health care coverage: mental health parity.
+SB 23   Lara                Task Force on New American Integration.
+SB 24   Walters             Public employees' retirement: benefit plans.
+SB 25   Steinberg           Agricultural labor relations: dispute resolution.
+SB 26   Correa              Orange County Water District: land use.
+SB 27   Correa              Political Reform Act of 1974.
+SB 28   Hernandez           California Health Benefit Exchange.
+SB 29   Correa              Vote by mail ballots and election result
+                            statements.
+SB 30   Calderon            Taxation: cancellation of indebtedness: mortgage
+                            debt forgiveness.
+SB 31   Padilla             Outdoor advertising displays: arenas.
+SB 32   Price               Business investment: tax credits.
+SB 33   Wolk                Local taxation: County of Sonoma: transactions
+                            and use tax.
+SB 34   Calderon            Greenhouse gas: carbon capture and storage.
+SB 35   Pavley              Wiretapping: authorization.
+SB 36   Hueso               Internet Web site: workers' compensation
+                            insurers: workers' compensation data.
+SB 37   De León             Energy efficiency and renewable energy upgrades:
+                            on-bill repayment program.
+SB 38   Padilla             Electrical restructuring.
+SB 39   De León             Local agencies: public officers: claims and
+                            liability.
+SB 40   Pavley              Safe, Clean, and Reliable Drinking Water Supply
+                            Act of 2012.
+SB 41   Wright              School district reorganization: base revenue
+                            limit: Wiseburn Unified School District.
+SB 42   Wolk                Safe Drinking Water, Water Quality, and Flood
+                            Protection Act of 2014.
+SB 43   Wolk                Electricity: Green Tariff Shared Renewables
+                            Program.
+SB 44   Yee                 State Internet Web sites: online voter
+                            registration.
+SB 45   Corbett             The Leroy F. Greene School Facilities Act of 1998.
+SB 46   Corbett             Personal information: privacy.
+SB 47   Yee                 Firearms: assault weapons.
+SB 48   Hill                Public utilities: research and development
+                            projects.
+SB 49   Lieu                School safety plans.
+SB 50   Lieu                Telecommunications: pay telephones.
+SB 51   Wright              Internet gambling.
+SB 52   Leno                Political Reform Act of 1974: campaign
+                            disclosures.
+SB 53   De León             Ammunition: purchase permits.
+SB 54   Hancock             Hazardous materials management: stationary
+                            sources: skilled and trained workforce.
+SB 55   Hill                Ignition interlock devices: repeat driving under
+                            the influence offenders.
+SB 56   Roth                Local government finance: property tax revenue
+                            allocation: vehicle license fee adjustments.
+SB 57   Lieu                Electronic monitoring: removing or disabling GPS
+                            device: offense.
+SB 58   Cannella            Public postsecondary education: funding.
+SB 59   Evans               Crimes: sex crimes.
+SB 60   Wright              Crime victims: human trafficking.
+SB 61   Yee                 Juveniles: solitary confinement.
+SB 62   Lieu                Coroners: reporting requirements: prescription
+                            drug use.
+SB 63   Wolk                School attendance: high schools.
+SB 64   Corbett             California Global Warming Solutions Act of 2006:
+                            market-based compliance mechanisms: Clean
+                            Technology Innovation Account.
+SB 65   Leno                2013-14 Budget.
+SB 66   Committee on Budget Human services.
+        and Fiscal Review
+SB 67   Committee on Budget In-home supportive services.
+        and Fiscal Review
+SB 68   Committee on Budget Budget Act of 2012.
+        and Fiscal Review
+SB 69   Roth                Local government finance: property tax revenue
+                            allocation: vehicle license fee adjustments.
+SB 70   Committee on Budget Alcohol and drug programs.
+        and Fiscal Review
+SB 71   Committee on Budget State government.
+        and Fiscal Review
+SB 72   Committee on Budget Budget Act of 2013: public resources.
+        and Fiscal Review
+SB 73   Committee on Budget Energy: Proposition 39 implementation.
+        and Fiscal Review
+SB 74   Committee on Budget Corrections.
+        and Fiscal Review
+SB 75   Committee on Budget Courts.
+        and Fiscal Review
+SB 76   Committee on Budget Public safety.
+        and Fiscal Review
+SB 77   Committee on Budget Health.
+        and Fiscal Review
+SB 78   Committee on Budget Public health: Medi-Cal managed care plan taxes.
+        and Fiscal Review
+SB 79   Committee on Budget Budget Act of 2013.
+        and Fiscal Review
+SB 80   Committee on Budget Health and human services.
+        and Fiscal Review
+SB 81   Committee on Budget Education finance: education omnibus trailer bill.
+        and Fiscal Review
+SB 82   Committee on Budget Investment in Mental Health Wellness Act of 2013.
+        and Fiscal Review
+SB 83   Committee on Budget Developmental services.
+        and Fiscal Review
+SB 84   Committee on Budget Budget Act of 2013: public resources.
+        and Fiscal Review
+SB 85   Committee on Budget Transportation.
+        and Fiscal Review
+SB 86   Committee on Budget State government.
+        and Fiscal Review
+SB 87   Committee on Budget Budget Act of 2013.
+        and Fiscal Review
+SB 88   Committee on Budget Education finance: higher education.
+        and Fiscal Review
+SB 89   Committee on Budget Budget Act of 2012: augmentation.
+        and Fiscal Review
+SB 90   Galgiani            Economic development: taxation: credits:
+                            exemption.
+SB 91   Committee on Budget School finance.
+        and Fiscal Review
+SB 92   Committee on Budget Property insurance: Seismic Safety Account.
+        and Fiscal Review
+SB 93   Committee on Budget Budget Act of 2013.
+        and Fiscal Review
+SB 94   Committee on Budget Medi-Cal: managed care: long-term services and
+        and Fiscal Review   supports: in-home supportive services.
+SB 95   Committee on Budget Budget Act of 2013.
+        and Fiscal Review
+SB 96   Committee on Budget Budget Act of 2013: public resources.
+        and Fiscal Review
+SB 97   Committee on Budget School finance: local control funding formula.
+        and Fiscal Review
+SB 98   Committee on Budget Public health.
+        and Fiscal Review
+SB 99   Committee on Budget Active Transportation Program.
+        and Fiscal Review
+SB 100  Committee on Budget Public finance.
+        and Fiscal Review
+SB 101  Committee on Budget Health.
+        and Fiscal Review
+SB 102  Committee on Budget State employees: memoranda of understanding.
+        and Fiscal Review
+SB 103  Committee on Budget Budget Act of 2013.
+        and Fiscal Review
+SB 104  Committee on Budget Drought relief.
+        and Fiscal Review
+SB 105  Steinberg           Corrections.
+SB 106  Monning             California Central Coast State Veterans Cemetery
+                            at Fort Ord Endowment Fund.
+SB 107  Corbett             Sexual assault: victim medical evidentiary
+                            examination.
+SB 108  Yee                 Firearms.
+SB 109  Corbett             Charter-party carriers: limousines: emergency
+                            exits.
+SB 110  DeSaulnier          East Span, San Francisco-Oakland Bay Bridge
+                            Safety Review Task Force.
+SB 111  Beall               Elections: voter signature.
+SB 112  Monning             Voter information: public examination.
+SB 113  Jackson             Elections: voter registration.
+SB 114  Pavley              Commercially sexually exploited minors.
+SB 115  Hill                Public Utilities Commission: Bagley-Keene Open
+                            Meeting Act: judicial review.
+SB 116  Liu                 Personal income taxes: voluntary contributions:
+                            Emergency Food Assistance Program.
+SB 117  Hueso               Integrative cancer treatment.
+SB 118  Lieu                Unemployment insurance: education and workforce
+                            investment systems.
+SB 119  Calderon            Crematories: burning of flags.
+SB 120  Roth                Intoxicating liquors.
+SB 121  Evans               Corporations: political activities: shareholder
+                            disclosure.
+SB 122  Lieu                Vessels: abandonment: abatement.
+SB 123  Corbett             Environmental and land use court.
+SB 124  Corbett             Human remains: Abbot Archimandrite Theodor Micka.
+SB 125  Gaines              State responsibility areas: fire prevention fees.
+SB 126  Steinberg           Health care coverage: pervasive developmental
+                            disorder or autism.
+SB 127  Gaines              Firearms: mentally disordered persons.
+SB 128  Emmerson            Community facilities districts: transfer of
+                            governance authority.
+SB 129  Wright              Deaf and disabled telecommunications program.
+SB 130  Corbett             Witnesses.
+SB 131  Beall               Damages: childhood sexual abuse: statute of
+                            limitations.
+SB 132  Hill                Mountain lions.
+SB 133  DeSaulnier          Redevelopment.
+SB 134  Hueso               CalFresh eligibility.
+SB 135  Padilla             Earthquake early warning system.
+SB 136  Gaines              Insurance: brokers and agents: notice of
+                            appointment.
+SB 137  Emmerson            Developmental services: regional centers.
+SB 138  Hernandez           Confidentiality of medical information.
+SB 139  Hill                Exchange facilitators.
+SB 140  Leno                Firearms: prohibited persons.
+SB 141  Correa              Postsecondary education benefits: children of
+                            deported or voluntarily departed parents.
+SB 142  DeSaulnier          Public transit.
+SB 143  Fuller              Education finance: necessary small high schools:
+                            average daily attendance.
+SB 144  Cannella            2013 Realignment Legislation addressing justice
+                            reinvestment.
+SB 145  Pavley              Sex offenders: child pornography.
+SB 146  Lara                Workers' compensation: medical treatment: billing.
+SB 147  Gaines              State responsibility areas: fire prevention fees.
+SB 148  Anderson            Primary elections: voter-nominated offices.
+SB 149  Walters             City property: leases.
+SB 150  Lara                Pupils: concurrent enrollment in secondary school
+                            and community college: nonresident tuition
+                            exemption.
+SB 151  DeSaulnier          State highway operation and protection program.
+SB 152  Roth                Licensed professionals: engineers: geologists:
+                            geophysicists.
+SB 153  Berryhill           Mortgage brokers: fiduciary duty.
+SB 154  Berryhill           Community care facilities.
+SB 155  Padilla             Vehicles: motor vehicle manufacturers and
+                            distributors.
+SB 156  Beall               Conservatorships and guardianships: attorney's
+                            fees.
+SB 157  Knight              National Guard.
+SB 158  Correa              Autism services: demonstration program.
+SB 159  Fuller              Public cemetery districts: Kern River Valley
+                            Cemetery District.
+SB 160  Lara                Classified school employees: misconduct against a
+                            child: statewide tracking.
+SB 161  Hernandez           Stop-loss insurance coverage.
+SB 162  Lieu                Prisoners: temporary removal.
+SB 163  Hueso               Developmental services: health insurance payments.
+SB 164  Rubio               Developmental services: regional centers: funding.
+SB 165  Walters             Public Employees' Retirement System: membership:
+                            exclusions.
+SB 166  Liu                 Juveniles: attorney qualifications.
+SB 167  Gaines              Environmental quality: California Environmental
+                            Quality Act.
+SB 168  Monning             Farm labor contractors: successors: wages and
+                            penalties.
+SB 169  Emmerson            State highways: scenic highways.
+SB 170  Wolk                Bale Grist Mill State Historic Park.
+SB 171  Hueso               Drainage: Coachella Valley County Water District.
+SB 172  Beall               In-home supportive services: sales tax.
+SB 173  Liu                 Education funding: adult education.
+SB 174  De León             Student financial aid: Cal Grant Program.
+SB 175  Fuller              State game refuges: possession of weapons.
+SB 176  Galgiani            Administrative procedures.
+SB 177  Liu                 Homeless Youth Education Success Act.
+SB 178  Correa              Bullying: Michael J. Berry Peer Abuse Prevention
+                            Advisory Council.
+SB 179  Roth                Mortgage loan originators.
+SB 180  Roth                Mobilehomes: sales: registration cards.
+SB 181  Committee on        Validations.
+        Governance and
+        Finance
+SB 182  Committee on        Validations.
+        Governance and
+        Finance
+SB 183  Committee on        Validations.
+        Governance and
+        Finance
+SB 184  Committee on        Local government: omnibus bill.
+        Governance and
+        Finance
+SB 185  Walters             Instructional materials: digital format.
+SB 186  Knight              Land use: housing element.
+SB 187  Knight              Personal income tax.
+SB 188  Liu                 Conservation camps: county-operated camps.
+SB 189  Monning             Health care coverage: wellness programs.
+SB 190  Wright              Gambling: sports wagering.
+SB 191  Padilla             Emergency medical services.
+SB 192  Liu                 Early learning and educational support services.
+SB 193  Monning             Hazard evaluation system and information service.
+SB 194  Galgiani            Vehicles: electronic wireless communications
+                            device: prohibitions.
+SB 195  Liu                 California postsecondary education: state goals.
+SB 196  Cannella            Utility rates: mobilehomes and apartment
+                            buildings.
+SB 197  Evans               Commercial fishing: commercial fishing salmon
+                            stamp.
+SB 198  Lieu                Physical Therapy Board of California.
+SB 199  De León             BB devices.
+SB 200  Anderson            Medi-Cal: rural hospitals.
+SB 201  Liu                 Instructional materials: academic content
+                            standards: English learners.
+SB 202  Galgiani            Automotive repair.
+SB 203  Pavley              Local transportation funds: Ventura County.
+SB 204  Corbett             Prescription drugs: labeling.
+SB 205  Corbett             Prescription drugs: labeling.
+SB 206  Emmerson            Electronic benefits transfer cards: prohibition
+                            of use for alcohol and tobacco purchases.
+SB 207  Cannella            Department of Consumer Affairs: licensee
+                            information.
+SB 208  Lara                Public social services: contracting.
+SB 209  Lieu                Income taxes: exclusion: deferral: qualified
+                            small business stock.
+SB 210  Hancock             Criminal procedure: pretrial release.
+SB 211  Hernandez           Tax administration: disclosure of information:
+                            Franchise Tax Board and cities.
+SB 212  Pavley              Student financial aid: Assumption Program of
+                            Loans for Education.
+SB 213  Galgiani            Election petitions: circulators.
+SB 214  Calderon            Long-term care: financing.
+SB 215  Beall               Public employee benefits.
+SB 216  Beall               Public employment: salary ranges.
+SB 217  Beall               State employees: memorandum of understanding:
+                            State Bargaining Unit 9.
+SB 218  Yee                 Healing arts: California traditional Chinese
+                            medicine traumatologist certification.
+SB 219  Yee                 Safety Enhancement-Double Fine Zones.
+SB 220  Beall               California Public Employees' Pension Reform Act
+                            of 2013: administration.
+SB 221  Pavley              Sales and use taxes: vehicle license fee:
+                            exclusion: alternative fuel motor vehicles.
+SB 222  Padilla             Genetic information: privacy.
+SB 223  Liu                 Education finance: Maximum Categorical Funding
+                            Flexibility and Accountability Program.
+SB 224  Walters             Newborn screening program.
+SB 225  Emmerson            Imprisonment: sentences punishable in state
+                            prison.
+SB 226  Emmerson            Defendants: severe mental disorder: incarceration
+                            in state prison.
+SB 227  Knight              Personal income tax.
+SB 228  Knight              Enterprise zones.
+SB 229  Knight              Student financial aid fraud.
+SB 230  Knight              Local transportation funds: performance audits.
+SB 231  Correa              Bullying: California Bullying Prevention
+                            Clearinghouse.
+SB 232  Monning             California Central Coast State Veterans Cemetery
+                            at Fort Ord Endowment Fund.
+SB 233  Leno                Debt buying.
+SB 234  Walters             Recreational off-highway vehicles.
+SB 235  Wyland              Sales and use taxes: income taxes.
+SB 236  Pavley              School districts: four-day school week: Moorpark
+                            Unified School District.
+SB 237  Calderon            High school diplomas: retroactive high school
+                            diplomas: veterans.
+SB 238  Liu                 Santa Monica Mountains Conservancy members:
+                            voting.
+SB 239  Hernandez           Medi-Cal: hospitals: quality assurance fees:
+                            distinct part skilled nursing facilities.
+SB 240  Yee                 Vote by mail ballot drop boxes.
+SB 241  Evans               Oil Severance Tax Law.
+SB 242  Wyland              Toll collection: alternative technologies.
+SB 243  Wyland              Professional clinical counselors.
+SB 244  Liu                 Disorderly conduct.
+SB 245  Correa              Contracts.
+SB 246  Fuller              Bighorn-Desert View Water Agency.
+SB 247  Liu                 Pupil assessment: grade 2 diagnostic assessments.
+SB 248  Wyland              Professional corporations.
+SB 249  Leno                Public health: health records: confidentiality.
+SB 250  Wolk                Olive Oil Commission of California.
+SB 251  Calderon            Insurance: notice: electronic transmission.
+SB 252  Liu                 CalWORKs: welfare-to-work requirements.
+SB 253  Hueso               Controlled substances: synthetic cannabinoids and
+                            synthetic stimulants.
+SB 254  Hancock             Solid waste: used mattresses: recycling and
+                            recovery.
+SB 255  Cannella            Disorderly conduct: invasion of privacy.
+SB 256  Lieu                Trampoline courts: safety inspection.
+SB 257  Hancock             Coastal resources: physical adaptations to
+                            climate change.
+SB 258  Lieu                Workers' compensation.
+SB 259  Hancock             Higher Education Employer-Employee Relations Act:
+                            employees.
+SB 260  Hancock             Youth offender parole hearings.
+SB 261  Monning             Contractors: fraudulent use of license.
+SB 262  Monning             Contractors.
+SB 263  Monning             Private employment: public transit employees.
+SB 264  Pavley              Accountable care organizations.
+SB 265  Lara                Postsecondary education: electronic textbooks.
+SB 266  Lieu                Prevailing wages.
+SB 267  Pavley              Pupil assessment: high school exit examination:
+                            eligible pupils with disabilities.
+SB 268  Gaines              Health care districts: public contracts:
+                            design-build.
+SB 269  Hill                Prepaid rental listing service.
+SB 270  Padilla             Solid waste: single-use carryout bags.
+SB 271  Hernandez           Associate Degree Nursing Scholarship Program.
+SB 272  Corbett             Advertising and solicitations: government and
+                            military endorsements.
+SB 273  Gaines              Farm vehicles: registration exemptions.
+SB 274  Leno                Family law: parentage: child custody and support.
+SB 275  Cannella            Local flood control: indebtedness and liability.
+SB 276  Roth                Public contracts: small business contracts.
+SB 277  Beall               State Peace Officers' and Firefighters' Defined
+                            Contribution Plan.
+SB 278  Gaines              Land use: housing element.
+SB 279  Hancock             San Francisco Bay Restoration Authority.
+SB 280  Lieu                Insurance affordability programs: application
+                            form.
+SB 281  Calderon            Life insurance: accelerated death benefits.
+SB 282  Yee                 Confidential medical information: required
+                            authorization to disclose.
+SB 283  Hancock             CalFresh eligibility.
+SB 284  De León             Income taxes: credits: contributions to education
+                            funds.
+SB 285  De León             Student financial aid: Cal Grant Program.
+SB 286  Yee                 Vehicles: high-occupancy vehicle lanes.
+SB 287  Walters             Prison: community supervision: eligibility.
+SB 288  Lieu                Employment protections: time off.
+SB 289  Correa              Vehicles: driving under the influence: drugs.
+SB 290  Knight              Nonresident tuition exemption: veterans.
+SB 291  Hill                Public Utilities Commission: safety enforcement:
+                            gas and electrical corporations.
+SB 292  Corbett             Employment: sexual harassment.
+SB 293  DeSaulnier          Firearms: owner-authorized handguns.
+SB 294  Emmerson            Sterile drug products.
+SB 295  Emmerson            Sexually violent predators: civil commitment.
+SB 296  Correa              County veterans service officers.
+SB 297  Roth                Public contacts: disabled veterans.
+SB 298  Wyland              Local government: supplemental law enforcement
+                            services.
+SB 299  DeSaulnier          Firearms: lost or stolen: reports.
+SB 300  Hancock             Instructional materials: revised curriculum
+                            frameworks: science and English language arts.
+SB 301  Liu                 Education facilities: Kindergarten-University
+                            Public Education Facilities Bond Act of 2014.
+SB 302  Cannella            School cafeterias: cafeteria fund.
+SB 303  Knight              Peace officers: identification certificates:
+                            concealed weapon endorsement.
+SB 304  Lieu                Healing arts: boards.
+SB 305  Lieu                Healing arts: boards.
+SB 306  Torres              Nursing: licensing criteria.
+SB 307  Price               Healing arts: Veterinary Medical Board.
+SB 308  Lieu                Professions and vocations.
+SB 309  Lieu                State Athletic Commission.
+SB 310  Calderon            Mortgages: foreclosure notices: title companies.
+SB 311  Padilla             Local elections: charters and charter proposals.
+SB 312  Knight              Absences: confidential medical services: parent
+                            or guardian consent.
+SB 313  De León             Public Safety Officers Procedural Bill of Rights
+                            Act.
+SB 314  Cannella            State Highway Route 25.
+SB 315  Lieu                Contractors.
+SB 316  Block               School safety: door locks.
+SB 317  Calderon            Tax credits: annual reports.
+SB 318  Hill                Consumer loans: Pilot Program for Increased
+                            Access to Responsible Small Dollar Loans.
+SB 319  Price               Developmental services: regional centers: data
+                            compilation.
+SB 320  Beall               Health care coverage: acquired brain injury.
+SB 321  Price               Developmental services: regional centers:
+                            performance contracts.
+SB 322  Hueso               Water recycling.
+SB 323  Lara                Taxes: exemptions: prohibited discrimination.
+SB 324  Wright              Alcoholic beverages: tied-house restrictions:
+                            advertising.
+SB 325  Block               Trustees of the California State University:
+                            student members.
+SB 326  Beall               Sex offenders.
+SB 327  Yee                 Human trafficking: recall and resentencing:
+                            pardons and parole.
+SB 328  Knight              Counties: public works contracts.
+SB 329  Gaines              Community colleges: nonresident tuition: Lake
+                            Tahoe Community College.
+SB 330  Padilla             Pupil instruction: health framework: mental
+                            health instruction.
+SB 331  Liu                 California Library Services Act: statewide
+                            communications and delivery collaborative network.
+SB 332  Emmerson            California Health Benefit Exchange: records.
+SB 333  Lieu                Crimes: emergencies: false reporting.
+SB 334  Fuller              Recreational off-highway vehicles: seat location:
+                            passengers.
+SB 335  Yee                 Expenditures: service contracts.
+SB 336  Huff                Air pollution: gasoline blends.
+SB 337  Emmerson            State Highway Route 74.
+SB 338  Hill                Charter-party carriers of passengers: limousines:
+                            fire extinguishers.
+SB 339  Cannella            Taxation: cancellation of indebtedness: mortgage
+                            debt forgiveness.
+SB 340  Jackson             Law enforcement: anti-reproductive-rights crimes.
+SB 341  DeSaulnier          Redevelopment.
+SB 342  Yee                 Foster children: social worker: visits.
+SB 343  Yee                 Dependent children: documents.
+SB 344  Padilla             Schools.
+SB 345  Evans               Attorneys: annual membership fees.
+SB 346  Beall               Public social services: records.
+SB 347  Beall               Youth shelters: funding.
+SB 348  Galgiani            Agricultural seed: county seed enforcement
+                            subventions.
+SB 349  Walters             Home- and community-based services waiver for the
+                            developmentally disabled: sheltered work.
+SB 350  Beall               Vehicles: motorcycles.
+SB 351  Hernandez           Health care coverage: hospital billing.
+SB 352  Pavley              Medical assistants: supervision.
+SB 353  Lieu                Health care coverage: language assistance.
+SB 354  Roth                Department of Veterans Affairs: monitoring
+                            outcomes for veterans: Director of Employment
+                            Development: disclosure of information.
+SB 355  Beall               Income taxes: credit: conservation.
+SB 356  Yee                 Gambling establishments: owner licensing.
+SB 357  Correa              Elective Percutaneous Coronary Intervention (PCI)
+                            Pilot Program.
+SB 358  Corbett             Military leave: domestic partner.
+SB 359  Corbett             Vehicles: retirement and replacement.
+SB 360  Padilla             Certification of voting systems.
+SB 361  Padilla             Elections: voter registration.
+SB 362  Padilla             Voting procedures: natural disasters.
+SB 363  Wright              Firearms: criminal storage: unsafe handguns: fees.
+SB 364  Steinberg           Mental health.
+SB 365  Wolk                Jail construction: funding.
+SB 366  Wright              Traffic fines: ability to pay.
+SB 367  Block               Developmental services: regional centers:
+                            cultural and linguistic competency.
+SB 368  Pavley              Teachers: added authorization in special
+                            education.
+SB 369  De León             State claims.
+SB 370  Lieu                Income tax: credits: qualified commercial
+                            production.
+SB 371  De León             Claims against the state: appropriation.
+SB 372  Emmerson            State property: surplus.
+SB 373  Huff                Sales and use taxes: gross receipts: definition.
+SB 374  Steinberg           Firearms: assault weapons.
+SB 375  Committee on Labor  Workers' compensation.
+        and Industrial
+        Relations
+SB 376  Correa              Sales and use taxes: exemption: manufacturing:
+                            research and development.
+SB 377  Lieu                Public works: project determinations: wage and
+                            penalty assessments.
+SB 378  Block               Official record of conviction: admissibility of
+                            electronically digitized copy.
+SB 379  Hancock             School attendance: early and middle college high
+                            schools.
+SB 380  Padilla             Communications: service interruptions.
+SB 381  Yee                 Healing arts: chiropractic practice.
+SB 382  Roth                Veterans' benefits: Department of Veterans
+                            Affairs.
+SB 383  Jackson             Credit cards: personal information.
+SB 384  Gaines              California Memorial Scholarship Program.
+SB 385  Block               Firearms: Private Patrol Operators: registration
+                            and assignment.
+SB 386  Correa              School finance: county superintendents of
+                            schools: regional occupational centers or
+                            programs.
+SB 387  Wright              Coastal resources: once-through cooling.
+SB 388  Lieu                Public safety officers and firefighters:
+                            investigations and interrogations.
+SB 389  Wright              South Coast Air Quality Management District:
+                            electric generating facilities: emissions offsets.
+SB 390  Wright              Employee wage withholdings: failure to remit.
+SB 391  DeSaulnier          California Homes and Jobs Act of 2013.
+SB 392  Berryhill           Fish and Game Code: game birds and waterfowl.
+SB 393  Walters             Prescription drugs: procurement: false
+                            representation.
+SB 394  Walters             Prescription drugs.
+SB 395  Jackson             Hazardous waste: wells.
+SB 396  De León             Public services.
+SB 397  Hueso               Vehicles: enhanced driver's license.
+SB 398  Galgiani            Horse racing: distribution of proceeds.
+SB 399  Wright              California Prompt Payment Act.
+SB 400  Jackson             Employment protections: victims of domestic
+                            violence, sexual assault, or stalking.
+SB 401  Hueso               Administrative practices.
+SB 402  De León             Breastfeeding.
+SB 403  Cannella            State highway routes.
+SB 404  Jackson             Fair employment: familial status.
+SB 405  Padilla             Solid waste: single-use carryout bags.
+SB 406  Evans               Tribal Court Civil Money Judgment Act.
+SB 407  Hill                Local government: officers and employees:
+                            contracts.
+SB 408  De León             Transportation funds.
+SB 409  Emmerson            Disaster recovery project areas: enforceable
+                            obligations.
+SB 410  Yee                 Anesthesiologist assistants.
+SB 411  Wolk                Building standards: water meters: multiunit
+                            structures.
+SB 412  Knight              Sales and use taxes: exemption: aerospace
+                            products manufacturing: research and development.
+SB 413  Knight              Personal income taxes: credit: STEM teachers.
+SB 414  Knight              Income taxes: credits: qualified employees.
+SB 415  Knight              Space flight liability.
+SB 416  Liu                 Surplus residential property.
+SB 417  Berryhill           Public buildings and works: qualifications of
+                            contractors.
+SB 418  Jackson             Energy: nuclear fission powerplants.
+SB 419  Block               Restitution: collection of fines, fees, and
+                            orders.
+SB 420  Walters             Public postsecondary education: resident
+                            classification.
+SB 421  Hernandez           Pupil instruction: examination fees:
+                            International Baccalaureate Diploma Program and
+                            advanced placement courses.
+SB 422  Huff                Credit unions.
+SB 423  Huff                Public transportation employees: strikes:
+                            prohibition.
+SB 424  Emmerson            Vehicles: windshields: obstructions.
+SB 425  DeSaulnier          Public works: the Public Works Peer Review Act of
+                            2013.
+SB 426  Corbett             Civil procedure: deficiency judgments.
+SB 427  Monning             Vessels: equipment requirements: personal
+                            flotation devices.
+SB 428  Anderson            School safety: The Safe Classrooms Act.
+SB 429  Hernandez           San Gabriel Basin Water Quality Authority Act.
+SB 430  Wright              Pupil health: vision examination: binocular
+                            function.
+SB 431  Price               Economic development: California Socioeconomic
+                            Development Pods Program.
+SB 432  Price               School accountability: advisory committee:
+                            creativity index.
+SB 433  Lara                Emergencies: the State 911 Advisory Board.
+SB 434  Hill                Public Utilities Commission: removal of a
+                            commissioner.
+SB 435  Padilla             Compensation: meal and rest or recovery periods.
+SB 436  Jackson             Port Hueneme Beach shoreline protection.
+SB 437  Berryhill           Disabled veterans: contracting preferences.
+SB 438  Hancock             Refineries: turnarounds.
+SB 439  Evans               Personal income taxes: cancellation of
+                            indebtedness: mortgage debt forgiveness.
+SB 440  Padilla             Public postsecondary education: Student Transfer
+                            Achievement Reform Act.
+SB 441  Calderon            Education employment: certificated employees.
+SB 442  Wyland              State Board of Equalization: erroneous charges.
+SB 443  Walters             Organized camps.
+SB 444  Hueso               State Highway Route 86: relinquishment.
+SB 445  Hill                Underground storage tanks: hazardous substances:
+                            petroleum: groundwater and surface water
+                            contamination.
+SB 446  Cannella            Local government finance: property tax revenue
+                            allocations: County of San Benito.
+SB 447  Lara                Surface mining operations.
+SB 448  Leno                Energy: petroleum supply and pricing.
+SB 449  Galgiani            Local water supply programs or projects: funding.
+SB 450  Galgiani            Unattended collection boxes.
+SB 451  Huff                Open Enrollment Act: expansion to all school
+                            districts of residence.
+SB 452  Huff                School intervention: parent empowerment.
+SB 453  Huff                School employees: teachers: evaluation:
+                            termination.
+SB 454  Corbett             Public resources: electric vehicle charging
+                            stations.
+SB 455  Hernandez           General acute care hospitals: nurse-to-patient
+                            ratios.
+SB 456  Padilla             Disclosure of sources of electrical generation.
+SB 457  Monning             Vessels: collisions and accidents.
+SB 458  Wright              Gangs: statewide database.
+SB 459  Pavley              Vehicle retirement: low-income motor vehicle
+                            owners.
+SB 460  Pavley              Prenatal testing program: education.
+SB 461  Leno                State tide and submerged lands: mineral
+                            extraction leases: revenues.
+SB 462  Monning             Employment: compensation.
+SB 463  Pavley              Sentencing.
+SB 464  Jackson             Child care: Healthy Eating and Physical Activity
+                            Act.
+SB 465  Correa              Packaging and labeling: containers: slack fill.
+SB 466  DeSaulnier          California Institute for Criminal Justice Policy.
+SB 467  Leno                Privacy: electronic communications: warrant.
+SB 468  Emmerson            Developmental services: statewide
+                            Self-Determination Program.
+SB 469  Corbett             Vehicles: aerodynamic vehicles.
+SB 470  Wright              Community development: economic opportunity.
+SB 471  Berryhill           Personal income taxes: credit.
+SB 472  Hill                Gaming: licenses.
+SB 473  Block               Human trafficking.
+SB 474  Nielsen             Appropriation of water: Sewerage Commission
+                            Oroville.
+SB 475  Leno                Agricultural District 1-A: firearm sales at the
+                            Cow Palace.
+SB 476  Steinberg           Insurance: special assessments.
+SB 477  Steinberg           Foreign labor contractors: registration.
+SB 478  Cannella            Vehicles: length limitations: livestock vehicles.
+SB 479  Block               State government: Secretary of State: duties.
+SB 480  Yee                 CalWORKs, Medi-Cal, and CalFresh: suspension of
+                            benefits.
+SB 481  Huff                California Public Employees' Pension Reform Act
+                            of 2013.
+SB 482  Hill                Point-of-sale systems.
+SB 483  Jackson             Hazardous materials: business and area plans.
+SB 484  Wyland              Tax preparers.
+SB 485  Calderon            Weighmasters: junk dealers and recyclers.
+SB 486  DeSaulnier          Department of Transportation: goals and
+                            performance measures.
+SB 487  Calderon            Workers' compensation insurance: Self-Insured
+                            Group Security Fund.
+SB 488  Hueso               Substandard housing: regulations.
+SB 489  Fuller              Water corporations: sewer system corporations:
+                            appointment of receiver.
+SB 490  Jackson             Early Assessment Program: common core academic
+                            content standards.
+SB 491  Hernandez           Nurse practitioners.
+SB 492  Hernandez           Optometrist: practice: licensure.
+SB 493  Hernandez           Pharmacy practice.
+SB 494  Monning             Health care providers.
+SB 495  Yee                 Postsecondary education employees: physicians.
+SB 496  Wright              Improper governmental activity: disclosure:
+                            protection.
+SB 497  Walters             California Global Warming Solutions Act of 2006:
+                            fees.
+SB 498  Lara                Solid waste: biomass conversion.
+SB 499  Wyland              Property taxation: assessment: affordable housing.
+SB 500  Lieu                Drug Medi-Cal.
+SB 501  Corbett             Drivers' licenses: examinations: driving tests:
+                            proof of financial responsibility.
+SB 502  Block               University of California: bidding requirements.
+SB 503  Galgiani            State employees: memorandum of understanding.
+SB 504  Berryhill           Fruit, nut, and vegetable standards: civil
+                            penalties.
+SB 505  Jackson             Peace officers: welfare checks: firearms.
+SB 506  Hill                Railroad Tank Car Hazardous Materials Safety Fund.
+SB 507  Cannella            Arson: commercial livestock farms.
+SB 508  Hernandez           Medi-Cal: eligibility.
+SB 509  DeSaulnier          California Health Benefit Exchange: background
+                            checks.
+SB 510  Jackson             Land use: subdivisions: rental mobilehome park
+                            conversion.
+SB 511  Lieu                Trade promotion of California ports: California
+                            Export Finance Office.
+SB 512  Wyland              Pupil assessment: high school exit examination:
+                            United States history and government.
+SB 513  Hancock             Diversion programs: sealed records.
+SB 514  Committee on Public Crimes.
+        Safety
+SB 515  Jackson             Deferred deposit transactions.
+SB 516  Steinberg           Foreign labor contractors: registration.
+SB 517  Wyland              Invigorating Science, Technology, Engineering,
+                            and Mathematics (iSTEM) Teacher Preparation Grant
+                            Program.
+SB 518  Wyland              Pupil instruction: science and mathematics.
+SB 519  Emmerson            Special elections.
+SB 520  Steinberg           Student instruction: California Online Student
+                            Incentive Grant programs.
+SB 521  Wyland              Education: Instructional Quality Commission:
+                            course requirements: civics and American
+                            government education.
+SB 522  Hueso               Foster Family Home and Small Family Home
+                            Insurance Fund.
+SB 523  Correa              Public employment: merit system: waiver.
+SB 524  Lara                Pupil instruction: Pathways Curriculum Task Force.
+SB 525  Galgiani            California Environmental Quality Act: exemptions.
+SB 526  Calderon            Commissioner of Corporations: lending practices:
+                            unlicensed activity report.
+SB 527  Block               Workers' compensation: public employees: leaves
+                            of absence.
+SB 528  Yee                 Dependents: care and treatment: minor parents and
+                            nonminor dependent parents.
+SB 529  Leno                Recycling: fast food facilities.
+SB 530  Wright              Criminal offenders: rehabilitation.
+SB 531  Knight              School employees: discipline: suspension and
+                            dismissal.
+SB 532  De León             Professions and vocations: military spouses:
+                            temporary licenses.
+SB 533  Knight              Alcoholic beverages: beer labels.
+SB 534  Hernandez           Health and care facilities.
+SB 535  Nielsen             Commission on Emergency Medical Services.
+SB 536  Berryhill           Alarm companies: electronic transactions.
+SB 537  Committee on        Business and finance.
+        Banking and
+        Financial
+        Institutions
+SB 538  Hill                The Corporate Securities Law of 1968.
+SB 539  Walters             Retirement benefit formulas: Orange County.
+SB 540  Wyland              Career technical education: recognition
+                            certificates.
+SB 541  Wyland              Real Estate Commissioner: Elder Financial Abuse
+                            Advisory Committee.
+SB 542  Wyland              English learners: reclassification.
+SB 543  Block               Petty theft: enhancements for prior convictions.
+SB 544  DeSaulnier          School safety programs: funding.
+SB 545  Anderson            Name change: minors.
+SB 546  Wright              Education employment: termination: hearing.
+SB 547  Block               Public postsecondary education: online courses.
+SB 548  Roth                Public utilities: renewables portfolio standard:
+                            publicly owned electric utility.
+SB 549  Galgiani            Vehicular air pollution: exemption: low-use
+                            vehicles.
+SB 550  Jackson             Accessible housing.
+SB 551  Gaines              Renewal and execution of judgments: judgment
+                            debtor.
+SB 552  Calderon            Pupil instruction: violence awareness.
+SB 553  Yee                 Local government: assessment: elections
+                            procedures.
+SB 554  Anderson            Employment: overtime compensation.
+SB 555  Correa              Developmental services: regional centers:
+                            individual program plans and individualized
+                            family service plans.
+SB 556  Padilla             Providers of health and safety labor or services:
+                            identification.
+SB 557  Hill                High-speed rail.
+SB 558  Lieu                Reporters' shield law.
+SB 559  Huff                Certificated employees: layoff notices.
+SB 560  Anderson            Disaster relief: sales and use tax: exemption:
+                            income taxes: gross income: exclusion.
+SB 561  Fuller              Pupil discipline: expelled pupils: mental health
+                            evaluation.
+SB 562  Galgiani            Dentists: mobile or portable dental units.
+SB 563  Galgiani            Office of Statewide Health Planning and
+                            Development: hospital construction.
+SB 564  Monning             Ski resorts: accident reports.
+SB 565  Knight              Public school volunteers.
+SB 566  Leno                Industrial hemp.
+SB 567  Jackson             Firearms: shotguns.
+SB 568  Steinberg           Privacy: Internet: minors.
+SB 569  Lieu                Interrogation: electronic recordation.
+SB 570  DeSaulnier          Advanced Alcohol and Drug Licensing Act.
+SB 571  Liu                 Income taxes: voluntary contributions: Keep Arts
+                            in Schools Fund.
+SB 572  Price               In-Home Supportive Services Employer-Employee
+                            Relations Act: impasse procedures.
+SB 573  Lieu                Vehicles: emergency vehicles.
+SB 574  Nielsen             Underground storage tanks: corrective action.
+SB 575  Yee                 Evidence: admissibility.
+SB 576  Block               Teacher credentialing: Commission on Teacher
+                            Credentialing.
+SB 577  Pavley              Autism and other developmental disabilities:
+                            employment.
+SB 578  Wyland              Behavioral sciences: records retention.
+SB 579  Berryhill           Developmental services: Commission on Oversight
+                            Efficiency and Quality Enhancement Models.
+SB 580  Jackson             Firearms: prohibited persons.
+SB 581  Wyland              School bonds: bond accountability.
+SB 582  Knight              Tax information: administration.
+SB 583  Berryhill           Sport fishing: licenses.
+SB 584  Wyland              School facilities: financial and performance
+                            audits.
+SB 585  Steinberg           Mental health: Mental Health Services Fund.
+SB 586  Wyland              Hazardous waste.
+SB 587  Emmerson            School finance: categorical programs.
+SB 588  Emmerson            Medical records: reproduction fees.
+SB 589  Hill                Vote by mail ballots: sample ballots.
+SB 590  De León             School personnel: professional development for
+                            classified school employees.
+SB 591  Cannella            Renewable energy resources: local publicly owned
+                            electric utility: hydroelectric generation
+                            facility.
+SB 592  Lieu                Trade promotion of California ports.
+SB 593  Lieu                Social impact partnerships: pilot program.
+SB 594  Hill                Use of public resources.
+SB 595  Calderon            Postsecondary education: financial aid.
+SB 596  Yee                 Pupil health: multitiered and integrated
+                            interventions pilot program.
+SB 597  Lara                Legal aid: court interpreters.
+SB 598  Hill                Biosimilars.
+SB 599  Evans               State parks.
+SB 600  Lieu                Drugs.
+SB 601  Yee                 Gambling policy.
+SB 602  Committee on Human  Child abuse prevention, intervention, and
+        Services            treatment projects.
+SB 603  Leno                Landlord and tenant: security deposit.
+SB 604  Anderson            Vehicles: rules of the road.
+SB 605  Lara                Short-lived climate pollutants.
+SB 606  De León             Harassment: child or ward.
+SB 607  Berryhill           Employment: working hours.
+SB 608  Wright              Adverse possession: public entity properties.
+SB 609  Wolk                Office of the State Long-Term Care Ombudsman.
+SB 610  Jackson             Franchises.
+SB 611  Hill                Modified limousines: inspection program: safety
+                            requirements.
+SB 612  Leno                Residential tenancy: victims of human trafficking
+                            and elder or dependent adult abuse.
+SB 613  DeSaulnier          Bay Area Toll Authority.
+SB 614  Wolk                Local government: jurisdictional changes:
+                            infrastructure financing.
+SB 615  Galgiani            Public works: prevailing wages.
+SB 616  Roth                Aeronautics Account: California Aid to Airports
+                            Program.
+SB 617  Evans               California Environmental Quality Act.
+SB 618  Leno                Wrongful convictions.
+SB 619  Yee                 State employees: training: civics orientation.
+SB 620  Wright              Water replenishment districts.
+SB 621  Gaines              Vehicular air pollution: in-use, diesel-fueled
+                            vehicles.
+SB 622  Monning             Taxation: sweetened beverage tax: Children's
+                            Health Promotion Fund.
+SB 623  Gaines              Food safety.
+SB 624  Steinberg           International commercial disputes: representation
+                            and assistance.
+SB 625  Beall               Child welfare: racial and ethnic disparities.
+SB 626  Beall               Workers' compensation.
+SB 627  Lara                English learners: English language education.
+SB 628  Beall               Enhanced infrastructure financing districts.
+SB 629  Beall               Tax equity allocation formula: County of Santa
+                            Clara.
+SB 630  Pavley              California Tahoe Regional Planning Agency.
+SB 631  Beall               Health care: health facilities: observation and
+                            short-stay observation services.
+SB 632  Calderon            Gangs: youths.
+SB 633  Pavley              State parks.
+SB 634  Price               School safety plans: safety drills.
+SB 635  Leno                Alcoholic beverages: hours of sale.
+SB 636  Hill                Public Utilities Commission: proceedings.
+SB 637  Yee                 Early voting.
+SB 638  Lara                Election crimes: misrepresentation by candidates.
+SB 639  Hernandez           Health care coverage.
+SB 640  Lara                Medi-Cal: reimbursement: provider payments.
+SB 641  Anderson            Corporation taxes: minimum franchise tax:
+                            exemptions.
+SB 642  Berryhill           Public utilities: electrical services: charges.
+SB 643  Price               Pharmacists: identity.
+SB 644  Cannella            Firearms: felons in possession: serious felonies.
+SB 645  Nielsen             Diagnosis-related group methodology.
+SB 646  Nielsen             Medi-Cal: reimbursement: distinct part nursing
+                            facilities.
+SB 647  Wolk                County retirement.
+SB 648  Corbett             Electronic cigarettes: restriction of use and
+                            advertising.
+SB 649  Leno                Possession of controlled substances: penalties.
+SB 650  Lieu                Motion pictures.
+SB 651  Pavley              Developmental centers and state hospitals.
+SB 652  DeSaulnier          Real property disclosures: construction defect
+                            litigation.
+SB 653  Knight              Criminal procedure: pleas.
+SB 654  Leno                Ballot measure petitions: recall petitions:
+                            translations.
+SB 655  Wright              Fair Employment and Housing Act: unlawful
+                            practices.
+SB 656  Wright              Electrical restructuring: natural gas
+                            restructuring: information practices.
+SB 657  Block               Teachers: evaluations.
+SB 658  Correa              Orange County Water District Act: investigation,
+                            cleanup, and liability.
+SB 659  Hancock             Environmental quality: archaeological resources:
+                            qualifications.
+SB 660  Hancock             Career technical education: funding.
+SB 661  Hill                False advertising.
+SB 662  Galgiani            Structural pest control operators: financial
+                            responsibility.
+SB 663  Lara                Local government: redevelopment: revenues from
+                            property tax override rates.
+SB 664  Yee                 Mental health: Laura's Law.
+SB 665  Wolk                Oil and gas: drilling: indemnity bonds: wells.
+SB 666  Steinberg           Employment: retaliation.
+SB 667  Roth                Retail sale of shelled eggs.
+SB 668  Fuller              Tribal gaming: compact ratification.
+SB 669  Huff                Emergency medical care: epinephrine
+                            auto-injectors.
+SB 670  Steinberg           Physicians and surgeons: drug prescribing
+                            privileges: investigation.
+SB 671  Monning             California Coastal Act of 1976: natural shoreline.
+SB 672  Leno                CalFresh: eligibility: guidelines.
+SB 673  DeSaulnier          County employees' retirement: Contra Costa County.
+SB 674  Corbett             California Environmental Quality Act: exemption:
+                            residential infill projects.
+SB 675  Wolk                Animal welfare: standards.
+SB 676  Block               Real estate records: unlawful destruction.
+SB 677  Monning             Health care coverage: agencies: reports.
+SB 678  Correa              Internet gambling.
+SB 679  Berryhill           Licensees: reporting requirements.
+SB 680  Wolk                Tobacco Master Settlement Agreement: qualified
+                            escrow funds.
+SB 681  Hernandez           Community college districts: personal property.
+SB 682  Lara                California State University: student enrollment.
+SB 683  Block               Firearms: firearm safety certificate.
+SB 684  Hill                Advertising displays: redevelopment agency
+                            project areas.
+SB 685  Anderson            School bonds: capital appreciation bonds.
+SB 686  Jackson             Vehicles: vehicle dealers.
+SB 687  Anderson            Schools: volunteers: school facility maintenance
+                            or improvement.
+SB 688  Galgiani            Sales and use taxes: exemptions: animals: drugs
+                            and medicines.
+SB 689  Price               Barbering and cosmetology.
+SB 690  Price               Licenses.
+SB 691  Hancock             Nonvehicular air pollution control: penalties.
+SB 692  Hancock             Local government: community facilities districts.
+SB 693  Correa              Personal income tax: credits: qualified teachers.
+SB 694  Correa              Outdoor advertising: transit stations.
+SB 695  Wright              California Science Center: parking facilities.
+SB 696  Block               School accountability: Academic Performance
+                            Index: civics.
+SB 697  Evans               Department of Transportation: sale of excess
+                            state highway property.
+SB 698  Fuller              Adverse possession.
+SB 699  Hill                Public utilities: electrical corporations.
+SB 700  Wolk                Natural resources: parks: carryout bags.
+SB 701  Emmerson            Hospital-affiliated outpatient settings.
+SB 702  Anderson            Criminal law: badges: impersonation.
+SB 703  Hernandez           Medi-Cal.
+SB 704  Walters             Capitol Area Plan.
+SB 705  Block               Community colleges: appropriation.
+SB 706  Correa              County prisoners: Community Reintegration and
+                            Transitional Status.
+SB 707  Berryhill           Unlawful taking or possession of animals.
+SB 708  Nielsen             Imprisonment: sentences punishable in state
+                            prison.
+SB 709  Nielsen             Inmates: mental evaluations.
+SB 710  Nielsen             Parole.
+SB 711  Padilla             Public Utilities Commission: fees.
+SB 712  Lara                Hazardous waste facility: permitting: interim
+                            status.
+SB 713  Correa              Liability: good faith reliance on administrative
+                            ruling.
+SB 714  Block               Pupil instruction: independent study.
+SB 715  Lara                Renewable energy resources: municipal solid waste
+                            combustion.
+SB 716  Lara                Inmates: civil rights.
+SB 717  DeSaulnier          Search warrants: driving under the influence.
+SB 718  Roth                Capital investment incentive programs:
+                            corporation tax credit: new advanced strategic
+                            aircraft program.
+SB 719  Correa              Department of Veterans Affairs: California
+                            Disabled Veteran Business Enterprise Program
+                            reports.
+SB 720  Correa              Military service: benefits.
+SB 721  Padilla             Horse racing.
+SB 722  Correa              California Mexican American Veterans' Memorial
+                            Beautification and Enhancement Fund: extension of
+                            operation.
+SB 723  Correa              Veterans.
+SB 724  Emmerson            Liability: charitable vision screenings.
+SB 725  Anderson            Veterans buildings and memorials: county and city
+                            property: veterans service organizations:
+                            nonprofit veteran service agencies: retrofit and
+                            remodel.
+SB 726  Lara                California Global Warming Solutions Act of 2006:
+                            Western Climate Initiative, Incorporated.
+SB 727  Jackson             Medical waste: pharmaceutical product stewardship
+                            program.
+SB 728  Wolk                Long-term care facilities: health care decisions.
+SB 729  Fuller              Proposition 39: implementation.
+SB 730  Hancock             School districts: pupil attendance at community
+                            college.
+SB 731  Steinberg           Environment: California Environmental Quality Act.
+SB 732  Berryhill           Sales and use taxes: exclusion: trade-in
+                            passenger vehicle.
+SB 733  Block               State contracts: disabled veteran business
+                            enterprise statewide participation goals:
+                            business utilization plan value.
+SB 734  Walters             Common interest developments.
+SB 735  Wolk                Sacramento-San Joaquin Delta Reform Act of 2009:
+                            multispecies conservation plans.
+SB 736  Wright              Electrical generation facility: upgrades: permit
+                            fees.
+SB 737  Huff                Appeals: representative actions.
+SB 738  Yee                 Sexually exploited and trafficked minors.
+SB 739  Calderon            Environmental quality.
+SB 740  Padilla             Telecommunications: universal service programs:
+                            California Advanced Services Fund.
+SB 741  Cannella            California fairs: funding.
+SB 742  Nielsen             Defendants.
+SB 743  Steinberg           Environmental quality: transit oriented infill
+                            projects, judicial review streamlining for
+                            environmental leadership development projects,
+                            and entertainment and sports center in the City
+                            of Sacramento.
+SB 744  Lara                Pupils: involuntary transfer: county community
+                            schools and community day schools.
+SB 745  Committee on        Housing.
+        Transportation and
+        Housing
+SB 746  Leno                Health care coverage: premium rates.
+SB 747  DeSaulnier          Public health impact assessments.
+SB 748  Galgiani            Structural pest control operators.
+SB 749  Wolk                Habitat protection: endangered species.
+SB 750  Wolk                Building standards: water meters: multiunit
+                            structures.
+SB 751  Yee                 Meetings: publication of action taken.
+SB 752  Roth                Commercial and industrial common interest
+                            developments.
+SB 753  Steinberg           Central Valley Flood Protection Board.
+SB 754  Evans               California Environmental Quality Act.
+SB 755  Wolk                Firearms: prohibited persons.
+SB 756  Galgiani            Voter registration.
+SB 757  Berryhill           Groundwater management.
+SB 758  Block               General plans: City of Coronado.
+SB 759  Nielsen             Firearms: California State Military Museum and
+                            Resource Center.
+SB 760  Wright              California Renewables Portfolio Standard Program.
+SB 761  DeSaulnier          Personal income taxes: voluntary contributions:
+                            School Supplies for Homeless Children Fund.
+SB 762  Hill                Secondhand goods: lost, stolen, or embezzled
+                            items.
+SB 763  Fuller              State Water Resources Control Board: underground
+                            storage tanks.
+SB 764  Yee                 Fish: accounting records: violation.
+SB 765  Block               Public employees: collective bargaining.
+SB 766  Yee                 Ancillary day care centers.
+SB 767  Lieu                Department of Motor Vehicles: records:
+                            confidentiality.
+SB 768  De León             Cigarette and tobacco products taxes: California
+                            Tobacco Tax Act of 2014.
+SB 769  Block               Veterans: criminal defendants.
+SB 770  Jackson             Unemployment compensation: disability benefits:
+                            paid family leave.
+SB 771  Galgiani            Inmates: temporary removal.
+SB 772  Roth                Drinking water: County Water Company of Riverside
+                            water system: liability.
+SB 773  Hernandez           Workers' compensation: lifeguards.
+SB 774  Walters             State employees: postemployment benefits.
+SB 775  Walters             State employees: postemployment benefits.
+SB 776  Corbett             Public works: prevailing wage rates: employer
+                            payment credits.
+SB 777  Hernandez           Horse racing: workers' compensation.
+SB 778  Nielsen             Public employment: salary ranges.
+SB 779  Anderson            Capital punishment: appeals.
+SB 780  Jackson             Health care coverage.
+SB 781  Lara                Continuing care contracts.
+SB 782  DeSaulnier          Income taxes: voluntary contributions: California
+                            Sexual Violence Victim Services Fund.
+SB 783  De León             The California Clean Water, Safe Urban Parks, and
+                            Environmental Health Investment Act of 2014.
+SB 784  Fuller              Developmental services: individual program plan:
+                            planning process.
+SB 785  Wolk                Design-build.
+SB 786  Nielsen             Local government: agricultural land.
+SB 787  Berryhill           Environmental quality: the Sustainable
+                            Environmental Protection Act.
+SB 788  Committee on        Transportation.
+        Transportation and
+        Housing
+SB 789  Liu                 Vehicles: special interest license plates:
+                            California Arts Council.
+SB 790  Price               Labor standards: enforcement.
+SB 791  Wyland              Motor vehicle fuel tax: rate adjustment.
+SB 792  Padilla             Administrative regulations: corrosion prevention
+                            and mitigation projects.
+SB 793  Lara                Air pollution: oceangoing vessels.
+SB 794  Evans               Juries: criminal trials: peremptory challenges.
+SB 795  Lara                Department of Rehabilitation.
+SB 796  Nielsen             Medicine: physicians and surgeons.
+SB 797  Anderson            Income taxation: net operating losses: fraudulent
+                            investment arrangement losses.
+SB 798  De León             Income taxes: credits: contributions to education
+                            funds.
+SB 799  Calderon            Health care coverage: colorectal cancer: genetic
+                            testing and screening.
+SB 800  Lara                Health care coverage programs: transition.
+SB 801  Roth                Department of Finance: reports: crimes.
+SB 802  Evans               Oil and gas: trade secrets.
+SB 803  DeSaulnier          Local government: counties: consolidation of
+                            offices.
+SB 804  Lara                Solid waste: energy.
+SB 805  De León             Water corporations: low-income rate relief
+                            programs.
+SB 806  Hueso               Department of Motor Vehicles: license plate
+                            alternatives pilot program.
+SB 807  Price               California State University: African American
+                            Political and Economic Institute.
+SB 808  De León             Firearms: identifying information.
+SB 809  DeSaulnier          Controlled substances: reporting.
+SB 810  Price               Franchise Tax Board: tax credit certificates for
+                            exporters and importers: income tax credit.
+SB 811  Lara                State Highway Route 710.
+SB 812  De León             Hazardous waste.
+SB 813  Galgiani            Inmates: temporary removal.
+SB 814  Committee on        Natural resources: administration.
+        Natural Resources
+        and Water
+SB 815  Committee on        Veterans.
+        Veterans Affairs
+SB 816  Committee on Health Hospice facilities: developmental disabilities:
+                            intellectual disability.
+SB 817  Committee on        California State Lottery: drawings.
+        Governmental
+        Organization
+SB 818  Committee on        Alcoholic beverages.
+        Governmental
+        Organization
+SB 819  Committee on        Horse racing: Breeders' Cup World Championship
+        Governmental        series: payment of purses.
+        Organization
+SB 820  Committee on        State government.
+        Governmental
+        Organization
+SB 821  Committee on        Healing arts.
+        Business,
+        Professions and
+        Economic Development
+SB 822  Committee on        Professions and vocations.
+        Business,
+        Professions and
+        Economic Development
+SB 823  Committee on        Professions and vocations: licensure.
+        Business,
+        Professions and
+        Economic Development
+SB 824  Committee on        State Board of Equalization: administration.
+        Governance and
+        Finance
+SB 825  Committee on        Government finance.
+        Governance and
+        Finance
+SB 826  Committee on        Civil law: omnibus bill.
+        Judiciary
+SB 827  Liu                 Local government: Los Angeles County: notice of
+                            recordation.
+SB 828  Lieu                Assistance to federal agencies.
+SB 829  Galgiani            Local government: City of Escalon: sale of
+                            property.
+SB 830  Galgiani            Health care: health facility data.
+SB 831  Hill                Political Reform Act of 1974.
+SB 832  Gaines              State parks: Kings Beach State Recreation Area.
+SB 833  Liu                 Jails: discharge of prisoners.
+SB 834  Huff                Environmental quality: the Sustainable
+                            Environmental Protection Act.
+SB 835  Hill                Food animals: medically important antimicrobial
+                            drugs.
+SB 836  Corbett             Brain research: Cal-BRAIN program.
+SB 837  Steinberg           Early childhood education: professional
+                            development.
+SB 838  Beall               Juveniles: sex offenses.
+SB 839  Correa              The California Disabled Veteran Business
+                            Enterprise Program: state contracts.
+SB 840  Lara                Educational equity: local educational agency
+                            policies against bullying.
+SB 841  Cannella            University of California: medical education.
+SB 842  Knight              Highway signs: Veterans' Home of California.
+SB 843  Correa              School employees: discipline: dismissal and
+                            suspension.
+SB 844  Pavley              Elections: ballot measure contributions.
+SB 845  Correa              Postsecondary education: electronic disbursement
+                            of student financial aid.
+SB 846  Galgiani            Crimes: Violent Crime Information Center.
+SB 847  Block               Crime victim compensation: financial elder or
+                            dependent adult abuse.
+SB 848  Wolk                Safe Drinking Water, Water Quality, and Water
+                            Supply Act of 2014.
+SB 849  Anderson            Decedents' estates: electronic mail.
+SB 850  Block               Public postsecondary education: community college
+                            districts: baccalaureate degree pilot program.
+SB 851  Leno                Budget Act of 2014.
+SB 852  Leno                Budget Act of 2014.
+SB 853  Committee on Budget Transportation.
+        and Fiscal Review
+SB 854  Committee on Budget State and local government.
+        and Fiscal Review
+SB 855  Committee on Budget Human services.
+        and Fiscal Review
+SB 856  Committee on Budget Developmental services.
+        and Fiscal Review
+SB 857  Committee on Budget Health.
+        and Fiscal Review
+SB 858  Committee on Budget Education finance: education omnibus trailer bill.
+        and Fiscal Review
+SB 859  Committee on Budget Education finance: local control funding formula.
+        and Fiscal Review
+SB 860  Committee on Budget Education finance: education omnibus trailer bill.
+        and Fiscal Review
+SB 861  Committee on Budget Public resources: trailer bill.
+        and Fiscal Review
+SB 862  Committee on Budget Greenhouse gases: emissions reduction.
+        and Fiscal Review
+SB 863  Committee on Budget Correctional facilities: construction.
+        and Fiscal Review
+SB 864  Torres              State teachers' retirement: Defined Benefit
+                            Program: funding.
+SB 865  Committee on Budget Budget Act of 2013: augmentation.
+        and Fiscal Review
+SB 866  Wolk                Water Quality, Supply, and Infrastructure
+                            Improvement Act of 2014.
+SB 867  Committee on Budget State reserve fund ballot measure.
+        and Fiscal Review
+SB 868  Committee on Budget State water policy: groundwater resources.
+        and Fiscal Review
+SB 869  Committee on Budget School facilities: construction: bond act.
+        and Fiscal Review
+SB 870  Committee on Budget Health.
+        and Fiscal Review
+SB 871  Committee on Budget Property taxes: new construction exclusion:
+        and Fiscal Review   active solar energy system.
+SB 872  Committee on Budget Budget Act of 2014.
+        and Fiscal Review
+SB 873  Committee on Budget Human services.
+        and Fiscal Review
+SB 874  Committee on Budget Public resources.
+        and Fiscal Review
+SB 875  Committee on Budget Public safety.
+        and Fiscal Review
+SB 876  Committee on Budget Education finance.
+        and Fiscal Review
+SB 877  Committee on Budget Correctional facilities: construction.
+        and Fiscal Review
+SB 878  Committee on Budget In-home supportive services: onsite provider
+        and Fiscal Review   orientation.
+SB 879  Committee on Budget State employees: memoranda of understanding.
+        and Fiscal Review
+SB 880  Committee on Budget Budget Act of 2014.
+        and Fiscal Review
+SB 881  Committee on Budget Transportation.
+        and Fiscal Review
+SB 882  Committee on Budget Budget Act of 2014.
+        and Fiscal Review
+SB 883  Hancock             West Contra Costa Healthcare District.
+SB 884  Committee on Budget Budget Act of 2014.
+        and Fiscal Review
+SB 885  Committee on Budget Budget Act of 2014.
+        and Fiscal Review
+SB 886  Committee on Budget Budget Act of 2014.
+        and Fiscal Review
+SB 887  Committee on Budget Budget Act of 2014.
+        and Fiscal Review
+SB 888  Committee on Budget Budget Act of 2014.
+        and Fiscal Review
+SB 889  Committee on Budget Budget Act of 2014.
+        and Fiscal Review
+SB 890  Committee on Budget Budget Act of 2014.
+        and Fiscal Review
+SB 891  Committee on Budget Budget Act of 2014.
+        and Fiscal Review
+SB 892  Hancock             State prisons.
+SB 893  Hill                Automated license plate recognition systems: use
+                            of data.
+SB 894  Corbett             Residential care facilities for the elderly:
+                            revocation of license.
+SB 895  Corbett             Residential care facilities for the elderly.
+SB 896  Correa              Finance lenders: nonprofit organizations:
+                            zero-interest, low-cost loans: exemptions.
+SB 897  Steinberg           Educational programs: history-social science
+                            framework: adult education: civics instruction.
+SB 898  Cannella            State government: state funds.
+SB 899  Mitchell            CalWORKs: eligibility.
+SB 900  Hill                Public utilities: rate case application: safety.
+SB 901  Vidak               High-speed rail: funding.
+SB 902  Vidak               High-speed rail: eminent domain.
+SB 903  Vidak               High-speed rail: property tax revenues.
+SB 904  Vidak               High-speed rail: private property: owner consent.
+SB 905  Knight              Assault: force likely to produce great bodily
+                            injury.
+SB 906  Correa              Elective Percutaneous Coronary Intervention (PCI)
+                            Program.
+SB 907  Monning             International commercial disputes: representation
+                            and assistance.
+SB 908  Gaines              Housing availability.
+SB 909  Pavley              Dependent children: health screenings.
+SB 910  Pavley              Domestic violence: restraining orders.
+SB 911  Block               Residential care facilities for the elderly.
+SB 912  Mitchell            State property: vending machines.
+SB 913  DeSaulnier          Vehicular air pollution: vehicle retirement.
+SB 914  Liu                 Small claims court.
+SB 915  Hill                Standardized testing: inadequate or improper test
+                            conditions.
+SB 916  Correa              Firearms.
+SB 917  Gaines              Health care coverage: provider information.
+SB 918  Gaines              Department of Transportation.
+SB 919  Wright              Employees: wage disputes.
+SB 920  Galgiani            Planning and zoning: flood protection.
+SB 921  Wright              Local government: redevelopment: revenues from
+                            property tax override rates.
+SB 922  Knight              Sex offenses: disabled victims.
+SB 923  Pavley              Educational apprenticeships: Educational
+                            Apprenticeship Innovation Act: EdPrize.
+SB 924  Beall               Damages: childhood sexual abuse: statute of
+                            limitations.
+SB 925  Wright              Alameda Corridor Transportation Authority.
+SB 926  Beall               Crimes: statute of limitation: felony sex crimes.
+SB 927  Cannella            Safe, Clean, and Reliable Drinking Water Supply
+                            Act of 2014.
+SB 928  Correa              International trade and investment office: Mexico.
+SB 929  Wright              Nonviolent felonies.
+SB 930  Berryhill           Arson.
+SB 931  Anderson            Initiative measures: circulating title and
+                            summary.
+SB 932  Anderson            General acute care hospitals: supplemental or
+                            special services.
+SB 933  Anderson            Probation.
+SB 934  Anderson            Property.
+SB 935  Leno                Minimum wage: annual adjustment.
+SB 936  Monning             Utilities.
+SB 937  Galgiani            University of California Center for Pest Research.
+SB 938  Galgiani            Water rights: reconsideration of a decision or
+                            order.
+SB 939  Block               Criminal jurisdiction.
+SB 940  Jackson             California Conservatorship Jurisdiction Act.
+SB 941  Monning             Vessel operator cards.
+SB 942  Vidak               Special elections.
+SB 943  Beall               California State University: personal services
+                            contracting.
+SB 944  Torres              Surplus state property.
+SB 945  Morrell             Pupil assessment: California Assessment of
+                            Student Performance and Progress: history-social
+                            science.
+SB 946  Huff                Community facilities: Orange County Sanitation
+                            District.
+SB 947  Berryhill           Electronic benefits transfer system.
+SB 948  Committee on        Active militia.
+        Veterans Affairs
+SB 949  Jackson             After school programs: Distinguished After School
+                            Health Recognition Program.
+SB 950  Torres              Bribery: statute of limitations: tolling.
+SB 951  Torres              Statute of limitations: conspiracy.
+SB 952  Torres              Prohibited financial interests: aiding and
+                            abetting.
+SB 953  Roth                Vehicles: parking: public grounds.
+SB 954  Gaines              California Tahoe Conservancy.
+SB 955  Mitchell            Interception of electronic communications.
+SB 956  Gaines              Insurance policies.
+SB 957  Vidak               Imprisonment: state prison.
+SB 958  Gaines              California Environmental Quality Act.
+SB 959  Hernandez           Health care coverage.
+SB 960  Morrell             Pharmacy.
+SB 961  Berryhill           California Horse Racing Board.
+SB 962  Leno                Smartphones.
+SB 963  Torres              Elections: payment of expenses.
+SB 964  Hernandez           Health care coverage.
+SB 965  Leno                Community colleges: funding: San Francisco
+                            Community College District.
+SB 966  Lieu                Outpatient settings: surgical clinics.
+SB 967  De León             Student safety: sexual assault.
+SB 968  Hill                Public lands: Martins Beach property: access road.
+SB 969  DeSaulnier          Public works.
+SB 970  Yee                 Juveniles: solitary confinement.
+SB 971  Huff                School finance: categorical programs.
+SB 972  Torres              California Health Benefit Exchange: board:
+                            membership.
+SB 973  Hernandez           Narcotic treatment programs.
+SB 974  Anderson            California Health Benefit Exchange.
+SB 975  Lieu                Personal services contracts: legal compliance.
+SB 976  Gaines              Public contracts: public works projects: notice.
+SB 977  Liu                 Juveniles.
+SB 978  DeSaulnier          Rape victims: local rape victim counseling
+                            centers: notice.
+SB 979  Beall               Local public employee organizations: differences:
+                            factfinding panel.
+SB 980  Lieu                Prisoners: DNA testing.
+SB 981  Huff                Regulations: review process.
+SB 982  Huff                Prostitution: minors: punishment.
+SB 983  Hernandez           High-occupancy toll lanes.
+SB 984  Walters             State Teachers' Retirement System: Defined
+                            Benefit Program.
+SB 985  Pavley              Stormwater resource planning.
+SB 986  Hernandez           Medi-Cal: managed care: exemption from plan
+                            enrollment.
+SB 987  Monning             California Sea Otter Fund: Department of Fish and
+                            Wildlife: State Coastal Conservancy.
+SB 988  Jackson             Fox Canyon Groundwater Management Agency.
+SB 989  Galgiani            Veteran services: state agencies and departments.
+SB 990  Vidak               Transportation funds: disadvantaged small
+                            communities.
+SB 991  Jackson             Sex offenses: second degree rape.
+SB 992  Nielsen             Common interest developments: property use and
+                            maintenance.
+SB 993  Mitchell            Healing arts: dietitians.
+SB 994  Monning             Vehicles: vehicle information: privacy.
+SB 995  Knight              Military service: benefits.
+SB 996  Evans               Juveniles: dependent children: documents.
+SB 997  Morrell             Voluntary contributions: California Fund for
+                            Senior Citizens.
+SB 998  Knight              Taxes: exemption and credits: new aerospace
+                            projects.
+SB 999  Liu                 CalFresh: student eligibility.
+SB 1000 Monning             Public health: sugar-sweetened beverages: safety
+                            warnings.
+SB 1001 Morrell             Actions for damages: felony offenses.
+SB 1002 De León             Low-income individuals: eligibility
+                            determinations.
+SB 1003 Evans               Personal Income Tax Law: cancellation of
+                            indebtedness: student loan forgiveness.
+SB 1004 Hernandez           Health care: palliative care.
+SB 1005 Lara                Health care coverage: immigration status.
+SB 1006 Wyland              School curriculum: American history and
+                            government: high school graduation course
+                            requirements: high school exit examination.
+SB 1007 Wyland              Career technical education.
+SB 1008 Wyland              Science education: STEM curriculum.
+SB 1009 Liu                 Public records.
+SB 1010 Mitchell            Cocaine base: penalties.
+SB 1011 Monning             Nonprofit corporations: self-insurance.
+SB 1012 Wyland              Healing arts: licensure requirements.
+SB 1013 Vidak               Clean, Safe, and Reliable Drinking Water Supply
+                            Act of 2014.
+SB 1014 Jackson             Pharmaceutical waste: home generated: collection.
+SB 1015 Galgiani            Inmates.
+SB 1016 Wyland              Pupil instruction: common core academic content
+                            standards and curriculum frameworks.
+SB 1017 Evans               Education finance: oil and gas severance tax.
+SB 1018 De León             Pest control: citrus disease prevention.
+SB 1019 Leno                Upholstered furniture: flame retardant chemicals.
+SB 1020 Monning             Recycling: hazardous waste: photovoltaic panels:
+                            collection and recycling programs.
+SB 1021 Wolk                School districts: parcel taxes.
+SB 1022 Huff                Public postsecondary education: labor market
+                            outcome information.
+SB 1023 Liu                 Community colleges: foster youth.
+SB 1024 Gaines              Community colleges: board of governors.
+SB 1025 Torres              Department of the California Highway Patrol:
+                            Department of Human Resources.
+SB 1026 Vidak               Common interest developments: assessment
+                            collection: notice.
+SB 1027 Hill                Booking photographs: commercial use.
+SB 1028 Jackson             Student financial aid: Cal Grant C awards.
+SB 1029 Hancock             CalFresh eligibility.
+SB 1030 De León             Claims against the state: appropriation.
+SB 1031 De León             State claims.
+SB 1032 Torres              Personal income tax.
+SB 1033 Torres              Land use: local planning: housing elements.
+SB 1034 Monning             Health care coverage: waiting periods.
+SB 1035 Huff                Personal income taxes: health savings accounts.
+SB 1036 Pavley              Urban water management plans.
+SB 1037 Hernandez           Los Angeles County Metropolitan Transportation
+                            Authority: transactions and use tax.
+SB 1038 Leno                Juveniles: dismissal of petition.
+SB 1039 Hernandez           Pharmacy.
+SB 1040 Evans               Food labeling: genetically engineered food.
+SB 1041 Jackson             Business: filings.
+SB 1042 Calderon            Food facilities: toilet rooms: baby changing
+                            tables.
+SB 1043 Torres              Elections: in-lieu-filing-fee and political party
+                            qualification petitions: penal provisions.
+SB 1044 Fuller              Valley fever.
+SB 1045 Beall               Medi-Cal Drug Treatment Program: group outpatient
+                            drug free services.
+SB 1046 Beall               Insurance: mental illness: developmental
+                            disabilities: coverage: penalties.
+SB 1047 Walters             Education finance: budgets: long-term obligations.
+SB 1048 Roth                Vehicles: weight limits.
+SB 1049 Pavley              Integrated regional water management plans.
+SB 1050 Monning             Notaries public: verification of identity: notice.
+SB 1051 Galgiani            Buyer's Choice Act.
+SB 1052 Torres              Health care coverage.
+SB 1053 Mitchell            Health care coverage: contraceptives.
+SB 1054 Steinberg           Mentally ill offender crime reduction grants.
+SB 1055 Liu                 Public School Health Center Support Program.
+SB 1056 Fuller              County employees: retirement.
+SB 1057 Corbett             Pupil curriculum: history-social science content
+                            standards.
+SB 1058 Leno                Writ of habeas corpus.
+SB 1059 Wyland              Employment.
+SB 1060 Liu                 School employees: professional growth.
+SB 1061 Block               Elections: voter registration.
+SB 1062 Block               Elections: vote by mail ballots.
+SB 1063 Block               Voter registration: juvenile detention facilities.
+SB 1064 Hill                Public Utilities Commission: railroads: natural
+                            gas pipelines: safety.
+SB 1065 Monning             Insurance: reports: electronic submission.
+SB 1066 Galgiani            Missing or unidentified persons.
+SB 1067 Beall               Schoolsites: selection: entry/exit access:
+                            acquisition and plans review.
+SB 1068 Beall               Community colleges: accreditation.
+SB 1069 Torres              Student Tuition Recovery Fund: claims.
+SB 1070 Huff                Charter schools: admissions: preferences.
+SB 1071 Beall               Bill of Rights for State Excluded Employees.
+SB 1072 Fuller              Real property: duty of care: recreational
+                            purposes: aviation activities.
+SB 1073 Wyland              Business licenses taxation.
+SB 1074 Knight              State government: state funds.
+SB 1075 Knight              Department of Forestry and Fire Protection: civil
+                            cost recovery.
+SB 1076 Walters             Retail sale of shelled eggs.
+SB 1077 DeSaulnier          Vehicles: road usage charge pilot program.
+SB 1078 Jackson             Electricity: emissions of greenhouse gases.
+SB 1079 Vidak               California Global Warming Solutions Act of 2006:
+                            market-based compliance mechanisms: exemption.
+SB 1080 Fuller              Safe, Clean, and Reliable Drinking Water Supply
+                            Act of 2012.
+SB 1081 Hernandez           Federally qualified health centers.
+SB 1082 Huff                State Department of Education: parent resources
+                            Internet Web site.
+SB 1083 Pavley              Physician assistants: disability certifications.
+SB 1084 Walters             Human trafficking.
+SB 1085 Walters             Human trafficking.
+SB 1086 De León             The Safe Neighborhood Parks, Rivers, and Coastal
+                            Protection Bond Act of 2014.
+SB 1087 Monning             Farm labor contractors.
+SB 1088 Yee                 Juveniles: disposition.
+SB 1089 Mitchell            Medi-Cal: juvenile inmates.
+SB 1090 Fuller              Electricity: rates: default time-of-use pricing.
+SB 1091 Galgiani            Administrative procedures: California Regulatory
+                            Notice Register: proposed rulemaking activities.
+SB 1092 Calderon            Public Utilities Commission.
+SB 1093 Liu                 Developmental services: regional centers:
+                            culturally and linguistically competent services.
+SB 1094 Lara                Nonprofit health facilities: sale of assets:
+                            Attorney General approval.
+SB 1095 Evans               State Highway Route 12.
+SB 1096 Jackson             Coastal sanctuary: State Lands Commission: oil
+                            and gas leases.
+SB 1097 Nielsen             Corrections: Criminal Justice Reinvestment
+                            Assessment Grant Program of 2014.
+SB 1098 Torres              Commission on the Status of Women and Girls.
+SB 1099 Steinberg           Dependent children: wards of the juvenile court:
+                            sibling visitation.
+SB 1100 Hernandez           Continuity of care.
+SB 1101 Padilla             Political Reform Act of 1974.
+SB 1102 Padilla             Political Reform Act of 1974: contributions.
+SB 1103 Padilla             Political Reform Act of 1974: candidacy for
+                            elective state office.
+SB 1104 Padilla             Political Reform Act of 1974: campaign
+                            communication disclosure.
+SB 1105 Liu                 Voter registration: Cal Grant Program application.
+SB 1106 Berryhill           Agricultural labor relations: certified labor
+                            organizations: reports.
+SB 1107 Monning             Pupil attendance: Attorney General report:
+                            truancy.
+SB 1108 Padilla             English learners: reclassification.
+SB 1109 Hueso               State contracts: integrated employment: persons
+                            with disabilities.
+SB 1110 Jackson             Arraignment: military and veteran status: forms.
+SB 1111 Lara                Pupils: involuntary transfer: county community
+                            schools.
+SB 1112 Hueso               Fire protection: school inspection: fire alarm
+                            systems.
+SB 1113 Knight              Property taxation: disabled veterans' exemption:
+                            refunds: statute of limitations.
+SB 1114 Walters             Postretirement health care benefits.
+SB 1115 Hueso               Renewable energy resources.
+SB 1116 Torres              Physicians and surgeons.
+SB 1117 Monning             Pesticide Contamination Prevention Act.
+SB 1118 Calderon            Milton Marks "Little Hoover" Commission on
+                            California State Government Organization and
+                            Economy.
+SB 1119 Leno                California Travel and Tourism Commission.
+SB 1120 Galgiani            Local water supply programs or projects: funding.
+SB 1121 De León             California Climate Technology and Infrastructure
+                            Financing Act.
+SB 1122 Pavley              Sustainable communities: Strategic Growth Council.
+SB 1123 Liu                 Child care and development services.
+SB 1124 Hernandez           Medi-Cal: estate recovery.
+SB 1125 Pavley              California Global Warming Solutions Act of 2006:
+                            emissions reduction.
+SB 1126 Knight              Space flight liability.
+SB 1127 Torres              Emergency services: individuals with
+                            developmental disabilities and cognitive
+                            impairments.
+SB 1128 Steinberg           Investment in Mental Health Wellness Act of 2013.
+SB 1129 Steinberg           Redevelopment: successor agencies to
+                            redevelopment agencies.
+SB 1130 Roth                Drinking water: County Water Company of Riverside
+                            water system: liability.
+SB 1131 Walters             Income taxes: withholding: limited liability
+                            company.
+SB 1132 Mitchell            Oil and gas: well stimulation treatments.
+SB 1133 Anderson            Juries: peace officer exemption.
+SB 1134 Knight              Vehicles: public transit buses: illuminated signs.
+SB 1135 Jackson             Inmates: sterilization.
+SB 1136 Huff                Foster care providers: criminal records.
+SB 1137 Torres              School transportation: apportionments.
+SB 1138 Padilla             Fish and shellfish: labeling and identification.
+SB 1139 Hueso               California Renewables Portfolio Standard Program.
+SB 1140 Cannella            County transportation commissions.
+SB 1141 Hancock             Unemployment insurance: use of information.
+SB 1142 Monning             Health insurance fraud: annual special purpose
+                            assessments.
+SB 1143 Liu                 Pupil instruction: independent study.
+SB 1144 Galgiani            Common interest developments: local governments:
+                            yard maintenance fines: drought.
+SB 1145 Corbett             Railroad crossings: quiet zones.
+SB 1146 Corbett             State government: research and development
+SB 1147 DeSaulnier          CalFresh: customer service standards: performance
+                            goals.
+SB 1148 Yee                 Marriage and family therapists: records retention.
+SB 1149 Galgiani            Cal Grant Program: renewal awards
+SB 1150 Hueso               Medi-Cal: federally qualified health centers and
+                            rural health clinics.
+SB 1151 Cannella            Vehicles: school zone fines.
+SB 1152 Anderson            Property taxation: exemptions: veterans'
+                            organizations.
+SB 1153 Leno                Residential care facilities for the elderly.
+SB 1154 Hancock             Peace officers: San Francisco Bay Area Rapid
+                            Transit District Police Department.
+SB 1155 Lieu                Geological hazards: approval of projects.
+SB 1156 Steinberg           California Carbon Tax Law of 2014.
+SB 1157 Hancock             School facilities: Kindergarten-University Public
+                            Education Facilities Bond Act of 2006.
+SB 1158 Yee                 Protective orders: transfer of wireless telephone
+                            numbers.
+SB 1159 Lara                Professions and vocations: license applicants:
+                            individual tax identification number.
+SB 1160 Beall               Developmental services: employment.
+SB 1161 Beall               Drug Medi-Cal.
+SB 1162 Berryhill           Vessels: violations.
+SB 1163 Galgiani            Department of Alcoholic Beverage Control: report.
+SB 1164 Liu                 School employees: discipline: dismissal and
+                            suspension.
+SB 1165 Mitchell            Pupil instruction: sexual abuse and sex
+                            trafficking prevention education.
+SB 1166 Vidak               Education finance: home-to-school transportation.
+SB 1167 Hueso               Vector control.
+SB 1168 Pavley              Groundwater management.
+SB 1169 Anderson            Sanitary districts: district taxes.
+SB 1170 Liu                 Surplus nonresidential property.
+SB 1171 Hueso               Real property transactions: agents: obligations.
+SB 1172 Steinberg           Pupil health: vision appraisals.
+SB 1173 Gaines              Insurance rate decreases.
+SB 1174 Lara                English language education.
+SB 1175 Walters             Vehicles: length limitations: motorsports.
+SB 1176 Steinberg           Health care coverage: cost sharing: monitoring.
+SB 1177 Steinberg           Privacy: students.
+SB 1178 Correa              Developmental disabilities: housing.
+SB 1179 Walters             Vehicles: size and weight limits.
+SB 1180 Calderon            Veterans.
+SB 1181 Correa              Finance lenders.
+SB 1182 Leno                Health care coverage: claims data.
+SB 1183 DeSaulnier          Vehicle registration fees: surcharge for bicycle
+                            infrastructure.
+SB 1184 Hancock             San Francisco Bay Conservation and Development
+                            Commission: sea level rise: regional resilience
+                            strategy.
+SB 1185 Huff                School teachers: termination and reappointment:
+                            seniority deviation.
+SB 1186 Torres              Merger: conversion of nonredeemable common shares
+                            and equity securities.
+SB 1187 Hueso               Public contracts: Target Area Contract Preference
+                            Act.
+SB 1188 Jackson             Consumers Legal Remedies Act: material facts.
+SB 1189 Liu                 Personal income tax: credit: earned income.
+SB 1190 Jackson             Courts: judgeships.
+SB 1191 Anderson            Developmental services.
+SB 1192 Hueso               Public contracts: small business, microbusiness,
+                            and disabled veteran business enterprise.
+SB 1193 Evans               Controlled substances: destruction of seized
+                            marijuana.
+SB 1194 Hueso               Solid waste: plastic products.
+SB 1195 Steinberg           State ballot pamphlet.
+SB 1196 Liu                 Public postsecondary education: state goals.
+SB 1197 Pavley              Restitution: collection by counties.
+SB 1198 Hancock             Criminal statistics: countywide statistics:
+                            Internet Web site.
+SB 1199 Hancock             Wild and scenic rivers: Mokelumne River.
+SB 1200 Padilla             Public postsecondary education: academic
+                            standards.
+SB 1201 De León             Local taxing entities: bonded indebtedness:
+                            judgments.
+SB 1202 Hueso               Public Employees' Medical and Hospital Care Act:
+                            postemployment health benefits: employer
+                            contributions: City of Indio.
+SB 1203 Jackson             Property taxation: welfare exemption: rental
+                            housing and related facilities: payment in lieu
+                            of taxes agreement.
+SB 1204 Lara                California Clean Truck, Bus, and Off-Road Vehicle
+                            and Equipment Technology Program.
+SB 1205 Monning             Insurance.
+SB 1206 Evans               State Personnel Board: administrative regulations.
+SB 1207 Wolk                California Voluntary Contribution Program.
+SB 1208 Yee                 Domestic violence victims: services and support.
+SB 1209 Mitchell            School districts: special taxes.
+SB 1210 Lara                Postsecondary education: California DREAM Loan
+                            Program.
+SB 1211 Padilla             Emergency services: Next Generation 911.
+SB 1212 Walters             Medi-Cal: moratoria on enrollment of providers.
+SB 1213 Hueso               Vehicles: enhanced driver's license.
+SB 1214 Anderson            State Controller: property tax postponement.
+SB 1215 Hernandez           Healing arts licensees: referrals.
+SB 1216 Morrell             Taxation: homeowners' exemption and renters'
+                            credit.
+SB 1217 Leno                Climate change: preparedness.
+SB 1218 Yee                 Residential care facilities for the elderly:
+                            civil penalties.
+SB 1219 Torres              Public employees' retirement: service after
+                            retirement.
+SB 1220 Torres              State teachers' retirement.
+SB 1221 Hancock             After school programs.
+SB 1222 Block               Dismissal: criminal action.
+SB 1223 Wright              Weapons: advertising.
+SB 1224 Correa              Tribal gaming: compact ratification.
+SB 1225 Wright              Pupil transportation: pupil safety.
+SB 1226 Correa              Veterans: professional licensing.
+SB 1227 Hancock             Diversion: members of the military.
+SB 1228 Hueso               Trade Corridors Improvement Fund.
+SB 1229 Fuller              Week of the School Administrator.
+SB 1230 Committee on        Validations.
+        Governance and
+        Finance
+SB 1231 Committee on        Validations.
+        Governance and
+        Finance
+SB 1232 Committee on        Validations.
+        Governance and
+        Finance
+SB 1233 Wyland              Elder and dependent adult abuse: statutes of
+                            limitation.
+SB 1234 Block               Workers' compensation.
+SB 1235 Knight              Prepackaged food.
+SB 1236 Monning             Transit districts: transit offenses and
+                            enforcement.
+SB 1237 Cannella            Vehicles: driving under the influence: alcohol
+                            programs.
+SB 1238 Hernandez           Health facilities: outpatient care and patient
+                            assessment.
+SB 1239 Wolk                Pupil health care services: school nurses.
+SB 1240 Anderson            State civil service: employment procedures.
+SB 1241 Leno                Health care coverage: marketplace transparency.
+SB 1242 Lieu                Automotive repair: Bureau of Automotive Repair.
+SB 1243 Lieu                Professions and vocations.
+SB 1244 Lieu                Structural Pest Control Board.
+SB 1245 Lieu                The Dental Hygiene Committee of California.
+SB 1246 Lieu                Acupuncture.
+SB 1247 Lieu                Private postsecondary education: California
+                            Private Postsecondary Education Act of 2009.
+SB 1248 Lara                California Collaborative for Educational
+                            Excellence.
+SB 1249 Hill                Hazardous waste: shredder waste.
+SB 1250 Hueso               Safe, Clean, and Reliable Drinking Water Supply
+                            Act of 2014.
+SB 1251 Huff                California Public Employees' Pension Reform Act
+                            of 2013: joint powers authority: employees.
+SB 1252 Torres              Public social services: former foster youth:
+                            transitional housing.
+SB 1253 Steinberg           Initiative measures.
+SB 1254 Calderon            Lactation accommodation: state employees.
+SB 1255 Cannella            Disorderly conduct: unlawful distribution of
+                            image.
+SB 1256 Mitchell            Medical services: credit.
+SB 1257 Roth                Workers' compensation.
+SB 1258 DeSaulnier          Controlled substances: prescriptions: reporting.
+SB 1259 Pavley              Dams: sedimentation studies.
+SB 1260 DeSaulnier          Local government: affordable housing.
+SB 1261 Jackson             Hazardous materials: business plans.
+SB 1262 Correa              Medical marijuana.
+SB 1263 Pavley              Charter schools: location.
+SB 1264 Pavley              Student financial aid: Educator Excellence
+                            Program loan assumption agreements.
+SB 1265 Hueso               State vehicle fleet purchases: minimum fuel
+                            economy standard.
+SB 1266 Huff                Pupil health: epinephrine auto-injectors.
+SB 1267 Roth                Traffic devices: nuisance abatement costs.
+SB 1268 Beall               Natural Resources Climate Improvement Program.
+SB 1269 Beall               General acute care hospitals.
+SB 1270 Pavley              Surface mining operations.
+SB 1271 Evans               Personal Income Tax Law: cancellation of
+                            indebtedness: student loan forgiveness.
+SB 1272 Lieu                Campaign finance: advisory election.
+SB 1273 Lara                Insurance: low-cost automobile insurance program.
+SB 1274 Hancock             Recycling: used mattresses.
+SB 1275 De León             Vehicle retirement and replacement: Charge Ahead
+                            California Initiative.
+SB 1276 Hernandez           Health care: fair billing policies.
+SB 1277 Steinberg           Electricity: electrical restructuring:
+                            Independent System Operator.
+SB 1278 Leno                Animal control officers.
+SB 1279 Calderon            Marcella Calderon Lynch Syndrome Prevention Act.
+SB 1280 Hueso               Department of Business Oversight: unsecured
+                            consumer loans.
+SB 1281 Pavley              Oil and gas production: water use: reporting.
+SB 1282 Knight              Gold Star Family specialized license plate
+                            program.
+SB 1283 Galgiani            Controlled substances.
+SB 1284 Galgiani            Parole: medical parole: compassionate release.
+SB 1285 Cannella            Pest control: regulations.
+SB 1286 Corbett             21st Century Energy System Decision.
+SB 1287 Corbett             Vehicles: Washington Township Health Care
+                            District crossing guards.
+SB 1288 Huff                State public employment: memoranda of
+                            understanding: legislative approval.
+SB 1289 Fuller              Off-highway motor vehicle recreation: land
+                            transfer.
+SB 1290 Fuller              Sales and use taxes: exemption: education-related
+                            products.
+SB 1291 Nielsen             Public cemetery districts: Halcumb Cemetery
+                            District.
+SB 1292 Hueso               Safe Drinking Water State Revolving Fund.
+SB 1293 Knight              Student financial aid.
+SB 1294 Huff                Elections: ballot titles and summaries.
+SB 1295 Block               Trespass: requests for law enforcement assistance.
+SB 1296 Leno                Juveniles: contemptuous habitual truants.
+SB 1297 Hueso               Hospital Safety and Transparency Act of 2014.
+SB 1298 Hernandez           High-occupancy toll lanes.
+SB 1299 Padilla             Workplace violence prevention plans: hospitals.
+SB 1300 Hancock             Refineries: turnarounds.
+SB 1301 DeSaulnier          Corporate Flexibility Act of 2011: Social Purpose
+                            Corporations Act.
+SB 1302 Wyland              Elder abuse.
+SB 1303 Torres              Public health: hepatitis C.
+SB 1304 Committee on        Maintenance of the codes.
+        Judiciary
+SB 1305 Evans               State Park and Recreation Commission: budget
+                            organization code.
+SB 1306 Leno                Marriage.
+SB 1307 Wyland              Identity theft: fines.
+SB 1308 Berryhill           School finance: necessary small schools.
+SB 1309 Steinberg           Battery manufacturing: electric vehicles and
+                            stationary uses.
+SB 1310 Lara                Misdemeanors: maximum sentence.
+SB 1311 Hill                Hospitals: antimicrobial stewardship.
+SB 1312 Steinberg           California Transportation Commission: annual
+                            report.
+SB 1313 Nielsen             Courts: court reporters.
+SB 1314 Monning             Unemployment insurance benefits: determination:
+                            appeals.
+SB 1315 Monning             Medi-Cal: providers.
+SB 1316 Cannella            Diabetes: state programs.
+SB 1317 Huff                Charter schools.
+SB 1318 Calderon            Housing: homeowner and renter assistance.
+SB 1319 Pavley              Groundwater.
+SB 1320 Torres              Medi-Cal: eligibility.
+SB 1321 Calderon            Peace officers: training: canines.
+SB 1322 Hernandez           California Health Care Cost and Quality Database.
+SB 1323 Lieu                Specialized license plates: Pet Lover's License
+                            Plate Program.
+SB 1324 Anderson            California Native American Memorial.
+SB 1325 Yee                 California State University: contractors.
+SB 1326 Roth                Hearing aids: warranty: work order or receipt.
+SB 1327 Knight              Tax administration: refunds: property tax: state
+                            assessees: actions.
+SB 1328 Hill                Weights and measures.
+SB 1329 Wright              Common interest developments.
+SB 1330 Hueso               Public postsecondary education: resident
+                            classification.
+SB 1331 Gaines              Insurance: interveners payment.
+SB 1332 Wolk                Pesticides: carbon monoxide pest control devices.
+SB 1333 Wyland              Vitamin and supplement ingredients: certification.
+SB 1334 Walters             Newborn screening program.
+SB 1335 Leno                Income and corporation taxes: credits:
+                            information.
+SB 1336 Wright              Firearms.
+SB 1337 DeSaulnier          Reports.
+SB 1338 Wyland              Credit cards: disclosures.
+SB 1339 Cannella            Medi-Cal: Drug Medi-Cal Treatment Program
+                            providers.
+SB 1340 Hernandez           Health care coverage: provider contracts.
+SB 1341 Mitchell            Medi-Cal: Statewide Automated Welfare System.
+SB 1342 Torres              Alcoholic beverages: licensees: electronic data
+                            services.
+SB 1343 Wyland              Civil procedure: property subject to attachment.
+SB 1344 Evans               Developmental services: Sonoma Developmental
+                            Center.
+SB 1345 Committee on        Natural resources.
+        Natural Resources
+        and Water
+SB 1346 Wyland              Schools: accountability: local control and
+                            accountability plans.
+SB 1347 Anderson            Public contracts: school districts: charter
+                            schools.
+SB 1348 DeSaulnier          Data brokers: sale of personal information.
+SB 1349 Jackson             School athletics: information relating to
+                            competitive athletics.
+SB 1350 Lara                Baby diaper changing accommodations.
+SB 1351 Hill                Payment cards.
+SB 1352 Hancock             Alameda Health System.
+SB 1353 Nielsen             Local government: Williamson Act.
+SB 1354 Knight              Deadly weapons: applications to the Department of
+                            Justice.
+SB 1355 Wyland              Credit cards: billing inquiries.
+SB 1356 De León             Tribal gaming: compact ratification.
+SB 1357 Wolk                Physician Orders for Life Sustaining Treatment
+                            form: statewide registry.
+SB 1358 Wolk                Baby diaper changing stations.
+SB 1359 Cannella            2013 Realignment Legislation addressing justice
+                            reinvestment.
+SB 1360 Padilla             Compensation: rest or recovery periods.
+SB 1361 Berryhill           Gambling control.
+SB 1362 Correa              Hazardous waste: disposal: exemption.
+SB 1363 Hancock             Sentencing: parole.
+SB 1364 Fuller              Telecommunications universal service programs.
+SB 1365 Padilla             California Voting Rights Act of 2001.
+SB 1366 Correa              Internet gambling.
+SB 1367 Anderson            Sales and use taxes: exemption: public safety
+                            first responder vehicle: equipment.
+SB 1368 Wolk                State highways: relinquishment.
+SB 1369 Block               Community colleges: Disability Services Program.
+SB 1370 Galgiani            Reliable Water Supply Bond Act of 2014.
+SB 1371 Leno                Natural gas: leakage abatement.
+SB 1372 DeSaulnier          Corporation taxes: tax rates: publicly held
+                            corporations: credits.
+SB 1373 Walters             Workers' compensation: self-insure.
+SB 1374 Hernandez           Medi-Cal: ground ambulance rates.
+SB 1375 Cannella            Gang Violence Suppression Program.
+SB 1376 Gaines              County jail inmates: involuntary transfer.
+SB 1377 Nielsen             Corrections.
+SB 1378 Morrell             Personal income tax: credits: charitable
+                            contributions.
+SB 1379 Huff                Political reform.
+SB 1380 Wyland              Pupil instruction: social science: genocide.
+SB 1381 Evans               Food labeling: genetically engineered food.
+SB 1382 Block               Residential care facilities for the elderly.
+SB 1383 Hueso               Plastic products: labeling.
+SB 1384 Mitchell            Certified nurse assistants.
+SB 1385 Anderson            Protection of victims: alternate physical address.
+SB 1386 Walters             Income taxes: exclusion: deferral: qualified
+                            small business stock.
+SB 1387 Liu                 Pupil instruction: independent study.
+SB 1388 Lieu                Human trafficking.
+SB 1389 Hill                Natural Gas Pipeline Safety Act of 2011.
+SB 1390 Correa              Santa Ana River Conservancy Program.
+SB 1391 Hancock             Community colleges: inmate education programs:
+                            computation of apportionments.
+SB 1392 Lara                Office of New American Integration.
+SB 1393 Torres              Local government: community redevelopment:
+                            successor agencies to redevelopment agencies.
+SB 1394 Wyland              Education finance: local control funding formula:
+                            implementing regulations.
+SB 1395 Block               Public beaches: inspection for contaminants.
+SB 1396 Hancock             School climate: multitiered intervention and
+                            support program.
+SB 1397 Hueso               Outdoor advertising.
+SB 1398 Cannella            Environmental quality: flood control activities:
+                            Salinas River.
+SB 1399 Galgiani            Agricultural seed: county seed enforcement
+                            subventions.
+SB 1400 Hancock             Community colleges: protective orders.
+SB 1401 Block               Alcoholic beverages.
+SB 1402 De León             Immigration reform: advisory election.
+SB 1403 Wolk                Library district: Dixon Unified School District.
+SB 1404 Leno                San Francisco redevelopment: successor agencies:
+                            housing.
+SB 1405 DeSaulnier          Pesticides: schoolsites.
+SB 1406 Wolk                Correctional Officers: Napa County.
+SB 1407 Jackson             Employment discrimination.
+SB 1408 Wyland              Joint Legislative Committee on Jobs and Economic
+                            Development.
+SB 1409 Hill                Public Utilities Commission: safety
+                            investigations.
+SB 1410 Wolk                Wildlife management areas: payments.
+SB 1411 Jackson             Pesticides: application safety.
+SB 1412 Nielsen             Criminal proceedings: mentally incompetent
+                            offenders.
+SB 1413 Wyland              State responsibility areas: fire prevention fees.
+SB 1414 Wolk                Electricity: demand response.
+SB 1415 Hill                Bay Area Air Quality Management District:
+                            advisory council.
+SB 1416 Block               Dentistry: fees.
+SB 1417 Jackson             Emergency Management Assistance Compact.
+SB 1418 DeSaulnier          Vehicle weight fees: transportation bond debt
+                            service.
+SB 1419 Wyland              School curriculum: social studies: American
+                            military conflicts in Afghanistan and Iraq.
+SB 1420 Wolk                Water management: urban water management plans.
+SB 1421 Fuller              School facilities: schoolsites on military bases.
+SB 1422 Padilla             Military courts: sexual assault: courts-martial.
+SB 1423 Walters             Public Employees' Retirement System.
+SB 1424 Wolk                State property: tidelands transfer: City of
+                            Martinez.
+SB 1425 Block               Community colleges: degree audit system.
+SB 1426 De León             Breast and Cervical Cancer Treatment Program.
+SB 1427 Walters             Criminal liability: diminished capacity.
+SB 1428 Evans               Sonoma Developmental Center: land use.
+SB 1429 Steinberg           Civil damages: medical malpractice.
+SB 1430 Hill                Malicious mischief: airport property:
+                            transportation services.
+SB 1431 Mitchell            Pupil curriculum: general instructional programs.
+SB 1432 Lieu                Arts Council: grants.
+SB 1433 Hill                Local Agency Public Construction Act: transit
+                            design-build contracts.
+SB 1434 Wolk                Funding of fish and wildlife programs: State Duck
+                            Stamp Account advisory committee.
+SB 1435 Nielsen             Identity theft: unemployment insurance base wage
+                            file.
+SB 1436 Torres              California Financial Literacy Fund.
+SB 1437 Gaines              Vehicles: driving under the influence.
+SB 1438 Pavley              Controlled substances: opioid antagonists.
+SB 1439 Leno                Residential real property: withdrawal of
+                            accommodations.
+SB 1440 Wolk                Veterans' homes: fees and charges.
+SB 1441 Lara                Political Reform Act of 1974: contributions.
+SB 1442 Lara                Political Reform Act of 1974: campaign statements.
+SB 1443 De León             Political Reform Act of 1974: gift limitations.
+SB 1444 De León             Fair Political Practices Commission:
+                            administration.
+SB 1445 Evans               Developmental services: regional centers:
+                            individual program plans: telehealth.
+SB 1446 DeSaulnier          Health care coverage: small employer market.
+SB 1447 Fuller              Bay Delta Conservation Plan: judicial review.
+SB 1448 Fuller              Sales and use taxes.
+SB 1449 Fuller              Telecommunications: universal service.
+SB 1450 Fuller              Off-highway motor vehicle recreation.
+SB 1451 Hill                Environmental quality: judicial review: standing.
+SB 1452 Wolk                Medi-Cal: managed care.
+SB 1453 Leno                Litter: receptacles.
+SB 1454 Gaines              Department of Fish and Wildlife: enforcement:
+                            patrol vehicle mounted video and audio systems.
+SB 1455 DeSaulnier          Public libraries: facilities: comprehensive needs
+                            assessment.
+SB 1456 Nielsen             Firearms: Assault weapons and .50 BMG rifles:
+                            exemptions.
+SB 1457 Evans               Medical care: electronic treatment authorization
+                            requests.
+SB 1458 Committee on        Hazardous substances.
+        Environmental
+        Quality
+SB 1459 Committee on        Mortgage loan originators: educational
+        Banking and         requirements.
+        Financial
+        Institutions
+SB 1460 Committee on Human  Child welfare.
+        Services
+SB 1461 Committee on Public Public safety.
+        Safety
+SB 1462 Committee on        Local government: omnibus bill.
+        Governance and
+        Finance
+SB 1463 Committee on        California Health Facilities Financing Authority.
+        Governance and
+        Finance
+SB 1464 Committee on        Property taxation.
+        Governance and
+        Finance
+SB 1465 Committee on Health Health.
+SB 1466 Committee on        Health care professionals.
+        Business,
+        Professions and
+        Economic Development
+SB 1467 Committee on        Professions and vocations.
+        Business,
+        Professions and
+        Economic Development
+SBX1 1  Hernandez           Medi-Cal: eligibility.
+SBX1 2  Hernandez           Health care coverage.
+SBX1 3  Hernandez           Health care coverage: bridge plan.
+SBX1 4  Emmerson            California Health Benefit Exchange: employees and
+                            contractors.
+SCA 1   Wyland              State Auditor: duties.
+SCA 2   Wyland              Revised biennial session.
+SCA 3   Leno                Public information.
+SCA 4   Liu                 Local government transportation projects: special
+                            taxes: voter approval.
+SCA 5   Hernandez           Public education: student recruitment and
+                            selection.
+SCA 6   DeSaulnier          Initiative measures: funding source.
+SCA 7   Wolk                Local government financing: public libraries:
+                            voter approval.
+SCA 8   Corbett             Transportation projects: special taxes: voter
+                            approval.
+SCA 9   Corbett             Local government: economic development: special
+                            taxes: voter approval.
+SCA 10  Wolk                Legislative procedure.
+SCA 11  Hancock             Local government: special taxes: voter approval.
+SCA 12  Lara                Voter-nominated primary elections.
+SCA 13  Anderson            Courts: appellate jurisdiction.
+SCA 14  Anderson            Voter-nominated primary elections.
+SCA 15  Yee                 University of California: retirement benefits.
+SCA 16  Steinberg           Members of the Legislature: vacancy.
+SCA 17  Steinberg           Members of the Legislature: suspension.
+SCR 1   Steinberg           Legislative Counsel of California.
+SCR 2   DeSaulnier          Constitutional convention.
+SCR 3   Huff                School Choice Week.
+SCR 4   Fuller              Vernon P. Valenzuela Memorial Highway.
+SCR 5   Steinberg           Joint Rules.
+SCR 6   Wolk                Vallejo Police Officer James Capoot Memorial
+                            Highway.
+SCR 7   Wright              Martin Luther King, Jr. Day: observance.
+SCR 8   DeSaulnier          Prescription Drug Abuse Awareness Month.
+SCR 9   Wright              Black History Month.
+SCR 10  Yee                 Open-Data-Day.
+SCR 11  Corbett             Irish American Heritage Month.
+SCR 12  Calderon            Taxation.
+SCR 13  Nielsen             Redding Police Officer Owen "Ted" Lyon Memorial
+                            Bridge.
+SCR 14  Wolk                California Library Week.
+SCR 15  Lieu                Financial Aid and Literacy Month.
+SCR 16  Knight              California Aerospace Month.
+SCR 17  Anderson            Cancer Prevention Week.
+SCR 18  Liu                 Pain Awareness Month and Women In Pain Awareness
+                            Day.
+SCR 19  Evans               The United Way.
+SCR 20  Yee                 Leyte Landing Commemoration Day.
+SCR 21  Emmerson            Multiple System Atrophy Awareness Month.
+SCR 22  Evans               Sexual Assault Awareness Month: Denim Day
+                            California.
+SCR 23  Cannella            Soledad State Prison Correctional Officers
+                            Memorial Highway.
+SCR 24  Hernandez           National Multicultural Cancer Awareness Week.
+SCR 25  Wyland              The 35th anniversary of the enactment of
+                            Proposition 13.
+SCR 26  Correa              Wrestling: Olympic Games.
+SCR 27  Jackson             National Purple Heart Trail.
+SCR 28  Block               California Mental Health No Stigma Week.
+SCR 29  Liu                 California Runaway and Homeless Youth Month.
+SCR 30  Jackson             Equal Pay Day.
+SCR 31  Hernandez           California Osteopathic Medicine Week.
+SCR 32  Corbett             Hindu American Awareness and Appreciation Month.
+SCR 33  Gaines              Prostate Cancer Awareness Month.
+SCR 34  Correa              Black April Memorial Week.
+SCR 35  Cannella            State Route 25: Pinnacles National Park Highway.
+SCR 36  Berryhill           Bill Whitehurst Memorial Highway.
+SCR 37  Beall               Arthritis Awareness Month.
+SCR 38  Hueso               Stephen Palmer, Sr., Memorial Highway.
+SCR 39  Correa              California Peace Officers' Memorial Day.
+SCR 40  Hueso               Korean War Armistice Day.
+SCR 41  Huff                Motorcycle Safety Awareness Month.
+SCR 42  Fuller              Valley Fever Awareness Month.
+SCR 43  DeSaulnier          CHP Officer Kenyon Youngstrom Memorial
+                            Undercrossing.
+SCR 44  DeSaulnier          Joe Eddy McDonald Memorial Overcrossing.
+SCR 45  Wolk                Tuskegee Airmen Memorial Highway.
+SCR 46  Hill                National Academy of Sciences.
+SCR 47  Corbett             Philippine Independence Day.
+SCR 48  Hueso               Swimmable California Day.
+SCR 49  Knight              Firearms.
+SCR 50  Hueso               Dropout Recovery Week.
+SCR 51  Lieu                California Bullying Prevention Day.
+SCR 52  Wolk                California Plan Your Giving Day.
+SCR 53  Gaines              Shawn Baker and Robert Jones Memorial Highways.
+SCR 54  Padilla             California Law Revision Commission: referral for
+                            study.
+SCR 55  Gaines              Dean Patton Memorial Interchange.
+SCR 56  Torres              National Night Out.
+SCR 57  Hernandez           The CHP Officers Harold E. Horine and Bill
+                            Leiphardt Memorial Highway.
+SCR 58  Beall               Restless Legs Syndrome/Willis-Ekbom disease.
+SCR 59  Knight              William J. "Pete" Knight Veterans Home of
+                            California-Lancaster.
+SCR 60  Knight              Lance Corporal Javier Olvera Memorial Highway.
+SCR 61  Galgiani            Shelter Pet Awareness Month.
+SCR 62  Jackson             Corporations: boards of directors:
+                            representation: women.
+SCR 63  Hernandez           National Health Center Week.
+SCR 64  Roth                Sergeant Gilbert Cortez and K-9 Mattie Memorial
+                            Highway.
+SCR 65  Fuller              Adrenoleukodystrophy Awareness Month.
+SCR 66  Yee                 Online Voter Registration Day.
+SCR 67  Liu                 School Attendance Awareness Month.
+SCR 68  Lieu                National Domestic Violence Awareness Month.
+SCR 69  Galgiani            Prisoners: overcrowding.
+SCR 70  Galgiani            University of California, Davis.
+SCR 71  Torres              Suicide Prevention Week in California.
+SCR 72  Padilla             David M. Gonzales Medal of Honor World War II
+                            Memorial Interchange.
+SCR 73  Mitchell            Martin Luther King, Jr. Day.
+SCR 74  Galgiani            Officer Kevin Tonn Memorial Highway.
+SCR 75  Galgiani            Chronic obstructive pulmonary disease awareness.
+SCR 76  Mitchell            Black History Month.
+SCR 77  Cannella            Special Agent Richard "Rick" K. Oules Memorial
+                            Highway.
+SCR 78  Corbett             Philippine Independence Day.
+SCR 79  Galgiani            School and college textbooks: recycled paper.
+SCR 80  Corbett             Irish American Heritage Month.
+SCR 81  Monning             California Essential Tremor Awareness Month.
+SCR 82  Hueso               Jalisco, Mexico: sister state relationship.
+SCR 83  Monning             California Law Revision Commission: studies.
+SCR 84  Lara                Signal Hill Police Officer Anthony "Tony"
+                            Giniewicz Memorial Highway.
+SCR 85  Correa              Viet Dzung Human Rights Memorial Highway.
+SCR 86  Hueso               Heavy school backpacks.
+SCR 87  Anderson            The Luiseño Highway.
+SCR 88  Evans               Multiple Sclerosis Awareness Week.
+SCR 89  Wolk                Lynch Syndrome Hereditary Cancer Public Awareness
+                            Day.
+SCR 90  Hueso               Tijuana River Valley Recovery Team.
+SCR 91  Fuller              Valley Fever Awareness Month.
+SCR 92  Galgiani            California Agriculture Day.
+SCR 93  Corbett             California Hindu American Awareness and
+                            Appreciation Month.
+SCR 94  Evans               "California Wines: Down to Earth" month.
+SCR 95  Steinberg           Kirk Breed Memorial Race Track.
+SCR 96  Yee                 Sunshine Week.
+SCR 97  Anderson            California Heroes Month.
+SCR 98  Wyland              Gerald Ford Day.
+SCR 99  Beall               Autism Awareness Month.
+SCR 100 Knight              California Aerospace Week.
+SCR 101 Gaines              Prostate Cancer Awareness Month.
+SCR 102 Yee                 Commercial Sexual Exploitation of Children
+                            Awareness Week.
+SCR 103 De León             California and El Salvador: election.
+SCR 104 Huff                Mitochondrial Disease Awareness Week.
+SCR 105 Lieu                Financial Aid and Literacy Month.
+SCR 106 Fuller              Chiari Malformation Awareness Month.
+SCR 107 Hueso               D-Day Invasion: 70th anniversary.
+SCR 108 Evans               Geothermal Awareness Month and Geothermal
+                            Awareness Day.
+SCR 109 Lara                National STD Awareness Month and National Youth
+                            HIV   AIDS Awareness Day.
+SCR 110 Hernandez           Korean War Remembrance Week.
+SCR 111 Correa              Black April Memorial Week.
+SCR 112 Berryhill           Car Care Month.
+SCR 113 Evans               Bicyclist John Mello Memorial Bridge.
+SCR 114 Gaines              James E. Machado Memorial Intersection.
+SCR 115 Lara                Senator Jenny Oropeza Memorial Freeway.
+SCR 116 Correa              California Peace Officers' Memorial Day.
+SCR 117 Liu                 Foster Care Month.
+SCR 118 Anderson            Military sacrifice: remembrance.
+SCR 119 Fuller              CHP Officer Gerald N. Harris Memorial Interchange.
+SCR 120 De León             Year of the Community: developmental disabilities.
+SCR 121 Block               Trade: Israel: memorandum of understanding.
+SCR 122 De León             Chinese Americans in California.
+SCR 123 Wyland              Voter Awareness Week.
+SCR 124 Corbett             Alzheimer's and Brain Awareness Month and The
+                            Longest Day.
+SCR 125 Corbett             CHP Officers Frederick Wayne Enright and Adolfo
+                            Martinez Hernandez Memorial Bridge.
+SCR 126 Fuller              Adrenoleukodystrophy Awareness Month.
+SCR 127 Huff                California Manufacturing Week.
+SCR 128 Liu                 California Runaway and Homeless Youth Month.
+SCR 129 Liu                 Pain Awareness Month and Women In Pain Awareness
+                            Day.
+SCR 130 Mitchell            Civil Rights Act of 1964.
+SCR 131 Gaines              Diaper Need Awareness Week.
+SCR 132 Lieu                Scoliosis Awareness Month.
+SCR 133 Hill                Childhood Cancer Awareness Month.
+SCR 134 Beall               Pancreatic Cancer Awareness Month.
+SCR 135 Evans               National Massage Therapy Awareness Week.
+SCR 136 Walters             Laguna Beach Police Officer Jon S. Coutchie
+                            Memorial Highway.
+SCR 137 Walters             National Child Awareness Month.
+SCR 138 Wolk                California Plan Your Giving Day.
+SCR 139 Gaines              Eugene "Gene" Chappie Memorial Highway.
+SCR 140 Evans               Wesley Chesbro Pudding Creek Trestle.
+SCR 141 Morrell             CAL FIRE Firefighter Christopher Lee Douglas
+                            Memorial Highway.
+SCRX1 1 Steinberg           Joint Rules.
+SCRX2 1 Steinberg           Joint Rules.
+SCRX2 2 Steinberg           2013-14 Second Extraordinary Session: final
+                            adjournment.
+SJR 1   Wolk                Firearms control.
+SJR 2   Jackson             Violence Against Women Act.
+SJR 3   Knight              Sequestration.
+SJR 4   Monning             Reauthorization of the federal Older Americans
+                            Act of 1965.
+SJR 5   Berryhill           Yosemite National Park: boundary adjustment.
+SJR 6   Yee                 The Lines Interfere with National Elections Act
+                            of 2013.
+SJR 7   Lieu                Los Angeles Residential Helicopter Noise Relief
+                            Act of 2013.
+SJR 8   Correa              Immigration.
+SJR 9   Huff                Startup Act 3.0.
+SJR 10  Lieu                Workforce Investment Act of 1998: reauthorization
+                            by the United States Congress.
+SJR 11  DeSaulnier          Housing with services.
+SJR 12  Hancock             Berkeley, California, Main Post Office.
+SJR 13  Yee                 Immigration reform: F3 and F4 visa categories.
+SJR 14  Yee                 Voting Rights Act of 1965.
+SJR 15  Hancock             Postal Service Protection Act of 2013.
+SJR 16  Emmerson            Transatlantic Trade and Investment Partnership.
+SJR 17  Anderson            Iraq: religious freedom.
+SJR 18  Beall               Emergency Unemployment Compensation: extension.
+SJR 19  Correa              High-cost loan limits.
+SJR 20  Leno                Safeguard Our Coast Day.
+SJR 21  De León             Armenian Genocide.
+SJR 22  Block               Cruelty-free cosmetics.
+SJR 23  Huff                Chinese Americans in California.
+SJR 24  DeSaulnier          Federal Highway Trust Fund.
+SJR 25  Vidak               Water: agriculture.
+SJR 26  De León             Chinese Americans in California.
+SJR 27  Padilla             Railroad safety: transportation of crude oil.
+SJR 28  Monning             Earthquake insurance: affordability.
+SJR 29  Lieu                Natural gas vehicle fuel standards.
+SJR 30  Lieu                Air quality: leaded aviation fuel.
+SJR 31  Torres              Immigration: unaccompanied minors.
+SJR 32  Correa              Technology: biotechnology industry: corporate
+                            taxation.
+SJR 33  Wyland              National security: borders.
+SJR 34  Galgiani            Water storage: federal funding.
+SR 1    Padilla
+SR 2    Corbett
+SR 3    Steinberg
+SR 4    Steinberg
+SR 5    Calderon
+SR 6    Jackson
+SR 7    Steinberg
+SR 8    Yee
+SR 9    Huff
+SR 10   Jackson
+SR 11   Cannella
+SR 12   Wyland
+SR 13   Correa
+SR 14   Lara
+SR 15   Beall
+SR 16   Lieu
+SR 17   Evans
+SR 18   Leno
+SR 19   Yee
+SR 20   Emmerson
+SR 21   Steinberg
+SR 22   Huff
+SR 23   Steinberg
+SR 24   Steinberg
+SR 25   Calderon
+SR 26   Steinberg
+SR 27   Cannella
+SR 28   Committee on
+        Transportation and
+        Housing
+SR 29   Knight
+SR 30   Huff
+SR 31   Huff
+SR 32   Vidak
+SR 33   Steinberg
+SR 34   Huff
+SR 35   Huff
+SR 36   Walters
+SR 37   Huff
+SR 38   Steinberg
+SR 39   Steinberg
+SR 40   Correa
+SR 41   Morrell
+SR 42   Corbett
+SR 43   Steinberg
+SR 44   De León
+SR 45   Steinberg
+SR 46   Beall
+SR 47   Leno
+SR 48   Steinberg
+SR 49   Leno
+SR 50   Steinberg
+SR 51   Lara
+SR 52   Morrell
+SR 53   Correa              California Chrome: thoroughbred horse racing
+SR 54   Mitchell
+SR 55   Jackson
+SR 56   Lieu
+SR 57   Huff
+SR 58   Walters
+SR 59   Lieu
+SR 60   Mitchell
+SR 61   Gaines
+SR 62   Galgiani
+SR 63   De León

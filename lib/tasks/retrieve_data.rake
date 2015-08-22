@@ -2,8 +2,12 @@ namespace :retrieve_data do
   desc "retrieves info"
   task get_bill_headers: :environment do
     AssemblyBillHeader.where(:year => "2014").destroy
-    CaliforniaWebCrawler.refreshAvailableBillsForYear("2014")
-end
+    CaliforniaWebCrawler.refreshAvailableBillsForYear("2014", "assembly")
+  end
+
+  task add_senate_bill_headers: :environment do
+    CaliforniaWebCrawler.refreshAvailableBillsForYear("2014", "senate")
+  end
 
   task get_bill_voting_sessions: :environment do
     Bill.all.destroy

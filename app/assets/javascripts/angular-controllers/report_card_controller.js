@@ -3,11 +3,12 @@ app.controller('ReportCardHomeController', ['$scope', 'LegislatorDataService', '
   $scope.$watch('selectedLegislator', function(legislator) {
     if (legislator) {
       var bills = BillService.getBillsForCard();
+      var billFeelings = BillService.getBillOpinionsForCard();
       LegislatorDataService.getBillsForLegislator(bills, legislator).then(function(votes) {
         $scope.votes = votes.data;
         $scope.voteTotal = $scope.votes.reduce(function(memo, vote) {
           var voteWeight = 0;
-          if (vote.vote === "ayes") {
+          if (billFeelings[vote.bill_identity][vote.vote]) {
             voteWeight = 1;
           } else if (vote.vote === "noes") {
             // voteWeight = -1;
@@ -45,4 +46,4 @@ app.controller('ReportCardHomeController', ['$scope', 'LegislatorDataService', '
     $scope.showSearchName = false;
     $scope.showSearchDistrict = true;
   }
-}]);
+}])

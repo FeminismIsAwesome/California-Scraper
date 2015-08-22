@@ -14,6 +14,15 @@ RSpec.describe BillNameScraper, :type => :model do
 
   end
 
+  it "reads for the 2014-2015 year appropriately" do
+    file = File.open("spec/integration/examples/index_senate_bill_author_topic.txt")
+    contents = file.read
+    billHeaders = BillNameScraper.get_names_given(contents)
+    expect(billHeaders.length).to be > 10
+    sbs = billHeaders.select{|bill| bill.billType == "SB"}
+    expect(sbs.length).to be 1467
+  end
+
   it "gets the name and header given a simple format" do
     contents = "ACR 41  Chávez              Dr. Martin Luther King, Jr. Memorial Bridge.\nSB 42  Daly                Family Business Day."
     billHeaders = BillNameScraper.get_names_given(contents)

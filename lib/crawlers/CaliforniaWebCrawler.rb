@@ -4,6 +4,7 @@ class CaliforniaWebCrawler
   @@bill_index_header = "http://www.leginfo.ca.gov/pub"
   @@bill_index_footer = "bill/index_assembly_bill_author_topic"
   @@bill_details_header = "http://www.leginfo.ca.gov/cgi-bin/postquery?"
+  @@bill_index_senate_footer = "bill/index_senate_bill_author_topic"
   def self.getHistoryFor(bill_header)
     historyUrl = getHistoryLinkGiven(bill_header)
     historyResponse = RestClient.get historyUrl
@@ -27,20 +28,25 @@ class CaliforniaWebCrawler
     "#{@@domain_name}#{historyLink}"
   end
 
-  def self.refreshAvailableBillsForYear(year)
-    url = getFormattedUrlForIndexGiven(year)
+  def self.refreshAvailableBillsForYear(year, assemblyType)
+    url = getFormattedUrlForIndexGiven(year, assemblyType)
     response = RestClient.get url
     billHeaders = BillNameScraper.get_names_given(response.body)
     billHeaders.each do |billHeader|
       billHeader.year = year
       billHeader.save!
     end
+    puts "number of headers: #{billHeaders.count}"
   end
 
-  def self.getFormattedUrlForIndexGiven(year)
+  def self.getFormattedUrlForIndexGiven(year, assemblyType)
 
-    formatYear = getLastYearTimePeriod( year)
-    url = "#{@@bill_index_header}/#{formatYear}/#{@@bill_index_footer}"
+    formatYear = getLastYearTimePeriod(year)
+    if assemblyType == "assembly"
+      url = "#{@@bill_index_header}/#{formatYear}/#{@@bill_index_footer}"
+    elsif assemblyType == "senate"
+      url = "#{@@bill_index_header}/#{formatYear}/#{@@bill_index_senate_footer}"
+    end
   end
 
   def self.getLastYearTimePeriod( year)
