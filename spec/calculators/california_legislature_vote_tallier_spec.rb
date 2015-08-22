@@ -35,6 +35,7 @@ RSpec.describe CaliforniaLegislatureVoteTallier, :type => :model do
     expect(firstVotingRecord.vote).to eq("ayes")
     expect(firstVotingRecord.bill_number).to eq("1")
     expect(firstVotingRecord.bill_type).to eq("AB")
+    expect(firstVotingRecord.bill_identity).to eq("AB1")
     expect(firstVotingRecord.year).to eq("2014")
     expect(firstVotingRecord.voting_location).to eq("Sen. FLOOR")
   end

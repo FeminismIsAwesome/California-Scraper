@@ -45,6 +45,7 @@ class CaliforniaLegislatureVoteTallier
         vote.vote = type
         vote.year = year
         vote.voting_location = votingSession.location
+        vote.bill_identity = bill.billType + bill.billNumber
         vote
       }
     }.reduce(:+)
