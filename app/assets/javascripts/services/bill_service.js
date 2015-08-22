@@ -25,9 +25,6 @@ var reproJusticeBillFeelings = {
   "AB154": {
     "ayes": 1
   },
-  "SB154": {
-    "ayes": 1
-  },
   "SB138": {
     "ayes": 1
   },
@@ -66,9 +63,6 @@ var reproJusticeBills = [{
   billNumber: "60"
 }, {
   billType: "AB",
-  billNumber: "154"
-}, {
-  billType: "SB",
   billNumber: "154"
 }, {
   billType: "SB",
