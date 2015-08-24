@@ -10,6 +10,39 @@ class Api::LegislatorsController < ApplicationController
     respond_with CaliforniaLegislatureVoteTallier.getVotesFor(legislator.first)
   end
 
+  def get_votes_for_legislators_in_csv
+    @bills = params[:bills]
+    @votes_by_user = get_votes_for_all_legislators_grouped_by_legislator()
+    respond_to do |format| 
+      format.csv {send_data format_in_csv(@votes_by_user, @bills, {})}
+    end 
+  end
+
+  def format_in_csv(votes_by_legislator,bills,options)
+    CSV.generate(options) do |csv|
+      csv << ["Assembly member","Party","District"] + bills
+      votes_by_legislator.each do |vote_with_legislator|
+        legislator = vote_with_legislator[:legislator]
+        votes = vote_with_legislator[:votes]
+        votes = votes.sort_by{|v| v.date}.reverse
+        votesInOrder = []
+        bills.each_with_index do |bill, index|
+          votes.each do |vote|
+            if bill.gsub(" ", "") == vote.bill_identity && (vote.voting_location =="SEN. FLOOR" || vote.voting_location == "ASM. FLOOR")
+              votesInOrder.push(vote.vote)
+              break
+            end
+          end
+          if votesInOrder.length <= index
+            votesInOrder.push("no information")
+          end
+        end
+        puts votes
+        csv << [legislator["first_name"] + " " + legislator["last_name"], legislator["party"], legislator["district"]] + votesInOrder
+      end
+    end
+  end
+
   def get_legislators_by_zip_code
     districts = ZipCode.where(:zipCode => params[:zip_code]).map {|zipCode|
       code = zipCode.districtCode
@@ -44,7 +77,7 @@ class Api::LegislatorsController < ApplicationController
     return legislator
   end
 
-  def get_votes_for_bills_and_legislators
+  def get_votes_for_all_legislators_grouped_by_legislator
     legislators = Legislator.all.to_a
     bills = params[:bills].map {|bill| 
       splitBillBySpace = bill.split(" ")
@@ -70,10 +103,14 @@ class Api::LegislatorsController < ApplicationController
         @votes_by_user[legislator] = []
       end
     end
-        @votes_by_user = @votes_by_user.reduce([]) {|memo, (legislator, votes)| memo += [{
+    return @votes_by_user.reduce([]) {|memo, (legislator, votes)| memo += [{
       legislator: legislator.as_json,
       votes: votes
       }]}
+  end
+
+  def get_votes_for_bills_and_legislators
+    @votes_by_user = get_votes_for_all_legislators_grouped_by_legislator()
     respond_with(@votes_by_user) do |format|
       format.json { render :json => @votes_by_user.as_json }
     end

@@ -6,6 +6,7 @@ class VotingRecord
   field :bill_type, type: String
   field :bill_identity, type: String
   field :year, type: String
+  field :date, type: DateTime
   field :voting_location, type: String
   def self.get_votes_for(bills)
   map = %Q{
