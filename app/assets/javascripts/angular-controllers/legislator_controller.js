@@ -75,11 +75,6 @@ app.controller('LegislatorsController', ['$scope', 'LegislatorDataService', 'Bil
 
   $scope.loading = true;
   LegislatorDataService.getLegislators().then(function(legislators) {
-    return legislators.data.map(function(legislator) {
-      legislator.fullName = legislator.first_name + " " + legislator.last_name;
-      return legislator;
-    });
-  }).then(function(legislators) {
     $scope.legislators = legislators;
     var bills = BillService.getBillsForCard();
     $scope.bills = sortBills(bills);
