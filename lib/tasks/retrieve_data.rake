@@ -46,4 +46,13 @@ end
     VotingRecord.all.destroy
   end
 
+  task add_district_data: :environment do
+    zipCodes = CaliforniaZipCodeCalculator.calculateZipCodesGiven("lib/tasks/Final CD 2013 Zip Codes.csv")
+    zipCodes = zipCodes.map{|zipCode|
+      zipCode.year = "2014"
+      zipCode.save!
+    }
+
+  end
+
 end

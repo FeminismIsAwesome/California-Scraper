@@ -10,6 +10,26 @@ class Api::LegislatorsController < ApplicationController
     respond_with CaliforniaLegislatureVoteTallier.getVotesFor(legislator.first)
   end
 
+  def get_legislators_by_zip_code
+    districts = ZipCode.where(:zipCode => params[:zip_code]).map {|zipCode|
+      code = zipCode.districtCode
+      if(code[0] == "0")
+        code = code[1..code.length]
+      else
+        code
+      end
+    }
+    puts "HI"
+    puts districts.length
+    puts districts.to_json
+    puts "BYE"
+    if districts.length > 0 
+      respond_with Legislator.in(:district => districts)
+    else
+      respond_with []
+    end
+  end
+
   def index
     respond_with Legislator.all
   end

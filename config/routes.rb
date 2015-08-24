@@ -4,6 +4,7 @@ Rails.application.routes.draw do
     resources :legislators, except: [:create, :new, :edit, :show] do
       get "bills"
     end
+    get 'legislators/zip_code' => "legislators#get_legislators_by_zip_code"
     get 'legislators/votes' => "legislators#get_votes_for_bills"
     get 'legislators/votes/all' => "legislators#get_votes_for_bills_and_legislators"
   end

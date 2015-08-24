@@ -1,11 +1,10 @@
 app = angular.module('reportcard');
-app.directive('legislatorNameSearchbar', ['LegislatorDataService', function(LegislatorDataService) {
+app.directive('legislatorZipCodeSearchbar', ['LegislatorDataService', function(LegislatorDataService) {
   return {
     transclude: true,
-    templateUrl: '/templates/legislator_search.html',
+    templateUrl: '/templates/directives/legislator_search_zipcode.html',
     scope: {
-      selectedLegislator: '=',
-      searchAttribute: '@'
+      selectedLegislator: '='
     },
     link: function(scope, elem, attrs) {
       LegislatorDataService.getLegislators().then(function(legislators) {
@@ -22,10 +21,11 @@ app.directive('legislatorNameSearchbar', ['LegislatorDataService', function(Legi
         return scope.selectedLegislatorIndex === $index;
       }
       scope.searchForLegislators = function() {
-        scope.legislatorsToSearch = scope.legislators.filter(function(legislator) {
-          var legislatorAttributeToSearchBy = legislator[scope.searchAttribute];
-          return legislatorAttributeToSearchBy.toLowerCase().includes(scope.legislatorSearch.toLowerCase());
+      	LegislatorDataService.getLegislatorsForZipCode(scope.zipCodeSearch).then(function(	legislators) {
+      		scope.legislatorsToSearch = legislators;
+      		scope.selectedLegislator = "";
         });
+
       }
     }
 

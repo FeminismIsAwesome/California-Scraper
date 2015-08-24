@@ -39,11 +39,20 @@ app.controller('ReportCardHomeController', ['$scope', 'LegislatorDataService', '
     $location.path('/reportCard/all-legislators');
   }
   $scope.showSearchByName = function() {
+    $scope.clearSearchBars();
     $scope.showSearchName = true;
-    $scope.showSearchDistrict = false;
+  }
+  $scope.clearSearchBars = function() {
+   $scope.showSearchDistrict = false; 
+   $scope.showSearchName = false;
+   $scope.showZipCodeSearchbar = false;
+  }
+  $scope.showSearchByZipCode = function() {
+    $scope.clearSearchBars();
+    $scope.showZipCodeSearchbar = true;
   }
   $scope.showSearchByDistrict = function() {
-    $scope.showSearchName = false;
+    $scope.clearSearchBars();
     $scope.showSearchDistrict = true;
   }
 }])

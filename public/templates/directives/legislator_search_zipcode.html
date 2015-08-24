@@ -1,0 +1,14 @@
+<div>
+	Find a legislator by zip code:
+</div>
+<input type="text" id="legislator-name" ng-model="zipCodeSearch" ng-change="searchForLegislators()"> </input>
+<div class="legislator-search">
+	<div class="legislator" ng-repeat="legislator in legislatorsToSearch">
+		<div class="search-name" ng-class="{selected: shouldHighlight($index)}" ng-click="selectLegislator($index)">
+			{{legislator.first_name}} {{legislator.last_name}} 
+		</div>
+		<div class="search-descriptor" ng-if="searchAttribute != 'name'">
+			{{legislator.district}}
+		</div>
+	</div>
+</div>

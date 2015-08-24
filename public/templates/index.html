@@ -9,11 +9,16 @@
 	<div ng-click="showSearchByDistrict()">
 		Search by district
 	</div>
+	<div ng-click="showSearchByZipCode()">
+		Search by zip code
+	</div>
 </div>
 <legislator-name-searchbar selected-legislator="selectedLegislator" ng-show="showSearchName" search-attribute="name">
 </legislator-name-searchbar>
 <legislator-name-searchbar selected-legislator="selectedLegislator" ng-show="showSearchDistrict" search-attribute="district">
 </legislator-name-searchbar>
+<legislator-zip-code-searchbar selected-legislator="selectedLegislator" ng-show="showZipCodeSearchbar" >
+</legislator-zip-code-searchbar>
 <div class="voting-total" ng-if="votes"> 
 	Legislator Grade: {{ renderVoteAsGrade()}} ({{voteTotal}} / {{votes.length}})
 </div>
