@@ -38,7 +38,10 @@ end
 
   task calculate_voting_relationships_and_store: :environment do
     Legislator.all.each do |legislator|
-      CaliforniaLegislatureVoteTallier.saveVotesFor(legislator)
+      if(VotingRecord.where(:legislator => legislator).count === 0)
+        puts "now saving for legislator: #{legislator.first_name} #{legislator.last_name}"
+        CaliforniaLegislatureVoteTallier.saveVotesFor(legislator)
+      end
     end
   end
 
