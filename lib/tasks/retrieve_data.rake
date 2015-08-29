@@ -1,5 +1,7 @@
 namespace :retrieve_data do
   desc "retrieves info"
+  task :start_new_database_for_2014 => [:get_bill_headers, :add_senate_bill_headers, :get_bill_voting_sessions, :get_california_assembly_members_current_year, :get_california_senators,:calculate_voting_relationships_and_store, :add_district_data] do
+  end
   task get_bill_headers: :environment do
     AssemblyBillHeader.where(:year => "2014").destroy
     CaliforniaWebCrawler.refreshAvailableBillsForYear("2014", "assembly")

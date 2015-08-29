@@ -28,6 +28,9 @@ Details of implemention
 Getting data onto a new server
 == 
 
+To run all the tasks in order, run
+rake retrieve_data:start_new_database_for_2014
+
 To get the list of bills for a year, run
 
 ```rake retrieve_data:get_bill_headers```

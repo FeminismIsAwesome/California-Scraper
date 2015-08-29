@@ -37,7 +37,6 @@ class Api::LegislatorsController < ApplicationController
             votesInOrder.push("no information")
           end
         end
-        puts votes
         csv << [legislator["first_name"] + " " + legislator["last_name"], legislator["party"], legislator["district"]] + votesInOrder
       end
     end
