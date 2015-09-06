@@ -15,9 +15,6 @@ RSpec.describe CaliforniaSenatorLegislatureScraper, :type => :model do
     expect(legislator.first_name).to eq("Ted")
     expect(legislator.last_name).to eq("Gaines")
     expect(legislator.party).to eq("Republican")
-    wut = legislators.select{|legislator| legislator.first_name == "Republican"}
-    wut.map {|w|
-      puts w.to_json}
     expect(legislators.select{|legislator| legislator.first_name == "Republican"}.length).to eq(0)
     expect(legislators.select{|legislator| legislator.first_name == "Democratic"}.length).to eq(0)
 

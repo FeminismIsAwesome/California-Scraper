@@ -40,6 +40,13 @@ end
       other = Legislator.where(:first_name => legislator.first_name).where(:last_name =>legislator.last_name)
       if(other.count == 0)
         legislator.save!
+      else
+        legislatorToUpdate = other.first
+        legislatorToUpdate.first_name = legislator.first_name
+        legislatorToUpdate.last_name = legislator.last_name
+        legislatorToUpdate.party = legislator.party
+        legislatorToUpdate.district = legislator.district
+        legislatorToUpdate.save!
       end
     }
   end
