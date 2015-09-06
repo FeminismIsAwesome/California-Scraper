@@ -36,6 +36,12 @@ end
         legislator.save!
       end
     }
+    CaliforniaSenatorLegislatureScraper.get_california_legislators().map{|legislator|
+      other = Legislator.where(:first_name => legislator.first_name).where(:last_name =>legislator.last_name)
+      if(other.count == 0)
+        legislator.save!
+      end
+    }
   end
 
   task calculate_voting_relationships_and_store: :environment do
