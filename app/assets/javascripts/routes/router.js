@@ -19,7 +19,7 @@ app.config([
         });
         $routeProvider.when('/reportCard/yourcard/all', {
             templateUrl: '/templates/report/all-legislators',
-            controller: 'ReportCardLegislatorsController'
+            controller: 'LegislatorsController'
         })
     }
 ]);

@@ -80,7 +80,7 @@ app.controller('LegislatorsController', ['$scope', 'LegislatorDataService', 'Bil
   $scope.loading = true;
   LegislatorDataService.getLegislators().then(function(legislators) {
     $scope.legislators = legislators;
-    var bills = BillService.getBillsForCard();
+    var bills = BillService.getBills();
     $scope.bills = sortBills(bills);
     return LegislatorDataService.getBillsForAllLegislators(bills).then(function(votes) {
       $scope.legislatorsWithVotes = votes.data.sort(sortByLastName).map(organizeVotes);

@@ -90,7 +90,12 @@ app.service('BillService', ['$http', function($http) {
       state.bills = bills;
     },
     getBills: function() {
-      return state.bills;
+      if(state.bills) {
+        return state.bills;
+      } 
+      else {
+        return reproJusticeBills;
+      }
     }
   }
 }]);
