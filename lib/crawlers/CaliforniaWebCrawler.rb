@@ -99,8 +99,17 @@ class CaliforniaWebCrawler
     (year.to_i - 1).to_s
   end
 
+  def self.getNextYearFor(year)
+    (year.to_i + 1).to_s
+  end
+
   def self.formatRequestForBillDetails(bill)
-    priorYear = getPriorYearFor(bill.year)
-    "bill_number=#{bill.billType.downcase}_#{bill.billNumber}&sess=#{getLastDigitsOfYear(priorYear)}#{getLastDigitsOfYear(bill.year)}"
+    if(bill.year.to_i % 2 == 0)
+      priorYear = getPriorYearFor(bill.year)
+      "bill_number=#{bill.billType.downcase}_#{bill.billNumber}&sess=#{getLastDigitsOfYear(priorYear)}#{getLastDigitsOfYear(bill.year)}"
+    else
+      nextYear = getNextYearFor(bill.year)
+      "bill_number=#{bill.billType.downcase}_#{bill.billNumber}&sess=#{getLastDigitsOfYear(bill.year)}#{getLastDigitsOfYear(nextYear)}"
+    end
   end
 end
