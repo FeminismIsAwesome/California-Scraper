@@ -7,6 +7,13 @@ namespace :retrieve_data do
     CaliforniaWebCrawler.refreshAvailableBillsForYear("2014", "assembly")
   end
 
+  task :get_bill_headers_for_year, [:year] => :environment do |t, args|
+    year = args[:year] || "2014"
+    AssemblyBillHeader.where(:year => "2014").destroy
+    CaliforniaWebCrawler.refreshAvailableBillsForYear("2015", "assembly")
+    CaliforniaWebCrawler.refreshAvailableBillsForYear("2015", "senate")
+  end
+
   task add_senate_bill_headers: :environment do
     CaliforniaWebCrawler.refreshAvailableBillsForYear("2014", "senate")
   end
@@ -18,7 +25,7 @@ namespace :retrieve_data do
       CaliforniaWebCrawler.storeVotingHistoriesFor(bill)
       puts "~stored~ #{bill.billType}-#{bill.billNumber}"
     end
-end
+  end
 
   task get_california_assembly_members_current_year: :environment do
     CaliforniaAssemblyLegislatureScraper.getCaliforniaAssembly().map {|legislator|

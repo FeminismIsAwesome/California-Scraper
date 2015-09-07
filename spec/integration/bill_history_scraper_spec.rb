@@ -32,6 +32,21 @@ RSpec.describe "california web crawler", :type => :model do
     expect(AssemblyBillHeader.first.billType).to eq("AB")
 
   end
+  it "should store the list of bills currently available for senate for odd numbered years" do
+    file = File.open("spec/integration/examples/bill_list_small_example.txt")
+    contents = file.read
+    net_http_resp = Net::HTTPResponse.new(1.0, 200, "OK")
+    my_response = RestClient::Response.create(contents, net_http_resp, nil)
+    allow(RestClient).to receive(:get) {
+      my_response
+    }.with("http://www.leginfo.ca.gov/pub/15-16/bill/index_assembly_bill_author_topic")
+    billHeaders = CaliforniaWebCrawler.refreshAvailableBillsForYear("2015", "assembly")
+    expect(AssemblyBillHeader.count).to eq(7)
+    expect(AssemblyBillHeader.first.year).to eq("2015")
+    expect(AssemblyBillHeader.first.billNumber).to eq("1")
+    expect(AssemblyBillHeader.first.billType).to eq("AB")
+
+  end
 
   it "should store the list of bills currently available for assembly" do
     file = File.open("spec/integration/examples/bill_list_small_example.txt")

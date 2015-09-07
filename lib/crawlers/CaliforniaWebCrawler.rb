@@ -40,8 +40,12 @@ class CaliforniaWebCrawler
   end
 
   def self.getFormattedUrlForIndexGiven(year, assemblyType)
-
-    formatYear = getLastYearTimePeriod(year)
+    formatYear = nil
+    if(year.to_i % 2 == 0)
+      formatYear = getLastYearTimePeriod(year)
+    else
+      formatYear = getNextYearTimePeriod(year)
+    end
     if assemblyType == "assembly"
       url = "#{@@bill_index_header}/#{formatYear}/#{@@bill_index_footer}"
     elsif assemblyType == "senate"
@@ -52,6 +56,10 @@ class CaliforniaWebCrawler
   def self.getLastYearTimePeriod( year)
     priorYear = (year.to_i - 1).to_s
     "#{getLastDigitsOfYear(priorYear)}#{"-"}#{getLastDigitsOfYear(year)}"
+  end
+  def self.getNextYearTimePeriod( year)
+    nextYear = (year.to_i + 1).to_s
+    "#{getLastDigitsOfYear(year)}#{"-"}#{getLastDigitsOfYear(nextYear)}"
   end
 
   def self.getLastDigitsOfYear(year)
