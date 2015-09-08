@@ -15,6 +15,7 @@ class Api::LegislatorsController < ApplicationController
         Bill.where(:billNumber => bill.split(" ")[1]).where(:billType => bill.split(" ")[0]).first
     }
     bills = params[:bills]
+
     @votes_by_user = get_votes_for_all_legislators_grouped_by_legislator()
     @votes_by_user = @votes_by_user.map {|legislatorWithVote|
       votes = legislatorWithVote[:votes].sort_by{|v| v.date}.reverse
@@ -109,6 +110,7 @@ class Api::LegislatorsController < ApplicationController
   end
 
   def get_votes_for_all_legislators_grouped_by_legislator
+
     legislators = Legislator.all.to_a
     bills = params[:bills].map {|bill| 
       splitBillBySpace = bill.split(" ")
@@ -117,6 +119,11 @@ class Api::LegislatorsController < ApplicationController
         :billType => splitBillBySpace[0]
       )
     }
+    bills_cache_identity = bills.map{|bill| bill.billType + bill.billNumber }.join(",")
+    if(Rails.cache.read(bills_cache_identity))
+      return Rails.cache.read(bills_cache_identity)
+    end
+
     myCounter = 0
     @votes = CaliforniaLegislatorDataService.getVotesAndBillsForLegislators(bills, legislators).to_a
 
@@ -134,10 +141,13 @@ class Api::LegislatorsController < ApplicationController
         @votes_by_user[legislator] = []
       end
     end
-    return @votes_by_user.reduce([]) {|memo, (legislator, votes)| memo += [{
+
+    @votes_by_user = @votes_by_user.reduce([]) {|memo, (legislator, votes)| memo += [{
       legislator: legislator.as_json,
       votes: votes
       }]}
+    Rails.cache.write(bills_cache_identity, @votes_by_user)
+    return @votes_by_user
   end
 
   def get_votes_for_bills_and_legislators
