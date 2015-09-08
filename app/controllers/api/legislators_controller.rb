@@ -121,8 +121,8 @@ class Api::LegislatorsController < ApplicationController
     }
     bills_cache_identity = bills.map{|bill| bill.billType + bill.billNumber }.sort{|bill1, bill2| 
      bill1 <=> bill2 }.join(",")
-    if(Rails.cache.read(bills_cache_identity))
-      return Rails.cache.read(bills_cache_identity)
+    if(Rails.cache.read("bills_cache_identity"))
+      return Rails.cache.read("bills_cache_identity")
     end
 
     myCounter = 0
@@ -147,7 +147,7 @@ class Api::LegislatorsController < ApplicationController
       legislator: legislator.as_json,
       votes: votes
       }]}
-    Rails.cache.write(bills_cache_identity, @votes_by_user)
+    Rails.cache.write("bills_cache_identity", @votes_by_user)
     Rails.cache.write("linh", "meo")
     return @votes_by_user
   end
