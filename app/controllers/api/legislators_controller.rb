@@ -148,6 +148,7 @@ class Api::LegislatorsController < ApplicationController
       votes: votes
       }]}
     Rails.cache.write(bills_cache_identity, @votes_by_user)
+    Rails.cache.write("linh", "meo")
     return @votes_by_user
   end
 
