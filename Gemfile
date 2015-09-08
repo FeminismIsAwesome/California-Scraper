@@ -9,6 +9,9 @@ gem 'rest_client'
 gem 'mongoid'
 gem 'bootstrap-sass'
 gem "font-awesome-rails"
+gem 'wicked_pdf'
+gem 'wkhtmltopdf-binary'
+
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '4.1.0'
 # Use SCSS for stylesheets

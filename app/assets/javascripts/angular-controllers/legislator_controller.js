@@ -68,6 +68,8 @@ app.controller('LegislatorsController', ['$scope', 'LegislatorDataService', 'Bil
     return "&bills[]=" + bill.billType + " " + bill.billNumber;
   }).join("");
   $scope.downloadURL = "/api/legislators/download.csv?legislators=all" + billParams;
+  $scope.downloadURLPDF = "/api/legislators/download_pdf.pdf?legislators=all" + billParams;
+
   function organizeVotes(legislatorWithVote) {
     var missingBillVotes = getMissingVotesGiven($scope.bills, legislatorWithVote.votes);
     var billAndType = {};

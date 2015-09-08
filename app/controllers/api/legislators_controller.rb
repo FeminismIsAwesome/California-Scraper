@@ -10,9 +10,41 @@ class Api::LegislatorsController < ApplicationController
     respond_with CaliforniaLegislatureVoteTallier.getVotesFor(legislator.first)
   end
 
+  def get_votes_for_legislators_in_pdf
+    @bills = params[:bills].map{|bill| 
+        Bill.where(:billNumber => bill.split(" ")[1]).where(:billType => bill.split(" ")[0]).first
+    }
+    bills = params[:bills]
+    @votes_by_user = get_votes_for_all_legislators_grouped_by_legislator()
+    @votes_by_user = @votes_by_user.map {|legislatorWithVote|
+      votes = legislatorWithVote[:votes].sort_by{|v| v.date}.reverse
+      votesInOrder = []
+      bills.each_with_index do |bill, index|
+        votes.each do |vote|
+          if bill.gsub(" ", "") == vote.bill_identity && (vote.voting_location =="SEN. FLOOR" || vote.voting_location == "ASM. FLOOR")
+            votesInOrder.push(vote.vote)
+            break
+          end
+        end
+        if votesInOrder.length <= index
+          votesInOrder.push("no information")
+        end
+      end
+      {
+        legislator: legislatorWithVote[:legislator],
+        votes: votesInOrder
+      }
+    }
+    respond_to do |format| 
+      format.pdf do
+        render pdf: "file_name", layout: 'pdf', template:'pdfs/votes.html.erb'   # Excluding ".pdf" extension.
+      end
+    end 
+  end
+
   def get_votes_for_legislators_in_csv
     @bills = params[:bills]
-    @votes_by_user = get_votes_for_all_legislators_grouped_by_legislator()
+    @votes_by_user = get_votes_for_all_legislators_grouped_by_legislator() 
     respond_to do |format| 
       format.csv {send_data format_in_csv(@votes_by_user, @bills, {})}
     end 

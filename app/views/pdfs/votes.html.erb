@@ -1,0 +1,48 @@
+	<table class="voting-records">
+		<tr>
+			<td>
+				Assemblymember
+			</td>
+			<td>
+				Party
+			</td>
+			<td>
+				District
+			</td>
+			<% @bills.each do |bill| %>
+				<td>
+					<%= bill.billType + " " + bill.billNumber %>
+				</td>
+			<% end %>
+		</tr>
+		<% @votes_by_user.each do |vote_with_legislator| %>
+		<% legislator = vote_with_legislator[:legislator]
+	        votes = vote_with_legislator[:votes]
+        %>
+			<tr>
+				<td>
+					<%= legislator["first_name"] + " " + legislator["last_name"] %>
+				</td>
+				<td>
+					<%= legislator["party"] %>
+				</td>
+				<td>
+					<%= legislator["district"] %>
+				</td>
+				<% votes.each do |vote| %>
+					<td >
+						<% if vote == "ayes" %>
+							<i class="fa fa-check" style="color: green;"> </i>
+						<% elsif vote == "noes" %>
+							<i class="fa fa-times-circle-o" style="color:red;"></i>
+						<% elsif vote == "absent" %>						
+							<i class="fa fa-square" style="color:yellow;"></i>
+						<% else %>
+							<div class="null-vote" style="color:gray;"> - </div>
+						<% end %>
+					</td>
+				<% end %>
+			</tr>
+		<% end %>
+
+	</table>

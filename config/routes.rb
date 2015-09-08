@@ -5,6 +5,7 @@ Rails.application.routes.draw do
       get "bills"
     end
     get 'legislators/download' => "legislators#get_votes_for_legislators_in_csv"
+    get 'legislators/download_pdf' => "legislators#get_votes_for_legislators_in_pdf"
     get 'legislators/zip_code' => "legislators#get_legislators_by_zip_code"
     get 'legislators/votes' => "legislators#get_votes_for_bills"
     get 'legislators/votes/all' => "legislators#get_votes_for_bills_and_legislators"
