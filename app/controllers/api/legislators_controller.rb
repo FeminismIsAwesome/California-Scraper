@@ -119,7 +119,8 @@ class Api::LegislatorsController < ApplicationController
         :billType => splitBillBySpace[0]
       )
     }
-    bills_cache_identity = bills.map{|bill| bill.billType + bill.billNumber }.join(",")
+    bills_cache_identity = bills.map{|bill| bill.billType + bill.billNumber }.sort{|bill1, bill2| 
+     bill1 <=> bill2 }.join(",")
     if(Rails.cache.read(bills_cache_identity))
       return Rails.cache.read(bills_cache_identity)
     end

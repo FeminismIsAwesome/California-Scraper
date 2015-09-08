@@ -30,11 +30,11 @@ describe Api::LegislatorsController do
   end
 
   it "should get a list of bills with votes grouped by legislator" do 
-    get :get_votes_for_bills_and_legislators, :bills => ["AB 1", "SB 1"], format: :json
+    get :get_votes_for_bills_and_legislators, :bills => ["SB 1", "AB 1"], format: :json
     expect(json.length).to eq(3)
     previousCall = json
     expect(Rails.cache.read("AB1,SB1").length).to eq(3)
-    get :get_votes_for_bills_and_legislators, :bills => ["AB 1", "SB 1"], format: :json
+    get :get_votes_for_bills_and_legislators, :bills => ["SB 1", "AB 1"], format: :json
     expect(json).to eq(previousCall)
   end
 
