@@ -11,6 +11,7 @@ gem 'bootstrap-sass'
 gem "font-awesome-rails"
 gem 'wicked_pdf'
 gem 'wkhtmltopdf-binary'
+  gem 'wkhtmltopdf-heroku'
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '4.1.0'
