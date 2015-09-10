@@ -27,9 +27,15 @@ Details of implemention
 
 Getting data onto a new server
 == 
+There are two ways you can do this currently. 
+One is to run all the tasks in order, scraping the legislature data for yourself. To do that run run
 
-To run all the tasks in order, run
-rake retrieve_data:start_new_database_for_2014
+```rake retrieve_data:start_new_database_for_2014```
+
+That will take a few minutes. If you're just eager to get the database running yourself, instead you can restore the mongo database from scratch. To do that, take the file at https://drive.google.com/open?id=0Bw9gMxz6LElYNjhYVG1SWjJVSlk and then, after downloading it, unzip the file then do:
+
+```mongorestore dump```
+
 
 To get the list of bills for a year, run
 
