@@ -6,7 +6,7 @@ end
 gem 'rails_12factor', group: :production
 gem 'bower-rails'
 gem 'rest_client'
-gem 'mongoid'
+gem 'mongoid', '~> 5.0.0'
 gem 'bootstrap-sass'
 gem "font-awesome-rails"
 gem 'wicked_pdf'
